@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -11,7 +11,7 @@ init offset = -2
 init python:
     gui.init(1920, 1080)
 
-
+#config.end_splash_transition = fade
 
 ################################################################################
 ## GUI Configuration Variables
@@ -55,13 +55,13 @@ define gui.interface_text_color = '#404040'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "fonts/eng_bilbo/Bilbo-regular.ttf"
+define gui.text_font = "fonts/chi_wangfonts/wt064.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "fonts/eng_adler/adler.ttf"
+define gui.name_text_font = "fonts/chi_wangfonts/wt064.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "fonts/eng_adler/adler.ttf"
+define gui.interface_text_font = "fonts/chi_wangfonts/wt064.ttf"
 
 ##The font used for notification text.
 define gui.notify_text_font = "fonts/eng_typewriter/rm_typerighter_old.ttf"

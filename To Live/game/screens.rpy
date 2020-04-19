@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -329,7 +329,7 @@ screen navigation():
             textbutton _("Help") action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("Quit") clicked ShowMenu('quit')
 
 
 
@@ -353,7 +353,8 @@ style navigation_button_text:
 
 screen main_menu():
     
-    tag menu
+    default tt = Tooltip("")
+    tag menu    
 
     imagemap:
         ground "00_menu_images/_menu.png"
@@ -362,8 +363,10 @@ screen main_menu():
         hotspot (134, 148, 442, 656) clicked Start()
         hotspot (635, 202, 417, 579) clicked ShowMenu("load")
         hotspot (1147, 102, 649, 432) clicked ShowMenu("preferences")
-        hotspot (1175, 590, 581, 399) clicked Quit(confirm=not main_menu)
-
+        hotspot (1175, 590, 581, 399) clicked ShowMenu("quit") 
+        hotspot (61, 842, 528, 171) clicked ShowMenu("glossary")
+        hotspot (642, 833, 459, 247) clicked ShowMenu("historical_event_log")
+         
 
 
 style main_menu_frame is empty
@@ -1501,3 +1504,95 @@ style slider_pref_slider:
 #################################################################################################################
 #DZ CUSTOM MENU SCREENS
 
+
+screen quit():
+    
+    tag menu
+
+    modal True
+
+    add ("00_menu_images/00_end.png")
+
+    text _("{b}Game Progress: [result]%{/b}") size 30 xalign 0.7 yalign 0.70 color "#031a68"
+
+    text _("Would you like to exit the game?") size 60 text_align 0.55 xalign 0.7 yalign 0.55 color "#031a68" antialias True kerning 2
+
+    textbutton _("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
+    textbutton _("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+
+label _compat_confirm_quit:
+    $ renpy.call_screen('quit')
+
+
+screen glossary():
+    tag menu
+    textbutton _("Return") text_size 30 xalign 0.9 yalign 0.2 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    textbutton _("poems") text_size 30 xalign 0.9 yalign 0.25 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("poems")
+    textbutton _("Historical Events") text_size 30 xalign 0.9 yalign 0.3 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("historical_event_log") 
+    text "Glossary" size 40 xalign 0.5 ypos 20
+    hbox spacing 200:
+        viewport:
+            xpos 50 ypos 100 xsize 300 ysize 500
+            #child_size (None, 4000)
+            scrollbars "vertical"
+            spacing 5
+            draggable True
+            mousewheel True
+            arrowkeys True
+            add "#000c"
+            vbox spacing 20:
+            # loop over persistent here
+                for word in sorted(persistent.unlocked):
+                    textbutton word:
+                           action SetVariable("display_desc", word)
+        vbox ypos 100 xsize 650 ysize 500 box_wrap True:
+            text glossary_dict.get(display_desc, "")
+
+
+screen poems():
+    tag menu
+    textbutton _("Return") text_size 30 xalign 0.9 yalign 0.2 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    text "Poems" size 40 xalign 0.5 ypos 20
+    hbox spacing 200:
+        viewport:
+            xpos 50 ypos 100 xsize 300 ysize 500
+            child_size (None, 4000)
+            scrollbars "vertical"
+            spacing 5
+            draggable True
+            mousewheel True
+            arrowkeys True
+            add "#000c"
+            vbox spacing 20:
+                # use sorted(glossary_dict.keys()) instead of glossary_dict
+                # to arrange the terms in alphabetic order
+                for poem in sorted(persistent.unlocked_poem):
+                    textbutton poem:
+                        action SetVariable("poem_display_desc", poem)
+        vbox ypos 100 xsize 650 ysize 500 box_wrap True:
+            text poem_dict.get(poem_display_desc, "")
+
+
+
+screen historical_event_log():
+    tag menu
+    textbutton _("Return") text_size 30 xalign 0.9 yalign 0.2 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    text "Historical Events" size 40 xalign 0.5 ypos 20
+    hbox spacing 200:
+        viewport:
+            xpos 50 ypos 100 xsize 300 ysize 500
+            child_size (None, 4000)
+            scrollbars "vertical"
+            spacing 5
+            draggable True
+            mousewheel True
+            arrowkeys True
+            add "#000c"
+            vbox spacing 20:
+                # use sorted(glossary_dict.keys()) instead of glossary_dict
+                # to arrange the terms in alphabetic order
+                for event in persistent.unlocked_history:
+                    textbutton event:
+                        action SetVariable("event_display_desc", event)
+        vbox ypos 100 xsize 650 ysize 500 box_wrap True:
+            text historical_event_log.get(event_display_desc, "")

@@ -1,20 +1,73 @@
-﻿init:
+##     ##    ###    ########  ####    ###    ########  ##       ########  ######  
+##     ##   ## ##   ##     ##  ##    ## ##   ##     ## ##       ##       ##    ## 
+##     ##  ##   ##  ##     ##  ##   ##   ##  ##     ## ##       ##       ##       
+##     ## ##     ## ########   ##  ##     ## ########  ##       ######    ######  
+ ##   ##  ######### ##   ##    ##  ######### ##     ## ##       ##             ## 
+  ## ##   ##     ## ##    ##   ##  ##     ## ##     ## ##       ##       ##    ## 
+   ###    ##     ## ##     ## #### ##     ## ########  ######## ########  ######  
+
+#Max points
+init:
     python:
         def max_points(*values):
             return [ i for i, v in enumerate(values) if v == max(values) ]
-init:
-    config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
 
+#Mouse Icon
+define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
+
+#Poem
+define persistent.agneepath = False
+define persistent.tao_water_way = False
+define persistent.unlocked_poem = []
+
+#Glossary
+define persistent.unlocked = [] # empty word list
+#Historical Events log
+define persistent.unlocked_history = [] #Empty hitorical log
+
+#Religion
+$ Taoist = False
+$ Buddhist = False
+$ Christian = False
+$ Yiguandao = False
+
+#Health System
+$ Fang_health = 100
 python:
     if health <= 0:
         renpy.jump(fang_death_monolouge)
 
+
+#Restart the game from scratch
 init python:
-    import random
-    import subprocess
-    import os
+    def delete_all_saves():
+        for savegame in renpy.list_saved_games(fast=True):
+            renpy.unlink_save(savegame)
+    
+#Transition effect 
+init:
+    $ flash = Fade(.25, 0, .75, color="#fff") #flash effect
+    $ noisedissolve = ImageDissolve(im.Tile("00_transitions/00_noise_effect.png"), 1.0, 1) #noise effect
+    $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
 
+#Dialogue percentage
+init:
+    default seen = renpy.count_seen_dialogue_blocks()
+    default dialogue = renpy.count_dialogue_blocks()
+    default result = seen * 100 / dialogue
+$ percent = "Game Progress: [result]%"
 
+#DLC stuff
+init -3 python:
+    persistent.new_era_dlc_installed = False
+init -1 python:
+    if persistent.new_era_dlc_installed and not persistent.patch_first_time:
+        persistent.patch_enabled = True
+        persistent.patch_first_time = True
+    elif not persistent.patch_installed:
+        persistent.patch_first_time = False
+        persistent.patch_enabled = False
+################################################
 
 image splash ="00_menu_images/slash.jpg"
 image mal ="00_menu_images/mel.jpg"
@@ -58,6 +111,13 @@ style letter_eng is text:
     size 40
     font "fonts/scriptina/SCRIPTIN.ttf"
 
+ ######  ########  ##          ###     ######  ##     ##  ######   ######  ########  ######## ######## ##    ## 
+##    ## ##     ## ##         ## ##   ##    ## ##     ## ##    ## ##    ## ##     ## ##       ##       ###   ## 
+##       ##     ## ##        ##   ##  ##       ##     ## ##       ##       ##     ## ##       ##       ####  ## 
+ ######  ########  ##       ##     ##  ######  #########  ######  ##       ########  ######   ######   ## ## ## 
+      ## ##        ##       #########       ## ##     ##       ## ##       ##   ##   ##       ##       ##  #### 
+##    ## ##        ##       ##     ## ##    ## ##     ## ##    ## ##    ## ##    ##  ##       ##       ##   ### 
+ ######  ##        ######## ##     ##  ######  ##     ##  ######   ######  ##     ## ######## ######## ##    ## 
 label splashscreen:
     
     $ _dismiss_pause = False
@@ -110,14 +170,29 @@ define audio.forgetting_beijing = "music/01_forgetting_beijing.ogg"
  ######  ##     ## ##     ## ##     ## ##     ##  ######     ##    ######## ##     ##  ######  
 
 #Protagonist
-define fang = Character("Fang Jie", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define fang = Character("Fang Jie", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
 define narrator = Character(ctc="ctc_blink", ctc_position="nestled")
 #MISC
 define un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-
+define thought = Character(None, what_italic=True, what_alt="I think, [text]")
+define prostitute = Character("Chang San Brothel worker",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #1937
-define Gu = Character("Ku Hong-Meng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled") 
-define Po = Character("Professor Po Yeutarng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define Ab = Character("Ah Bai", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
+define Am = Character("Ah Mei", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
+define Ghe = Character("Guo He", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
+define Gh = Character("Guo Heng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
+define Gu = Character("Ku Hong-Meng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu") 
+define Lc = Character("Lao Chang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc") 
+define Li = Character("Li-Li", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Li")
+define Ls = Character("Li Tso-Shih", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ls")
+define Ly = Character("Lady Yang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ly")
+define Mw = Character("Ma Wen", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Mw")
+define Po = Character("Professor Po Yeutarng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Po")
+define wyx = Character("Wang Yue Xiang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define Xw = Character("Xiao Wen", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
+define Xwe = Character("Xiao Wei", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xwe")
+
+#1937 Japanese
 
 #1945
 
@@ -143,10 +218,12 @@ define Po = Character("Professor Po Yeutarng", what_prefix='"', what_suffix='"',
    ##   ##     ## ##     ##   ##        ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##  
  ######  #######   #######    ##        ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ## 
 label start:
-    
+    stop music fadeout 1.0
     $ _dismiss_pause = False
     $ mouse_visible = False
-    show placeholder
+    $ _skipping = False
+    show placeholder with dissolve
+    with Pause(2)
     play sound "sounds/chapter_bookmarks_sounds/1937_sino_japanese_book_mark_sound.ogg"
     $ renpy.movie_cutscene("00_chapter_bookmark/1937_sino_japanese_war_bookmark.ogv")
     scene black with dissolve
@@ -157,7 +234,7 @@ label start:
     play sound "sounds/ambience/1937_Beijing_ambience_steps.ogg"
     show Beijing_location with dissolve
     with Pause (2)
-
+    $ _skipping = True
     scene black with dissolve
     with Pause(3)
     
@@ -185,7 +262,13 @@ label start:
    
 
 
-
+########  ########    ###    ######## ##     ## 
+##     ## ##         ## ##      ##    ##     ## 
+##     ## ##        ##   ##     ##    ##     ## 
+##     ## ######   ##     ##    ##    ######### 
+##     ## ##       #########    ##    ##     ## 
+##     ## ##       ##     ##    ##    ##     ## 
+########  ######## ##     ##    ##    ##     ## 
 label fang_death_monolouge:
 scene black with dissolve
 with Pause(2)

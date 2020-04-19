@@ -1,9 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/screens.rpy", line 1521: u'use_main_menu_2' is not a keyword argument or valid child for the screen statement.
-    use_main_menu_2
-                   ^
-
-Ren'Py Version: Ren'Py 6.99.13.2919
