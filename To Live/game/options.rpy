@@ -6,6 +6,7 @@ define gui.show_name = False
 define config.version = "1.0"
 define gui.about = _("")
 define build.name = "ToLive"
+define config.autosave_on_quit = True
 
 
 define config.debug_text_overflow = True

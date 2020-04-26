@@ -1,0 +1,6 @@
+#achievement.register("Poet of Nanjing", steam="Poet of Nanking")
+#achievement.register("Ganbei!", steam="Ganbei! More Maotai!")
+#achievement.register("One night in Beijing?", steam="One night in Beijing?")
+#achievement.register("backstabber", steam="Imperialist Traitor")
+#achievement.register("Teenage Mess", steam="Teenage Mess")
+#acheivement.register("Saucy Thinker", steam="Ecchi Please!")

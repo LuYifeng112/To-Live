@@ -1,83 +1,27 @@
-##     ##    ###    ########  ####    ###    ########  ##       ########  ######  
-##     ##   ## ##   ##     ##  ##    ## ##   ##     ## ##       ##       ##    ## 
-##     ##  ##   ##  ##     ##  ##   ##   ##  ##     ## ##       ##       ##       
-##     ## ##     ## ########   ##  ##     ## ########  ##       ######    ######  
- ##   ##  ######### ##   ##    ##  ######### ##     ## ##       ##             ## 
-  ## ##   ##     ## ##    ##   ##  ##     ## ##     ## ##       ##       ##    ## 
-   ###    ##     ## ##     ## #### ##     ## ########  ######## ########  ######  
-
-#Max points
-init:
-    python:
-        def max_points(*values):
-            return [ i for i, v in enumerate(values) if v == max(values) ]
 
 #Mouse Icon
 define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
 
-#Poem
-define persistent.agneepath = False
-define persistent.tao_water_way = False
-define persistent.unlocked_poem = []
-
-#Glossary
-define persistent.unlocked = [] # empty word list
-#Historical Events log
-define persistent.unlocked_history = [] #Empty hitorical log
-
+#health
+default currenthp = 50
+default maxhp = 50
+default money_loc = _("Fabi")
 #Religion
 $ Taoist = False
 $ Buddhist = False
 $ Christian = False
 $ Yiguandao = False
 
-#Health System
-$ Fang_health = 100
-python:
-    if health <= 0:
-        renpy.jump(fang_death_monolouge)
+#character
+define angst = renpy.random.randint(1,100)
+define saucy_thoughts = renpy.random.randint(1,100)
 
-
-#Restart the game from scratch
-init python:
-    def delete_all_saves():
-        for savegame in renpy.list_saved_games(fast=True):
-            renpy.unlink_save(savegame)
-    
 #Transition effect 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff") #flash effect
     $ noisedissolve = ImageDissolve(im.Tile("00_transitions/00_noise_effect.png"), 1.0, 1) #noise effect
     $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
-
-#Dialogue percentage
-init:
-    default seen = renpy.count_seen_dialogue_blocks()
-    default dialogue = renpy.count_dialogue_blocks()
-    default result = seen * 100 / dialogue
-$ percent = "Game Progress: [result]%"
-
-#DLC stuff
-init -3 python:
-    persistent.new_era_dlc_installed = False
-init -1 python:
-    if persistent.new_era_dlc_installed and not persistent.patch_first_time:
-        persistent.patch_enabled = True
-        persistent.patch_first_time = True
-    elif not persistent.patch_installed:
-        persistent.patch_first_time = False
-        persistent.patch_enabled = False
 ################################################
-
-image splash ="00_menu_images/slash.jpg"
-image mal ="00_menu_images/mel.jpg"
-image warn ="00_menu_images/warn.gif"
-image sunflower ="00_menu_images/sunflowers.ong"
-image darkthought ="00_menu_images/startup2.png"
-image dt2 ="00_menu_images/startup 1.png"
-image 1937_sino_japanese_war_menu ="00_menu_images/1937_bookmark_intro_splash.png"
-image placeholder = "00_background/00_placeholder.png"
-
 python:
         ## test if the file path exists, setting the 'secret_route_unlocked' object if file exists
         if renpy.exists('checkpoints/00_1937_checkpoint_exist.txt'):
@@ -117,50 +61,37 @@ style letter_eng is text:
  ######  ########  ##       ##     ##  ######  #########  ######  ##       ########  ######   ######   ## ## ## 
       ## ##        ##       #########       ## ##     ##       ## ##       ##   ##   ##       ##       ##  #### 
 ##    ## ##        ##       ##     ## ##    ## ##     ## ##    ## ##    ## ##    ##  ##       ##       ##   ### 
- ######  ##        ######## ##     ##  ######  ##     ##  ######   ######  ##     ## ######## ######## ##    ## 
+ ######  ##        ######## ##     ##  ######  ##     ##  ######   ######  ##     ## ######## ######## ##    ##
 label splashscreen:
-    
+    define num = renpy.random.randint(1, 3)
+    if persistent.timing ==0:
+        image menu_image = "00_menu_images/" + "1937_bookmark_intro_splash_"  + str(num) + ".png"
     $ _dismiss_pause = False
     $ mouse_visible = False
     scene black
-    with Pause(1)
+    with Pause(4)
 
-    play sound "sounds/menu/logo_sound.ogg"
-
+    play sound sound_menu_logo
     show splash with dissolve
     with Pause(2)
 
     scene black with dissolve
     with Pause(1)
 
-    show 1937_sino_japanese_war_menu with dissolve
+    show menu_image with dissolve
     with Pause(2)
 
     show placeholder
     $ renpy.movie_cutscene("00_menu_images/warn.ogv")
-
     scene black with dissolve
     with Pause(1)
 
+    #if not persistent.disclaimer:
+
+
     $ mouse_visible = True
     $ _dismiss_pause = True
-
-
     return
-
-    
-
-
-    #Location Sprites
-    image Beijing_location = "00_location_bookmark/00_Beijing_city.jpg"
-
-
-
-#MUSIC
-define audio.forgetting_beijing = "music/01_forgetting_beijing.ogg"
- 
-
-
  ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######  
 ##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ## 
 ##       ##     ##  ##   ##  ##     ##  ##   ##  ##          ##    ##       ##     ## ##       
@@ -217,26 +148,44 @@ define Xwe = Character("Xiao Wei", what_prefix='"', what_suffix='"', ctc="ctc_bl
    ##          ##        ##   ##        ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##   
    ##   ##     ## ##     ##   ##        ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##  
  ######  #######   #######    ##        ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ## 
+define phrase = renpy.random.choice(("one", "two", "three", "four", "five"))
+if phrase == "one":
+    define prologue = _("To have friends come from afar is happiness, is it not?\n -Confucious")
+elif phrase == "two":
+    define prologue = _("No matter if it is a white cat or a black cat; as long as it can catch mice, it is a good cat.\n -Sichuanese Proverb")
+elif phrase == "three":
+    define prologue = _("Piercing wind, freezing river of Yi. The hero fords, and he never returns!\n -Jing-Ke (failed Assassin of Emperor Qin Shi Huang")
+elif phrase == "four":
+    define prologue = _("A journey of a thousand miles begins with a single step.\n -Lao-Tzu")
+elif phrase == "five":
+    $ prologue = _("Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n     -Li Bai")
+
 label start:
+    python:
+        inventory = Inventory()
+    $ inventory.earn(100)
+    $ current_money = inventory.money
+    $currenthp = 50
+    $maxhp = 50
     stop music fadeout 1.0
     $ _dismiss_pause = False
     $ mouse_visible = False
     $ _skipping = False
+    $ quick_menu = False
     show placeholder with dissolve
     with Pause(2)
-    play sound "sounds/chapter_bookmarks_sounds/1937_sino_japanese_book_mark_sound.ogg"
+    play sound chapter_1937
     $ renpy.movie_cutscene("00_chapter_bookmark/1937_sino_japanese_war_bookmark.ogv")
     scene black with dissolve
     with Pause(0.5)
 
-    
-    play music forgetting_beijing
-    play sound "sounds/ambience/1937_Beijing_ambience_steps.ogg"
+    play sound ambience_steps
     show Beijing_location with dissolve
     with Pause (2)
     $ _skipping = True
     scene black with dissolve
     with Pause(3)
+    $ quick_menu = True
     
     $ Sino_Japanese_war_bookmark = True
     $ Fang_jie_age = 16   
@@ -244,9 +193,7 @@ label start:
     $ mouse_visible = True
     $ _dismiss_pause = True
 
-    jump Beijing_chapter_one 
-
-    return
+    jump Beijing_chapter_one
 
 
    ##    #######  ##        ########    ########   #######   #######  ##    ## ##     ##    ###    ########  ##    ## 
@@ -281,27 +228,31 @@ $ renpy.notify("You have passed away.")
 "but something burns in you."
 "A flame that cannot be extenguished."
 return
-#if not list(set(process_list).intersection(stream_list)):
-#    if currentuser != "" and currentuser.lower() != player.lower():
-#        "[currentuser] will you struggle once again?"
-#if buddhist:
-#    "Just agree to struggle by stating \"Agneepath\""
-#    $ agree_choice = "Ageneepath"
-#if taoist:
-#    "Just agree to struggle by stating \"Neidan\""
-#    $ agree_choice = "Neidan"
-#if christian:
-#    "Just agree to struggle by stating \"Resurrection\""
-#    $ agree_choice = "Resurrection"
-#else:
-#    "Just agree to struggle by stating \"I accept\""
-#    $ agree_choice = "I accept"
+if buddhist:
+    "Just agree to struggle by stating \"Agneepath\""
+    $ agree_choice = _("Ageneepath")
+elif taoist:
+    "Just agree to struggle by stating \"Neidan\""
+    $ agree_choice = _("Neidan")
+elif christian:
+    "Just agree to struggle by stating \"Resurrection\""
+    $ agree_choice = _("Resurrection")
+else:
+    "Just agree to struggle by stating \"I accept\""
+    $ agree_choice = _("I accept")
 
-#menu:
-#    "[agree_choice]":
-#        "Excellant"
-#        $ renpy.notify("You are being resurrected")
-#        $ recent_save = renpy.newest_slot(r"\d+")
+menu:
+    "[agree_choice!t]":
+        "Excellant"
+        $ renpy.notify("You are being resurrected")
+        $ recent_save = renpy.newest_slot(r"\d+")
 
 
-    
+ #######  ##     ## #### ######## 
+##     ## ##     ##  ##     ##    
+##     ## ##     ##  ##     ##    
+##     ## ##     ##  ##     ##    
+##  ## ## ##     ##  ##     ##    
+##    ##  ##     ##  ##     ##    
+ ##### ##  #######  ####    ##    
+

@@ -204,12 +204,12 @@ style input:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#choice
 
-screen choice(items):
-    style_prefix "choice"
+#screen choice(items):
+ #   style_prefix "choice"
 
-    vbox:
-        for i in items:
-            textbutton i.caption action i.action
+  #  vbox:
+   #     for i in items:
+    #        textbutton i.caption action i.action
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
@@ -1520,7 +1520,7 @@ screen quit():
     textbutton _("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
     textbutton _("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
 
-label _compat_confirm_quit:
+label TL_quit:
     $ renpy.call_screen('quit')
 
 
@@ -1552,6 +1552,8 @@ screen glossary():
 screen poems():
     tag menu
     textbutton _("Return") text_size 30 xalign 0.9 yalign 0.2 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    textbutton _("glossary") text_size 30 xalign 0.9 yalign 0.25 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("glossary")
+    textbutton _("Historical Events") text_size 30 xalign 0.9 yalign 0.3 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("historical_event_log") 
     text "Poems" size 40 xalign 0.5 ypos 20
     hbox spacing 200:
         viewport:
@@ -1577,6 +1579,8 @@ screen poems():
 screen historical_event_log():
     tag menu
     textbutton _("Return") text_size 30 xalign 0.9 yalign 0.2 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    textbutton _("poems") text_size 30 xalign 0.9 yalign 0.25 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("poems")
+    textbutton _("glossary") text_size 30 xalign 0.9 yalign 0.3 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("glossary")
     text "Historical Events" size 40 xalign 0.5 ypos 20
     hbox spacing 200:
         viewport:
@@ -1596,3 +1600,23 @@ screen historical_event_log():
                         action SetVariable("event_display_desc", event)
         vbox ypos 100 xsize 650 ysize 500 box_wrap True:
             text historical_event_log.get(event_display_desc, "")
+
+screen hpbar:
+    text "HP: [currenthp]/[maxhp]" xalign 0.9 yalign 0.05
+    bar value currenthp range maxhp xalign 0.9 yalign 0.1 xmaximum 200 ymaximum 10
+
+#TO DO
+screen moneycount:
+    text "[money_loc]: [current_money]" xalign 0.9 yalign 0.15
+
+screen countdown:
+    timer 0.01 repeat True action If(time > 0, true=SetVariable('time', time - 0.01), false=[Hide('countdown'), Jump(timer_jump)])
+    bar value time range timer_range xalign 0.5 yalign 0.9 xmaximum 300 at alpha_dissolve # This is the timer bar.
+
+screen choice(items):
+    style_prefix "choice"
+
+    vbox:
+        for i in items:
+            $ disabled = i.kwargs.get("disabled", False)
+            textbutton i.caption action i.action sensitive not disabled

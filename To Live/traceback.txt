@@ -1,0 +1,50 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 189, in script
+    python:
+  File "renpy/common/00start.rpy", line 189, in script
+    python:
+  File "renpy/common/00start.rpy", line 190, in <module>
+    renpy.execute_default_statement(True)
+  File "game/script.rpy", line 163, in set_default
+    default current_money = inventory.money
+  File "game/script.rpy", line 163, in <module>
+    default current_money = inventory.money
+NameError: name 'inventory' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 578, in main
+    run(restart)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 143, in run
+    renpy.execution.run_context(True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\execution.py", line 908, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 189, in script
+    python:
+  File "renpy/common/00start.rpy", line 189, in script
+    python:
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00start.rpy", line 190, in <module>
+    renpy.execute_default_statement(True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 3495, in execute_default_statement
+    i.set_default(start)
+  File "game/script.rpy", line 163, in set_default
+    default current_money = inventory.money
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 163, in <module>
+    default current_money = inventory.money
+NameError: name 'inventory' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+To Live 1.0
+Sat Apr 25 18:15:30 2020

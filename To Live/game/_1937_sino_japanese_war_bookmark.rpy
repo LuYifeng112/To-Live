@@ -44,6 +44,7 @@ menu:
     "Peiping":
         $ Fang_from_Beijing = True
         $ Japanese_aggression = 3
+        $ hometown = _("Peiping")
         fang "I'm from Peiping"
         Gu "I'd suggest you move out of Beijing."
         Gu "Yan'an is swarming with communists otherwise I would have recommended a temporary stay there."
@@ -57,6 +58,7 @@ menu:
     "Nanking":
         $ Fang_from_Nanjing = True
         $ Japanese_aggression = 8
+        $ hometown = _("Naking")
         fang "I'm from Nanking"
         Gu "Well, the capital is a good place."
         Gu "Nationalists would fight to the death to keep it safe."
@@ -69,17 +71,21 @@ menu:
     "Kwangchow":
         $ Fang_from_Guangzhou = True
         $ Japanese_aggression = 2
+        $ hometown = _("Kwangchow")
         fang "I'm from Kwangchow"
-        Gu "Under Li Tsung-jen?"
+        Gu "Under Chen Chi-Tang?"
         Gu "I wonder if he can survive or General Chiang will have to bail him out."
         Gu "I think you're safe there, besides you'll fit in there more that here."
         Gu "Your hometown seem to be out of harms way and strife."
         Gu "I suggest you go back to your family and try to prepare what to do next."
+        fang "Guangzhou is under Chiang's direct rule now."
+        Gu "Oh really?"
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Hong-Kong":
         $ Fang_from_hong_kong = True
         $ Japanese_aggression = 1
+        $ hometown = _("Hong Kong")
         fang "I'm from Hong-Kong"
         Po "It is a good place."
         Po "The British may be a bit foreign to us mainlanders but at least their territories aren't at risk of being involved in a war."
@@ -90,9 +96,17 @@ menu:
     "Macau":
         $ Fang_from_Macau = True
         $ Japanese_aggression = 1
+        $ hometown = _("Macau")
         fang "I'm from Macau"
         Gu "A place that won't get thrashed by war."
+        Gu "Portugese don't involve themselves in wars."
+        Gu "Plus they let Chiense culture flourish unlike the Guizi in Hong Kong."
+        "Uncle Ku has a strong bias for Macao, he disliked how the British ran Hong Kong and prefered Portugese ruled Macao."
         Gu "Some people are born lucky I guess."
+        Po "Will you go ahead and start gambling?"
+        Po "Gambling is like water in Macao. A {i}necessity{/i}."
+        "Professor Po gave a laugh about it."
+        "Uncle Gu did not approve of gambling but laughed at this joke regardless."
         Gu "I think it is a safe place that you should consider returning to."
         Gu "Your hometown seem to be out of harms way and strife."
         Gu "I suggest you go back to your family and try to prepare what to do next."
@@ -101,6 +115,7 @@ menu:
     "Taiwan":
         $ Fang_from_Taiwan = True
         $ Japanese_aggression = 0
+        $ hometown = _("Taiwan")
         fang "I'm from Taiwan"
         Gu "From the foreign devils themself."
         "He chuckles"
@@ -123,8 +138,12 @@ menu:
         "Professor Po gave a faint grin."
         Po "Well classes won't."
         "Professor Po raised his glass of {i}Máotái{/i} and took a sip."
-        $ persistent.unlocked.append('Máotái')
-        $ msg.msg("New word added to glossary")
+        if not persistent.maotai:
+          $ persistent.unlocked.append('Máotái')
+          $ persistent.maotai = True
+          $ msg.msg("New word added to glossary")
+        if persistent.maotai:
+          $ msg.msg("This word is in the glossary")
         "He normally didn't drink heavily but Uncle Ku had handed him this as a token of thanks for visiting me."
         "Giving such an expensive drink symbolised Uncle Ku's gratitude."
         Po "Most students back in Dongbei would just live at the boarding school." 
@@ -155,9 +174,10 @@ menu:
     
     "Working here to send money back home.":
         $ Fang_determination = 2
-        $ Fang_wealth = 3
+        $ inventory.earn(200)
+        $ current_money = inventory.money 
         play sound "sounds/stat_increase/00_stat_increase.ogg"
-        "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 2 determination and 3 wealt!{/color}{/font}"
+        "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 2 determination!{/color}{/font}"
         Po "what a hardworking kid."
         Gu "I agree."
         "Uncle Ku nodded with professor Po."
@@ -173,7 +193,8 @@ menu:
        $ Fang_strength = 3
        $ Fang_determination = 4
        $ Fang_dexterity = 4
-       $ Fang_wealth = 2
+       $ inventory.earn(30)
+       $ current_money = inventory.money 
        play sound "sounds/stat_increase/00_stat_increase.ogg"
        "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity and 2 wealth!{/color}{/font}"
        fang "I'm taking a break from military conscription training."
@@ -204,7 +225,7 @@ label Beijing_chapter_one_uncle_interview_religion:
 Po "What belief system do you follow?"
 
 menu:
-    "Taoism":
+    "Taoism and Confucianism":
        $ Taoist = True 
        Po "You seem to be clinging on the old ways."
        "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
@@ -239,7 +260,7 @@ menu:
        Po "Ah...{w}{cps=*0.9}A fellow buddhist.{/cps}"
        "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
        "Bits of his face had manifested a gradient of red."
-       Po "Have you ever heard of {i}Dhammapada{/i}? {w}{cps=*1.5}the poem?{/cps}"
+       Po "Have you ever heard of {i}Dhammapada{/i}? {w}{cps=*1.5}the poem of Buddha awakening?{/cps}"
        jump buddhism_breakaway
     "Christianity":
         $ Christian = True 
@@ -336,7 +357,9 @@ Gu "He grew up around the drink."
 "Will the gods protect me?"
 "Thoughts invaded my mind as I looked at the shrine."
 "Lúgōuqiáo Shìbiàn had begun only a few days ago."
-$ persistent.unlocked_history.append("1937 Marco-Polo Inicident")
+if not persistent.marco_polo_incident_unlocked:
+  $ persistent.unlocked_history.append("1937 Marco-Polo Inicident")
+  $ persistent.marco_polo_incident_unlocked = True
 $ msg.msg("New event in History Timeline: 1937 Marco-Polo Incident")
 "Uncle Ku ambled out of the guest room with his hands concealed under his robes."
 "He grimaced slightly at the situation."
@@ -370,7 +393,9 @@ fang "I'm sorry too."
 Gu "If there is a air raid just run straight to some air raid shelter."
 Gu "If you find a German one, priorotise that."
 Gu "The German peoples don't get harassed by {i}guizi{/i}."
-$ persistent.unlocked.append('Guizi')
+if not persistent.guizi:
+  $ persistent.unlocked.append('Guizi')
+  $ persistent.guizi = True
 $ msg.msg("New word added to glossary.")
 "I had crossed the Er-men."
 $ persistent.unlocked.append('Er-men')
@@ -384,7 +409,7 @@ $ msg.msg("New word added to glossary.")
 "He had a wealthy wine business which gave him the money to buy a large {i}Siheyuan{/i}"
 "The Sakura was planted to mark the growth a new era without the Qing."
 "The Sakura plant was also foreign and thus showcased his wealth when he had it planted."
-"Everything I ever learnt about him indicated that...{w=1} welath controlled his choices."
+"Everything I ever learnt about him indicated that...{w=1} wealth controlled his choices."
 "Sadly he died before he realised how the Republic failed China."
 "{cps=*0.4}or the shortlived Empire before the warlord era.{/cps}"
 "Beyond the Sakura tree was a pond he had hired workers to build."
@@ -457,6 +482,23 @@ menu:
         fang "Wang Ching Wei was close with Dr Sun in the first republic."
         fang "He lost the power struggle in the Kuomintang to Chiang Chie Shih."
         fang "I think he thinks well."
+        Lc "I think he's a bit too crazy for the Guizi."
+        Lc "He prefers to appease a rising colonial power."
+        Lc "That's basically feeding a pig a little snack so it won't eat a lot."
+        fang "I guess, I understand what you mean."
+        Lc "Plus Wang doesn't ever cooperate with Chiang, I think Wang will leave and form his own little thing like he did back in Wuhan."
+        fang "I think so too."
+        Lc "Ever since he failed with cooperating with the Yan'an communists, he's becoming more and more right wing."
+        Lc "Ever since the republic was established, the biggest worry is extremism."
+        "Lao Chang took a bit out of his rice snack."
+        Lc "Everyone is thinking \"What form of government is fit to rule 460 million people?\"."
+        Lc "Then they all start shooting each other."
+        "Lao Chang gives a hearty laugh at this satirical joke he made."
+        "I grin in response."
+        fang "but I think we should at least appease until our military is ready to right Japan."
+        fang "I don't know if full scale war will happen from the Marco-Polo bridge incident..{w=1}but it is imminent.{nw}"
+        fang "That's for sure."
+        Lc "I guess, it's depressing we got to live through this."
     "Li Tsung-Jen":
         fang "I think Li Tsung-Jen"
         Lc "The Kwanghsi leader?"
@@ -586,6 +628,17 @@ prostitute "If you ever need shelter, just ask Xiao Wen to share the room."
 "They were an interesting bunch,{w=1}strange but interesting."
 "While I do confess Xiao Wen's attraction, caste was a stigma that would burrow itself deep in me, like some toxic idea or opinion."
 "I felt guilty to admit to myself such things."
+if saucy_thoughts <= 30:
+  "Despite that..."
+  "I couldn't help wanting to... {w=1} touch her."
+  "Like feel her skin,"
+  "Hear her moan."
+  "It would keep me up all night until I did something about it."
+  "At this point I didn't know when I felt lust for her,{w=2} and when I felt love."
+  "She would flirt with me everytime I would pass by and no one else was around."
+  "It was intense."
+  "Despite that..{w=1}I can't keep thinking so provocatively."
+  "I had to come to my senses."
 "I kept on walking along the dirt path."
 "The ambient noises from the brothel faded away with my distance."
 "I kept walking on."
@@ -609,5 +662,207 @@ prostitute "If you ever need shelter, just ask Xiao Wen to share the room."
 "He died believing resourcefulness and willpower outperforms fate."
 "I would get told all about this from the locals like Lao Chang or Ah-Mei the educated daughter of a noble family residing here."
 "Eventually passing the collosal winery I began to see the village centre in sight."
-
+"It wasn't a centre where you would assume it was a meeting spot."
+"It was a noodle shop run by the Guo family."
+"Everyone would come and eat there once in a while and that became the de-facto village centre."
+"It was run by two brothers around my age."
+"The older was Guo Heng, who took over the shop when his father passed away from a stroke two years ago."
+"He raised his younger brother to learn to cook as well."
+"Eventually they got their skills developed and Guo Heng got to send his brother \"Guo He\" to school."
+"I have met Guo Heng only a few times,{w=0.5} but he is very interesting to talk to."
+"He has developed a passion for making all kinds of noodles."
+"Last time I visited him he showed me his father's recipe that had been handed down for god knows how long."
+"He offered to employ me to his noodle shop if I ever needed a place to work."
+"Despite being 23 years old Guo Heng was arguably graying from his stress.{w=1} Something he always loved joking about with the other villagers."
+"The noodle shop even had a banner which would ostentaciously show off its wealth and success."
+"In short, if there was any celebration, meeting, or festival, Guo's noodle shop was the place."
+"Mostly because it was the most central and most convenint for everyone to meet at."
+"I passed through and entered the store."
+"Guo Heng had sat on a table and was appying a dirty rag to wipe the sweat off his face."
+"The summer sun was strong and it didn't help he cooked behind a fire all day."
+"Guo Heng seemed to age faster everytime I visited him."
+"His body had become more built and skinny while his face became browner with more wrinkles."
+"His hair had remained the same, {w=1}Little whisks of grey popping out once in an occassional spot."
+"Guo Heng looked up at me with his brown eyes that resembled foreign manufactured chocolate."
+Gh "Fang!{w=1}{nw}"
+"I sat down opposite on the same table he was sitting at."
+fang "Hey, Heng"
+"It was midday and the sun was now forcing its heated will on us like spears."
+"At the highest point in the sky, a false inferno had formed."
+fang "You must hate the sun so much if you go through this everyday."
+"Guo Heng gave a smirk and dabbed his white dirtied rag on his face."
+"His shirt had wet patches near his armpits and chest."
+Gh "I think its fair."
+fang "How is this fair?"
+"Guo Heng was quite wise because the elders would gather here and include him in philosophical talks."
+Gh "There are two things in this world which are fair."
+Gh "THese two things never judge...{w=1}never discriminate."
+"He dabbed the cloth on his face again."
+Gh "The first is death. In this world God and the Devil may judge you, but death will come for you, no matter how good,{w=1}how bad, or whatever you are."
+Gh "Death doesn't pick favourites."
+Gh "The Second is the sun."
+Gh "For Aeons the Sun had given light regardless of the morality of the creature receiving it."
+Gh "The sun when it's too hot will feel this way to everyone."
+Gh "If the sun isn't judging than whatever the sun does,{w=1}is fair."
+fang "You really learn some interesting stuff from those elders."
+Gh "I know right."
+Gh "They don't have anything to do, so i give them discounted noodles and educate myself."
+"I looked up at the sky"
+"It was clear and cloudless."
+fang "Don't you get worried about the Japanese?"
+"Heng looked up to the sky."
+Gh "I heard they're readying air raid shelters because the Japanese are mobilsing for a full attack."
+Gh "Maybe I'll have to learn to cook Ramen."
+fang "What about your younger brother?"
+Gh "I'm planning to send him to Nanking where he will be safer."
+"Heng dabbed the cloth on his face again."
+"His hair had beads of sweat bouncing but never dropping off."
+fang "Really?"
+Gh "It's a good idea to evacuate before they start fighting."
+Gh "Ma Wen told me that the Shanghai International Zone would become a passage of entrance for the Japanese."
+Gh "He advised me not to send Guo He to Shanghai."
+Gh "Hence I chose Nanking."
+Gh "The Japanese would probably confiscate the shop and make me do work without profit."
+fang "That is true."
+fang "I'm from [hometown!t]"
+if Fang_from_Taiwan:
+    fang "I can't go back to Taiwan."
+    fang "They won't believe me since I'm crossing over from the Mainland."
+    fang "I won't see my family till the end of the war."
+    Gh "I get your pain."
+    Gh "I think you should go to Nanking."
+    Gh "THat way Guo He is safe with you."
+    fang "You really think so?"
+    "Guo Heng gave a slight nod."
+    "He was willowed and his left leg had to limp."
+    "I could see why he couldn't leave as easily as he said it."
+    Gh "So why did you leave Taiwan in te first place?"
+    fang "because I was able to."
+    fang "I just wanted to keep in touch with my history."
+    "Guo Heng nodded."
+    Gh "Which part of Taiwan are you from?"
+    fang "Taipei, the capital of the province."
+    Gh "Have you ever been to Kaohshiung?"
+    fang "No, I haven't."
+    Gh "I heard it's quite prosperous."
+    fang "Me too."
+    fang "What about Uncle Ku?"
+    Gh "You should talk to him."
+    Gh "I'm not sure if he'll go with you."
+    fang "yeah, I guess I will have to talk to him about it."
+elif Fang_from_Macau:
+    Gh "Gambling is like water there.{w=1}Isn't it?"
+    "It seems everybody had this stereotype."
+    fang "I never grew up around the casinos."
+    Gh "I guess that's a good thing."
+    Gh "What is it like there?"
+    Gh "I never hear much about it."
+    fang "It's two Islands with lots of ships."
+    fang "You never see an empty shoreline..{w=1}Like ever."
+    fang "Even in 1930 when the world was hit by the Great Depression, ships were still fishing."
+    fang "Fishing is a big thing there."
+    "Guo Heng listened to what I said with interest."
+    fang "The name was a language barrier between the locals and the Portugese arrivers."
+    fang "When asked what this place was called the locals told them {i}Ma-kok{/i}."
+    fang "Do you know why?"
+    "Guo Heng shook his head."
+    fang "A-Ma is the goddess that looked after the harbor and the waters of \"Macau\"."
+    fang "They had a well known temple built with her after A-Ma."
+    fang "To put it short,{w=1} They thought that the Portugese were asking the name of the Temple which was {i}Ma-Kok{/i} at the time."
+    "Guo Heng seemed stunned from all of this."
+    Gh "That's the same story with Japan."
+    "We both laughed as he mentioned it."
+    fang "I also forgot to tell you,"
+    "Guo Heng settled back down again."
+    fang "The portugese also imported labour from its colonies in India so Sikh Policeman are common there."
+    fang "THey have a reputation for being bearded and burly."
+    "I began to think what else to tell him."
+    fang "Everything else is the same as everywhere else in China."
+    "Guo Heng nodded."
+    Gh "Does Macao have a dialect like Peiping?"
+    fang "Yeah, we have Patua."
+    Gh "Can you speak Patua?"
+    fang "A bit."
+    fang "My family can, but I was never taught it. I was only taught Mandarin."
+    fang "If I return, I plan to learn it."
+    Gh "It's nice to keep in touch with your ancestral tongue."
+    Gh "My family have lived here for generations."
+    Gh "The Peiping Dialect is in my blood."
+    Gh "Sorry if you don't understand what we say, force of habit."
+    fang "It's fine. I'm getting used to it."
+    Gh "Is your dialect a mix of Portugese and Cantonese?"
+    "I nod to him."
+    Gh "Thats good."
+elif Fang_from_Guangzhou:
+    Gh "Kwangchow is an interesting place."
+    Gh "Do you speak the language of Canton?"
+    fang "Of course."
+    "Guo Heng nods at me."
+    Gh "I would have learnt it if I had the chance."
+    Gh "How did you learn Mandarin?"
+    fang "My parents made me learn the national language."
+    fang "They wanted me to be able to communicate in the national language."
+    "Guo Heng nods to me."
+    fang "Did you know that the founding fathers of the Republic had a debate on the National Language?"
+    "Guo Heng shakes his head."
+    Gh "No."
+    fang "Cantonese lost by one vote.There was an odd number of people in the room. Mandarin became official by one vote."
+    "Guo Heng's eyes widened."
+    Gh "I would speak Cantonese?"
+    fang "Eventually, the central government can't enforce the national language yet, not with the threat of war shadowing them."
+    fang "If you recite ancient poetry in Cantonese then it rhymes more than if you would have used Mandarin."
+    fang "People have been researching languages and it seems that Mandarin came around under the Mongol rule which was 700 years ago."
+    fang "Cantonese has been estimated to be much older. Like 1900 Years or something."
+    fang "Don't quote me on it, but what do you think?"
+    "Guo Heng dabbed his face with the rag."
+    "He was thinking deeply."
+    Gh "It makes sense to me, I think everyone should keep their ancestral tongue with them."
+    "Guo Heng flashed a smile."
+    Gh "Teach me some Cantonese some time,{w=1} When I'm off work, preferably."
+    fang "Sure!{w=1} I wouldn't mind."
+    Gh "By the way, what has the political situation been for Kwangchow like?"
+    fang "hmmm"
+    fang "It's gone from Chen Chi-Tang to direct rule under Chiang Chie-Shih."
+    fang "So I guess it's united with the central government."
+    Gh "That's good to hear."
+elif Fang_from_Nanjing:
+    Gh "The capital itself."
+    Gh "What is it like there?"
+    "Guo Heng applied the rag to his sweaty face again."
+    fang "Nanking in it's name means \"Southern Capital\"."
+    fang "The first time it ruled a united China was in the Ming Dynasty."
+    fang "It's a nice place to live overall."
+    fang "It has a powerful inland port and it's close to Shanghai."
+    fang "If you're rich then you're like a foreigner.{w=1} You dress pretty or look handsome."
+    fang "There's a lot of people there and you even have western Churches propped up in some places of the city."
+    fang "Due to these churches, chinese children of Christian believers learn English well and proficiently."
+    "Guo Heng looked at me bewildered."
+    Gh "Can you speak English?"
+    "He looked so excited for some reason."
+    fang "A bit,{w=1} I can communicate a good amount with some American residents."
+    Gh "What other kind sof foreigners are there in Nanking?"
+    "I sat back and thought a little."
+    fang "You have German businessmen from the German Reich with their families that settle her to manage German businesses in China."
+    fang "Some German military officiers also train Chinese troops, like General Alexander von Falkenhausen."
+    fang "He is the military advisor to Chiang Chieh-Shih for their joint military reform program."
+    fang "You have Japanese people too, who initially settled in the Japanese sector of Shanghai and moved to Nanking but you don't see them around too often."
+    fang "Other europeans are rare to see, apart from some British who do business with Americans."
+    Gh "I guess Nanking is becoming a global city."
+    fang "I'd say the same thing."
+    Gh "At least foreigners are cooperating rather than invading us.{w=1} Apart from Japan."
+    "Guo Heng cursed under his breath."
+    "He dabbed the rag once again."
+    Gh "Is there anything special in the capital city of the republic?"
+    fang "There is a statue of Chiang Chieh-Shih in the middle of the city."
+    Gh "What about Dr Sun?"
+    fang "He doesn't need a statue."
+    fang "He has a big Mausoleum called \"Sun Yat-sen Mausoleum\" which I think gives his legacy justice."
+    Gh "What's in the Mausoleum now?"
+    
+elif Fang_from_hong_kong:
+    Gh "In Pu Tong Hua we call it \"Xiang Gang\"."
+    fang "That's something new I guess."
+    Gh "What are the British like there?"
+elif Fang_from_Beijing:
+    "yeet"
 return

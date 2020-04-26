@@ -1,4 +1,7 @@
-﻿
+﻿#Poem
+define persistent.agneepath = False
+define persistent.tao_water_way = False
+define persistent.unlocked_poem = []
 
 init -1 python:
     poem_display_desc = ""

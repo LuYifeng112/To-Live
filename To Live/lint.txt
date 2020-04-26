@@ -1,0 +1,27 @@
+﻿
+Ren'Py 7.3.5.606 lint report, generated at: Thu Apr 23 11:23:15 2020
+
+game/screen_notification.rpy:43 The screen notif has not been given a parameter list.
+This can be fixed by writing 'screen notif():' instead.
+
+game/screens.rpy:1600 The screen hpbar has not been given a parameter list.
+
+game/screens.rpy:1604 The screen countdown has not been given a parameter list.
+
+Style style.letter_eng uses file 'fonts/scriptina/SCRIPTIN.ttf', which is not loadable.
+
+
+Statistics:
+
+The game contains 686 dialogue blocks, containing 6,572 words and 36,253
+characters, for an average of 9.6 words and 53 characters per block.
+
+The Traditionalchinese translation contains 223 dialogue blocks, containing
+2,001 words and 11,772 characters, for an average of 9.0 words and 53
+characters per block.
+
+The game contains 8 menus, 12 images, and 30 screens.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.

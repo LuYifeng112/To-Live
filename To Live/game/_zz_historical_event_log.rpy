@@ -1,5 +1,6 @@
-﻿
-
+﻿#Historical Events log
+define persistent.unlocked_history = [] #Empty hitorical log
+define persistent.marco_polo_incident_unlocked = False
 init -1 python:
     event_display_desc = ""
     historical_event_log = \
