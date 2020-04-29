@@ -1,6 +1,6 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Deadline requirements
+about: Suggest a deadline and required elements
 title: ''
 labels: ''
 assignees: ''
