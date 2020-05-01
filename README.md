@@ -1,7 +1,7 @@
 # To-Live
  A visual Novel story about the struggles of orginary people in Chinese history.
 
-Source Code License:
+Source Code License (excluding ren'py source code):
 Copyright (c) 2020 Lu Yi Feng
 All Rights Reserved.
 
