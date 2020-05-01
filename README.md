@@ -1,12 +1,12 @@
 # To-Live
  A visual Novel story about the struggles of orginary people in Chinese history.
 
-Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
-Under the following terms:
-
-1.Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-2.NonCommercial — You may not use the material for commercial purposes.
-3.NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
+All Assets License:
+Copyright (c) 2020 Lu Yi Feng
+All Rights Reserved.
+ 
+Note:
+All dramatisized events, attitudes, characters and political orientations are representations of historical environments and situations do not reflect the beliefs or values of You Yu De Shi Jie or any known affiliates in the production of this visual novel. These situations are presented as a representation of historical attitudes reactions and events and do not intend to harm or offend anyone.
 
 DISCLAIMER
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
