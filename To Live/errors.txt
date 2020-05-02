@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 161: invalid syntax
-    def inventory = Inventory()
-                   ^
+File "game/defines_python.rpy", line 110: invalid syntax
+    def recog(self, name)
     
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Apr 25 18:15:04 2020
+Sat May 02 00:50:36 2020

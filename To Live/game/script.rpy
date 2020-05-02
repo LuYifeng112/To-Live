@@ -1,4 +1,9 @@
 
+
+#analytics
+define game_analytics_game_key = "0c4a34cba1dcbcbe026e8bd81c07246d"
+define game_analytics_secret_key = "aa084f16dd5ee6d33a181a6e6f5cbe541e59b1fd"
+
 #Mouse Icon
 define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
 
@@ -6,6 +11,14 @@ define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
 default currenthp = 50
 default maxhp = 50
 default money_loc = _("Fabi")
+
+default Fang_from_Beijing = False
+default Fang_from_Nanjing = False
+default Fang_from_Guangzhou = False
+default Fang_from_hong_kong = False
+default Fang_from_Macau = False
+default Fang_from_Taiwan = False
+
 #Religion
 $ Taoist = False
 $ Buddhist = False
@@ -16,11 +29,18 @@ $ Yiguandao = False
 define angst = renpy.random.randint(1,100)
 define saucy_thoughts = renpy.random.randint(1,100)
 
+#Promises
+define promise_Guo_heng_free_meal = False
+define promise_teach_Gh_cantonese = False
+define promise_Gh_talk_escape = False
+define promise_GH_beer = False
+
 #Transition effect 
 init:
     $ flash = Fade(.25, 0, .75, color="#fff") #flash effect
     $ noisedissolve = ImageDissolve(im.Tile("00_transitions/00_noise_effect.png"), 1.0, 1) #noise effect
     $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
+
 ################################################
 python:
         ## test if the file path exists, setting the 'secret_route_unlocked' object if file exists
@@ -42,6 +62,8 @@ python:
 ##    ##  ##     ##  ##           ##    ##       ##    ##       ##             ## 
 ##    ##  ##     ##  ##     ##    ##    ##       ##    ##       ##       ##    ## 
  ######    #######  ####     ######     ##       ##    ######## ########  ######  
+style datetime is text:
+    font "fonts/eng_phat_grunge/PhatGrunge.ttf"
 
 image ctc_blink:
        "GUI/ctc.png"
@@ -53,7 +75,7 @@ image ctc_blink:
 
 style letter_eng is text:
     size 40
-    font "fonts/scriptina/SCRIPTIN.ttf"
+    font "fonts/eng_scriptina/SCRIPTIN.ttf"
 
  ######  ########  ##          ###     ######  ##     ##  ######   ######  ########  ######## ######## ##    ## 
 ##    ## ##     ## ##         ## ##   ##    ## ##     ## ##    ## ##    ## ##     ## ##       ##       ###   ## 
@@ -86,11 +108,9 @@ label splashscreen:
     scene black with dissolve
     with Pause(1)
 
-    #if not persistent.disclaimer:
-
-
     $ mouse_visible = True
     $ _dismiss_pause = True
+    jump before_main_menu
     return
  ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######  
 ##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ## 
@@ -162,6 +182,27 @@ elif phrase == "five":
 
 label start:
     python:
+        callbacks = {
+            'ready': readyCallback,
+            'disconnected': disconnectedCallback,
+            'error': errorCallback,
+        }
+        discord_rpc.initialize('601663968288833536', callbacks=callbacks, log=False)
+        start = time.time()
+        discord_rpc.update_connection()
+        discord_rpc.run_callbacks()
+        discord_rpc.update_presence(
+            **{
+                'details': '1937 Sino-Japanese war Bookmark',
+                'state': 'Peiping-Ts\'uan Ti hsia Village',
+                'large_image_key': 'tolive',
+                'start_timestamp': start
+            }
+        )
+
+        discord_rpc.update_connection()
+        discord_rpc.run_callbacks()
+    python:
         inventory = Inventory()
     $ inventory.earn(100)
     $ current_money = inventory.money
@@ -188,7 +229,10 @@ label start:
     $ quick_menu = True
     
     $ Sino_Japanese_war_bookmark = True
-    $ Fang_jie_age = 16   
+    show screen date
+    show screen month
+    show screen year
+    show screen daytime
 
     $ mouse_visible = True
     $ _dismiss_pause = True

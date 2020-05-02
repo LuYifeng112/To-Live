@@ -729,6 +729,11 @@ screen preferences():
                     textbutton _("Disable") action Preference("rollback side", "disable")
                     textbutton _("Left") action Preference("rollback side", "left")
                     textbutton _("Right") action Preference("rollback side", "right")
+                vbox:
+                    style_prefix "radio"
+                    label _("Tracking")
+                    textbutton _("Enabled") action SetField(persistent, "analytics", True)
+                    textbutton _("Disabled") action SetField(persistent, "analytics", False)
 
                 vbox:
                     style_prefix "check"
@@ -1515,7 +1520,7 @@ screen quit():
 
     text _("{b}Game Progress: [result]%{/b}") size 30 xalign 0.7 yalign 0.70 color "#031a68"
 
-    text _("Would you like to exit the game?") size 60 text_align 0.55 xalign 0.7 yalign 0.55 color "#031a68" antialias True kerning 2
+    text _("Would you like to exit the game?") size 60 text_align 0.7 xalign 0.7 yalign 0.55 color "#031a68" antialias True kerning 2
 
     textbutton _("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
     textbutton _("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
@@ -1581,7 +1586,7 @@ screen historical_event_log():
     textbutton _("Return") text_size 30 xalign 0.9 yalign 0.2 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
     textbutton _("poems") text_size 30 xalign 0.9 yalign 0.25 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("poems")
     textbutton _("glossary") text_size 30 xalign 0.9 yalign 0.3 text_color "#3b5bc2" text_hover_color "#ff7b02" action ShowMenu("glossary")
-    text "Historical Events" size 40 xalign 0.5 ypos 20
+    text "Historical Events" size 40 xalign 0.5 ypos 20 style datetime
     hbox spacing 200:
         viewport:
             xpos 50 ypos 100 xsize 300 ysize 500
@@ -1601,17 +1606,21 @@ screen historical_event_log():
         vbox ypos 100 xsize 650 ysize 500 box_wrap True:
             text historical_event_log.get(event_display_desc, "")
 
-screen hpbar:
-    text "HP: [currenthp]/[maxhp]" xalign 0.9 yalign 0.05
+screen hpbar():
+    text "HP: [currenthp]/[maxhp]" xalign 0.9 yalign 0.05 size 10 style datetime at cd_transform
     bar value currenthp range maxhp xalign 0.9 yalign 0.1 xmaximum 200 ymaximum 10
 
-#TO DO
-screen moneycount:
-    text "[money_loc]: [current_money]" xalign 0.9 yalign 0.15
+
+screen moneycount():
+    text "[money_loc]: [current_money]" xalign 0.9 yalign 0.15 style datetime
 
 screen countdown:
-    timer 0.01 repeat True action If(time > 0, true=SetVariable('time', time - 0.01), false=[Hide('countdown'), Jump(timer_jump)])
-    bar value time range timer_range xalign 0.5 yalign 0.9 xmaximum 300 at alpha_dissolve # This is the timer bar.
+    timer 1 repeat True action If(time > 0, true=SetVariable('time', time - 1), false=[Hide('countdown'), Jump(timer_jump)])
+    if time <= 2:
+        text str(time) xpos .1 ypos .1 color "#FF0000" at alpha_dissolve
+    else:
+        text str(time) xpos .1 ypos .1 at alpha_dissolve
+
 
 screen choice(items):
     style_prefix "choice"
@@ -1620,3 +1629,4 @@ screen choice(items):
         for i in items:
             $ disabled = i.kwargs.get("disabled", False)
             textbutton i.caption action i.action sensitive not disabled
+

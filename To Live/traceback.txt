@@ -1,50 +1,90 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "renpy/common/00start.rpy", line 190, in <module>
-    renpy.execute_default_statement(True)
-  File "game/script.rpy", line 163, in set_default
-    default current_money = inventory.money
-  File "game/script.rpy", line 163, in <module>
-    default current_money = inventory.money
-NameError: name 'inventory' is not defined
+  File "renpy/common/00start.rpy", line 233, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/script.rpy", line 113, in script
+    "{font=dejavussans.ttf}Máotái{/font}"
+Exception: Could not find font u'dejavussans.ttf'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 316, in bootstrap
-    renpy.main.main()
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 578, in main
-    run(restart)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 143, in run
-    renpy.execution.run_context(True)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\execution.py", line 908, in run_context
-    context.run()
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "renpy/common/00start.rpy", line 189, in script
-    python:
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "renpy/common/00start.rpy", line 190, in <module>
-    renpy.execute_default_statement(True)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 3495, in execute_default_statement
-    i.set_default(start)
-  File "game/script.rpy", line 163, in set_default
-    default current_money = inventory.money
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 163, in <module>
-    default current_money = inventory.money
-NameError: name 'inventory' is not defined
+  File "renpy/common/00start.rpy", line 233, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/script.rpy", line 113, in script
+    "{font=dejavussans.ttf}Máotái{/font}"
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 708, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 1345, in say
+    who(what, *args, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\character.py", line 1142, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\character.py", line 842, in do_display
+    **display_args)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\character.py", line 591, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ui.py", line 297, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2702, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3194, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2094, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 490, in renpy.display.render.render_screen (gen\renpy.display.render.c:6805)
+    rv = render(root, width, height, st, st)
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 675, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 1127, in render
+    st, at)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\text\text.py", line 1996, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\text\text.py", line 626, in __init__
+    glyphs = ts.glyphs(s, self)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\text\text.py", line 242, in glyphs
+    fo = font.get_font(self.font, self.size, self.bold, self.italic, 0, self.antialias, self.vertical, self.hinting, layout.oversample)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\text\font.py", line 699, in get_font
+    face = load_face(fn)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\text\font.py", line 640, in load_face
+    raise Exception("Could not find font {0!r}.".format(orig_fn))
+Exception: Could not find font u'dejavussans.ttf'.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 1.0
-Sat Apr 25 18:15:30 2020
+Fri May 01 20:36:38 2020

@@ -10,6 +10,10 @@
     image dt2 ="00_menu_images/startup 1.png" 
     image placeholder = "00_background/00_placeholder.png"
 
+    #Beijing
+    image Ku_house = "00_background/Ku_house.png"
+    image CDX_village = "00_background/art_cuandixia_village_route.png"
+
     #Location Sprites
     image Beijing_location = "00_location_bookmark/00_Beijing_city.jpg"
 
@@ -30,6 +34,7 @@
     define audio.the_moons_reflection_on_the_second_spring = "music/03_the_moon_reflection_on_the_second_spring.ogg"
     define audio.guqin_yangguan_sandie = "music/04_Guqin_Yangguan_Sandie.ogg"
     define audio.guqin_zuiyu_changwan = "music/05_Guqin_Zuiyu_Changwan.ogg"
+    define audio.art_of_silence = "music/06_art_of_silence_ending.ogg"
 
     #radio
     define audio.station_bang_chhun_hong = "music/00_radio/01_Bang_Chhun_Hong.ogg"

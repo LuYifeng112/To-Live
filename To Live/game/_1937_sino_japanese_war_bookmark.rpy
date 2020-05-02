@@ -4,6 +4,8 @@ un "It is important you answer these questions properly."
 un "I will go through them one by one."
 un "Do not fret."
 
+scene bg Ku_house with dissolve
+
 "My eyes remained firmly shut."
 "Uncle Gu Hong-Meng would know what to do."
 "Professor Po Yeutarng is quite experienced in dealing with wars."
@@ -42,6 +44,7 @@ Po "Where is it most convenient for you to return home so you won't have any dif
 
 menu:
     "Peiping":
+       
         $ Fang_from_Beijing = True
         $ Japanese_aggression = 3
         $ hometown = _("Peiping")
@@ -56,6 +59,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Nanking":
+       
         $ Fang_from_Nanjing = True
         $ Japanese_aggression = 8
         $ hometown = _("Naking")
@@ -69,6 +73,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
     
     "Kwangchow":
+        
         $ Fang_from_Guangzhou = True
         $ Japanese_aggression = 2
         $ hometown = _("Kwangchow")
@@ -83,6 +88,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Hong-Kong":
+       
         $ Fang_from_hong_kong = True
         $ Japanese_aggression = 1
         $ hometown = _("Hong Kong")
@@ -94,6 +100,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Macau":
+        
         $ Fang_from_Macau = True
         $ Japanese_aggression = 1
         $ hometown = _("Macau")
@@ -113,6 +120,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Taiwan":
+        
         $ Fang_from_Taiwan = True
         $ Japanese_aggression = 0
         $ hometown = _("Taiwan")
@@ -271,8 +279,8 @@ menu:
         "I nodded back towards him."
         Po "I love latin choir and hymns."
         Po "It just moves me to the core."
-    "Yiguandao":
-       $ Yiguandao = True 
+    #"Yiguandao":
+     #  $ Yiguandao = True 
 
 label taoism_breakaway:
 Gu "{i}Fāng{/i}"
@@ -387,7 +395,7 @@ fang "Now we have a drunk, a looming war {fast}and what more!" with sshake
 "I could see Uncle Ku's reaction to me lashing out after such a long time."
 "Pressure that had built up from everything had finally burst the bottle."
 "Uncle Ku looked at me solenmly."
-Gu "{cps=*0.3}I'm sorry,{w=1} Fang.{/cps}"
+Gu "{cps=*0.35}I'm sorry,{w=1} Fang.{/cps}"
 fang "I'm sorry too."
 "I turned my back and walked out of the door."
 Gu "If there is a air raid just run straight to some air raid shelter."
@@ -688,6 +696,7 @@ Gh "Fang!{w=1}{nw}"
 "I sat down opposite on the same table he was sitting at."
 fang "Hey, Heng"
 "It was midday and the sun was now forcing its heated will on us like spears."
+$ timeofday = "early afternoon"
 "At the highest point in the sky, a false inferno had formed."
 fang "You must hate the sun so much if you go through this everyday."
 "Guo Heng gave a smirk and dabbed his white dirtied rag on his face."
@@ -750,6 +759,14 @@ if Fang_from_Taiwan:
     Gh "You should talk to him."
     Gh "I'm not sure if he'll go with you."
     fang "yeah, I guess I will have to talk to him about it."
+    Gh "Want to talk about it later tonight?"
+    menu:
+        "I might consider it.":
+            $ promise_Gh_talk_escape = True
+            fang "I think it's a good idea."
+
+        "I don't think so.":
+            fang "I don't know about this idea."
 elif Fang_from_Macau:
     Gh "Gambling is like water there.{w=1}Isn't it?"
     "It seems everybody had this stereotype."
@@ -794,7 +811,13 @@ elif Fang_from_Macau:
     "I nod to him."
     Gh "Thats good."
 elif Fang_from_Guangzhou:
+    #TEST!!!
     Gh "Kwangchow is an interesting place."
+    Gh "By the way, what has the political situation been for Kwangchow like?"
+    fang "hmmm"
+    fang "It's gone from Chen Chi-Tang to direct rule under Chiang Chie-Shih."
+    fang "So I guess it's united with the central government."
+    Gh "That's good to hear."
     Gh "Do you speak the language of Canton?"
     fang "Of course."
     "Guo Heng nods at me."
@@ -819,12 +842,33 @@ elif Fang_from_Guangzhou:
     Gh "It makes sense to me, I think everyone should keep their ancestral tongue with them."
     "Guo Heng flashed a smile."
     Gh "Teach me some Cantonese some time,{w=1} When I'm off work, preferably."
-    fang "Sure!{w=1} I wouldn't mind."
-    Gh "By the way, what has the political situation been for Kwangchow like?"
-    fang "hmmm"
-    fang "It's gone from Chen Chi-Tang to direct rule under Chiang Chie-Shih."
-    fang "So I guess it's united with the central government."
-    Gh "That's good to hear."
+    menu:
+        "Sure":
+            $ promise_teach_Gh_cantonese = True
+            fang "I don't mind, it would be nice to teach you."
+            Gh "Thanks."
+            "Guo Heng was strnage that he wanted to learn a dialect he had no practical use for."
+            "but then again he might be like those foreigners who see some gem in the language and learn it to keep a sense of that beauty for themselves."
+
+        "Sorry, I can't":
+            fang "I am not confident when it comes to teaching."
+            "Guo Heng gave a grin and didn't say anything for a while."
+            $ renpy.pause(5, hard=True)
+            Gh "That's fine."
+            Gh "Not all knowledge can be taught."
+            "Guo Heng stood up and looked at the wooden table."
+            Gh "I can't read or write or accomplish anything."
+            Gh "My father sent me to school and I never tried hard."
+            Gh "I can barely make out what something says if I'm lucky."
+            "There was a looming guilty melancholia lodged in his head."
+            Gh "Can you help me read and write at least?"
+            "I could see his eyes looking teary."
+            "He was ashamed of himself."
+            Gh "I don't want to fall behind."
+            "He whispered it, so quietly it could float and be carried by the wind indefinately."
+            "At this rate I can't make a choice."
+            "I have an oppurtunity."
+            call GH_timed_oppurtunity
 elif Fang_from_Nanjing:
     Gh "The capital itself."
     Gh "What is it like there?"
@@ -858,11 +902,150 @@ elif Fang_from_Nanjing:
     fang "He doesn't need a statue."
     fang "He has a big Mausoleum called \"Sun Yat-sen Mausoleum\" which I think gives his legacy justice."
     Gh "What's in the Mausoleum now?"
-    
+    fang "A marble sarcophagus."
+    fang "and a ceiling with the Kuomintang sun stretching above."
 elif Fang_from_hong_kong:
     Gh "In Pu Tong Hua we call it \"Xiang Gang\"."
     fang "That's something new I guess."
     Gh "What are the British like there?"
+    fang "They segregate themselves from us."
+    fang "The most interaction I see is from horny sailors in the coastal nightclubs and bars."
+    fang "The stumble along the street and puke while they take some girl home for the night."
+    "Guo Heng gave a disapproving nod as heheard this."
+    fang "They do have good schools and insituitions. I learnt English there and read the Holy Bible in Cantonese."
+    Gh "They translated the bible into Cantonese?"
+    "I give him a light nod."
+    Gh "That's amazing."
+    fang "I was shocked as well."
+    fang "They made me read the whole thing."
+    Gh "Oh I see."
+    Gh "Did you like it?"
+    menu:
+        "Yes":
+            fang "Yes I did like it."
+            Gh "How long did it take to finish it？"
+            fang "A few years."
+            Gh "Was it that long?"
+            fang "I read it many times from front cover to back cover over my schooling years."
+            fang "but I never understood it."
+            fang "It took me a few years to understand the concept."
+            Gh "In God's eyes all humans are born as a fool."
+            "I silently nod to him."
+            Gh "I thin there is some higher power."
+            Gh "I don't think its sentient."
+            Gh "The closest thing I consider a God is the good old sun."
+            "Guo Heng grimaced as the rays of sunlight painted his face."
+
+        "No":
+            fang "To be honest...{w=1} I didn't really."
+            Gh "That's fine."
+            Gh "Not everything is for everyone."
+            Gh "I normally just keep to myself."
+            Gh "Sometimes I want to live like Lao Chang."
+            Gh "He loves delivering milk."
+            Gh "but most people like him at one point had to learn to love their situation."
+            Gh "I will also,{w=1} Some noodle-maker with a small shop, I will learn to love this place more."
+    "There was some strange silence."
+    "Awkward and ominous."
+    "Guo Heng looks at me with a grin."
+    Gh "Want something to eat later?"
+    Gh "Its on me."
+    menu:
+        "No":
+            fang "No no no no!"
+            fang "I have enough money to pay for a meal myself."
+            fang "I think you shouldn't have to treat me for free."
+            "We aren't even that close.."
+            Gh "you're very adamant , aren't you？"
+            Gh "I'm trying to show my hospitability here!"
+            "He gave a warm inviting grin."
+            Gh "Whenever you feel like it just come up here and it will be on me."
+            "I looked up at him."
+            Gh "Don't worry,{w=1} I make enough to treat people for free."
+        "Yes":
+            $ promise_Guo_heng_free_meal = True
+            fang "Sure."
+            "Guo Heng smirks at me."
+            Gh "I hope you aren't fuilt tripping me for free meals."
+            fang "Don't worry Heng, I'm not like that."
+            fang "You can trust me after meeting me four times."
+            Gh "I'm sure you can."
+            Gh "Nobody beats me in eatery around here."
+            "It seemed Guo Heng took great pride in his line of work."
 elif Fang_from_Beijing:
-    "yeet"
+    fang "I am from Peiping."
+    Gh "But you seem new to this place."
+    "He was right."
+    "Despite the six months I had stayed here with Uncle Ku."
+    "I couldn't fit in."
+    "I never knew why..."
+    fang "There's two reasons to explain that."
+    fang "Firstly my family has a habit of moving across China for different jobs and oppurutunities."
+    fang "Secondly all my experience of Peiping was South of it where you could consider it a part of Tientsen.{w=1} So I guess overall I lack much experience if any about living in Peiping."
+    Gh "I see then."
+    Gh "If you need any help anytime..."
+    Gh "I'm here and I'll teach you the ropes of anything."
+    fang "Thanks."
+    fang "That means a lot to me here."
+    Gh "I mean you're a guest in our village."
+    Gh "We have to look after you."
+    fang "Again.{w=1} Thanks."
+    Gh "On a separate note...{w=0.5} Have you ever drank some {i}Bai-Jiu{/i}?"
+    Gh "Your Great Grandpa's factory sells the good stuff to us, sometimes to some Japanese as well on the other side."
+    Gh "You should try it."
+    menu:
+        "Sure, I'll try":
+            $ promise_GH_beer = True
+            fang "Surely it can't be that bad."
+            Gh "You got a good spirit in you."
+            Gh "Unfortunately my work day isn't over{w=1} and I won't cook while I'm not sober."
+            Gh "Meet me up tonight for a drink and we can talk about whatever is on our minds."
+            Gh "Especially in regards to the start of a war."
+
+        "No thanks, I'm fine":
+            $ promise_Gh_talk_escape = True
+            fang "I don't feel like drinking."
+            Gh "Ah well, that's fine."
+            Gh "I respect that."
+            Gh "If you need to talk about stuff in your mind just find me after your shift."
+            "Guo Heng wiped the rag across his forehead."
+            Gh "You probably need to find a way to get out of here."
+            Gh "I'm here to help with that."
+            fang "I Know..."
+            "Guo Heng really just wanted his brother out of harms way{w=1} which must be the reason why he is trying to support me going away from Peiping."
+
+
+
+label Beijing_1_GH_afterward:
+    "There was nothing to say."
+    "It was a bit awkward but it was difficult to articulate conversation."
+    "I don't have in the slightest an idea of what to do."
+    $ timer_jump = "GH_Beijing_busy"
+    show countdown
+    menu:
+        "Keep conversing with Guo Heng.":
+            hide countdown
+            jump GH_dive_convo
+
+        "Take leave":
+            hide countdown
+            fang "I think its time I get moving."
+            fang "I have a pending interview to undergo."
+            fang "He should be coming to conduct it soon."
+            "Guo Heng rubbed the rag on his face."
+            Gh "I have to work anyway."
+            Gh "It was nice to talk with you Fang."
+            call GH_first_goodbye
+
+label GH_Beijing_busy:
+    "Guo Heng put down his sweat rag."
+    "The sun was piercing through his thin ragged shirt."
+    "You could see how the sweat now made the shirt a paint to his canvas of a skin."
+    Gh "No offence Fang,"
+    Gh "I have work now."
+    Gh "I can't afford always taking a break."
+    Gh "It takes time to make preparations for a meal."
+    call GH_first_goodbye
+    "I grinned at him as well."
+    "It was pleasant."
 return

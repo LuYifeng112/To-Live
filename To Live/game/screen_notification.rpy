@@ -40,7 +40,7 @@ transform notif_t(t):
     # pause t-1
     # ease .2 alpha 0 yzoom 0
 
-screen notif:
+screen notif():
     zorder 2000
     if len(msg.list):
         timer .2 repeat True action Function(msg.rem)
