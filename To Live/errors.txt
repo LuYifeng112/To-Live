@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/defines_python.rpy", line 110: invalid syntax
-    def recog(self, name)
-    
+File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 7: u'return' is not a keyword argument or valid child for the key statement.
+    key "K_SPACE" action return
+                               ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat May 02 00:50:36 2020
+Fri May 15 12:18:56 2020

@@ -1,11 +1,13 @@
 
+image shards = Snow("00_globals/shard.png")
+image heavy_shards = Snow("00_globals/shard.png", max_particiles=500)
 
-#analytics
-define game_analytics_game_key = "0c4a34cba1dcbcbe026e8bd81c07246d"
-define game_analytics_secret_key = "aa084f16dd5ee6d33a181a6e6f5cbe541e59b1fd"
-
+#define persistent.ironman = False
 #Mouse Icon
 define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
+
+#starting time var
+default timeval = 971937
 
 #health
 default currenthp = 50
@@ -20,12 +22,16 @@ default Fang_from_Macau = False
 default Fang_from_Taiwan = False
 
 #Religion
-$ Taoist = False
-$ Buddhist = False
-$ Christian = False
-$ Yiguandao = False
-
+define Taoist = False
+define Buddhist = False
+define Christian = False
+define Yiguandao = False
+define religions = [ "Taoism", "Buddhism", "Christian", "Yiguandao", "Islam", "Shintoism", "Communism"]
 #character
+define is_student = False
+define is_apprentice = False
+define is_worker = False
+define is_free = False
 define angst = renpy.random.randint(1,100)
 define saucy_thoughts = renpy.random.randint(1,100)
 
@@ -35,7 +41,7 @@ define promise_teach_Gh_cantonese = False
 define promise_Gh_talk_escape = False
 define promise_GH_beer = False
 
-#Transition effect 
+#Transition effect
 init:
     $ flash = Fade(.25, 0, .75, color="#fff") #flash effect
     $ noisedissolve = ImageDissolve(im.Tile("00_transitions/00_noise_effect.png"), 1.0, 1) #noise effect
@@ -54,14 +60,14 @@ python:
             persistant.timing = 3
         if renpy.exists('checkpoints/00_1966_checkpoint_exist.txt'):
             persistant.timing = 4
- 
- ######   ##     ## ####     ######  ######## ##    ## ##       ########  ######  
-##    ##  ##     ##  ##     ##    ##    ##     ##  ##  ##       ##       ##    ## 
-##        ##     ##  ##     ##          ##      ####   ##       ##       ##       
-##   #### ##     ##  ##      ######     ##       ##    ##       ######    ######  
-##    ##  ##     ##  ##           ##    ##       ##    ##       ##             ## 
-##    ##  ##     ##  ##     ##    ##    ##       ##    ##       ##       ##    ## 
- ######    #######  ####     ######     ##       ##    ######## ########  ######  
+
+ ######   ##     ## ####     ######  ######## ##    ## ##       ########  ######
+##    ##  ##     ##  ##     ##    ##    ##     ##  ##  ##       ##       ##    ##
+##        ##     ##  ##     ##          ##      ####   ##       ##       ##
+##   #### ##     ##  ##      ######     ##       ##    ##       ######    ######
+##    ##  ##     ##  ##           ##    ##       ##    ##       ##             ##
+##    ##  ##     ##  ##     ##    ##    ##       ##    ##       ##       ##    ##
+ ######    #######  ####     ######     ##       ##    ######## ########  ######
 style datetime is text:
     font "fonts/eng_phat_grunge/PhatGrunge.ttf"
 
@@ -71,18 +77,19 @@ image ctc_blink:
        pause 0.25
        linear 0.5 alpha 0.0
        pause 0.25
-       repeat 
+       repeat
 
 style letter_eng is text:
     size 40
     font "fonts/eng_scriptina/SCRIPTIN.ttf"
 
- ######  ########  ##          ###     ######  ##     ##  ######   ######  ########  ######## ######## ##    ## 
-##    ## ##     ## ##         ## ##   ##    ## ##     ## ##    ## ##    ## ##     ## ##       ##       ###   ## 
-##       ##     ## ##        ##   ##  ##       ##     ## ##       ##       ##     ## ##       ##       ####  ## 
- ######  ########  ##       ##     ##  ######  #########  ######  ##       ########  ######   ######   ## ## ## 
-      ## ##        ##       #########       ## ##     ##       ## ##       ##   ##   ##       ##       ##  #### 
-##    ## ##        ##       ##     ## ##    ## ##     ## ##    ## ##    ## ##    ##  ##       ##       ##   ### 
+
+ ######  ########  ##          ###     ######  ##     ##  ######   ######  ########  ######## ######## ##    ##
+##    ## ##     ## ##         ## ##   ##    ## ##     ## ##    ## ##    ## ##     ## ##       ##       ###   ##
+##       ##     ## ##        ##   ##  ##       ##     ## ##       ##       ##     ## ##       ##       ####  ##
+ ######  ########  ##       ##     ##  ######  #########  ######  ##       ########  ######   ######   ## ## ##
+      ## ##        ##       #########       ## ##     ##       ## ##       ##   ##   ##       ##       ##  ####
+##    ## ##        ##       ##     ## ##    ## ##     ## ##    ## ##    ## ##    ##  ##       ##       ##   ###
  ######  ##        ######## ##     ##  ######  ##     ##  ######   ######  ##     ## ######## ######## ##    ##
 label splashscreen:
     define num = renpy.random.randint(1, 3)
@@ -112,13 +119,13 @@ label splashscreen:
     $ _dismiss_pause = True
     jump before_main_menu
     return
- ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######  
-##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ## 
-##       ##     ##  ##   ##  ##     ##  ##   ##  ##          ##    ##       ##     ## ##       
-##       ######### ##     ## ########  ##     ## ##          ##    ######   ########   ######  
-##       ##     ## ######### ##   ##   ######### ##          ##    ##       ##   ##         ## 
-##    ## ##     ## ##     ## ##    ##  ##     ## ##    ##    ##    ##       ##    ##  ##    ## 
- ######  ##     ## ##     ## ##     ## ##     ##  ######     ##    ######## ##     ##  ######  
+ ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######
+##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ##
+##       ##     ##  ##   ##  ##     ##  ##   ##  ##          ##    ##       ##     ## ##
+##       ######### ##     ## ########  ##     ## ##          ##    ######   ########   ######
+##       ##     ## ######### ##   ##   ######### ##          ##    ##       ##   ##         ##
+##    ## ##     ## ##     ## ##    ##  ##     ## ##    ##    ##    ##       ##    ##  ##    ##
+ ######  ##     ## ##     ## ##     ## ##     ##  ######     ##    ######## ##     ##  ######
 
 #Protagonist
 define fang = Character("Fang Jie", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
@@ -132,8 +139,8 @@ define Ab = Character("Ah Bai", what_prefix='"', what_suffix='"', ctc="ctc_blink
 define Am = Character("Ah Mei", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
 define Ghe = Character("Guo He", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
 define Gh = Character("Guo Heng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
-define Gu = Character("Ku Hong-Meng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu") 
-define Lc = Character("Lao Chang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc") 
+define Gu = Character("Ku Hong-Meng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
+define Lc = Character("Lao Chang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc")
 define Li = Character("Li-Li", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Li")
 define Ls = Character("Li Tso-Shih", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ls")
 define Ly = Character("Lady Yang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ly")
@@ -154,20 +161,20 @@ define Xwe = Character("Xiao Wei", what_prefix='"', what_suffix='"', ctc="ctc_bl
 #1956
 
 
-#1958 
+#1958
 
 
 #1966
 
 
 
-   ##    #######   #######  ########    ########   #######   #######  ##    ## ##     ##    ###    ########  ##    ## 
- ####   ##     ## ##     ## ##    ##    ##     ## ##     ## ##     ## ##   ##  ###   ###   ## ##   ##     ## ##   ##  
-   ##   ##     ##        ##     ##      ##     ## ##     ## ##     ## ##  ##   #### ####  ##   ##  ##     ## ##  ##   
-   ##    ########  #######     ##       ########  ##     ## ##     ## #####    ## ### ## ##     ## ########  #####    
-   ##          ##        ##   ##        ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##   
-   ##   ##     ## ##     ##   ##        ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##  
- ######  #######   #######    ##        ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ## 
+   ##    #######   #######  ########    ########   #######   #######  ##    ## ##     ##    ###    ########  ##    ##
+ ####   ##     ## ##     ## ##    ##    ##     ## ##     ## ##     ## ##   ##  ###   ###   ## ##   ##     ## ##   ##
+   ##   ##     ##        ##     ##      ##     ## ##     ## ##     ## ##  ##   #### ####  ##   ##  ##     ## ##  ##
+   ##    ########  #######     ##       ########  ##     ## ##     ## #####    ## ### ## ##     ## ########  #####
+   ##          ##        ##   ##        ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##
+   ##   ##     ## ##     ##   ##        ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##
+ ######  #######   #######    ##        ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ##
 define phrase = renpy.random.choice(("one", "two", "three", "four", "five"))
 if phrase == "one":
     define prologue = _("To have friends come from afar is happiness, is it not?\n -Confucious")
@@ -204,6 +211,12 @@ label start:
         discord_rpc.run_callbacks()
     python:
         inventory = Inventory()
+    if persistent.ironman:
+        init python:
+            config.has_autosave = True
+            config.autosave_slots = 1
+            config.autosave_on_choice = True
+            config.autosave_on_quit = True
     $ inventory.earn(100)
     $ current_money = inventory.money
     $currenthp = 50
@@ -227,7 +240,7 @@ label start:
     scene black with dissolve
     with Pause(3)
     $ quick_menu = True
-    
+
     $ Sino_Japanese_war_bookmark = True
     show screen date
     show screen month
@@ -240,26 +253,26 @@ label start:
     jump Beijing_chapter_one
 
 
-   ##    #######  ##        ########    ########   #######   #######  ##    ## ##     ##    ###    ########  ##    ## 
- ####   ##     ## ##    ##  ##          ##     ## ##     ## ##     ## ##   ##  ###   ###   ## ##   ##     ## ##   ##  
-   ##   ##     ## ##    ##  ##          ##     ## ##     ## ##     ## ##  ##   #### ####  ##   ##  ##     ## ##  ##   
-   ##    ######## ##    ##  #######     ########  ##     ## ##     ## #####    ## ### ## ##     ## ########  #####    
-   ##          ## #########       ##    ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##   
-   ##   ##     ##       ##  ##    ##    ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##  
- ######  #######        ##   ######     ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ## 
+   ##    #######  ##        ########    ########   #######   #######  ##    ## ##     ##    ###    ########  ##    ##
+ ####   ##     ## ##    ##  ##          ##     ## ##     ## ##     ## ##   ##  ###   ###   ## ##   ##     ## ##   ##
+   ##   ##     ## ##    ##  ##          ##     ## ##     ## ##     ## ##  ##   #### ####  ##   ##  ##     ## ##  ##
+   ##    ######## ##    ##  #######     ########  ##     ## ##     ## #####    ## ### ## ##     ## ########  #####
+   ##          ## #########       ##    ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##
+   ##   ##     ##       ##  ##    ##    ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##
+ ######  #######        ##   ######     ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ##
 #label 1945_chinese_civil_war:
 
     #return
-   
 
 
-########  ########    ###    ######## ##     ## 
-##     ## ##         ## ##      ##    ##     ## 
-##     ## ##        ##   ##     ##    ##     ## 
-##     ## ######   ##     ##    ##    ######### 
-##     ## ##       #########    ##    ##     ## 
-##     ## ##       ##     ##    ##    ##     ## 
-########  ######## ##     ##    ##    ##     ## 
+
+########  ########    ###    ######## ##     ##
+##     ## ##         ## ##      ##    ##     ##
+##     ## ##        ##   ##     ##    ##     ##
+##     ## ######   ##     ##    ##    #########
+##     ## ##       #########    ##    ##     ##
+##     ## ##       ##     ##    ##    ##     ##
+########  ######## ##     ##    ##    ##     ##
 label fang_death_monolouge:
 scene black with dissolve
 with Pause(2)
@@ -292,11 +305,10 @@ menu:
         $ recent_save = renpy.newest_slot(r"\d+")
 
 
- #######  ##     ## #### ######## 
-##     ## ##     ##  ##     ##    
-##     ## ##     ##  ##     ##    
-##     ## ##     ##  ##     ##    
-##  ## ## ##     ##  ##     ##    
-##    ##  ##     ##  ##     ##    
- ##### ##  #######  ####    ##    
-
+ #######  ##     ## #### ########
+##     ## ##     ##  ##     ##
+##     ## ##     ##  ##     ##
+##     ## ##     ##  ##     ##
+##  ## ## ##     ##  ##     ##
+##    ##  ##     ##  ##     ##
+ ##### ##  #######  ####    ##

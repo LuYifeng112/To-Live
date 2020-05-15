@@ -89,3 +89,11 @@ label GH_first_goodbye:
         Gh "Join me for some beer."
         "He pointed to a distilled alcoholic bottle sitting inside his work kitchen."
     return
+
+label templevisit:
+    #menu
+    return
+
+label confirm_day_1_go_home:
+    #menu
+    return

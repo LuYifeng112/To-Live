@@ -1,10 +1,13 @@
 
 label Beijing_chapter_one:
+if not persistent.history_home_unlocked:
+  $ persistent.unlocked_history.append("Home")
+  $ persistent.history_home_unlocked = True
 un "It is important you answer these questions properly."
 un "I will go through them one by one."
 un "Do not fret."
 
-scene bg Ku_house with dissolve
+scene Ku_house
 
 "My eyes remained firmly shut."
 "Uncle Gu Hong-Meng would know what to do."
@@ -18,7 +21,7 @@ menu:
     "Yes I am Ready.":
         jump Beijing_chapter_one_uncle_interview
 
-    "Please Give me a minute to think.":
+    "Please Give me a minute to think.": 
         fang "Please give me a minute to think."
         Po "That's fine,"
         "Normally I would be ready to answer any question coming my way."
@@ -44,7 +47,7 @@ Po "Where is it most convenient for you to return home so you won't have any dif
 
 menu:
     "Peiping":
-       
+
         $ Fang_from_Beijing = True
         $ Japanese_aggression = 3
         $ hometown = _("Peiping")
@@ -59,7 +62,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Nanking":
-       
+
         $ Fang_from_Nanjing = True
         $ Japanese_aggression = 8
         $ hometown = _("Naking")
@@ -71,9 +74,9 @@ menu:
         Gu "Your hometown seem to be out of harms way and strife."
         Gu "I suggest you go back to your family and try to prepare what to do next."
         jump Beijing_chapter_one_uncle_interview_intention
-    
+
     "Kwangchow":
-        
+
         $ Fang_from_Guangzhou = True
         $ Japanese_aggression = 2
         $ hometown = _("Kwangchow")
@@ -88,7 +91,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Hong-Kong":
-       
+
         $ Fang_from_hong_kong = True
         $ Japanese_aggression = 1
         $ hometown = _("Hong Kong")
@@ -100,7 +103,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Macau":
-        
+
         $ Fang_from_Macau = True
         $ Japanese_aggression = 1
         $ hometown = _("Macau")
@@ -120,7 +123,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Taiwan":
-        
+
         $ Fang_from_Taiwan = True
         $ Japanese_aggression = 0
         $ hometown = _("Taiwan")
@@ -135,6 +138,7 @@ Po "So what are you doing in Peiping right now?"
 
 menu:
     "Attending school as a student.":
+        $ is_student = True
         $ Fang_determination = 3
         $ Fang_intellect = 3
         $ Fang_dexterity = 2
@@ -154,7 +158,7 @@ menu:
           $ msg.msg("This word is in the glossary")
         "He normally didn't drink heavily but Uncle Ku had handed him this as a token of thanks for visiting me."
         "Giving such an expensive drink symbolised Uncle Ku's gratitude."
-        Po "Most students back in Dongbei would just live at the boarding school." 
+        Po "Most students back in Dongbei would just live at the boarding school."
         Po "They would not return to their families."
         "He raised the cup of {i}Máotái{/i} to his lips but didn't take a sip. {w}As if something important crossed his mind.{w=1.2}"
         Po "After the first month a few homesick students did in fact return."
@@ -168,6 +172,7 @@ menu:
         jump Beijing_chapter_one_uncle_interview_religion
 
     "Working as a scholarly apprentice under my uncle":
+        $ is_apprentice = True
         $ Fang_intellect = 3
         $ Fang_dexterity = 3
         play sound "sounds/stat_increase/00_stat_increase.ogg"
@@ -179,11 +184,12 @@ menu:
         fang "Thank you"
         Po "anyway..."
         jump Beijing_chapter_one_uncle_interview_religion
-    
+
     "Working here to send money back home.":
+        $ is_working = True
         $ Fang_determination = 2
         $ inventory.earn(200)
-        $ current_money = inventory.money 
+        $ current_money = inventory.money
         play sound "sounds/stat_increase/00_stat_increase.ogg"
         "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 2 determination!{/color}{/font}"
         Po "what a hardworking kid."
@@ -192,17 +198,19 @@ menu:
         "They had seemed to be harmonious in their actions.. {w}{cps=*0.5}Like they were parts of the same piece...{/cps}{w=1.2}"
         Gu "This kind of attitude sculpts heroes and leaders."
         Po "You have probably saved enough now. Have you?"
-        "Working at Cheung's bakery paid off well. This summer I had saved up enough to return home again."
+        "Working at Cheung's silkhouse paid off well. It still does"
+        "This summer I had saved up enough to return home again."
         fang "yes, it is sufficient I would say."
         Po "That is great to hear"
         jump Beijing_chapter_one_uncle_interview_religion
 
     "Taking a break after military conscription training":
+       $ is_free = True
        $ Fang_strength = 3
        $ Fang_determination = 4
        $ Fang_dexterity = 4
        $ inventory.earn(30)
-       $ current_money = inventory.money 
+       $ current_money = inventory.money
        play sound "sounds/stat_increase/00_stat_increase.ogg"
        "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity and 2 wealth!{/color}{/font}"
        fang "I'm taking a break from military conscription training."
@@ -234,7 +242,7 @@ Po "What belief system do you follow?"
 
 menu:
     "Taoism and Confucianism":
-       $ Taoist = True 
+       $ Taoist = True
        Po "You seem to be clinging on the old ways."
        "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
        "Bits of his face had manifested a gradient of red."
@@ -264,14 +272,14 @@ menu:
        "I wondered if he was capable of asking another question."
        jump taoism_breakaway
     "Buddhism":
-       $ Buddhist = True 
+       $ Buddhist = True
        Po "Ah...{w}{cps=*0.9}A fellow buddhist.{/cps}"
        "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
        "Bits of his face had manifested a gradient of red."
        Po "Have you ever heard of {i}Dhammapada{/i}? {w}{cps=*1.5}the poem of Buddha awakening?{/cps}"
        jump buddhism_breakaway
     "Christianity":
-        $ Christian = True 
+        $ Christian = True
         if Fang_from_hong_kong:
             Po "You being from Hong Kong I wouldn't be suprised at that perspective."
         Po "Do you like listening to hymns?"
@@ -279,8 +287,6 @@ menu:
         "I nodded back towards him."
         Po "I love latin choir and hymns."
         Po "It just moves me to the core."
-    #"Yiguandao":
-     #  $ Yiguandao = True 
 
 label taoism_breakaway:
 Gu "{i}Fāng{/i}"
@@ -311,15 +317,18 @@ menu:
         Gu "{i}That he is without reproach.{/i}"
         $ persistent.unlocked_poem.append('Tao The Water Way')
         $ msg.msg("New poem Unlocked: Tao the Water Way")
+        jump beijing_interview_after
     "No" if not persistent.tao_water_way:
         $ not_hear_water_way = True
         fang "I think maybe later.. {w=1}When this interview is finished."
-    "No" if persistant.tao_water_way:
+        jump beijing_interview_after
+    "No" if persistent.tao_water_way:
         fang "I already know the poem."
+        jump beijing_interview_after
 
 label buddhism_breakaway:
 
-menu:  
+menu:
     "Yes" if persistent.agneepath:
         Po "Well that's great!"
         Po "There are so many out there."
@@ -366,9 +375,11 @@ Gu "He grew up around the drink."
 "Thoughts invaded my mind as I looked at the shrine."
 "Lúgōuqiáo Shìbiàn had begun only a few days ago."
 if not persistent.marco_polo_incident_unlocked:
-  $ persistent.unlocked_history.append("1937 Marco-Polo Inicident")
-  $ persistent.marco_polo_incident_unlocked = True
-$ msg.msg("New event in History Timeline: 1937 Marco-Polo Incident")
+    $ persistent.unlocked_history.append("1937 Marco-Polo Incident")
+    $ persistent.marco_polo_incident_unlocked = True
+    $ msg.msg("New event in History Timeline: 1937 Marco-Polo Incident")
+else:
+    $ msg.msg("Event in History Timeline: 1937 Marco-Polo Incident")
 "Uncle Ku ambled out of the guest room with his hands concealed under his robes."
 "He grimaced slightly at the situation."
 Gu "You might have to wait to attain your visa."
@@ -411,6 +422,7 @@ $ msg.msg("New word added to glossary.")
 "I kept on walking until I passed through the Da-men."
 $ persistent.unlocked.append('Da-men')
 $ msg.msg("New word added to glossary.")
+default activities_left = 3
 "Outside was a little garden where my Great Grandfather had planted a Sakura Tree for Sun Yat Sen's new era of the Republic."
 "It's a real shame I never even learnt his name despite knowing how well known he was in this local place."
 "My great grandfather disliked the Qing as they were Manchus as opposed to the Ming who were a Han Chinese dynasty."
@@ -481,7 +493,7 @@ menu:
         Lc "That's a good bet."
         Lc "The national Revolutionary Army rolled over everyone in the Northern Camapaign."
         Lc "If they keep those troops moralised Dr Sun's democracy will come back to us."
-    "Wang Ching Wei": 
+    "Wang Ching Wei":
         fang "Chiang Chi Shih seems to be too right wing and authoritarian."
         fang "He doesn't cooperate with appeasing the Japanese or the warlords."
         fang "Personally Wang Ching Wei's left Kuomintang will be more liked by foreign nations."
@@ -1021,10 +1033,11 @@ label Beijing_1_GH_afterward:
     "It was a bit awkward but it was difficult to articulate conversation."
     "I don't have in the slightest an idea of what to do."
     $ timer_jump = "GH_Beijing_busy"
-    show countdown
+    show screen countdown
     menu:
         "Keep conversing with Guo Heng.":
             hide countdown
+            $ activities_left = 2
             jump GH_dive_convo
 
         "Take leave":
@@ -1048,4 +1061,34 @@ label GH_Beijing_busy:
     call GH_first_goodbye
     "I grinned at him as well."
     "It was pleasant."
+    "Guo Heng was now slaving away in his kitchen once again."
+    "I stood up and walked outside and began to think."
+    menu:
+        "Catch up on work for school." if is_student:
+            $ activities_left += -1
+            "I seemed to have a lot of work left."
+            "Normally I would be in the urban districts of Peiping where you could see people from all places gather."
+            "Even the Japanese across the Marco-Polo Bridge."
+            "I would attend Peiping university so I could work abroad."
+            "Strangely my dreams seem to force me to run away from my current situation."
+            "I begin to walk back home as my books are there."
+
+        "Go to Cheung's silk-house to work" if is_working:
+            $ activities_left += -1
+            "Uncle Cheung's silk house was an extraordinary beauty."
+            "The type poets die away trying to express on paper."
+            "In the house full of buckling wooden levers and rods were colorful rags hanging down like the dress of an angel."
+            "A lake of dye would sit in the middle where one would use it to well...{nw}"
+            "dye clothes."
+            "Uncle Cheung's silk house wasn't too far from Guo Heng's shop."
+            "It was on the way back home but diverging from the brothel."
+
+        "Visit Shuang-lin temple":
+            $ activities_left += -1
+            call templevisit
+        "Go home":
+            call confirm_day_1_go_home
+        
+
+
 return
