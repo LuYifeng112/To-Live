@@ -1,6 +1,6 @@
 # To-Live
-[![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/To-Live/To-Live.svg?logo=lgtm&logoWidth=18)]
-(https://lgtm.com/projects/g/LuYifeng112/To-Live/context:cpp)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/LuYifeng112/To-Live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LuYifeng112/To-Live/context:python)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/LuYifeng112/To-Live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LuYifeng112/To-Live/alerts/)
  A visual Novel story about the struggles of orginary people in Chinese history.
 
 Source Code License (excluding ren'py source code):
