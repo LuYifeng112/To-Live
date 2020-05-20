@@ -1,5 +1,5 @@
 # To-Live
-[![Language grade: C/C++](https://img.shields.io/lgtm/grade/Python/github/LuYifeng112/To-Live)]
+[![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/To-Live/To-Live.svg?logo=lgtm&logoWidth=18)]
 (https://lgtm.com/projects/g/LuYifeng112/To-Live/context:cpp)
  A visual Novel story about the struggles of orginary people in Chinese history.
 
