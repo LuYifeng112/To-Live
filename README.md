@@ -4,7 +4,7 @@
  
 A visual Novel story about the struggles of orginary people in Chinese history.
 
-Source Code License (excluding ren'py source code):
+Source Code License (excluding ren'py and other module source code):
 Copyright (c) 2020 Lu Yi Feng
 All Rights Reserved.
 
