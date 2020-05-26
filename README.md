@@ -1,11 +1,9 @@
 # To-Live
- A visual Novel story about the struggles of orginary people in Chinese history.
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/LuYifeng112/To-Live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LuYifeng112/To-Live/context:python)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/LuYifeng112/To-Live.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LuYifeng112/To-Live/alerts/)
+ 
+A visual Novel story about the struggles of orginary people in Chinese history.
 
-Source Code License (excluding ren'py source code):
-Copyright (c) 2020 Lu Yi Feng
-All Rights Reserved.
-
-All Assets License:
 Copyright (c) 2020 Lu Yi Feng
 All Rights Reserved.
  
