@@ -1,13 +1,20 @@
-
-image shards = Snow("00_globals/shard.png")
-image heavy_shards = Snow("00_globals/shard.png", max_particiles=500)
-
 #define persistent.ironman = False
 #Mouse Icon
 define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
 
+init python:
+    splash_notification = "All dramatisized events, attitudes, characters and political orientations are representations of historical environments and situations do not reflect the beliefs or values of You Yu De Shi Jie or any known affiliates in the production of this visual novel.\nThese situations are presented as a representation of historical attitudes reactions and events and do not intend to harm or offend anyone.\n\nThis game is inspired by Yu Hua's \"To Live\" and uses a fictional character to centre around real historical events."
+
+image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
+
 #starting time var
 default timeval = 971937
+default chapter = 1
+
+#OBJ
+default objective = ""
+default objective_scr = ""
+default subtext = ""
 
 #health
 default currenthp = 50
@@ -92,13 +99,13 @@ style letter_eng is text:
 ##    ## ##        ##       ##     ## ##    ## ##     ## ##    ## ##    ## ##    ##  ##       ##       ##   ###
  ######  ##        ######## ##     ##  ######  ##     ##  ######   ######  ##     ## ######## ######## ##    ##
 label splashscreen:
-    define num = renpy.random.randint(1, 3)
-    if persistent.timing ==0:
-        image menu_image = "00_menu_images/" + "1937_bookmark_intro_splash_"  + str(num) + ".png"
+    #define num = renpy.random.randint(1, 3)
+    ##if persistent.timing ==0:
+    #    image menu_image = "00_menu_images/" + "1937_bookmark_intro_splash_"  + str(num) + ".png"
     $ _dismiss_pause = False
     $ mouse_visible = False
     scene black
-    with Pause(4)
+    with Pause(1)
 
     play sound sound_menu_logo
     show splash with dissolve
@@ -107,13 +114,13 @@ label splashscreen:
     scene black with dissolve
     with Pause(1)
 
-    show menu_image with dissolve
+    show renpy_cred with dissolve
     with Pause(2)
 
     show placeholder
     $ renpy.movie_cutscene("00_menu_images/warn.ogv")
     scene black with dissolve
-    with Pause(1)
+    with Pause(3)
 
     $ mouse_visible = True
     $ _dismiss_pause = True
@@ -217,6 +224,8 @@ label start:
             config.autosave_slots = 1
             config.autosave_on_choice = True
             config.autosave_on_quit = True
+    $ save_name = "Chapter One- Peiping"
+    $ _quit_slot = "quitsave"
     $ inventory.earn(100)
     $ current_money = inventory.money
     $currenthp = 50
@@ -249,7 +258,6 @@ label start:
 
     $ mouse_visible = True
     $ _dismiss_pause = True
-
     jump Beijing_chapter_one
 
 

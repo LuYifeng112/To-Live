@@ -4,10 +4,6 @@
 9mm Gunshot Sound
 Mike Koenig
 
-#01_forgetting_beijing
-Chinese Traditional Bamboo Flute Music - Free Copyright
-Mr NCS
-
 #communist star
 Source : <a title="urss logo png 4" href="https://pngimage.net/urss-logo-png-4/">urss logo png 4</a>
 
@@ -24,9 +20,6 @@ IISH
 PO Box 2169
 NL-1000 CD Amsterdam
 The Netherlands
-
-moutain goat
-Photo by Evgeny Nelmin on Unsplash
 
 tibetan bells
 Daniel Simion
@@ -81,3 +74,12 @@ Blood Vignette
 7he 1ndigo
 
 "Ambience, Seaside Waves, Close, A.wav" by InspectorJ (www.jshaw.co.uk) of Freesound.org
+
+
+
+
+#Vectors
+
+
+brushstroke vector for savegame:
+<a href="https://www.freepik.com/free-photos-vectors/watercolor">Watercolor vector created by starline - www.freepik.com</a>
