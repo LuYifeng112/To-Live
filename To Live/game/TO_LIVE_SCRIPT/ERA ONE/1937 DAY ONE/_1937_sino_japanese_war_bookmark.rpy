@@ -7,14 +7,22 @@ if not persistent.history_home_unlocked:
 un "It is important you answer these questions properly."
 un "I will go through them one by one."
 un "Do not fret."
+fang "Yes I understand."
+un "Good."
+un "we're here for you."
+"That thought was calming to me."
+
 
 scene Ku_house
 
-"My eyes remained firmly shut."
-"Uncle Gu Hong-Meng would know what to do."
+"I gulped as I braced myself."
+"Times were getting scary."
+"China is on the edge of total war."
+"Uncle Ku Hong-Meng would know what to do."
 "Professor Po Yeutarng is quite experienced in dealing with wars."
 "After all they both lived through the Manchurian conquest."
-"Professor Po Yeutarng wanted to know some information about me to give me advice."
+"Professor Po Yeutarng volunteered to help guide me what to do based on my life."
+"It was a good oppurunity to evaluate my situation and possible choices."
 
 Po "Are you Ready Fang?"
 
@@ -32,22 +40,25 @@ menu:
         "I controlled my air-flow and calmed myself down."
         "I can do this."
         fang "I am ready."
-        "Uncle Gu looked at me like how a human judges a lamb."
+        "Uncle Ku looked at me like how a human judges a lamb."
         Gu "Don't overthink it."
-        Gu "They won't harm civilians, they didn't back in Dong-bei."
+        Gu "They won't harm civilians, they didn't back in Tong-pei."
         Gu "Just make sure you can answer their questions."
         jump Beijing_chapter_one_uncle_interview
 
 label Beijing_chapter_one_uncle_interview:
-$ objective = "Talk like Doves"
-$ subtext = "Finish the interview with Professor Po"
-$ objevtive_scr = "Started: Talk Like Doves"
-#call screen objective
 Po "Well Let us start now."
-Po "When the Japanese ask where you are from, your answer will typically give them a first impression about you."
-Po "I know you and your family have moved places over the years so what is your go to hometown?"
+Po "We have to know more about you to help you plan what to do for the upcoming events."
+Po "War's harsh isn't it?"
+"Professor Po bit his lip and focussed on the blank piece of paper in front of him."
+fang "Yeah it is..."
+Po "Lets start off with being realistic."
+Po "Your hometown."
+Po "What is your background in terms of location?"
+Po "I know you and your family have moved places over the years..."
+Po "It's best to choose what is your go-to \"home\"."
 Po "Where is it most convenient for you to return home so you won't have any difficulty resettling or get bothered by Japanese?"
-
+default dozedoff = 0
 menu:
     "Peiping":
 
@@ -55,27 +66,56 @@ menu:
         $ Japanese_aggression = 3
         $ hometown = _("Peiping")
         fang "I'm from Peiping"
-        Gu "I'd suggest you move out of Beijing."
+        Gu "I'd suggest you move out of Peiping."
         Gu "Yan'an is swarming with communists otherwise I would have recommended a temporary stay there."
         Gu "My best bet would be to send you to Tsingtao."
         Po "I'd have to be agree with Ku-hsien-sheng"
         Gu "I have a shcolarly friend who can provide you with oppurtunities for work."
         Gu "Tsingtao will be familiar to you."
-        Gu "You should also prepare your family to leave for Tsingtao."
+        Po "What do you make of it?"
+        fang "It's a pending decision."
+        Po "That makes sense."
+        Po "As of now both armies are mobilisng so there will be a lot of crossfire here at the inception of the war."
+        Po "Back in Da-ren when there was conflict I knew that I could possibly be in danger so I had to act quick."
+        Po "I buckled down at my boarding school for a few weeks."
+        Po "We waited and waited as the food came in slower and slower."
+        Po "It was scary but we didn't care about that."
+        Po "Everyone wanted to feel a full stomach again."
+        Po "Eventually I snuck out and went to the ports."
+        Po "I hoarded some stuff and went back to the school."
+        Po "Anyway I'll tell the rest a little later."
+        Po "We have an interview here."
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Nanking":
 
         $ Fang_from_Nanjing = True
         $ Japanese_aggression = 8
-        $ hometown = _("Naking")
+        $ hometown = _("Nanking")
         fang "I'm from Nanking"
         Gu "Well, the capital is a good place."
         Gu "Nationalists would fight to the death to keep it safe."
         Gu "I doubt the Japanese would get that far to Nanking anyway."
         Po "I doubt it too. I can't predict how the war will go, but the capital city will be heavily defended."
         Gu "Your hometown seem to be out of harms way and strife."
-        Gu "I suggest you go back to your family and try to prepare what to do next."
+        Po "The only issue is that it's close to Shanghai."
+        fang "What's wrong with that?"
+        Po "It's an international settlement area."
+        Po "After the Opium wars and the onset of unequal treaties an international zone was established."
+        Po "It's under Kuomintang sovereignty but areas of it are allocated to the French, British etc."
+        Po "While the Japanese don't have any legal right that I'm aware of they have an \"unofficial settelemt\" in Kongkew."
+        Po "It's called \"Little Tokyo\"."
+        Po "That means Shanghai is the gateway to Chinese territory."
+        Po "If you're going to be in Nanking you have to be aware of that."
+        Po "They might as well just leap frog the legal framework of the Shanghai International Zone."
+        Po "War is chaotic and often..."
+        Po "Unpredictable."
+        "Uncle Ku has listened with extreme curisoity."
+        "It seemed this was the first time he had learnt about the legal status of Shanghai."
+        fang "That's so interesting."
+        Po "I could be a military strategist with this much analytical skill."
+        "He gave a dry laugh."
+        Po "Anyway lets get going with the questions."
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Kwangchow":
@@ -88,9 +128,30 @@ menu:
         Gu "I wonder if he can survive or General Chiang will have to bail him out."
         Gu "I think you're safe there, besides you'll fit in there more that here."
         Gu "Your hometown seem to be out of harms way and strife."
-        Gu "I suggest you go back to your family and try to prepare what to do next."
         fang "Guangzhou is under Chiang's direct rule now."
         Gu "Oh really?"
+        Po "Didn't he take control about a year ago?"
+        Po "I'm not so up to date with that."
+        fang "Yes that's true."
+        Po "The south is diverse isn't it?"
+        "Porfessor Po has this rhetoric that made him interesting to listen to."
+        Po "Can you speak Cantonese?"
+        fang "Yes I can."
+        Po "I think it's a beautiful language."
+        "Uncle Ku made a smirk."
+        Gu "No offense Po-Hsian-Sheng, I prefer Mandarin."
+        "Professor Po flashed a surprised face."
+        Po "How so?"
+        Gu "In Cantonese there are many more tones."
+        Gu "Mandarin only has four."
+        Gu "I also believe in focussing on a vernacular language."
+        Po "Acceptable views I guess."
+        Po "But I don't realise how these points prove Cantonese is not a beautiful language."
+        Po "The diveristy in tones make it much more rhythmic."
+        Gu "To each their own."
+        Po "Glad to disagree Ku-hsien-sheng"
+        "Professor Po flashed a smile and Uncle Ku teasignly."
+        Gu "Let's get on with the questions."
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Hong-Kong":
@@ -102,7 +163,25 @@ menu:
         Po "It is a good place."
         Po "The British may be a bit foreign to us mainlanders but at least their territories aren't at risk of being involved in a war."
         Gu "Your hometown seem to be out of harms way and strife."
-        Gu "I suggest you go back to your family and try to prepare what to do next."
+        Po "I take it you are fluent in English?"
+        fang "Yes, that is true."
+        Po "Do you read the bible in Cantonese as well?"
+        fang "Yes we have it in many languages."
+        Po "It's nice to learn about the other places in this country."
+        Po "It's so diverse."
+        Po "Each place seemes to teach you something new."
+        "I seem to agree with it also."
+        "Alot of cities in China are pockets of intenrational influence from Hong-Kong to Macau to Shanghai etc."
+        "At times two people in the same country feel alien to each other."
+        "No wonder there's so much divisions in our society."
+        "So many warlords and independant states."
+        Po "Fang!"
+        "I sat up qucikly and faced Professor Po."
+        Po "You dozed out."
+        $ dozedoff += 1
+        fang "Seems to be a unending habit."
+        Po "you'll grow out of it I'm sure."
+        Po "I wanted to go to the next question."
         jump Beijing_chapter_one_uncle_interview_intention
 
     "Macau":
@@ -215,7 +294,7 @@ menu:
        $ inventory.earn(30)
        $ current_money = inventory.money
        play sound "sounds/stat_increase/00_stat_increase.ogg"
-       "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity and 2 wealth!{/color}{/font}"
+       "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity!{/color}{/font}"
        fang "I'm taking a break from military conscription training."
        Po "How come you weren't enlisted?"
        "Professor Po looks confused as he asks me this question."
@@ -263,7 +342,7 @@ menu:
        Po "From a philosophical and political doctrine I dislike the state being an obstacle to modernism."
        Gu "I could agree with that.{nw}"
        Gu "In english they say something along the lines of \"seperation of church and state\"."
-       Gu "I believe in Confucianism."
+       Gu "Still, I persist, I believe in Confucianism."
        Gu "It worked for 2000 years why can't it work for another 2000?"
        "Uncle Ku had seemed to have taken offence to Professor Po's anti-Confucian stance."
        fang "I have a neutral atttiude to Confucianism."
@@ -273,6 +352,24 @@ menu:
        Po "The things you say become more interesting as I get more drunk."
        "Professor Po seemed to dip his brush more sloppily and scribe less cautiously."
        "I wondered if he was capable of asking another question."
+       "I hope he would have enough capaicity to finish to interview before he became too drunk."
+       "I wanted to finish this quickly for the sake of decision making."
+       "Every second I'm here feels more dangerous."
+       "Perhaps I', prone to overthinking but I just wanted to leave Peiping."
+       "I don't have the strength to persist through violence."
+       Po "Fang!"
+       if dozedoff >0:
+            Po "You dozed off again."
+            Po "I used to be like that too."
+            Po "I think you overthink a bit don't you?"
+            Po "You need to calm down."
+            Po "This was you can think better and clearly."
+            Po "Hence decision making will be easier."    
+       else:
+            Po "Stay alert a litte bit longer then you go think about whatever you want."
+            Po "I'm doing my best as well."
+       Po "Let's keep going."
+       Gu "Wait,"
        jump taoism_breakaway
     "Buddhism":
        $ Buddhist = True
@@ -292,7 +389,7 @@ menu:
         Po "It just moves me to the core."
 
 label taoism_breakaway:
-Gu "{i}Fāng{/i}"
+Gu "{i}Fang{/i}"
 Gu "Did you read the old poems from {i}\"Tao Te Ch\'ing\"{/i}?"
 $ persistent.unlocked.append('Tao Te Ch\'ing')
 $ msg.msg("New Word added to glossary")
@@ -320,10 +417,22 @@ menu:
         Gu "{i}That he is without reproach.{/i}"
         $ persistent.unlocked_poem.append('Tao The Water Way')
         $ msg.msg("New poem Unlocked: Tao the Water Way")
+        fang "That's deep."
+        Gu "It's life."
+        Gu "I noticed that you overthink a lot."
+        Gu "You have to be able to understand yourself if you want to be effecient."
+        Gu "So you have to understand your feelings and learn how to protect yourself from bottling up or lashing out."
+        fang "Thanks for that."
+        Gu "I think everyone needs some calming pep talk."
+        fang "I couln't agree less."
+        "I looked over to Professor Po who didn't have the strength to clutch his cup properly."
         jump beijing_interview_after
     "No" if not persistent.tao_water_way:
         $ not_hear_water_way = True
         fang "I think maybe later.. {w=1}When this interview is finished."
+        Po "The boy knows his priorities."
+        "Professor Po was begining to talk more openly and slurredly."
+        fang "Let's go to the next question."
         jump beijing_interview_after
     "No" if persistent.tao_water_way:
         fang "I already know the poem."
@@ -409,7 +518,7 @@ fang "Now we have a drunk, a looming war {fast}and what more!" with sshake
 "I could see Uncle Ku's reaction to me lashing out after such a long time."
 "Pressure that had built up from everything had finally burst the bottle."
 "Uncle Ku looked at me solenmly."
-Gu "{cps=*0.35}I'm sorry,{w=1} Fang.{/cps}"
+Gu "{cps=*0.4}I'm sorry,{w=1} Fang.{/cps}"
 fang "I'm sorry too."
 "I turned my back and walked out of the door."
 Gu "If there is a air raid just run straight to some air raid shelter."
@@ -883,7 +992,7 @@ elif Fang_from_Guangzhou:
             "He whispered it, so quietly it could float and be carried by the wind indefinately."
             "At this rate I can't make a choice."
             "I have an oppurtunity."
-            call GH_timed_oppurtunity
+            call GH_timed_oppurtunity from _call_GH_timed_oppurtunity
 elif Fang_from_Nanjing:
     Gh "The capital itself."
     Gh "What is it like there?"
@@ -1051,7 +1160,7 @@ label Beijing_1_GH_afterward:
             "Guo Heng rubbed the rag on his face."
             Gh "I have to work anyway."
             Gh "It was nice to talk with you Fang."
-            call GH_first_goodbye
+            call GH_first_goodbye from _call_GH_first_goodbye
 
 label GH_Beijing_busy:
     "Guo Heng put down his sweat rag."
@@ -1061,20 +1170,90 @@ label GH_Beijing_busy:
     Gh "I have work now."
     Gh "I can't afford always taking a break."
     Gh "It takes time to make preparations for a meal."
-    call GH_first_goodbye
+    call GH_first_goodbye from _call_GH_first_goodbye_1
     "I grinned at him as well."
     "It was pleasant."
     "Guo Heng was now slaving away in his kitchen once again."
     "I stood up and walked outside and began to think."
     menu:
-        "Catch up on work for school." if is_student:
+        "Catch up on work for school." if is_student and not catchupworkschool:
             $ activities_left += -1
+            $ catchupworkschool = True
             "I seemed to have a lot of work left."
             "Normally I would be in the urban districts of Peiping where you could see people from all places gather."
             "Even the Japanese across the Marco-Polo Bridge."
             "I would attend Peiping university so I could work abroad."
             "Strangely my dreams seem to force me to run away from my current situation."
             "I begin to walk back home as my books are there."
+            "How would I confront Uncle Ku?"
+            "I felt like I has strained things again."
+            "Part of me always does this."
+            "Part of me always blames me for blaming myself for things outside of my control."
+            "I realize I always dwell on such trivial matters."
+            "It's strange really."
+            "I guess this walk didn't get me anything."
+            "I felt my leather shoes grind the dust as I ambled."
+            "Is my education even a priority?"
+            "{i}I should be evacuating... right?{/i}"
+            "The Chang San Brothel was now in view again."
+            "Chang San was not even its name, it was just a type of brothel."
+            "I never bothered asking the name anyway."
+            "Was it important to know its name?"
+            "I began to speed-walk at this rate."
+            "The wine factory that was supposed to be starting up soon will now be left decrepit."
+            "I wonder what the soldiers would do to it when they occupy it."
+            "Yue-Lan has already expressed what the soldiers would do with the brothel under occupation."
+            "It didn't strike me as surprising in any sense."
+            "They would probably start up the factory with some volunteers and drink till they drop."
+            "I kept on walking for what felt like 10 minutes until the pathetic pond came back into view."
+            "The pond in my eyes resembled an animal that was wounded and in pain."
+            "Like it needed to be put out of its misery."
+            "It would also be a breeding ground for ill stuff."
+            "The water is brown and god knows that is swimming in there."
+            "I gaze away and walk back in through the Da-men."
+            "I couldn't hear Uncle Ku doing anything at the alter."
+            "I wonder if he is home."
+            "I have to find my books and start reading."
+            "I chose courses in law at Peking university."
+            "I seemed to have a strong sense of civil justice since I was young."
+            "When you're a kid and you feel like the leadership has failed you then you grow up wanting that to change."
+            "Perhaps my determination to change a faulty system came from a hatred of its failures."
+            "I can't even understand my own intentions for such ambitions but I persist."
+            "I reject the alternate options."
+            "I dragged a book off of the shelf and put it on my table."
+            "One day I wish I could become part of this system and hopefully steer it towards a path for the better."
+            "Time to study."
+            $ timeofday = "late afternoon"
+            #fade in and out
+            "I recited the final quotes and notes to cement them in my head."
+            "Studying like this has helped me become more calm."
+            "It's all I have these days."
+            "Working towards more work."
+            "{i}I'm such a workaholic{/i}"
+            "Uncle Ku still hasn't come back even despite the fact I had studied to just above an hour."
+            "I wonder if he was called to a meeting."
+            "Surely I would meet them on the way to Guo's shop."
+            "Perhaps he was talking with some workers on building air raid shelters."
+            "Uncle Ku is well connected with people in high places, perhaps an officer informed him to undertake responsibility to dig air raid shelters."
+            "After all they might start bombing any day soon when they're mobilized."
+            "The thought of war..."
+            "It still haunts me."
+            "Will people be able to keep their sanity after witnessing near death, bloodshed and regular bombing?"
+            "In all honesty I have doubts on my capacity to handle the terrors of war."
+            "I'm not some mythological hero who can fight till their last breath."
+            "I just didn't want to be involved in this."
+            "{i}Is that why I want to run away?{/i}"
+            "{i}If Uncle Ku and Professor Po realized this then this support for escaping further south makes sense.{/i}"
+            "Beijing may be the resident of my ancestors but I have to face reality."
+            Gu "Fang?"
+            "I sat up not expecting him to enter the house so silently."
+            if dozedoff > 2:
+                Gu "Ever since this whole conflict broken out I have noticed you are much more...{i}stressed{/i}"
+                Gu "I know it was my fault for getting the professor drunk and I'm sorry for that."
+                Gu "I honestly intend to help you."
+                Gu ""
+
+
 
         "Go to Cheung's silk-house to work" if is_working:
             $ activities_left += -1
@@ -1088,9 +1267,9 @@ label GH_Beijing_busy:
 
         "Visit Shuang-lin temple":
             $ activities_left += -1
-            call templevisit
+            call templevisit from _call_templevisit
         "Go home":
-            call confirm_day_1_go_home
+            call confirm_day_1_go_home from _call_confirm_day_1_go_home
         
 
 

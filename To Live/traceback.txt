@@ -1,57 +1,36 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen guo():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen guo():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 86, in execute
-    add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
-AttributeError: 'NoneType' object has no attribute 'flagimg'
+  File "renpy/common/00keymap.rpy", line 421, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 421, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 440, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+AttributeError: 'NoneType' object has no attribute 'stores'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
+  File "renpy/common/00keymap.rpy", line 421, in script
     python hide:
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
+  File "renpy/common/00keymap.rpy", line 421, in <module>
     python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ui.py", line 297, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2702, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3094, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 541, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 541, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 541, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 430, in visit_all
-    callback(self)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3094, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 440, in per_interact
-    self.update()
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 625, in update
-    self.screen.function(**self.scope)
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen guo():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen guo():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 86, in execute
-    add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
-  File "<screen language>", line 86, in <module>
-AttributeError: 'NoneType' object has no attribute 'flagimg'
+  File "renpy/common/00keymap.rpy", line 440, in _execute_python_hide
+    renpy.save("_reload-1", "reload save game")
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\loadsave.py", line 398, in save
+    roots = renpy.game.log.freeze(None)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 1925, in freeze
+    self.complete(False)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 1531, in complete
+    self.current.stores[name], self.current.delta_ebc[name] = sd.get_changes(begin)
+AttributeError: 'NoneType' object has no attribute 'stores'
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
-To Live 0.0.4
-Tue May 26 11:28:54 2020
+ 
+Tue Jun 02 19:45:30 2020

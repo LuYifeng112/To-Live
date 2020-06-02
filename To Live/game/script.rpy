@@ -9,6 +9,7 @@ image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign
 
 #starting time var
 default timeval = 971937
+default pinyin = False
 default chapter = 1
 
 #OBJ
@@ -137,6 +138,9 @@ label splashscreen:
 #Protagonist
 define fang = Character("Fang Jie", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
 define narrator = Character(ctc="ctc_blink", ctc_position="nestled")
+define f = Character("The Father", who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define m = Character("The Mother", who_color="#0d00ff", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define v = Character("The Voices", who_color="#5b5963", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #MISC
 define un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define thought = Character(None, what_italic=True, what_alt="I think, [text]")
@@ -157,8 +161,11 @@ define wyx = Character("Wang Yue Xiang", what_prefix='"', what_suffix='"', ctc="
 define Xw = Character("Xiao Wen", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
 define Xwe = Character("Xiao Wei", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xwe")
 
-#1937 Japanese
+default Gh = 0
+default Ai = 0
 
+#1937 Japanese
+define ai = Character("Ai", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="ai")
 #1945
 
 

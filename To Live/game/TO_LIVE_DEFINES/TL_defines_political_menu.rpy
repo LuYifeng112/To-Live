@@ -72,6 +72,18 @@ transform slant_a:
     on show:
         rotate 350
 
+transform ambient_left:
+    rotate 15
+    subpixel True
+    on hover:
+        linear .15 zoom 1.25
+    on idle:
+        linear .25 zoom 1.0
+        block:
+            linear 5 yoffset -10
+            linear 5 yoffset 10
+            repeat
+
 transform am_hist:
     yalign 0.55
     rotate 345
@@ -135,3 +147,9 @@ transform guo_flag_pulse:
         linear 10 rotate 10
         linear 10 zoom 1
     repeat
+transform vbox_slidein:
+    subpixel True
+    xoffset -50
+    block:
+        linear 1.0 alpha 1.0
+        linear 3.0 xoffset 0

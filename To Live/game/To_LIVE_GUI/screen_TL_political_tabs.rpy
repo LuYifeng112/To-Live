@@ -26,6 +26,10 @@ screen political_menu():
 
     textbutton "National Map" xalign 0.9 yalign 0.45 action ShowMenu('guo_map') at am_map
     textbutton "Historical Event Log" xalign 0.91 yalign 0.55 action ShowMenu('historical_event_log') at am_hist
+    textbutton "Save Game" xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left
+    textbutton "Load Game" xalign 0.3 yalign 0.45 action ShowMenu('load') at ambient_left
+    textbutton "Dialogue History" xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left
+    textbutton "Main Menu" xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left
     textbutton "Character profiles" xalign 0.92 yalign 0.65 at am_ch
     textbutton "Resistance Journal" xalign 0.93 yalign 0.75 at am_res
 
@@ -57,6 +61,11 @@ screen guo():
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
+    imagebutton:
+        idle "gui/button_return_icon.png"
+        hover "gui/button_return_icon_hovered.png"
+        xalign 0.9 yalign 0.05
+        action Return()
     mousearea: #This is to make sure that the list doesn't block info or look ugly unless we want to select a new country
         area (0, 0, 500, 1080)
         hovered SetScreenVariable("vbox_button_is_hovered", True)
@@ -84,6 +93,11 @@ screen guo():
     text "Ruling Party: [nation.rulingparty]" xalign 0.9 yalign 0.55 size 15 font "fonts/eng_moria/MoriaCitadel.ttf"
     text "Alliances: [nation.factionID]" xalign 0.9 yalign 0.6 size 15 font "fonts/eng_moria/MoriaCitadel.ttf"  
     add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
+    imagebutton:
+        idle "gui/button_return_icon.png"
+        hover "gui/button_return_icon_hovered.png"
+        xalign 0.96
+        action Return()
     vbox xalign 0.3 ypos 300 xsize 600 ysize 1000 box_wrap True:
             text nation.info size 20 font "fonts/chi_wangfonts/wt064.ttf"
 
@@ -97,15 +111,26 @@ screen guo_map():
     key "5" action ShowMenu ('guo')
     key "n" action Return()
     key "1" action Return()
+    key "o" action ShowMenu('political_menu')
     key "g" action ShowMenu('glossary')
     key "p" action ShowMenu('poems')
     key "l" action ShowMenu('historical_event_log')
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
+    on "hide":
+        action Stop("music", fadeout=2.5)
     viewport:
         xysize (config.screen_width, config.screen_height)
         child_size (4040, 2230)
+        mousearea: # For dyanmic sounds
+            area (3065, 827, 975, 1403)
+            hovered [SetScreenVariable("seaside", True), Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
+            unhovered [SetScreenVariable("seaside", False), Stop("sound",fadeout=2.5)]
+        mousearea: # For dyanmic sounds
+            area (2108, 1881, 1959, 349)
+            hovered [SetScreenVariable("seaside", True), Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
+            unhovered [SetScreenVariable("seaside", False), Stop("sound", fadeout=2.5)]
         if show_beijing:
             xinitial 2300
             yinitial 500
@@ -116,34 +141,36 @@ screen guo_map():
         edgescroll (700, 700)
         add "maps/GUO_map.png"
         for q in TL_GUO_loc:
+            $ nx = q.x +5
+            $ ny = q.y -12
+            $cname = q.name
+            if persistent.language == "English":
+                if persistent.romanization:
+                    $cname = q.rname
+                else:
+                    pass
+            elif persistent.language == "Chinese":
+                $cname = q.chinesesim
             if q.IsActive:
                 for n in TL_GUO:
                     if n.ID ==q.ID:
                         $ act = SetVariable('nation', n)
                 button:
-                    xpos q.x
-                    ypos q.y
-                    text q.name color "#000000" hover_color "#FF0000" size 20
-                    action [act, Show('guo')]
-
-
-
-transform pulse_button:
-    linear .25 zoom 1.25
-    linear .25 zoom 1.0
-    repeat
-
-screen tutmap():
-    tag tutorial
-    modal True
-
-    add "00_keyboard_prompts/Dark/Keyboard_Black_N.png" xalign 0.2 yalign 0.3 at pulse_button
-    add "00_background/00_tint.png"
-
-    key "n" action [ShowMenu('guo_map')]
-
-
-
+                    xpos nx
+                    ypos ny
+                    text cname color "#000000" hover_color "#FF0000" size 20:
+                        if persistent.language == "Chinese":
+                            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+                    action [act, Stop("sound", fadeout=2.5), Show('guo')]
+                if not q.Port and not q.Capital:
+                    add "gui/map_bullet.png" xpos q.x ypos q.y
+                if q.Port and not q.Capital:
+                    add "gui/map_port.png" xpos q.x ypos q.y
+                if q.Capital and not q.Port:
+                    add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+                if q.Capital and q.Port:
+                    add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+                    
 screen glossary():
     default show_return = False
     default return_button_img = renpy.random.randint(1,3)

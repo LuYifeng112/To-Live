@@ -76,8 +76,8 @@ define gui.text_font = "fonts/chi_wangfonts/wt064.ttf"
 ## The font used for character names.
 define gui.name_text_font = "fonts/chi_wangfonts/wt064.ttf"
 
-## The font used for out-of-game text.
 define gui.interface_text_font = "fonts/chi_wangfonts/wt064.ttf"
+    
 
 ##The font used for notification text.
 define gui.notify_text_font = "fonts/eng_typewriter/rm_typerighter_old.ttf"

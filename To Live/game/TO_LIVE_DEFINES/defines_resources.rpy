@@ -25,6 +25,7 @@
 
     define audio.ambience_tiben_bells = "sounds/ambience/00_tibetan_bells.wav"
     define audio.ambience_steps = "sounds/ambience/1937_Beijing_ambience_steps.ogg"
+    define audio.map_seaside = "sounds/map/ambient_seaside.ogg"
 
     define audio.chapter_1937 = "sounds/chapter_bookmarks_sounds/1937_sino_japanese_book_mark_sound.ogg"
 

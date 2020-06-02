@@ -4,5 +4,5 @@ translate Traditionalchinese strings:
 
     # game/options.rpy:4
     old "To Live"
-    new "To Live"
+    new "或者"
 

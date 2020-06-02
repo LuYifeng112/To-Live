@@ -743,7 +743,14 @@ style slot_button_text:
 ## themselves.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#preferences
+define persistent.language = "English"
 
+# translate chinesesim style default:
+#     font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+translate chinesesim python:
+
+    gui.interface_text_font = "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    gui.button_text_font = "fonts/chi_cities/MaShanZheng-Regular.ttf"
 screen preferences():
 
     tag menu
@@ -782,6 +789,17 @@ screen preferences():
                     label _("Tracking")
                     textbutton _("Enabled") action SetField(persistent, "analytics", True)
                     textbutton _("Disabled") action SetField(persistent, "analytics", False)
+                if persistent.language == "English":
+                    vbox:
+                        style_prefix "radio"
+                        label _("Romanization")
+                        textbutton _("Historical Romanization") action SetField(persistent, "romanization", False)
+                        textbutton _("Modern Romanization") action SetField(persistent, "romanization", True)
+                vbox:
+                    style_prefix "radio"
+                    label _("Laguages")
+                    textbutton _("English") action [SetField(persistent, "language", "English"), Language(None)]
+                    textbutton "简体中文" text_font "fonts/chi_cities/MaShanZheng-Regular.ttf" action [SetField(persistent, "language", "Chinese"), Language("chinesesim")]
                 vbox:
                     style_prefix "radio"
                     label _("Game Type")
@@ -1320,8 +1338,7 @@ screen notify(message):
     zorder 100
     style_prefix "notify"
 
-    frame at notify_appear:
-        text "[message!tq]"
+    text "[message!tq]" xalign 0.15 yalign 0.2
 
     timer 3.25 action Hide('notify')
 
@@ -1336,12 +1353,6 @@ transform notify_appear:
 
 style notify_frame is empty
 style notify_text is gui_text
-
-style notify_frame:
-    ypos gui.notify_ypos
-
-    background Frame("gui/notify.png", gui.notify_frame_borders, tile=gui.frame_tile)
-    padding gui.notify_frame_borders.padding
 
 style notify_text:
     properties gui.text_properties("notify")

@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_DEFINES/TL_defines_mapping.rpy", line 1: expected statement.
-    -
-     ^
+File "game/To_LIVE_GUI/screens.rpy", line 752: invalid syntax
+    define gui.interface_text_font = "fonts/chi_cities/MaShanZheng-Regular.ttf"
+              ^
+    
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Mon May 25 20:32:00 2020
+Tue Jun 02 19:45:38 2020

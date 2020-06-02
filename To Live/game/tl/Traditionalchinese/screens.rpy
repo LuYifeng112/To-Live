@@ -4,47 +4,47 @@ translate Traditionalchinese strings:
 
     # game/screens.rpy:256
     old "Back"
-    new "Back"
+    new "返回"
 
     # game/screens.rpy:257
     old "History"
-    new "History"
+    new "对话记录"
 
     # game/screens.rpy:258
     old "Skip"
-    new "Skip"
+    new "跳"
 
     # game/screens.rpy:259
     old "Auto"
-    new "Auto"
+    new "自动的"
 
     # game/screens.rpy:260
     old "Save"
-    new "Save"
+    new "保存"
 
     # game/screens.rpy:261
     old "Q.Save"
-    new "Q.Save"
+    new "快保存"
 
     # game/screens.rpy:262
     old "Q.Load"
-    new "Q.Load"
+    new "快加载"
 
     # game/screens.rpy:263
     old "Prefs"
-    new "Prefs"
+    new "设定"
 
     # game/screens.rpy:304
     old "Start"
-    new "Start"
+    new "开始"
 
     # game/screens.rpy:312
     old "Load"
-    new "Load"
+    new "加载"
 
     # game/screens.rpy:314
     old "Preferences"
-    new "Preferences"
+    new "设定"
 
     # game/screens.rpy:318
     old "End Replay"
@@ -64,11 +64,11 @@ translate Traditionalchinese strings:
 
     # game/screens.rpy:332
     old "Quit"
-    new "Quit"
+    new "推出"
 
     # game/screens.rpy:464
     old "Return"
-    new "Return"
+    new "返回"
 
     # game/screens.rpy:548
     old "Version [config.version!t]\n"
@@ -76,15 +76,15 @@ translate Traditionalchinese strings:
 
     # game/screens.rpy:594
     old "Page {}"
-    new "Page {}"
+    new "页 {}"
 
     # game/screens.rpy:594
     old "Automatic saves"
-    new "Automatic saves"
+    new "自动保存"
 
     # game/screens.rpy:594
     old "Quick saves"
-    new "Quick saves"
+    new "快保存"
 
     # game/screens.rpy:636
     old "{#file_time}%A, %B %d %Y, %H:%M"
@@ -92,7 +92,7 @@ translate Traditionalchinese strings:
 
     # game/screens.rpy:636
     old "empty slot"
-    new "empty slot"
+    new "空位"
 
     # game/screens.rpy:653
     old "<"
