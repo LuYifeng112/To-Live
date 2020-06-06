@@ -30,3 +30,17 @@ init -1 python:
     elif not persistent.patch_installed:
         persistent.patch_first_time = False
         persistent.patch_enabled = False
+
+# default GT = _("Government Type:")
+# default PA = _("Political Alignment:")
+# default RP = _("Ruling Party:")
+# default AL = _("Alliances:")
+
+# #Translate stuff
+# init python:
+#     def switch():
+#         if _preferences.language == "chinesesim":
+#             GT = _("政府：")
+#             PA = _("政治联盟:")
+#             RP = _("执政党:")
+#             AL = _("同盟:")

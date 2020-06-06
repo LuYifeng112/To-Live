@@ -40,20 +40,20 @@ screen year():
 screen daytime():
 
     showif timeofday == "Late Morning":
-        text "Late Morning" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Late Morning") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "early afternoon":
-        text "Early Afternoon" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Early Afternoon") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "late afternoon":
-        text "Late Afternoon" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Late Afternoon") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "dusk":
-        text "Dusk" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Dusk") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "early night":
-        text "Early Night" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Early Night") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "late night":
-        text "Late Night" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Late Night") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "midnight":
-        text "Midnight" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Midnight") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "dawn":
-        text "Dawn" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Dawn") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
     elif timeofday == "early morning":
-        text "Early Morning" size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+        text __("Early Morning") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform

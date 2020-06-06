@@ -1,4 +1,50 @@
-﻿# TODO: Translation updated at 2020-06-02 14:36
+﻿translate chinesesim strings:
+
+    # game/script.rpy:23
+    old "Fabi"
+    new ""
+
+    # game/script.rpy:194
+    old "To have friends come from afar is happiness, is it not?\n -Confucious"
+    new ""
+
+    # game/script.rpy:196
+    old "No matter if it is a white cat or a black cat; as long as it can catch mice, it is a good cat.\n -Sichuanese Proverb"
+    new ""
+
+    # game/script.rpy:198
+    old "Piercing wind, freezing river of Yi. The hero fords, and he never returns!\n -Jing-Ke (failed Assassin of Emperor Qin Shi Huang"
+    new ""
+
+    # game/script.rpy:200
+    old "A journey of a thousand miles begins with a single step.\n -Lao-Tzu"
+    new ""
+
+    # game/script.rpy:202
+    old "Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n     -Li Bai"
+    new ""
+
+    # game/script.rpy:305
+    old "Ageneepath"
+    new ""
+
+    # game/script.rpy:308
+    old "Neidan"
+    new ""
+
+    # game/script.rpy:311
+    old "Resurrection"
+    new ""
+
+    # game/script.rpy:314
+    old "I accept"
+    new ""
+
+    # game/script.rpy:316
+    old "[agree_choice!t]"
+    new ""
+
+# TODO: Translation updated at 2020-06-05 23:36
 
 # game/script.rpy:294
 translate chinesesim fang_death_monolouge_2ca3dbe5:
@@ -71,50 +117,4 @@ translate chinesesim fang_death_monolouge_50e09e45:
 
     # "Excellant"
     ""
-
-translate chinesesim strings:
-
-    # game/script.rpy:23
-    old "Fabi"
-    new ""
-
-    # game/script.rpy:194
-    old "To have friends come from afar is happiness, is it not?\n -Confucious"
-    new ""
-
-    # game/script.rpy:196
-    old "No matter if it is a white cat or a black cat; as long as it can catch mice, it is a good cat.\n -Sichuanese Proverb"
-    new ""
-
-    # game/script.rpy:198
-    old "Piercing wind, freezing river of Yi. The hero fords, and he never returns!\n -Jing-Ke (failed Assassin of Emperor Qin Shi Huang"
-    new ""
-
-    # game/script.rpy:200
-    old "A journey of a thousand miles begins with a single step.\n -Lao-Tzu"
-    new ""
-
-    # game/script.rpy:202
-    old "Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n     -Li Bai"
-    new ""
-
-    # game/script.rpy:305
-    old "Ageneepath"
-    new ""
-
-    # game/script.rpy:308
-    old "Neidan"
-    new ""
-
-    # game/script.rpy:311
-    old "Resurrection"
-    new ""
-
-    # game/script.rpy:314
-    old "I accept"
-    new ""
-
-    # game/script.rpy:316
-    old "[agree_choice!t]"
-    new ""
 

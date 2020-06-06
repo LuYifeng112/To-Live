@@ -92,7 +92,7 @@ translate chinesesim strings:
 
     # game/To_LIVE_GUI/screens.rpy:676
     old "empty slot"
-    new ""
+    new "空位"
 
     # game/To_LIVE_GUI/screens.rpy:693
     old "<"
@@ -393,4 +393,24 @@ translate chinesesim strings:
     # game/To_LIVE_GUI/screens.rpy:1593
     old "Would you like to exit the game?"
     new "您想退出游戏吗？"
+
+# TODO: Translation updated at 2020-06-05 22:52
+
+translate chinesesim strings:
+
+    # game/To_LIVE_GUI/screens.rpy:1661
+    old "To Live: The Struggle"
+    new ""
+
+    # game/To_LIVE_GUI/screens.rpy:1662
+    old "Press Space to Continue"
+    new ""
+
+    # game/To_LIVE_GUI/screens.rpy:1685
+    old "             Revolution is permanent.\nAvailable Saves: One\nSavetype: Game Autosaves Only"
+    new ""
+
+    # game/To_LIVE_GUI/screens.rpy:1687
+    old "              Take the time and learn the way.\nAvailable Saves: 40\nSavetype: Self save and autosave"
+    new ""
 

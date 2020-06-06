@@ -6174,31 +6174,31 @@ translate chinesesim strings:
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
     old "Peiping"
-    new ""
+    new "北京"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
     old "Nanking"
-    new ""
+    new "南京"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
     old "Kwangchow"
-    new ""
+    new "广州"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
     old "Hong-Kong"
-    new ""
+    new "香港"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
     old "Macau"
-    new ""
+    new "澳门"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
     old "Taiwan"
-    new ""
+    new "台湾"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:161
     old "Hong Kong"
-    new ""
+    new "香港"
 
     # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:221
     old "Attending school as a student."

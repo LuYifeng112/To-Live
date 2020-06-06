@@ -751,6 +751,10 @@ translate chinesesim python:
 
     gui.interface_text_font = "fonts/chi_cities/MaShanZheng-Regular.ttf"
     gui.button_text_font = "fonts/chi_cities/MaShanZheng-Regular.ttf"
+translate japanese python:
+
+    gui.interface_text_font = "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
+    gui.button_text_font = "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
 screen preferences():
 
     tag menu
@@ -789,7 +793,7 @@ screen preferences():
                     label _("Tracking")
                     textbutton _("Enabled") action SetField(persistent, "analytics", True)
                     textbutton _("Disabled") action SetField(persistent, "analytics", False)
-                if persistent.language == "English":
+                if _preferences.language == None:
                     vbox:
                         style_prefix "radio"
                         label _("Romanization")
@@ -798,8 +802,10 @@ screen preferences():
                 vbox:
                     style_prefix "radio"
                     label _("Laguages")
-                    textbutton _("English") action [SetField(persistent, "language", "English"), Language(None)]
-                    textbutton "简体中文" text_font "fonts/chi_cities/MaShanZheng-Regular.ttf" action [SetField(persistent, "language", "Chinese"), Language("chinesesim")]
+                    textbutton _("English") action [Language(None)]
+                    textbutton "简体中文" text_font "fonts/chi_cities/MaShanZheng-Regular.ttf" action [Language("chinesesim")]
+                    textbutton "繁體中文" action [Language("chinese")]
+                    textbutton "日本語" text_font "fonts/jap_mincho/SawarabiMincho-Regular.ttf" action [Language("japanese")]
                 vbox:
                     style_prefix "radio"
                     label _("Game Type")
@@ -1599,8 +1605,8 @@ screen quit():
 
     text _("Would you like to exit the game?") size 60 text_align 0.7 xalign 0.9 yalign 0.45 color "#031a68" antialias True kerning 2
 
-    textbutton _("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
-    textbutton _("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    textbutton __("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
+    textbutton __("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
 
 label TL_quit:
     $ renpy.call_screen('quit')
@@ -1658,8 +1664,8 @@ screen press_to_start():
     key "K_SPACE" action ShowMenu("main_menu")
     key "K_KP_ENTER" action ShowMenu("main_menu")
     add "#000c"
-    text "To Live: The Struggle" size 70 xalign 0.5 yalign 0.4 font "fonts/eng_moria/MoriaCitadel.ttf"
-    text "Press Space to Continue" size 30 yalign 0.6 xalign 0.5 font "fonts/eng_moria/MoriaCitadel.ttf" at transform_blink
+    text __("To Live: The Struggle") size 70 xalign 0.5 yalign 0.4 font "fonts/eng_moria/MoriaCitadel.ttf"
+    text __("Press Space to Continue") size 30 yalign 0.6 xalign 0.5 font "fonts/eng_moria/MoriaCitadel.ttf" at transform_blink
     
 
 transform fader:
@@ -1682,9 +1688,9 @@ screen gamemodeTL():
         hovered SetScreenVariable("R_button_is_hovered", True)
         unhovered SetScreenVariable("R_button_is_hovered", False)
     showif L_button_is_hovered:
-        text "             Revolution is permanent.\nAvailable Saves: One\nSavetype: Game Autosaves Only" size 20 xalign 0.5 yalign 0.5 at fader
+        text __("             Revolution is permanent.\nAvailable Saves: One\nSavetype: Game Autosaves Only") size 20 xalign 0.5 yalign 0.5 at fader
     showif R_button_is_hovered:
-        text "              Take the time and learn the way.\nAvailable Saves: 40\nSavetype: Self save and autosave" size 20 xalign 0.5 yalign 0.15 at fader
+        text __("              Take the time and learn the way.\nAvailable Saves: 40\nSavetype: Self save and autosave") size 20 xalign 0.5 yalign 0.15 at fader
 
 
 

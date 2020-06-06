@@ -58,7 +58,7 @@ Po "What is your background in terms of location?"
 Po "I know you and your family have moved places over the years..."
 Po "It's best to choose what is your go-to \"home\"."
 Po "Where is it most convenient for you to return home so you won't have any difficulty resettling or get bothered by Japanese?"
-default dozedoff = 0
+default stress = 0
 menu:
     "Peiping":
 
@@ -178,7 +178,7 @@ menu:
         Po "Fang!"
         "I sat up qucikly and faced Professor Po."
         Po "You dozed out."
-        $ dozedoff += 1
+        $ stress += 1
         fang "Seems to be a unending habit."
         Po "you'll grow out of it I'm sure."
         Po "I wanted to go to the next question."
@@ -358,7 +358,7 @@ menu:
        "Perhaps I', prone to overthinking but I just wanted to leave Peiping."
        "I don't have the strength to persist through violence."
        Po "Fang!"
-       if dozedoff >0:
+       if stress >0:
             Po "You dozed off again."
             Po "I used to be like that too."
             Po "I think you overthink a bit don't you?"
@@ -1247,7 +1247,7 @@ label GH_Beijing_busy:
             "Beijing may be the resident of my ancestors but I have to face reality."
             Gu "Fang?"
             "I sat up not expecting him to enter the house so silently."
-            if dozedoff > 2:
+            if stress > 2:
                 Gu "Ever since this whole conflict broken out I have noticed you are much more...{i}stressed{/i}"
                 Gu "I know it was my fault for getting the professor drunk and I'm sorry for that."
                 Gu "I honestly intend to help you."

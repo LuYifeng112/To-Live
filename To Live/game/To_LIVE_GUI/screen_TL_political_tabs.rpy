@@ -22,16 +22,16 @@ screen political_menu():
     text "[objective]" xalign 0.05 yalign 0.05 size 20 font "fonts/eng_moria/MoriaCitadel.ttf" at slant
     text "[subtext]" xalign 0.07 yalign 0.15 size 12 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_st
     text "[quote]" xpos 45 yalign 1.1 size 15 font "fonts/eng_moria/MoriaCitadel.ttf" color "#000000" at slant_q
-    text "Pause" xalign 0.4 size 55 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_title
+    text __("Pause") xalign 0.4 size 55 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_title
 
-    textbutton "National Map" xalign 0.9 yalign 0.45 action ShowMenu('guo_map') at am_map
-    textbutton "Historical Event Log" xalign 0.91 yalign 0.55 action ShowMenu('historical_event_log') at am_hist
-    textbutton "Save Game" xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left
-    textbutton "Load Game" xalign 0.3 yalign 0.45 action ShowMenu('load') at ambient_left
-    textbutton "Dialogue History" xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left
-    textbutton "Main Menu" xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left
-    textbutton "Character profiles" xalign 0.92 yalign 0.65 at am_ch
-    textbutton "Resistance Journal" xalign 0.93 yalign 0.75 at am_res
+    textbutton __("National Map") xalign 0.9 yalign 0.45 action ShowMenu('guo_map') at am_map
+    textbutton __("Historical Event Log") xalign 0.91 yalign 0.55 action ShowMenu('historical_event_log') at am_hist
+    textbutton __("Save Game") xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left
+    textbutton __("Load Game") xalign 0.3 yalign 0.45 action ShowMenu('load') at ambient_left
+    textbutton __("Dialogue History") xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left
+    textbutton __("Main Menu") xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left
+    textbutton __("Character profiles") xalign 0.92 yalign 0.65 at am_ch
+    textbutton __("Resistance Journal") xalign 0.93 yalign 0.75 at am_res
 
 screen fang_character():
     tag menu
@@ -84,14 +84,56 @@ screen guo():
                 for n in TL_GUO:
                     if n.IsActive:
                         textbutton n.name:
-                            action SetVariable("nation", n)
-    text "[nation.name]" xalign 0.5 ypos 10 size 40 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_guo_name
-    text "[nation.leader]" xalign 0.25 yalign 0.2 size 25 font "fonts/eng_moria/MoriaCitadel.ttf"
-    text "[nation.leadersub]" xalign 0.28 yalign 0.25 size 13 font "fonts/eng_moria/MoriaCitadel.ttf"
-    text "Government Type: [nation.politicalID]" xalign 0.9 yalign 0.45 size 15 font "fonts/eng_moria/MoriaCitadel.ttf"
-    text "Political Alignment: [nation.AlignmentID]" xalign 0.9 yalign 0.5 size 15 font "fonts/eng_moria/MoriaCitadel.ttf" 
-    text "Ruling Party: [nation.rulingparty]" xalign 0.9 yalign 0.55 size 15 font "fonts/eng_moria/MoriaCitadel.ttf"
-    text "Alliances: [nation.factionID]" xalign 0.9 yalign 0.6 size 15 font "fonts/eng_moria/MoriaCitadel.ttf"  
+                            action SetVariable("nation", n)                    
+    text [nation.name] xalign 0.5 ypos 10 size 40 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_guo_name:
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+            size 60
+        elif _preferences.language == "chinese":
+            font "fonts/chi_genkai/Genkaimincho.ttf"
+            size 60
+    text [nation.leader] xalign 0.25 yalign 0.2 size 25 font "fonts/eng_moria/MoriaCitadel.ttf":
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+            size 45
+        elif _preferences.language == "chinese":
+            font "fonts/chi_genkai/Genkaimincho.ttf"
+            size 45
+    text [nation.leadersub] xalign 0.28 yalign 0.25 size 13 font "fonts/eng_moria/MoriaCitadel.ttf":
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+            size 30
+        elif _preferences.language == "chinese":
+            font "fonts/chi_genkai/Genkaimincho.ttf"
+            size 30
+    text [__("Government Type:")]+[nation.politicalID] xalign 0.9 yalign 0.45 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+            size 40
+        elif _preferences.language == "chinese":
+            font "fonts/chi_weidong/wts11.ttf"
+            size 40
+    text [__("Political Alignment:")]+[nation.AlignmentID] xalign 0.9 yalign 0.5 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+            size 40
+        elif _preferences.language == "chinese":
+            font "fonts/chi_weidong/wts11.ttf"
+            size 40
+    text [__("Ruling Party:")]+[nation.rulingparty] xalign 0.9 yalign 0.55 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+            size 40
+        elif _preferences.language == "chinese":
+            font "fonts/chi_weidong/wts11.ttf"
+            size 40
+    text [__("Alliances:")]+[nation.factionID] xalign 0.9 yalign 0.6 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
+        if _preferences.language == "chinesesim":
+            font "fonts/chi_cities/MaShanZheng-Regular.ttf" 
+            size 40 
+        elif _preferences.language == "chinese":
+            font "fonts/chi_weidong/wts11.ttf"
+            size 40
     add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
     imagebutton:
         idle "gui/button_return_icon.png"
@@ -99,7 +141,9 @@ screen guo():
         xalign 0.96
         action Return()
     vbox xalign 0.3 ypos 300 xsize 600 ysize 1000 box_wrap True:
-            text nation.info size 20 font "fonts/chi_wangfonts/wt064.ttf"
+            text nation.info size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
+                if _preferences.language == "chinesesim":
+                    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
 
 
 
@@ -143,14 +187,6 @@ screen guo_map():
         for q in TL_GUO_loc:
             $ nx = q.x +5
             $ ny = q.y -12
-            $cname = q.name
-            if persistent.language == "English":
-                if persistent.romanization:
-                    $cname = q.rname
-                else:
-                    pass
-            elif persistent.language == "Chinese":
-                $cname = q.chinesesim
             if q.IsActive:
                 for n in TL_GUO:
                     if n.ID ==q.ID:
@@ -158,9 +194,11 @@ screen guo_map():
                 button:
                     xpos nx
                     ypos ny
-                    text cname color "#000000" hover_color "#FF0000" size 20:
-                        if persistent.language == "Chinese":
-                            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+                    text q.name color "#000000" hover_color "#FF0000" size 20:
+                        if _preferences.language == "chinesesim":
+                            font"fonts/chi_cities/MaShanZheng-Regular.ttf" 
+                        elif _preferences.language == "chinese":
+                            size 25
                     action [act, Stop("sound", fadeout=2.5), Show('guo')]
                 if not q.Port and not q.Capital:
                     add "gui/map_bullet.png" xpos q.x ypos q.y
@@ -187,7 +225,7 @@ screen glossary():
     window:
         style "gm_root"
         add "#000c" 
-    text "Glossary" size 40 xalign 0.5 ypos 20
+    text __("Glossary") size 40 xalign 0.5 ypos 20
     timer 3.0 action [SetScreenVariable("show_return", True)]
     showif show_return:
         showif return_button_img ==1:
@@ -269,7 +307,7 @@ screen historical_event_log():
     window:
         style "gm_root"
         add "historical_event_background"
-    text "Historical Events" size 40 xalign 0.5 ypos 20
+    text __("Historical Events") size 40 xalign 0.5 ypos 20
     hbox spacing 200:
         viewport:
             xpos 50 ypos 100 xsize 300 ysize 500
