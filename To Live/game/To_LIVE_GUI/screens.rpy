@@ -251,6 +251,7 @@ screen quick_menu():
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
     key "o" action ShowMenu('political_menu')
+    key "K_ESCAPE" action ShowMenu('political_menu')
     ## Ensure this appears on top of other screens.
     zorder 100
 
@@ -806,6 +807,7 @@ screen preferences():
                     textbutton "简体中文" text_font "fonts/chi_cities/MaShanZheng-Regular.ttf" action [Language("chinesesim")]
                     textbutton "繁體中文" action [Language("chinese")]
                     textbutton "日本語" text_font "fonts/jap_mincho/SawarabiMincho-Regular.ttf" action [Language("japanese")]
+                    textbutton "한국어" text_font "fonts/kor_songmyung/SongMyung-Regular.ttf" action [Language("korean")]
                 vbox:
                     style_prefix "radio"
                     label _("Game Type")
@@ -1606,7 +1608,7 @@ screen quit():
     text _("Would you like to exit the game?") size 60 text_align 0.7 xalign 0.9 yalign 0.45 color "#031a68" antialias True kerning 2
 
     textbutton __("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
-    textbutton __("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return()
+    textbutton __("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return() keysym "K_ESCAPE"
 
 label TL_quit:
     $ renpy.call_screen('quit')

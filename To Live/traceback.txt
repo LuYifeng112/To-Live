@@ -1,36 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 421, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 421, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 440, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy", line 1451, in script
+    Mw "It's true, I am Ma-Shih's son."
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy", line 1452, in <module>
+    jump MW_CONVO_1
+NameError: name 'MW_CONVO_1_taken_back' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00keymap.rpy", line 421, in script
-    python hide:
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "renpy/common/00keymap.rpy", line 421, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 440, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\loadsave.py", line 398, in save
-    roots = renpy.game.log.freeze(None)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 1925, in freeze
-    self.complete(False)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 1531, in complete
-    self.current.stores[name], self.current.delta_ebc[name] = sd.get_changes(begin)
-AttributeError: 'NoneType' object has no attribute 'stores'
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy", line 1451, in script
+    Mw "It's true, I am Ma-Shih's son."
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 1628, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 956, in menu
+    condition = renpy.python.py_eval(condition)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2059, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy", line 1452, in <module>
+    jump MW_CONVO_1
+NameError: name 'MW_CONVO_1_taken_back' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
- 
-Tue Jun 02 19:45:30 2020
+To Live 0.0.6
+Sun Jun 14 16:43:44 2020

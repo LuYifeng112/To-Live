@@ -11,6 +11,7 @@ define persistent.confucianism = False
 define persistent.guizi = False
 define persistent.ermen = False
 define persistent.damen = False
+define persistent.dongbei = False
 init -1 python:
     display_desc = ""
     glossary_dict = \
@@ -23,4 +24,5 @@ init -1 python:
      'Guizi' : 'Guizi is a pejorative Chinese slang term for foreigners, and has had a history of containing xenophobic connotations. During world war two this was used to refer to the Japanese invaders.',
      'Er-men' : 'Literal Tranlation: Second Door\nIn a traditional Chinese household this is the inner door on must enter after a hallway.',
      'Da-men' : 'Literal Translation: Big Door\n This is the main door that is seen from the outside.',
-     'Blueshirts Society' : 'This organisation went under many names such as \'Society of the Practice of the Three Principles of the People\', \'Spirit Encouragement Society\', and the \'China Reconstruction Society\'. This organisation was a secret ultranationalist faction that modelled Italian Fascism in the Kuomintang. The Blueshirts Society mainly had influence in the Nationalist Military and key areas such as the capital of the time \'Nanjing\'. The Blueshirts Society slowly dissolved after the end of the Sino-Japanese war for many reasons. It persisted as a Youth organisation known as \'Youth League of the Three principles of the People\'.'}
+     'Blueshirts Society' : 'This organisation went under many names such as \'Society of the Practice of the Three Principles of the People\', \'Spirit Encouragement Society\', and the \'China Reconstruction Society\'. This organisation was a secret ultranationalist faction that modelled Italian Fascism in the Kuomintang. The Blueshirts Society mainly had influence in the Nationalist Military and key areas such as the capital of the time \'Nanjing\'. The Blueshirts Society slowly dissolved after the end of the Sino-Japanese war for many reasons. It persisted as a Youth organisation known as \'Youth League of the Three principles of the People\'.',
+     'Tong-pei': 'Romanized as \"Dong Bei\" this just means north east and generally defines the Manchurian territory.'}

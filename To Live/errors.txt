@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/To_LIVE_GUI/screens.rpy", line 752: invalid syntax
-    define gui.interface_text_font = "fonts/chi_cities/MaShanZheng-Regular.ttf"
-              ^
-    
+File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy", line 1455: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
+    menu:
+    ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Jun 02 19:45:38 2020
+Sun Jun 14 16:46:22 2020

@@ -1,7 +1,7 @@
 
 
 screen hpbar():
-    text "HP: [currenthp]/[maxhp]" xalign 0.9 yalign 0.05 size 10 style datetime at cd_transform
+    text __("HP: [currenthp]/[maxhp]") xalign 0.9 yalign 0.05 size 10 style datetime at cd_transform
     bar:
         bar_vertical True
         value currenthp

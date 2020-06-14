@@ -3,7 +3,7 @@ label Beijing_chapter_one:
 if not persistent.history_home_unlocked:
   $ persistent.unlocked_history.append("Home")
   $ persistent.history_home_unlocked = True
-
+$ devlog.info("Chapter One launch successful")
 un "It is important you answer these questions properly."
 un "I will go through them one by one."
 un "Do not fret."
@@ -11,25 +11,27 @@ fang "Yes I understand."
 un "Good."
 un "we're here for you."
 "That thought was calming to me."
-
+"I knew I had screwed up.. yet I got my chance back."
 
 scene Ku_house
 
 "I gulped as I braced myself."
 "Times were getting scary."
 "China is on the edge of total war."
-"Uncle Ku Hong-Meng would know what to do."
-"Professor Po Yeutarng is quite experienced in dealing with wars."
-"After all they both lived through the Manchurian conquest."
-"Professor Po Yeutarng volunteered to help guide me what to do based on my life."
-"It was a good oppurunity to evaluate my situation and possible choices."
+"I had also made mistakes in showing protest and oppsition."
+"Professor Po Yeutarng is a lawyer who is quite well connected wtih Kuomintang \"Hawks\"."
+"Hawks in the sense that they perch on your shoulder and are aggressive in every action they take."
+"Professor Po Yeutarng on request of Uncle Ku had come to interview me to clear of any charges or suspicions with communist acivity."
+"All three of us knew that I was in no way connected with communists or had any clear sympathies for them."
+"The interview still had to be carried out superficially... just to clear my name."
+"It was also a good oppurunity to evaluate my situation and possible choices."
 
 Po "Are you Ready Fang?"
 
 menu:
     "Yes I am Ready.":
-        jump Beijing_chapter_one_uncle_interview
-
+        pass
+        
     "Please Give me a minute to think.": 
         fang "Please give me a minute to think."
         Po "That's fine,"
@@ -39,16 +41,23 @@ menu:
         "Summer had just ended so the heat was burning out like some star."
         "I controlled my air-flow and calmed myself down."
         "I can do this."
-        fang "I am ready."
+        Po "I don't think you did anything wrong."
+        Po "You're young."
+        Po "You have this burning fire in you that can't be matched."
+        Po "You have to vent it out somewhere."
+        Po "Those hawks will let you go unless they see you have an incentive to believe in communism through traits such as poverty."
+        Po "Which means that any of the other kids that were protesting and weren't affluent can be suspected more harshly as communists due to their economic conditions."
+        Po "I'll have to interview them as well."
+        Po "I can spot damn communists really well."
+        Po "My hair may be greying but I sure got a sharp eye."
         "Uncle Ku looked at me like how a human judges a lamb."
-        Gu "Don't overthink it."
-        Gu "They won't harm civilians, they didn't back in Tong-pei."
+        Gu "Don't overthink it Fang."
+        Gu "If the hawks were paranoid they would have taken you from our house already."
         Gu "Just make sure you can answer their questions."
-        jump Beijing_chapter_one_uncle_interview
-
-label Beijing_chapter_one_uncle_interview:
+        Gu "They will be used against you."
+        
 Po "Well Let us start now."
-Po "We have to know more about you to help you plan what to do for the upcoming events."
+Po "The hawks want to know more about you this will information will help you reflect on what you want to do with the looming war."
 Po "War's harsh isn't it?"
 "Professor Po bit his lip and focussed on the blank piece of paper in front of him."
 fang "Yeah it is..."
@@ -57,7 +66,7 @@ Po "Your hometown."
 Po "What is your background in terms of location?"
 Po "I know you and your family have moved places over the years..."
 Po "It's best to choose what is your go-to \"home\"."
-Po "Where is it most convenient for you to return home so you won't have any difficulty resettling or get bothered by Japanese?"
+Po "Where is it most convenient for you to return home? What would your gut feeling say?"
 default stress = 0
 menu:
     "Peiping":
@@ -67,11 +76,17 @@ menu:
         $ hometown = _("Peiping")
         fang "I'm from Peiping"
         Gu "I'd suggest you move out of Peiping."
+        Gu "I mean the hawks don't care."
+        Po "All they'll see is you living in this large house and stereotype you as a capitalist."
+        Po "The reason why you should move out is because of the war."
+        Po "There have been all sorts of conflcits ocurring on the outskirts of Peiping."
+        Po "This place will be levelled down with bombs."
         Gu "Yan'an is swarming with communists otherwise I would have recommended a temporary stay there."
-        Gu "My best bet would be to send you to Tsingtao."
+        Gu "My best bet would be to send you to Tsingtao or further south where the Japanese won't be able to fight through."
         Po "I'd have to be agree with Ku-hsien-sheng"
-        Gu "I have a shcolarly friend who can provide you with oppurtunities for work."
+        Gu "I have a shcolarly friends all across the place who can provide you with oppurtunities for work."
         Gu "Tsingtao will be familiar to you."
+        Po "Even if they do reach Tsingtao you can always go to Nanking."
         Po "What do you make of it?"
         fang "It's a pending decision."
         Po "That makes sense."
@@ -84,8 +99,7 @@ menu:
         Po "Eventually I snuck out and went to the ports."
         Po "I hoarded some stuff and went back to the school."
         Po "Anyway I'll tell the rest a little later."
-        Po "We have an interview here."
-        jump Beijing_chapter_one_uncle_interview_intention
+        Po "We have an \"interview\" here."
 
     "Nanking":
 
@@ -116,7 +130,6 @@ menu:
         Po "I could be a military strategist with this much analytical skill."
         "He gave a dry laugh."
         Po "Anyway lets get going with the questions."
-        jump Beijing_chapter_one_uncle_interview_intention
 
     "Kwangchow":
 
@@ -152,7 +165,6 @@ menu:
         Po "Glad to disagree Ku-hsien-sheng"
         "Professor Po flashed a smile and Uncle Ku teasignly."
         Gu "Let's get on with the questions."
-        jump Beijing_chapter_one_uncle_interview_intention
 
     "Hong-Kong":
 
@@ -182,7 +194,6 @@ menu:
         fang "Seems to be a unending habit."
         Po "you'll grow out of it I'm sure."
         Po "I wanted to go to the next question."
-        jump Beijing_chapter_one_uncle_interview_intention
 
     "Macau":
 
@@ -202,7 +213,6 @@ menu:
         Gu "I think it is a safe place that you should consider returning to."
         Gu "Your hometown seem to be out of harms way and strife."
         Gu "I suggest you go back to your family and try to prepare what to do next."
-        jump Beijing_chapter_one_uncle_interview_intention
 
     "Taiwan":
 
@@ -212,10 +222,19 @@ menu:
         fang "I'm from Taiwan"
         Gu "From the foreign devils themself."
         "He chuckles"
-        Gu "They won't mess with you then i guess."
-        jump Beijing_chapter_one_uncle_interview_intention
+        Gu "They won't mess with you then I guess."
+        Po "Out of curiosity..."
+        Po "How have the Japanese run Taiwan?"
+        menu:
+            "Pretty Well":
+                pass
+            "I guess alright":
+                pass
+            "Not that good":
+                pass
 
-label Beijing_chapter_one_uncle_interview_intention:
+
+
 Po "So what are you doing in Peiping right now?"
 
 menu:
@@ -251,7 +270,6 @@ menu:
         Po "So I guess you should head back."
         Po "I think your family will need you more."
         "He looked down at his papers as he dipped the brush back into a clay pot of ink and scribed some details on a creased paper."
-        jump Beijing_chapter_one_uncle_interview_religion
 
     "Working as a scholarly apprentice under my uncle":
         $ is_apprentice = True
@@ -265,7 +283,6 @@ menu:
         Po "Comments like that will get you in high places."
         fang "Thank you"
         Po "anyway..."
-        jump Beijing_chapter_one_uncle_interview_religion
 
     "Working here to send money back home.":
         $ is_working = True
@@ -284,7 +301,6 @@ menu:
         "This summer I had saved up enough to return home again."
         fang "yes, it is sufficient I would say."
         Po "That is great to hear"
-        jump Beijing_chapter_one_uncle_interview_religion
 
     "Taking a break after military conscription training":
        $ is_free = True
@@ -307,19 +323,21 @@ menu:
        fang "Thanks to him I don't have to become a war child."
        "Professor Po turns towards Uncle Ku as well."
        Po "{i}Pèifú{/i}{nw}"
-       $ persistent.unlocked.append('Pèifú')
-       $ msg.msg("New word added to glossary.")
+       if not persistent.Peifu:
+           $ persistent.unlocked.append('Pèifú')
+           $ msg.msg("New word added to glossary.")
+           $ persistent.Peifu = True
+       if persistent.Peifu:
+            $ msg.msg("This word is already in the glossary")
        "He had raised his {i}Máotái{/i} with both hands to show his appreciation."
-       "You should stay away from the military. {w}You're too young for that life.{w=1.0}"
+       "You should stay away from the military. {w}You're too young for that life."
        Po "You're also too young to watch me drink {i}Máotái{/i}"
        "He gave a hearty chuckle. His face was red from the alcohol."
        "He dipped his brush into the little clay pot of abyss-like ink."
        "You couldn't see it spin like water. It was fascinating."
        "He removed the brush and began to scribe onto his piece of paper once again."
        Po "I will lie and state that you were discharged by injury."
-       jump Beijing_chapter_one_uncle_interview_religion
 
-label Beijing_chapter_one_uncle_interview_religion:
 Po "What belief system do you follow?"
 
 menu:
@@ -351,20 +369,37 @@ menu:
        "Prossor Po smirked."
        Po "The things you say become more interesting as I get more drunk."
        "Professor Po seemed to dip his brush more sloppily and scribe less cautiously."
-       "I wondered if he was capable of asking another question."
+       Po "Fillial Piety..."
+       "I hope he didn't broach the subject."
+       "The fact that he wasn't sober meant that there was a chance he would bring up a topic I didn't like..."
+       Po "But isn't it, like, ummm, uhh..."
+       Gu "Lets get back to the itnerview."
+       Gu "Now is not the time to discuss such matters."
+       Po "bu-{nw}"
+       Gu "Come on,"
+       Gu "The poor boy has been so patient."
+       Gu "Let's not waste his time."
+       Gu "It's important to him to leave fast and unite with his family."
+       Po "What f-{nw}"
+       Gu "Just understand."
+       "Uncle Gu had expertly steered the conversation away despite Professor Po's drunk demeanor manifesting."
+       "In regards to professor Po, I wondered if he was capable of asking another question."
        "I hope he would have enough capaicity to finish to interview before he became too drunk."
-       "I wanted to finish this quickly for the sake of decision making."
-       "Every second I'm here feels more dangerous."
-       "Perhaps I', prone to overthinking but I just wanted to leave Peiping."
+       "Every second I'm here... it feels more dangerous."
+       "Perhaps I'm prone to overthinking but I just wanted to leave Peiping."
        "I don't have the strength to persist through violence."
+       "Nor do I have time to indulge in my personal family matters."
+       "I would have asked Uncle Ku why he ever told Professor Po something that was supposed to be so personal to me."
+       "To an extent this did piss me off."
+       "Truth is these days things like total war are a biger worry than some petty gossip."
        Po "Fang!"
        if stress >0:
             Po "You dozed off again."
             Po "I used to be like that too."
-            Po "I think you overthink a bit don't you?"
+            Po "I think you retreat into your thoguths a bit don't you?"
             Po "You need to calm down."
-            Po "This was you can think better and clearly."
-            Po "Hence decision making will be easier."    
+            Po "Overthing is bad."
+            Po "This was you can think better and clearly."    
        else:
             Po "Stay alert a litte bit longer then you go think about whatever you want."
             Po "I'm doing my best as well."
@@ -988,7 +1023,7 @@ elif Fang_from_Guangzhou:
             Gh "Can you help me read and write at least?"
             "I could see his eyes looking teary."
             "He was ashamed of himself."
-            Gh "I don't want to fall behind."
+            Gh "I just want to be able to keep up with everyone else."
             "He whispered it, so quietly it could float and be carried by the wind indefinately."
             "At this rate I can't make a choice."
             "I have an oppurtunity."
@@ -1144,8 +1179,6 @@ label Beijing_1_GH_afterward:
     "There was nothing to say."
     "It was a bit awkward but it was difficult to articulate conversation."
     "I don't have in the slightest an idea of what to do."
-    $ timer_jump = "GH_Beijing_busy"
-    show screen countdown
     menu:
         "Keep conversing with Guo Heng.":
             hide countdown
@@ -1176,9 +1209,8 @@ label GH_Beijing_busy:
     "Guo Heng was now slaving away in his kitchen once again."
     "I stood up and walked outside and began to think."
     menu:
-        "Catch up on work for school." if is_student and not catchupworkschool:
+        "Catch up on work for school." if is_student:
             $ activities_left += -1
-            $ catchupworkschool = True
             "I seemed to have a lot of work left."
             "Normally I would be in the urban districts of Peiping where you could see people from all places gather."
             "Even the Japanese across the Marco-Polo Bridge."
@@ -1253,24 +1285,191 @@ label GH_Beijing_busy:
                 Gu "I honestly intend to help you."
                 Gu ""
 
-
-
-        "Go to Cheung's silk-house to work" if is_working:
+        "Visit the village temple":
             $ activities_left += -1
-            "Uncle Cheung's silk house was an extraordinary beauty."
-            "The type poets die away trying to express on paper."
-            "In the house full of buckling wooden levers and rods were colorful rags hanging down like the dress of an angel."
-            "A lake of dye would sit in the middle where one would use it to well...{nw}"
-            "dye clothes."
-            "Uncle Cheung's silk house wasn't too far from Guo Heng's shop."
-            "It was on the way back home but diverging from the brothel."
+            " Visiting the village temple was an opportunity to calm myself down and think about life."
+            "I'd often get to sit and think."
+            "It was almost as quite as the libraries in Peking University."
+            "The temple wasn't far from Guo's noddle shop."
+            "I began to amble to my destination."
+            "The temple had been around since the inception of the village."
+            "It was the oldest unchanged object in this whole place."
+            "It is rumored that the village was built by rich landowning elites in the Ming dynasty."
+            "It would make sense to see why this village is prosperous more than most."
+            "Apart from that there is also a gilded reputation of this place."
+            "It is prosperous but on the backs of laborers and rural wanderers or military deserters."
+            "People like {i}Ma Shih{/i} often hired these desperate people for cheap and made them do things well beyond their pay."
+            "It's no rumor that a few times a month the newly hired workers on his farm are either hospitalized or were seen running away."
+            "Lao Chang used to work for Ma Shih's father who was a complete opposite in fact."
+            "Lao Chang deifies that man because of him Lao Chang had a place to stay and never felt an empty stomach for 15 or so years."
+            "Then he died and his cheap cruel son took over the farm and made it much more sinister."
+            "Its a thought that keeps me up at night."
+            "Maybe it's why these poor dis-empowered people turn to communism."
+            "After all why defend something that oppresses you?"
+            "As I keep walking other thoughts amble into my mind."
+            if Fang_from_Beijing:
+                "This temple in front of me."
+                "Its the only temple I've been to in a commitment sense."
+                "I've been living with Uncle Ku here for about 6 months to be closer to Peking university and to reconnect with the \"Ancestral land\"."
+                ""
+            elif Fang_from_Nanjing:
+                ""
+            elif Fang_from_Guangzhou:
+                ""
+            elif Fang_from_Macau:
+                "In Macau the Ma Kok temple is beautiful."
+                "It brings me back to the beautiful days of being in Macau."
+                "Tonnes of boats, kind Portuguese, Patua families."
+                "Life was safer..."
+                "If I had stayed in Macau and gotten a chance to attend a school in Portugal I wonder where I would be now."
+                "Would I be criticizing Salazar?"
+                "Become an activist for the Spanish civil war?"
+                "God knows."
+                "I sure as hell wouldn't be out here on the front line of a total war between two stubborn nations."
+                "While Peking university is prestigious and honorable I would have wanted something better."
+                "Something less pathetic than this option in life."
+                "I didn't hate my \"Ancestral Land\" just that I didn't feel safe on it."
+                "If I had tried to phrase this a neutral as I could Uncle Ku would be prepared to raise his fist."
+                "To Uncle Ku, his rule was simple."
+                "Principles first...{w}people second."
+                "My heart longed for Macau."
+                "It was a guilty feeling nonetheless."
+            elif Fang_from_Taiwan:
+                ""
+            elif Fang_from_hong_kong:
+                "Back in Hong Kong my experience with temples were different."
+                if Buddhist:
+                    "The Po Lin monastery was a real piece of work."
+                    "Before 1924 everyone just called it \"the big hut\"."
+                    "The monastery has 3 statues of Buddha."
+                    "The three status represent states of time."
+                    "The Past."
+                    "The Present."
+                    "And of course the future."
+                    "It's a beautiful message."
+                    "The big hut also houses a lot of great Buddhist scriptures."
+                    "A place of true interest."
+                elif Taoist:
+                    "The Man-Mo temple was beautiful."
+                    "Man-Mo temples typically worship the god of civil and literature."
+                    "{i}Man-Cheong{/i}"
+                    "There are several of these types of temples back in Hong Kong."
+                    "I guess this explains why my essay writing skills became good enough to come to Peking University."
+                    "Most of the time I don't mind what the religious affiliation of a temple is."
+                    "I typically find them comforting."
+                    "It's like a place to heal wounds."
+                    "To think."
+                    "One tough days a visit to the temple typically just clears all my stress."
+                    "For me a visit it like meditating."
+                elif Christian:
+                    "Normally I would attend churches."
+                    "Alongside that I would attend temples."
+                    "I would spend time walking around Buddhist or Taoist temples."
+                    "Anything temple I came across."
+                    "It was calming."
+                    "Something about it attracted me to it."
+                    "Most of the time I was allowed this when i was young."
+                    "As I got older they became more strict about this sort of stuff."
+                    "Beliefs grow on you with age."
+                    "Like hairs on your skin."
+                    "For some reason that did not apply to me."
+                "I knelt down and kept my eyes closed."
+                "I was so calm I could hear my own heartbeat."
+                $ msg.msg("You feel calm")
+                $ stress = 0
+                monk "How are you feeling?"
+                "I opened my eyes once more."
+                monk "You seem much more calm than when you entered this place."
+                if Buddhist:
+                    "A monk wearing the orange robes was standing in front of me with a gentle smile."
+                elif Taoist:
+                    "A monk wearing the Taoist robes was standing in front of me with a inviting smile."
+                monk "I'm glad to see that."
+                "The monk turns around and orders a temple worker something in a foreign language."
+                monk "Don't take offense to that."
+                monk "I speak in my dialect."
+                monk "I just told him to bring you some water."
+                monk "This temple is just as much of a house for me and him."
+                monk "That's why all visitors are treated as guests."
+                monk "I would just like to request we do not entertain ourselves to discussion here."
+                monk "It's a place of worship."
+                fang "Ah.. Sure."
+                monk "Thanks for understanding."
+                "I follow the Monk into a small room."
+                if buddhist:
+                    monk "That room there is my {i}Parivena.{/i}"
+                elif taoist:
+                    monk "That room there is my quarters."
+                else:
+                    monk "That room there is my cell."
+                monk "This place was donated to by Ma-Shih."
+                monk "I'm happy that he is so generous to us."
+                monk "That man I asked to get water for you used to work for Ma-Shih."
+                monk "He took refuge here 2 winters ago."
+                monk "Ma-Shih fearing for his existence gave colossal donations to the temple as a result."
+                monk "I wonder if such acts bear one fruit."
+                monk "What would you think?"
+                menu:
+                    "People fear ruining their eternal afterlife.":
+                        fang "People do the wrong thing and try to make up for it."
+                        fang "I feel they don't realize it's better to just avoid doing the wrong thing."
+                        monk "Of course, I would agree with that."
+                        monk "Yet I could argue that the money from Ma-Shih to the temple allows that man to live safely and comfortably."
+                    "People are naturally selfish.":
+                        fang "They seem to act in self interest a lot of the time."
+                        fang "I think it's not fair that one can be cruel and then expect to be free from their consequence."
+                        monk "You aren't wrong there."
+                        monk "But did you ever think he gave up something that enabled him material power? A portion of wealth?"
+                    "In the end it doesn't matter, it's better to live nicer when alive.":
+                        fang "Death is absolute so who really knows the meaning of justice in the afterlife?"
+                        fang "Maybe people get judged differently from what we comprehend."
+                        monk "I like that point of yours."
 
-        "Visit Shuang-lin temple":
-            $ activities_left += -1
-            call templevisit from _call_templevisit
-        "Go home":
-            call confirm_day_1_go_home from _call_confirm_day_1_go_home
-        
+                monk "Such thoughts shouldn't plague ones mind."
+                monk "Allowing things to be carried on your shoulders mentally is what creates the burden and worrying we want to run away from."
+                monk "I don't know your story."
+                monk "I don't know why you came in here looking so upset before your \"prayer\"."
+                monk "I'm glad you have subdued your frustrations."
+                monk "but you must learn to control them at will."
+                "The temple servant strolled in with a glass of water."
+                "I assume they had to use the temple well to get the water which would explain the wait."
+                monk "Do you recognize him?"
+                "I looked over at the fresh face of the temple servant."
+                fang "I'm afraid not."
+                monk "He is Ma-Wen. The son of Ma-Shih."
+                Mw "Namaste."
+                "He did a slight bow as he did this."
+                Mw "Have some water to drink."
+                fang "Sure.. Thank you."
+                Mw "You're welcome."
+                "I picked up the glass of water and drank it down to drown my sense of surprise."
+                Mw "Don't drink so fast."
+                "Ma Wen took a seat on the same bench as the Monk."
+                Mw "It's true, I am Ma-Shih's son."
+                jump MW_CONVO_1
+label MW_CONVO_1:
+    define MW_CONVO_1_taken_back = False
+    define MW_CONVO_1_run_away = False
+    define MW_CONVO_1_further_plans = False
+    define MW_CONVO_1_family = False
+    menu:
+        "Why hasn't he taken you back yet?" if not MW_CONVO_1_taken_back:
+            $ MW_CONVO_1_taken_back = True
 
+            jump MW_CONVO_1
+        "Why did you of all people run away?" if not MW_CONVO_1_run_away:
+            $ MW_CONVO_1_run_away = True
+
+            jump MW_CONVO_1
+        "What will you plan on doing further on?" if not MW_CONVO_1_further_plans:
+            $ MW_CONVO_1_further_plans = True
+            
+            jump MW_CONVO_1      
+        "What about the rest of your family?" if not MW_CONVO_1_family:
+            $ MW_CONVO_1_family = True
+
+            jump MW_CONVO_1
+        ">> So the temple is your new life?":
+            pass
 
 return

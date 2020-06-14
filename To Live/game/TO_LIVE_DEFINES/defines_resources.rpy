@@ -2,13 +2,9 @@
 
 
     #Splashscreen 
+    image note = "00_menu_images/_NOTE.png"
     image splash ="00_menu_images/slash.jpg"
-    image mal ="00_menu_images/mel.jpg"
-    image renpy_cred = "00_menu_images/_menu_renpy.png"
-    image warn ="00_menu_images/warn.gif"
-    image sunflower ="00_menu_images/sunflowers.png"
-    image darkthought ="00_menu_images/startup2.png"
-    image dt2 ="00_menu_images/startup 1.png" 
+    image renpy_cred = "00_menu_images/_menu_renpy.png" 
     image placeholder = "00_background/00_placeholder.png"
     define audio.act = "sounds/menu/select_flip.ogg"
 
@@ -22,6 +18,8 @@
     #Sounds
 
     define audio.sound_menu_logo = "sounds/menu/logo_sound.ogg"
+
+    define audio.interact = "sounds/menu/select_flip.ogg"
 
     define audio.ambience_tiben_bells = "sounds/ambience/00_tibetan_bells.wav"
     define audio.ambience_steps = "sounds/ambience/1937_Beijing_ambience_steps.ogg"

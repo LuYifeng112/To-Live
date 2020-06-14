@@ -679,3 +679,139 @@ translate chinesesim strings:
     old "Soviet Junta"
     new "苏联军政府"
 
+# TODO: Translation updated at 2020-06-09 14:03
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:164
+    old "Hopeh-Chahar Political Council"
+    new "冀察政务委员会"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:164
+    old "Sung Che Yuan"
+    new "宋哲元"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:164
+    old "Chairman of Hopeh-Chahar"
+    new "河北察哈尔省议会主席"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:173
+    old "People's Anti-Imperialist Association"
+    new "民众反帝联合会"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:175
+    old "Second East Turkestan Republic"
+    new "东突厥斯坦共和国"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:175
+    old "Elihan Tore"
+    new "伊丽汉·托"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:175
+    old "President of East Turkestan Republic"
+    new "东突厥斯坦共和国总统"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:175
+    old "Independance Uprising"
+    new "独立起义"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:175
+    old "East Turkestan Governemnt"
+    new "东突厥斯坦政府"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:176
+    old "Yunnan Anti-communist National Salvation Army"
+    new "云南人民反共志愿军第三军、第五军"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:176
+    old "Li Mi"
+    new "李弥"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:176
+    old "General of the Yunnan National Salvation Army"
+    new "云南省救国军将军"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:176
+    old "Nationalist Guerillas"
+    new "民族主义游击队"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:176
+    old "Nationalist Coalition"
+    new "民族主义者联盟"
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:177
+    old "Kuomintang Islamic Insurgency"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:177
+    old "General of the Islamic Insurgency"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:178
+    old "Kingdom of Ngolok"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:178
+    old "Ngolok Tribes"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:178
+    old "Ngolok Tibetan Insurgents"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:180
+    old "Provisional People's Committee for North Korea"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:180
+    old "Kim Il-Sung"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:180
+    old "Chairman of the Provisional Comittee"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:180
+    old "Provisional Military Government"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:181
+    old "United States Army Military Government in Korea"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:181
+    old "Archibald Vincent Arnold"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:181
+    old "Military Governer of Korea"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:181
+    old "United States"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:181
+    old "United State Army Military Government"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:188
+    old "United States of America"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:188
+    old "Franklin D Roosevelt"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:188
+    old "President of the United States"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:188
+    old "Isolationism"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:188
+    old "Democratic party"
+    new ""
+

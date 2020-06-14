@@ -3,9 +3,9 @@
 define config.mouse = { 'default' : [ ('GUI/00_cursor.png', 0, 0)] }
 
 init python:
-    splash_notification = "All dramatisized events, attitudes, characters and political orientations are representations of historical environments and situations do not reflect the beliefs or values of You Yu De Shi Jie or any known affiliates in the production of this visual novel.\nThese situations are presented as a representation of historical attitudes reactions and events and do not intend to harm or offend anyone.\n\nThis game is inspired by Yu Hua's \"To Live\" and uses a fictional character to centre around real historical events."
+    splash_notification = __("All dramatisized events, attitudes, characters and political orientations are representations of historical environments and situations do not reflect the beliefs or values of You Yu De Shi Jie or any known affiliates in the production of this visual novel.\nThese situations are presented as a representation of historical attitudes reactions and events and do not intend to harm or offend anyone.\n\nThis game is inspired by Yu Hua's \"To Live\" and uses a fictional character to centre around real historical contexts.")
 
-image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
+
 
 #starting time var
 default timeval = 971937
@@ -16,6 +16,8 @@ default chapter = 1
 default objective = ""
 default objective_scr = ""
 default subtext = ""
+
+
 
 #health
 default currenthp = 50
@@ -34,7 +36,7 @@ define Taoist = False
 define Buddhist = False
 define Christian = False
 define Yiguandao = False
-define religions = [ "Taoism", "Buddhism", "Christian", "Yiguandao", "Islam", "Shintoism", "Communism"]
+define religions = [ __("Taoism"), __("Buddhism"), __("Christian"), __("Yiguandao"), __("Islam"), __("Shintoism"), __("Communism")]
 #character
 define is_student = False
 define is_apprentice = False
@@ -100,13 +102,11 @@ style letter_eng is text:
 ##    ## ##        ##       ##     ## ##    ## ##     ## ##    ## ##    ## ##    ##  ##       ##       ##   ###
  ######  ##        ######## ##     ##  ######  ##     ##  ######   ######  ##     ## ######## ######## ##    ##
 label splashscreen:
-    #define num = renpy.random.randint(1, 3)
-    ##if persistent.timing ==0:
-    #    image menu_image = "00_menu_images/" + "1937_bookmark_intro_splash_"  + str(num) + ".png"
     $ _dismiss_pause = False
     $ mouse_visible = False
+    show note
+    with Pause(3)
     scene black
-    with Pause(1)
 
     play sound sound_menu_logo
     show splash with dissolve
@@ -121,7 +121,7 @@ label splashscreen:
     show placeholder
     $ renpy.movie_cutscene("00_menu_images/warn.ogv")
     scene black with dissolve
-    with Pause(3)
+    with Pause(2)
 
     $ mouse_visible = True
     $ _dismiss_pause = True
@@ -136,36 +136,34 @@ label splashscreen:
  ######  ##     ## ##     ## ##     ## ##     ##  ######     ##    ######## ##     ##  ######
 
 #Protagonist
-define fang = Character("Fang Jie", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
+define fang = Character(__("Fang Jie"), who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
 define narrator = Character(ctc="ctc_blink", ctc_position="nestled")
-define f = Character("The Father", who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define m = Character("The Mother", who_color="#0d00ff", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define v = Character("The Voices", who_color="#5b5963", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define f = Character(__("The Father"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define m = Character(__("The Mother"), who_color="#0d00ff", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define v = Character(__("The Voices"), who_color="#5b5963", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #MISC
 define un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define thought = Character(None, what_italic=True, what_alt="I think, [text]")
-define prostitute = Character("Chang San Brothel worker",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define prostitute = Character(__("Chang San Brothel worker"),what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #1937
-define Ab = Character("Ah Bai", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
-define Am = Character("Ah Mei", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
-define Ghe = Character("Guo He", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
-define Gh = Character("Guo Heng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
-define Gu = Character("Ku Hong-Meng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
-define Lc = Character("Lao Chang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc")
-define Li = Character("Li-Li", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Li")
-define Ls = Character("Li Tso-Shih", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ls")
-define Ly = Character("Lady Yang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ly")
-define Mw = Character("Ma Wen", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Mw")
-define Po = Character("Professor Po Yeutarng", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Po")
-define wyx = Character("Wang Yue Xiang", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define Xw = Character("Xiao Wen", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
-define Xwe = Character("Xiao Wei", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xwe")
-
-default Gh = 0
-default Ai = 0
+define Ab = Character(__("Ah Bai"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
+define Am = Character(__("Ah Mei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
+define Ghe = Character(__("Guo He"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
+define Gh = Character(__("Guo Heng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
+define Gu = Character(__("Ku Hong-Meng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
+define Lc = Character(__("Lao Chang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc")
+define Li = Character(__("Li-Li"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Li")
+define Ls = Character(__("Li Tso-Shih"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ls")
+define Ly = Character(__("Lady Yang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ly")
+define monk = Character(__("Monk"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="monk")
+define Mw = Character(__("Ma Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Mw")
+define Po = Character(__("Professor Po Yeutarng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Po")
+define wyx = Character(__("Wang Yue Hsiang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define Xw = Character(__("Xiao Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
+define Xwe = Character(__("Xiao Wei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xwe")
 
 #1937 Japanese
-define ai = Character("Ai", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="ai")
+define ai = Character(__("Yumi"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="ai")
 #1945
 
 
@@ -189,18 +187,6 @@ define ai = Character("Ai", what_prefix='"', what_suffix='"', ctc="ctc_blink", c
    ##          ##        ##   ##        ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##
    ##   ##     ## ##     ##   ##        ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##
  ######  #######   #######    ##        ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ##
-define phrase = renpy.random.choice(("one", "two", "three", "four", "five"))
-if phrase == "one":
-    define prologue = _("To have friends come from afar is happiness, is it not?\n -Confucious")
-elif phrase == "two":
-    define prologue = _("No matter if it is a white cat or a black cat; as long as it can catch mice, it is a good cat.\n -Sichuanese Proverb")
-elif phrase == "three":
-    define prologue = _("Piercing wind, freezing river of Yi. The hero fords, and he never returns!\n -Jing-Ke (failed Assassin of Emperor Qin Shi Huang")
-elif phrase == "four":
-    define prologue = _("A journey of a thousand miles begins with a single step.\n -Lao-Tzu")
-elif phrase == "five":
-    $ prologue = _("Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n     -Li Bai")
-
 label start:
     python:
         callbacks = {
@@ -266,64 +252,3 @@ label start:
     $ mouse_visible = True
     $ _dismiss_pause = True
     jump Beijing_chapter_one
-
-
-   ##    #######  ##        ########    ########   #######   #######  ##    ## ##     ##    ###    ########  ##    ##
- ####   ##     ## ##    ##  ##          ##     ## ##     ## ##     ## ##   ##  ###   ###   ## ##   ##     ## ##   ##
-   ##   ##     ## ##    ##  ##          ##     ## ##     ## ##     ## ##  ##   #### ####  ##   ##  ##     ## ##  ##
-   ##    ######## ##    ##  #######     ########  ##     ## ##     ## #####    ## ### ## ##     ## ########  #####
-   ##          ## #########       ##    ##     ## ##     ## ##     ## ##  ##   ##     ## ######### ##   ##   ##  ##
-   ##   ##     ##       ##  ##    ##    ##     ## ##     ## ##     ## ##   ##  ##     ## ##     ## ##    ##  ##   ##
- ######  #######        ##   ######     ########   #######   #######  ##    ## ##     ## ##     ## ##     ## ##    ##
-#label 1945_chinese_civil_war:
-
-    #return
-
-
-
-########  ########    ###    ######## ##     ##
-##     ## ##         ## ##      ##    ##     ##
-##     ## ##        ##   ##     ##    ##     ##
-##     ## ######   ##     ##    ##    #########
-##     ## ##       #########    ##    ##     ##
-##     ## ##       ##     ##    ##    ##     ##
-########  ######## ##     ##    ##    ##     ##
-label fang_death_monolouge:
-scene black with dissolve
-with Pause(2)
-"Death"
-$ renpy.notify("You have passed away.")
-"You can feel your body slipping away in the dust."
-"Your lungs expelling its final breaths."
-"The world is becoming slower...{nw}"
-"{fast}or is your life ending faster?{nw}"
-"but something burns in you."
-"A flame that cannot be extenguished."
-return
-if buddhist:
-    "Just agree to struggle by stating \"Agneepath\""
-    $ agree_choice = _("Ageneepath")
-elif taoist:
-    "Just agree to struggle by stating \"Neidan\""
-    $ agree_choice = _("Neidan")
-elif christian:
-    "Just agree to struggle by stating \"Resurrection\""
-    $ agree_choice = _("Resurrection")
-else:
-    "Just agree to struggle by stating \"I accept\""
-    $ agree_choice = _("I accept")
-
-menu:
-    "[agree_choice!t]":
-        "Excellant"
-        $ renpy.notify("You are being resurrected")
-        $ recent_save = renpy.newest_slot(r"\d+")
-
-
- #######  ##     ## #### ########
-##     ## ##     ##  ##     ##
-##     ## ##     ##  ##     ##
-##     ## ##     ##  ##     ##
-##  ## ## ##     ##  ##     ##
-##    ##  ##     ##  ##     ##
- ##### ##  #######  ####    ##

@@ -1,37 +1,50 @@
 default nation = None
 
+
 screen political_menu():
     tag menu
     default quote = renpy.random.choice(TL_quotes)
+    default leader = renpy.random.choice(TL_leader_pic)
 
     key "K_SPACE" action ShowMenu(main_menu)
     key "K_TAB" action ShowMenu(main_menu)
     key "K_ESCAPE" action Return()
     key "o" action Return()
-    key "n" action ShowMenu('guo_map')
-    key "1" action ShowMenu('guo_map')
     key "g" action ShowMenu('glossary')
     key "p" action ShowMenu('poems')
-    key "l" action ShowMenu('historical_event_log')
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
-    key "4" action ShowMenu('historical_event_log')
 
     add "#141414"
 
-    text "[objective]" xalign 0.05 yalign 0.05 size 20 font "fonts/eng_moria/MoriaCitadel.ttf" at slant
-    text "[subtext]" xalign 0.07 yalign 0.15 size 12 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_st
-    text "[quote]" xpos 45 yalign 1.1 size 15 font "fonts/eng_moria/MoriaCitadel.ttf" color "#000000" at slant_q
-    text __("Pause") xalign 0.4 size 55 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_title
+    text "[objective]" xalign 0.05 yalign 0.05 size 20 font "fonts/eng_moria/MoriaCitadel.ttf" at slant antialias True
+    text "[subtext]" xalign 0.07 yalign 0.15 size 12 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_st antialias True
+    text "[quote]" xpos 45 yalign 1.1 size 15 font "fonts/eng_moria/MoriaCitadel.ttf" color "#FFFFFF" at slant_q antialias True
+    text __("Pause") xalign 0.4 size 55 kerning -1 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_title antialias True
+    add leader xalign 0.55 yalign 0.45
 
-    textbutton __("National Map") xalign 0.9 yalign 0.45 action ShowMenu('guo_map') at am_map
-    textbutton __("Historical Event Log") xalign 0.91 yalign 0.55 action ShowMenu('historical_event_log') at am_hist
-    textbutton __("Save Game") xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left
-    textbutton __("Load Game") xalign 0.3 yalign 0.45 action ShowMenu('load') at ambient_left
-    textbutton __("Dialogue History") xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left
-    textbutton __("Main Menu") xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left
-    textbutton __("Character profiles") xalign 0.92 yalign 0.65 at am_ch
-    textbutton __("Resistance Journal") xalign 0.93 yalign 0.75 at am_res
+    if not main_menu:
+        textbutton __("Main Menu") xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left:
+            keyboard_focus True    
+        textbutton __("Save Game") xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left:
+            keyboard_focus True
+            keysym "s"
+    textbutton __("Dialogue History") xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left:
+        keyboard_focus True
+        keysym "h"
+    textbutton __("Load Game") xalign 0.3 yalign 0.45 action ShowMenu('main_menu') at ambient_left:
+        keyboard_focus True
+    textbutton __("National Map") xalign 0.9 yalign 0.56 action ShowMenu('guo_map') at am_map:
+        keyboard_focus True
+        keysym "n"
+    textbutton __("Historical Event Log") xalign 0.91 yalign 0.65 action ShowMenu('historical_event_log') at am_hist:
+        keyboard_focus True
+        keysym "l"
+    
+    
+    
+    
+    
 
 screen fang_character():
     tag menu
@@ -49,6 +62,7 @@ screen fang_character():
 
 screen guo(): 
     tag menu
+    modal True
     default vbox_button_is_hovered = False
     key "K_SPACE" action ShowMenu(main_menu)
     key "K_TAB" action ShowMenu(main_menu)
@@ -74,66 +88,92 @@ screen guo():
         style "gm_root"
         add "#141414"
     viewport:
-        xysize (config.screen_width, config.screen_height)
-        child_size (2000, 1100)
+        xpos 0 ypos 110 xsize 300 ysize 700
         draggable True
-        edgescroll (200, 200)
+        mousewheel True
+        pagekeys True
+        edgescroll (130, 130)
         showif vbox_button_is_hovered:
             vbox spacing 15:
                 at fader
                 for n in TL_GUO:
                     if n.IsActive:
                         textbutton n.name:
+                            keyboard_focus True
                             action SetVariable("nation", n)                    
-    text [nation.name] xalign 0.5 ypos 10 size 40 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_guo_name:
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-            size 60
-        elif _preferences.language == "chinese":
-            font "fonts/chi_genkai/Genkaimincho.ttf"
-            size 60
-    text [nation.leader] xalign 0.25 yalign 0.2 size 25 font "fonts/eng_moria/MoriaCitadel.ttf":
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-            size 45
-        elif _preferences.language == "chinese":
-            font "fonts/chi_genkai/Genkaimincho.ttf"
-            size 45
-    text [nation.leadersub] xalign 0.28 yalign 0.25 size 13 font "fonts/eng_moria/MoriaCitadel.ttf":
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-            size 30
-        elif _preferences.language == "chinese":
-            font "fonts/chi_genkai/Genkaimincho.ttf"
-            size 30
-    text [__("Government Type:")]+[nation.politicalID] xalign 0.9 yalign 0.45 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-            size 40
-        elif _preferences.language == "chinese":
-            font "fonts/chi_weidong/wts11.ttf"
-            size 40
-    text [__("Political Alignment:")]+[nation.AlignmentID] xalign 0.9 yalign 0.5 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-            size 40
-        elif _preferences.language == "chinese":
-            font "fonts/chi_weidong/wts11.ttf"
-            size 40
-    text [__("Ruling Party:")]+[nation.rulingparty] xalign 0.9 yalign 0.55 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-            size 40
-        elif _preferences.language == "chinese":
-            font "fonts/chi_weidong/wts11.ttf"
-            size 40
-    text [__("Alliances:")]+[nation.factionID] xalign 0.9 yalign 0.6 size 15 font "fonts/eng_moria/MoriaCitadel.ttf":
-        if _preferences.language == "chinesesim":
-            font "fonts/chi_cities/MaShanZheng-Regular.ttf" 
+    text [nation.name] xalign 0.5 ypos 10 at slant_guo_name:
+        if _preferences.language == None: 
             size 40 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            kerning 3
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_header"
         elif _preferences.language == "chinese":
-            font "fonts/chi_weidong/wts11.ttf"
-            size 40
+            style "chinese_header"
+    text [nation.leader] xalign 0.25 yalign 0.2:
+        if _preferences.language == None:
+            size 25 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            kerning 2
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_leader"
+        elif _preferences.language == "chinese":
+            style "chinese_leader"
+    text [nation.leadersub] xalign 0.28 yalign 0.25:
+        if _preferences.language == None:
+            size 13 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            kerning 0.5
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_sub"
+        elif _preferences.language == "chinese":
+            style "chiense_sub"
+    text [__("Government Type:")]+[nation.politicalID] xalign 0.9 yalign 0.45:
+        if _preferences.language == None:
+            size 15 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_text"
+        elif _preferences.language == "chinese":
+            style "chinese_text"
+    text [__("Political Alignment:")]+[nation.AlignmentID] xalign 0.9 yalign 0.5:
+        if _preferences.language == None:
+            size 15 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_text"
+        elif _preferences.language == "chinese":
+            style "chinese_text"
+    text [__("Ruling Party:")]+[nation.rulingparty] xalign 0.9 yalign 0.55: 
+        if _preferences.language == None:
+            size 15 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_text"
+        elif _preferences.language == "chinese":
+            style "chinese_text"
+    text [__("Alliances:")]+[nation.factionID] xalign 0.9 yalign 0.6:
+        if _preferences.language == None:
+            size 15 
+            color "#e0e0e0" 
+            font "fonts/eng_moria/MoriaCitadel.ttf"
+            antialias True
+        if _preferences.language == "chinesesim":
+            style "chinesesim_text"
+        elif _preferences.language == "chinese":
+            style "chinese_text"
     add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
     imagebutton:
         idle "gui/button_return_icon.png"
@@ -162,8 +202,6 @@ screen guo_map():
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
-    on "hide":
-        action Stop("music", fadeout=2.5)
     viewport:
         xysize (config.screen_width, config.screen_height)
         child_size (4040, 2230)
@@ -194,11 +232,19 @@ screen guo_map():
                 button:
                     xpos nx
                     ypos ny
-                    text q.name color "#000000" hover_color "#FF0000" size 20:
+                    sensitive n_map != False
+                    keyboard_focus True
+                    text q.name color "#000000" hover_color "#FF0000" size 20 kerning -2 style "mapon":
                         if _preferences.language == "chinesesim":
-                            font"fonts/chi_cities/MaShanZheng-Regular.ttf" 
+                            font"fonts/chi_cities/MaShanZheng-Regular.ttf"
+                            kerning -1 
                         elif _preferences.language == "chinese":
                             size 25
+                            kerning -1
+                        elif _preferences.language == "korean":
+                            size 25
+                            kerning -2
+                            font "fonts/kor_songmyung/SongMyung-Regular.ttf"
                     action [act, Stop("sound", fadeout=2.5), Show('guo')]
                 if not q.Port and not q.Capital:
                     add "gui/map_bullet.png" xpos q.x ypos q.y
@@ -208,6 +254,10 @@ screen guo_map():
                     add "gui/map_bullet_capital.png" xpos q.x ypos q.y
                 if q.Capital and q.Port:
                     add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+    on "show":
+        action Play("notify", "sounds/menu/select_flip.ogg", loop=False)
+    on "hide":
+        action Stop("music", fadeout=2.5)
                     
 screen glossary():
     default show_return = False
@@ -227,13 +277,6 @@ screen glossary():
         add "#000c" 
     text __("Glossary") size 40 xalign 0.5 ypos 20
     timer 3.0 action [SetScreenVariable("show_return", True)]
-    showif show_return:
-        showif return_button_img ==1:
-            add "00_keyboard_prompts/Dark/Keyboard_Black_2.png" xalign 0.9 yalign 0.1 at fader
-        showif return_button_img ==2:
-            add "00_keyboard_prompts/Dark/Keyboard_Black_G.png" xalign 0.9 yalign 0.1 at fader
-        showif return_button_img ==3:
-            add "00_keyboard_prompts/Dark/Keyboard_Black_Esc.png" xalign 0.9 yalign 0.1 at fader
     hbox spacing 200:
         viewport:
             xpos 50 ypos 100 xsize 300 ysize 500
@@ -278,8 +321,6 @@ screen poems():
             mousewheel True
             arrowkeys True
             vbox spacing 20:
-                # use sorted(glossary_dict.keys()) instead of glossary_dict
-                # to arrange the terms in alphabetic order
                 for poem in sorted(persistent.unlocked_poem):
                     textbutton poem:
                         action SetVariable("poem_display_desc", poem)

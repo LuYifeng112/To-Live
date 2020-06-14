@@ -3,7 +3,7 @@
 
 define config.name = _("To Live")
 define gui.show_name = False
-define config.version = "0.0.4"
+define config.version = "0.0.6"
 define gui.about = _("")
 define build.name = "ToLive"
 define config.autosave_on_quit = True

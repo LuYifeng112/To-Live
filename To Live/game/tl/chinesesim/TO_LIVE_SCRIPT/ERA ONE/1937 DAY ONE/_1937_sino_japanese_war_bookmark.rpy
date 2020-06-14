@@ -6308,3 +6308,1997 @@ translate chinesesim strings:
     old "Go home"
     new ""
 
+# TODO: Translation updated at 2020-06-09 14:03
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:45
+translate chinesesim Beijing_chapter_one_18e36b73:
+
+    # Gu "They won't harm civilians, they didn't back in {i}Tong-pei{/i}."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:54
+translate chinesesim Beijing_chapter_one_7981162e:
+
+    # Po "Well Let us start now."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:55
+translate chinesesim Beijing_chapter_one_adfdd8ca:
+
+    # Po "We have to know more about you to help you plan what to do for the upcoming events."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:56
+translate chinesesim Beijing_chapter_one_7e5dbfb1:
+
+    # Po "War's harsh isn't it?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:57
+translate chinesesim Beijing_chapter_one_b28b08cd:
+
+    # "Professor Po bit his lip and focussed on the blank piece of paper in front of him."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:58
+translate chinesesim Beijing_chapter_one_5d10b5e0:
+
+    # fang "Yeah it is..."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:59
+translate chinesesim Beijing_chapter_one_c4d78fcd:
+
+    # Po "Lets start off with being realistic."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:60
+translate chinesesim Beijing_chapter_one_0933b80e:
+
+    # Po "Your hometown."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:61
+translate chinesesim Beijing_chapter_one_a5708e11:
+
+    # Po "What is your background in terms of location?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:62
+translate chinesesim Beijing_chapter_one_0f823fec:
+
+    # Po "I know you and your family have moved places over the years..."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:63
+translate chinesesim Beijing_chapter_one_b641237d:
+
+    # Po "It's best to choose what is your go-to \"home\"."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:64
+translate chinesesim Beijing_chapter_one_480b8fb0:
+
+    # Po "Where is it most convenient for you to return home so you won't have any difficulty resettling or get bothered by Japanese?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:72
+translate chinesesim Beijing_chapter_one_f64a65aa:
+
+    # fang "I'm from Peiping"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:73
+translate chinesesim Beijing_chapter_one_4ceecee6:
+
+    # Gu "I'd suggest you move out of Peiping."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:74
+translate chinesesim Beijing_chapter_one_272b17bc:
+
+    # Gu "Yan'an is swarming with communists otherwise I would have recommended a temporary stay there."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:75
+translate chinesesim Beijing_chapter_one_602e3327:
+
+    # Gu "My best bet would be to send you to Tsingtao."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:76
+translate chinesesim Beijing_chapter_one_b39a2614:
+
+    # Po "I'd have to be agree with Ku-hsien-sheng"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:77
+translate chinesesim Beijing_chapter_one_9757f7d5:
+
+    # Gu "I have a shcolarly friend who can provide you with oppurtunities for work."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:78
+translate chinesesim Beijing_chapter_one_4e35239f:
+
+    # Gu "Tsingtao will be familiar to you."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:79
+translate chinesesim Beijing_chapter_one_2a919b1d:
+
+    # Po "What do you make of it?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:80
+translate chinesesim Beijing_chapter_one_4ca4d725:
+
+    # fang "It's a pending decision."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:81
+translate chinesesim Beijing_chapter_one_80524b50:
+
+    # Po "That makes sense."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:82
+translate chinesesim Beijing_chapter_one_02dbef87:
+
+    # Po "As of now both armies are mobilisng so there will be a lot of crossfire here at the inception of the war."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:83
+translate chinesesim Beijing_chapter_one_f95abddc:
+
+    # Po "Back in Da-ren when there was conflict I knew that I could possibly be in danger so I had to act quick."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:84
+translate chinesesim Beijing_chapter_one_563dd877:
+
+    # Po "I buckled down at my boarding school for a few weeks."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:85
+translate chinesesim Beijing_chapter_one_16360afb:
+
+    # Po "We waited and waited as the food came in slower and slower."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:86
+translate chinesesim Beijing_chapter_one_f4d70915:
+
+    # Po "It was scary but we didn't care about that."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:87
+translate chinesesim Beijing_chapter_one_3cc25b1a:
+
+    # Po "Everyone wanted to feel a full stomach again."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:88
+translate chinesesim Beijing_chapter_one_285bacaf:
+
+    # Po "Eventually I snuck out and went to the ports."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:89
+translate chinesesim Beijing_chapter_one_b574e10a:
+
+    # Po "I hoarded some stuff and went back to the school."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:90
+translate chinesesim Beijing_chapter_one_5c25d56b:
+
+    # Po "Anyway I'll tell the rest a little later."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:91
+translate chinesesim Beijing_chapter_one_48d45b74:
+
+    # Po "We have an interview here."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:98
+translate chinesesim Beijing_chapter_one_5a3a4cca:
+
+    # fang "I'm from Nanking"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:99
+translate chinesesim Beijing_chapter_one_f8f78b03:
+
+    # Gu "Well, the capital is a good place."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:100
+translate chinesesim Beijing_chapter_one_254b02d3:
+
+    # Gu "Nationalists would fight to the death to keep it safe."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:101
+translate chinesesim Beijing_chapter_one_ad1ab2c6:
+
+    # Gu "I doubt the Japanese would get that far to Nanking anyway."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:102
+translate chinesesim Beijing_chapter_one_d60980d5:
+
+    # Po "I doubt it too. I can't predict how the war will go, but the capital city will be heavily defended."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:103
+translate chinesesim Beijing_chapter_one_93586bfe:
+
+    # Gu "Your hometown seem to be out of harms way and strife."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:104
+translate chinesesim Beijing_chapter_one_3042fbe9:
+
+    # Po "The only issue is that it's close to Shanghai."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:105
+translate chinesesim Beijing_chapter_one_e7138c55:
+
+    # fang "What's wrong with that?"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:106
+translate chinesesim Beijing_chapter_one_0d146a2d:
+
+    # Po "It's an international settlement area."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:107
+translate chinesesim Beijing_chapter_one_eb59710e:
+
+    # Po "After the Opium wars and the onset of unequal treaties an international zone was established."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:108
+translate chinesesim Beijing_chapter_one_b03936e3:
+
+    # Po "It's under Kuomintang sovereignty but areas of it are allocated to the French, British etc."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:109
+translate chinesesim Beijing_chapter_one_31f1f41f:
+
+    # Po "While the Japanese don't have any legal right that I'm aware of they have an \"unofficial settelemt\" in Kongkew."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:110
+translate chinesesim Beijing_chapter_one_dee41914:
+
+    # Po "It's called \"Little Tokyo\"."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:111
+translate chinesesim Beijing_chapter_one_0f985d2c:
+
+    # Po "That means Shanghai is the gateway to Chinese territory."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:112
+translate chinesesim Beijing_chapter_one_2c026cf5:
+
+    # Po "If you're going to be in Nanking you have to be aware of that."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:113
+translate chinesesim Beijing_chapter_one_23c6bff7:
+
+    # Po "They might as well just leap frog the legal framework of the Shanghai International Zone."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:114
+translate chinesesim Beijing_chapter_one_93e81bb6:
+
+    # Po "War is chaotic and often..."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:115
+translate chinesesim Beijing_chapter_one_3a16f42c:
+
+    # Po "Unpredictable."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:116
+translate chinesesim Beijing_chapter_one_7a77f310:
+
+    # "Uncle Ku has listened with extreme curisoity."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:117
+translate chinesesim Beijing_chapter_one_d665a2bf:
+
+    # "It seemed this was the first time he had learnt about the legal status of Shanghai."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:118
+translate chinesesim Beijing_chapter_one_5b1c9e97:
+
+    # fang "That's so interesting."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:119
+translate chinesesim Beijing_chapter_one_1de4af17:
+
+    # Po "I could be a military strategist with this much analytical skill."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:120
+translate chinesesim Beijing_chapter_one_03a5fbdb:
+
+    # "He gave a dry laugh."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:121
+translate chinesesim Beijing_chapter_one_3f994f98:
+
+    # Po "Anyway lets get going with the questions."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:128
+translate chinesesim Beijing_chapter_one_725562ed:
+
+    # fang "I'm from Kwangchow"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:129
+translate chinesesim Beijing_chapter_one_d4a7a31f:
+
+    # Gu "Under Chen Chi-Tang?"
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:130
+translate chinesesim Beijing_chapter_one_2c564340:
+
+    # Gu "I wonder if he can survive or General Chiang will have to bail him out."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:131
+translate chinesesim Beijing_chapter_one_7d1d302f:
+
+    # Gu "I think you're safe there, besides you'll fit in there more that here."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:132
+translate chinesesim Beijing_chapter_one_93586bfe_1:
+
+    # Gu "Your hometown seem to be out of harms way and strife."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:133
+translate chinesesim Beijing_chapter_one_e066f5b6:
+
+    # fang "Guangzhou is under Chiang's direct rule now."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:134
+translate chinesesim Beijing_chapter_one_23c084c3:
+
+    # Gu "Oh really?"
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:135
+translate chinesesim Beijing_chapter_one_e65ff6a7:
+
+    # Po "Didn't he take control about a year ago?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:136
+translate chinesesim Beijing_chapter_one_71aa2917:
+
+    # Po "I'm not so up to date with that."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:137
+translate chinesesim Beijing_chapter_one_11e9f7c8:
+
+    # fang "Yes that's true."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:138
+translate chinesesim Beijing_chapter_one_f2e97a4e:
+
+    # Po "The south is diverse isn't it?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:139
+translate chinesesim Beijing_chapter_one_7167f3ac:
+
+    # "Porfessor Po has this rhetoric that made him interesting to listen to."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:140
+translate chinesesim Beijing_chapter_one_b2444729:
+
+    # Po "Can you speak Cantonese?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:141
+translate chinesesim Beijing_chapter_one_c9d3281d:
+
+    # fang "Yes I can."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:142
+translate chinesesim Beijing_chapter_one_a9ca1a43:
+
+    # Po "I think it's a beautiful language."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:143
+translate chinesesim Beijing_chapter_one_78af48f6:
+
+    # "Uncle Ku made a smirk."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:144
+translate chinesesim Beijing_chapter_one_4672a245:
+
+    # Gu "No offense Po-Hsian-Sheng, I prefer Mandarin."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:145
+translate chinesesim Beijing_chapter_one_d527419d:
+
+    # "Professor Po flashed a surprised face."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:146
+translate chinesesim Beijing_chapter_one_1de9208a:
+
+    # Po "How so?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:147
+translate chinesesim Beijing_chapter_one_165bb866:
+
+    # Gu "In Cantonese there are many more tones."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:148
+translate chinesesim Beijing_chapter_one_e35f5168:
+
+    # Gu "Mandarin only has four."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:149
+translate chinesesim Beijing_chapter_one_7a01bdb0:
+
+    # Gu "I also believe in focussing on a vernacular language."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:150
+translate chinesesim Beijing_chapter_one_74cac819:
+
+    # Po "Acceptable views I guess."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:151
+translate chinesesim Beijing_chapter_one_d5122e05:
+
+    # Po "But I don't realise how these points prove Cantonese is not a beautiful language."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:152
+translate chinesesim Beijing_chapter_one_eac8c6b4:
+
+    # Po "The diveristy in tones make it much more rhythmic."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:153
+translate chinesesim Beijing_chapter_one_13179f9d:
+
+    # Gu "To each their own."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:154
+translate chinesesim Beijing_chapter_one_0fa1ddaa:
+
+    # Po "Glad to disagree Ku-hsien-sheng"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:155
+translate chinesesim Beijing_chapter_one_35d18710:
+
+    # "Professor Po flashed a smile and Uncle Ku teasignly."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:156
+translate chinesesim Beijing_chapter_one_3346e42e:
+
+    # Gu "Let's get on with the questions."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:163
+translate chinesesim Beijing_chapter_one_1e35d872:
+
+    # fang "I'm from Hong-Kong"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:164
+translate chinesesim Beijing_chapter_one_9231bd50:
+
+    # Po "It is a good place."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:165
+translate chinesesim Beijing_chapter_one_bf3dcb97:
+
+    # Po "The British may be a bit foreign to us mainlanders but at least their territories aren't at risk of being involved in a war."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:166
+translate chinesesim Beijing_chapter_one_93586bfe_2:
+
+    # Gu "Your hometown seem to be out of harms way and strife."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:167
+translate chinesesim Beijing_chapter_one_9f8a99d8:
+
+    # Po "I take it you are fluent in English?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:168
+translate chinesesim Beijing_chapter_one_220093ab:
+
+    # fang "Yes, that is true."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:169
+translate chinesesim Beijing_chapter_one_98093170:
+
+    # Po "Do you read the bible in Cantonese as well?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:170
+translate chinesesim Beijing_chapter_one_84ad2450:
+
+    # fang "Yes we have it in many languages."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:171
+translate chinesesim Beijing_chapter_one_eb41d97b:
+
+    # Po "It's nice to learn about the other places in this country."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:172
+translate chinesesim Beijing_chapter_one_27564383:
+
+    # Po "It's so diverse."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:173
+translate chinesesim Beijing_chapter_one_ea7c9fc5:
+
+    # Po "Each place seemes to teach you something new."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:174
+translate chinesesim Beijing_chapter_one_fdd0f819:
+
+    # "I seem to agree with it also."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:175
+translate chinesesim Beijing_chapter_one_5ce31e67:
+
+    # "Alot of cities in China are pockets of intenrational influence from Hong-Kong to Macau to Shanghai etc."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:176
+translate chinesesim Beijing_chapter_one_4745b5e6:
+
+    # "At times two people in the same country feel alien to each other."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:177
+translate chinesesim Beijing_chapter_one_b09edfba:
+
+    # "No wonder there's so much divisions in our society."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:178
+translate chinesesim Beijing_chapter_one_a88b3656:
+
+    # "So many warlords and independant states."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:179
+translate chinesesim Beijing_chapter_one_d463037e:
+
+    # Po "Fang!"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:180
+translate chinesesim Beijing_chapter_one_9990c1d7:
+
+    # "I sat up qucikly and faced Professor Po."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:181
+translate chinesesim Beijing_chapter_one_3d7a7b32:
+
+    # Po "You dozed out."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:183
+translate chinesesim Beijing_chapter_one_cbef447f:
+
+    # fang "Seems to be a unending habit."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:184
+translate chinesesim Beijing_chapter_one_1459168b:
+
+    # Po "you'll grow out of it I'm sure."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:185
+translate chinesesim Beijing_chapter_one_e0f7a843:
+
+    # Po "I wanted to go to the next question."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:192
+translate chinesesim Beijing_chapter_one_f14847bf:
+
+    # fang "I'm from Macau"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:193
+translate chinesesim Beijing_chapter_one_ba28c024:
+
+    # Gu "A place that won't get thrashed by war."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:194
+translate chinesesim Beijing_chapter_one_2a8f6958:
+
+    # Gu "Portugese don't involve themselves in wars."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:195
+translate chinesesim Beijing_chapter_one_3a020593:
+
+    # Gu "Plus they let Chiense culture flourish unlike the Guizi in Hong Kong."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:196
+translate chinesesim Beijing_chapter_one_0406ad44:
+
+    # "Uncle Ku has a strong bias for Macao, he disliked how the British ran Hong Kong and prefered Portugese ruled Macao."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:197
+translate chinesesim Beijing_chapter_one_9c6772bb:
+
+    # Gu "Some people are born lucky I guess."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:198
+translate chinesesim Beijing_chapter_one_1d27846f:
+
+    # Po "Will you go ahead and start gambling?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:199
+translate chinesesim Beijing_chapter_one_0bc2060a:
+
+    # Po "Gambling is like water in Macao. A {i}necessity{/i}."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:200
+translate chinesesim Beijing_chapter_one_6c3a3c86:
+
+    # "Professor Po gave a laugh about it."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:201
+translate chinesesim Beijing_chapter_one_57c334fb:
+
+    # "Uncle Gu did not approve of gambling but laughed at this joke regardless."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:202
+translate chinesesim Beijing_chapter_one_5f3e6b25:
+
+    # Gu "I think it is a safe place that you should consider returning to."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:203
+translate chinesesim Beijing_chapter_one_93586bfe_3:
+
+    # Gu "Your hometown seem to be out of harms way and strife."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:204
+translate chinesesim Beijing_chapter_one_fcd6b284:
+
+    # Gu "I suggest you go back to your family and try to prepare what to do next."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:211
+translate chinesesim Beijing_chapter_one_aca559de:
+
+    # fang "I'm from Taiwan"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:212
+translate chinesesim Beijing_chapter_one_f30014a9:
+
+    # Gu "From the foreign devils themself."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:213
+translate chinesesim Beijing_chapter_one_7c978644:
+
+    # "He chuckles"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:214
+translate chinesesim Beijing_chapter_one_16ce5b87:
+
+    # Gu "They won't mess with you then I guess."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:215
+translate chinesesim Beijing_chapter_one_d1c2d634:
+
+    # Po "Out of curiosity..."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:216
+translate chinesesim Beijing_chapter_one_0d5bb890:
+
+    # Po "How have the Japanese run Taiwan?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:227
+translate chinesesim Beijing_chapter_one_b0fd8a53:
+
+    # Po "So what are you doing in Peiping right now?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:236
+translate chinesesim Beijing_chapter_one_4b858c87:
+
+    # "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 Determination; 3 Intellect and 2 Dexterity!{/color}{/font}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:237
+translate chinesesim Beijing_chapter_one_42d40347:
+
+    # fang "I came here to actually continue my education."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:238
+translate chinesesim Beijing_chapter_one_08466030:
+
+    # fang "I am staying with Uncle Ku since it is close to the facilities."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:239
+translate chinesesim Beijing_chapter_one_0b34abc7:
+
+    # Po "I doubt schools will run under foreign occupation."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:240
+translate chinesesim Beijing_chapter_one_a9e421bb:
+
+    # "Professor Po gave a faint grin."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:241
+translate chinesesim Beijing_chapter_one_fbd4821d:
+
+    # Po "Well classes won't."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:242
+translate chinesesim Beijing_chapter_one_4f933af7:
+
+    # "Professor Po raised his glass of {i}Máotái{/i} and took a sip."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:249
+translate chinesesim Beijing_chapter_one_b2045dbd:
+
+    # "He normally didn't drink heavily but Uncle Ku had handed him this as a token of thanks for visiting me."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:250
+translate chinesesim Beijing_chapter_one_1000e281:
+
+    # "Giving such an expensive drink symbolised Uncle Ku's gratitude."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:251
+translate chinesesim Beijing_chapter_one_860ae260:
+
+    # Po "Most students back in Dongbei would just live at the boarding school."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:252
+translate chinesesim Beijing_chapter_one_ca3e78a4:
+
+    # Po "They would not return to their families."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:253
+translate chinesesim Beijing_chapter_one_34a834fe:
+
+    # "He raised the cup of {i}Máotái{/i} to his lips but didn't take a sip. {w}As if something important crossed his mind.{w=1.2}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:254
+translate chinesesim Beijing_chapter_one_f822f239:
+
+    # Po "After the first month a few homesick students did in fact return."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:255
+translate chinesesim Beijing_chapter_one_1db3a19a:
+
+    # Po "No vandalism, no abusive powers and the old deposed emperor back on a throne."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:256
+translate chinesesim Beijing_chapter_one_ee15d83a:
+
+    # Po "Most parents made kids work back on the farms or their old shanty businesses while the Japanese and {i}Kang-te Pu Yi{/i} tried to get the old ways running again."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:257
+translate chinesesim Beijing_chapter_one_02a84750:
+
+    # "I could make out the sorrow in his face.{nw}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:258
+translate chinesesim Beijing_chapter_one_70ad8da6:
+
+    # "It seemed he made himself remember something he wished to forget."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:259
+translate chinesesim Beijing_chapter_one_2410257a:
+
+    # Po "So I guess you should head back."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:260
+translate chinesesim Beijing_chapter_one_a6dfca98:
+
+    # Po "I think your family will need you more."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:261
+translate chinesesim Beijing_chapter_one_364c73ce:
+
+    # "He looked down at his papers as he dipped the brush back into a clay pot of ink and scribed some details on a creased paper."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:268
+translate chinesesim Beijing_chapter_one_4ddb793f:
+
+    # "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 Intellect and 3 Dexterity!{/color}{/font}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:269
+translate chinesesim Beijing_chapter_one_51229248:
+
+    # fang "I am working as an apprentice to my Uncle."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:270
+translate chinesesim Beijing_chapter_one_b1231e59:
+
+    # Gu "The kid is quite dexterous."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:271
+translate chinesesim Beijing_chapter_one_580a465e:
+
+    # Gu "It's hard to believe he wasn't born without some miracle jade in the mouth story."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:272
+translate chinesesim Beijing_chapter_one_87dab2b1:
+
+    # Po "Comments like that will get you in high places."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:273
+translate chinesesim Beijing_chapter_one_1c0f9040:
+
+    # fang "Thank you"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:274
+translate chinesesim Beijing_chapter_one_d5398ea9:
+
+    # Po "anyway..."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:282
+translate chinesesim Beijing_chapter_one_1f43de87:
+
+    # "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 2 determination!{/color}{/font}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:283
+translate chinesesim Beijing_chapter_one_fa81d2fd:
+
+    # Po "what a hardworking kid."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:284
+translate chinesesim Beijing_chapter_one_f113ba68:
+
+    # Gu "I agree."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:285
+translate chinesesim Beijing_chapter_one_30fff828:
+
+    # "Uncle Ku nodded with professor Po."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:286
+translate chinesesim Beijing_chapter_one_80f86172:
+
+    # "They had seemed to be harmonious in their actions.. {w}{cps=*0.5}Like they were parts of the same piece...{/cps}{w=1.2}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:287
+translate chinesesim Beijing_chapter_one_c62084cf:
+
+    # Gu "This kind of attitude sculpts heroes and leaders."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:288
+translate chinesesim Beijing_chapter_one_9a258bb7:
+
+    # Po "You have probably saved enough now. Have you?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:289
+translate chinesesim Beijing_chapter_one_a54a105e:
+
+    # "Working at Cheung's silkhouse paid off well. It still does"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:290
+translate chinesesim Beijing_chapter_one_379c436b:
+
+    # "This summer I had saved up enough to return home again."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:291
+translate chinesesim Beijing_chapter_one_25f5d2b0:
+
+    # fang "yes, it is sufficient I would say."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:292
+translate chinesesim Beijing_chapter_one_a844b18f:
+
+    # Po "That is great to hear"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:302
+translate chinesesim Beijing_chapter_one_6b652316:
+
+    # "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity!{/color}{/font}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:303
+translate chinesesim Beijing_chapter_one_846f89f2:
+
+    # fang "I'm taking a break from military conscription training."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:304
+translate chinesesim Beijing_chapter_one_7a577177:
+
+    # Po "How come you weren't enlisted?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:305
+translate chinesesim Beijing_chapter_one_51096e9d:
+
+    # "Professor Po looks confused as he asks me this question."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:306
+translate chinesesim Beijing_chapter_one_d9268ef3:
+
+    # fang "I'm only sixteen years old as of now. I can be trained but I can't be enlisted to fight already."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:307
+translate chinesesim Beijing_chapter_one_8a711f57:
+
+    # Po "Your time of birth is lucky I guess."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:308
+translate chinesesim Beijing_chapter_one_573d339c:
+
+    # fang "I guess,{w}others were rounded up forcefully and marched to camps in chains."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:309
+translate chinesesim Beijing_chapter_one_8368484b:
+
+    # "I turn my head towards Uncle Ku"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:310
+translate chinesesim Beijing_chapter_one_3fadb12e:
+
+    # fang "Uncle Ku paid off the recruiters."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:311
+translate chinesesim Beijing_chapter_one_f9e87276:
+
+    # "He gives a smile back."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:312
+translate chinesesim Beijing_chapter_one_4e4162f5:
+
+    # fang "Thanks to him I don't have to become a war child."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:313
+translate chinesesim Beijing_chapter_one_601957c2:
+
+    # "Professor Po turns towards Uncle Ku as well."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:314
+translate chinesesim Beijing_chapter_one_42b05a8d:
+
+    # Po "{i}Pèifú{/i}{nw}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:321
+translate chinesesim Beijing_chapter_one_7a11fa82:
+
+    # "He had raised his {i}Máotái{/i} with both hands to show his appreciation."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:322
+translate chinesesim Beijing_chapter_one_b19260a9:
+
+    # "You should stay away from the military. {w}You're too young for that life."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:323
+translate chinesesim Beijing_chapter_one_117c2ee8:
+
+    # Po "You're also too young to watch me drink {i}Máotái{/i}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:324
+translate chinesesim Beijing_chapter_one_3bcd76dd:
+
+    # "He gave a hearty chuckle. His face was red from the alcohol."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:325
+translate chinesesim Beijing_chapter_one_fbc7a589:
+
+    # "He dipped his brush into the little clay pot of abyss-like ink."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:326
+translate chinesesim Beijing_chapter_one_f4494580:
+
+    # "You couldn't see it spin like water. It was fascinating."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:327
+translate chinesesim Beijing_chapter_one_d8538bb1:
+
+    # "He removed the brush and began to scribe onto his piece of paper once again."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:328
+translate chinesesim Beijing_chapter_one_be88bbd4:
+
+    # Po "I will lie and state that you were discharged by injury."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:330
+translate chinesesim Beijing_chapter_one_ae73c56f:
+
+    # Po "What belief system do you follow?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:335
+translate chinesesim Beijing_chapter_one_c4ab0ea2:
+
+    # Po "You seem to be clinging on the old ways."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:336
+translate chinesesim Beijing_chapter_one_37791e4c:
+
+    # "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:337
+translate chinesesim Beijing_chapter_one_5ca5df6d:
+
+    # "Bits of his face had manifested a gradient of red."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:338
+translate chinesesim Beijing_chapter_one_ad22454c:
+
+    # Po "I guess the Kuomintang did a good job reinforcing tradition."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:339
+translate chinesesim Beijing_chapter_one_e74da966:
+
+    # "He sipped one again. {w}{cps=*0.5}As if something was annoying him inside{/cps}."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:340
+translate chinesesim Beijing_chapter_one_9490f8d6:
+
+    # Po "Confucianism is a very old principle."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:343
+translate chinesesim Beijing_chapter_one_fc776471:
+
+    # Po "I...{w}{cps=*2}just don't see it going anywhere in the modern era.{/cps}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:344
+translate chinesesim Beijing_chapter_one_4c68cb64:
+
+    # "Uncle Ku looked at him strangely."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:345
+translate chinesesim Beijing_chapter_one_4cc742e0:
+
+    # Po "The \"New Life movement\" is an illusion."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:346
+translate chinesesim Beijing_chapter_one_d0a4be69:
+
+    # Po "I am not a \"communist\" {w}but I don't like the policies of the nationalists either."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:347
+translate chinesesim Beijing_chapter_one_9e5bf53e:
+
+    # "Professor Po seemed engrossed with his political beliefs."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:348
+translate chinesesim Beijing_chapter_one_5d0a560f:
+
+    # Po "I respect your beliefs {i}Xiǎo Fāng{/i} but...{nw}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:349
+translate chinesesim Beijing_chapter_one_c9638a51:
+
+    # Po "From a philosophical and political doctrine I dislike the state being an obstacle to modernism."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:350
+translate chinesesim Beijing_chapter_one_8a4c0e88:
+
+    # Gu "I could agree with that.{nw}"
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:351
+translate chinesesim Beijing_chapter_one_c4f5f6d4:
+
+    # Gu "In english they say something along the lines of \"seperation of church and state\"."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:352
+translate chinesesim Beijing_chapter_one_e1a1602b:
+
+    # Gu "Still, I persist, I believe in Confucianism."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:353
+translate chinesesim Beijing_chapter_one_eecbba54:
+
+    # Gu "It worked for 2000 years why can't it work for another 2000?"
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:354
+translate chinesesim Beijing_chapter_one_a7a93ef6:
+
+    # "Uncle Ku had seemed to have taken offence to Professor Po's anti-Confucian stance."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:355
+translate chinesesim Beijing_chapter_one_b2e3eaf5:
+
+    # fang "I have a neutral atttiude to Confucianism."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:356
+translate chinesesim Beijing_chapter_one_fba4572b:
+
+    # fang "I think some things work and some do not."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:357
+translate chinesesim Beijing_chapter_one_8ef3903f:
+
+    # fang "Fillial Piety is one of my core beliefs."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:358
+translate chinesesim Beijing_chapter_one_e2fb5818:
+
+    # "Prossor Po smirked."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:359
+translate chinesesim Beijing_chapter_one_89dc7d83:
+
+    # Po "The things you say become more interesting as I get more drunk."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:360
+translate chinesesim Beijing_chapter_one_0c3c6a30:
+
+    # "Professor Po seemed to dip his brush more sloppily and scribe less cautiously."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:361
+translate chinesesim Beijing_chapter_one_6c59878f:
+
+    # Po "Fillial Piety..."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:362
+translate chinesesim Beijing_chapter_one_06e9a82d:
+
+    # "I hope he didn't broach the subject."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:363
+translate chinesesim Beijing_chapter_one_6b0f5c1c:
+
+    # "The fact that he wasn't sober meant that there was a chance he would bring up a topic I didn't like..."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:364
+translate chinesesim Beijing_chapter_one_3799b005:
+
+    # Po "But isn't it, like, ummm, uhh..."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:365
+translate chinesesim Beijing_chapter_one_dc0143fa:
+
+    # Gu "Lets get back to the itnerview."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:366
+translate chinesesim Beijing_chapter_one_dedb198a:
+
+    # Gu "Now is not the time to discuss such matters."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:367
+translate chinesesim Beijing_chapter_one_ac2f16c8:
+
+    # Po "bu-{nw}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:368
+translate chinesesim Beijing_chapter_one_6379a9fe:
+
+    # Gu "Come on,"
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:369
+translate chinesesim Beijing_chapter_one_240ff0dc:
+
+    # Gu "The poor boy has been so patient."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:370
+translate chinesesim Beijing_chapter_one_33cc67b9:
+
+    # Gu "Let's not waste his time."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:371
+translate chinesesim Beijing_chapter_one_a7f3e13a:
+
+    # Gu "It's important to him to leave fast and unite with his family."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:372
+translate chinesesim Beijing_chapter_one_eb63bcfd:
+
+    # Po "What f-{nw}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:373
+translate chinesesim Beijing_chapter_one_92b4a0ac:
+
+    # Gu "Just understand."
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:374
+translate chinesesim Beijing_chapter_one_18f3dc69:
+
+    # "Uncle Gu had expertly steered the conversation away despite Professor Po's drunk demeanor manifesting."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:375
+translate chinesesim Beijing_chapter_one_c804412c:
+
+    # "In regards to professor Po, I wondered if he was capable of asking another question."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:376
+translate chinesesim Beijing_chapter_one_cfd40bfb:
+
+    # "I hope he would have enough capaicity to finish to interview before he became too drunk."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:377
+translate chinesesim Beijing_chapter_one_040c72c9:
+
+    # "Every second I'm here... it feels more dangerous."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:378
+translate chinesesim Beijing_chapter_one_afe11cba:
+
+    # "Perhaps I'm prone to overthinking but I just wanted to leave Peiping."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:379
+translate chinesesim Beijing_chapter_one_7bee335b:
+
+    # "I don't have the strength to persist through violence."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:380
+translate chinesesim Beijing_chapter_one_70eccf75:
+
+    # "Nor do I have time to indulge in my personal family matters."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:381
+translate chinesesim Beijing_chapter_one_ff3be3f6:
+
+    # "I would have asked Uncle Ku why he ever told Professor Po something that was supposed to be so personal to me."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:382
+translate chinesesim Beijing_chapter_one_2da4dfdb:
+
+    # "To an extent this did piss me off."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:383
+translate chinesesim Beijing_chapter_one_0dcfaf8e:
+
+    # "Truth is these days things like total war are a biger worry than some petty gossip."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:384
+translate chinesesim Beijing_chapter_one_d463037e_1:
+
+    # Po "Fang!"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:386
+translate chinesesim Beijing_chapter_one_17ef5589:
+
+    # Po "You dozed off again."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:387
+translate chinesesim Beijing_chapter_one_67a9e76b:
+
+    # Po "I used to be like that too."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:388
+translate chinesesim Beijing_chapter_one_6feceb9d:
+
+    # Po "I think you retreat into your thoguths a bit don't you?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:389
+translate chinesesim Beijing_chapter_one_e42e551b:
+
+    # Po "You need to calm down."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:390
+translate chinesesim Beijing_chapter_one_e9649bc9:
+
+    # Po "Overthing is bad."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:391
+translate chinesesim Beijing_chapter_one_a0678f30:
+
+    # Po "This was you can think better and clearly."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:393
+translate chinesesim Beijing_chapter_one_6d3f1e1c:
+
+    # Po "Stay alert a litte bit longer then you go think about whatever you want."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:394
+translate chinesesim Beijing_chapter_one_01bfacaa:
+
+    # Po "I'm doing my best as well."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:395
+translate chinesesim Beijing_chapter_one_acab1efc:
+
+    # Po "Let's keep going."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:396
+translate chinesesim Beijing_chapter_one_07b61d64:
+
+    # Gu "Wait,"
+    Gu ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:400
+translate chinesesim Beijing_chapter_one_be1bc4b9:
+
+    # Po "Ah...{w}{cps=*0.9}A fellow buddhist.{/cps}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:401
+translate chinesesim Beijing_chapter_one_37791e4c_1:
+
+    # "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:402
+translate chinesesim Beijing_chapter_one_5ca5df6d_1:
+
+    # "Bits of his face had manifested a gradient of red."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:403
+translate chinesesim Beijing_chapter_one_aa8b3b04:
+
+    # Po "Have you ever heard of {i}Dhammapada{/i}? {w}{cps=*1.5}the poem of Buddha awakening?{/cps}"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:408
+translate chinesesim Beijing_chapter_one_03059a99:
+
+    # Po "You being from Hong Kong I wouldn't be suprised at that perspective."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:409
+translate chinesesim Beijing_chapter_one_6cfe25a3:
+
+    # Po "Do you like listening to hymns?"
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:410
+translate chinesesim Beijing_chapter_one_f70df039:
+
+    # "Professor Po held his {i}Máotái{/i} up to the sunlight where he could see it tinker."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:411
+translate chinesesim Beijing_chapter_one_2e81d903:
+
+    # "I nodded back towards him."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:412
+translate chinesesim Beijing_chapter_one_99c5ec88:
+
+    # Po "I love latin choir and hymns."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:413
+translate chinesesim Beijing_chapter_one_e4b4246e:
+
+    # Po "It just moves me to the core."
+    Po ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1282
+translate chinesesim GH_Beijing_busy_dfd9b474:
+
+    # " Visiting the village temple was an opportunity to calm myself down and think about life."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1283
+translate chinesesim GH_Beijing_busy_ea896e7f:
+
+    # "I'd often get to sit and think."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1284
+translate chinesesim GH_Beijing_busy_95615e09:
+
+    # "It was almost as quite as the libraries in Peking University."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1285
+translate chinesesim GH_Beijing_busy_f965b6cb:
+
+    # "The temple wasn't far from Guo's noddle shop."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1286
+translate chinesesim GH_Beijing_busy_45162421:
+
+    # "I began to amble to my destination."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1287
+translate chinesesim GH_Beijing_busy_a314e4aa:
+
+    # "The temple had been around since the inception of the village."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1288
+translate chinesesim GH_Beijing_busy_1a1cdda0:
+
+    # "It was the oldest unchanged object in this whole place."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1289
+translate chinesesim GH_Beijing_busy_6f66fcd9:
+
+    # "It is rumored that the village was built by rich landowning elites in the Ming dynasty."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1290
+translate chinesesim GH_Beijing_busy_a1c0e808:
+
+    # "It would make sense to see why this village is prosperous more than most."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1291
+translate chinesesim GH_Beijing_busy_f587fdeb:
+
+    # "Apart from that there is also a gilded reputation of this place."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1292
+translate chinesesim GH_Beijing_busy_e03a250e:
+
+    # "It is prosperous but on the backs of laborers and rural wanderers or military deserters."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1293
+translate chinesesim GH_Beijing_busy_bdfb98ad:
+
+    # "People like {i}Ma Shih{/i} often hired these desperate people for cheap and made them do things well beyond their pay."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1294
+translate chinesesim GH_Beijing_busy_a4194bd3:
+
+    # "It's no rumor that a few times a month the newly hired workers on his farm are either hospitalized or were seen running away."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1295
+translate chinesesim GH_Beijing_busy_efb52af2:
+
+    # "Lao Chang used to work for Ma Shih's father who was a complete opposite in fact."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1296
+translate chinesesim GH_Beijing_busy_fa60a456:
+
+    # "Lao Chang deifies that man because of him Lao Chang had a place to stay and never felt an empty stomach for 15 or so years."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1297
+translate chinesesim GH_Beijing_busy_8038074f:
+
+    # "Then he died and his cheap cruel son took over the farm and made it much more sinister."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1298
+translate chinesesim GH_Beijing_busy_068ede16:
+
+    # "Its a thought that keeps me up at night."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1299
+translate chinesesim GH_Beijing_busy_ea988f6b:
+
+    # "Maybe it's why these poor dis-empowered people turn to communism."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1300
+translate chinesesim GH_Beijing_busy_2aab32f1:
+
+    # "After all why defend something that oppresses you?"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1301
+translate chinesesim GH_Beijing_busy_3d02b295:
+
+    # "As I keep walking other thoughts amble into my mind."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1303
+translate chinesesim GH_Beijing_busy_9a2c607d:
+
+    # "This temple in front of me."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1304
+translate chinesesim GH_Beijing_busy_750aa9f0:
+
+    # "Its the only temple I've been to in a commitment sense."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1305
+translate chinesesim GH_Beijing_busy_9bd36289:
+
+    # "I've been living with Uncle Ku here for about 6 months to be closer to Peking university and to reconnect with the \"Ancestral land\"."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1306
+translate chinesesim GH_Beijing_busy_0ae9bcd0:
+
+    # ""
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1308
+translate chinesesim GH_Beijing_busy_0ae9bcd0_1:
+
+    # ""
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1310
+translate chinesesim GH_Beijing_busy_0ae9bcd0_2:
+
+    # ""
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1312
+translate chinesesim GH_Beijing_busy_ecd92d8d:
+
+    # "In Macau the Ma Kok temple is beautiful."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1313
+translate chinesesim GH_Beijing_busy_b02c3949:
+
+    # "It brings me back to the beautiful days of being in Macau."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1314
+translate chinesesim GH_Beijing_busy_8ba770a6:
+
+    # "Tonnes of boats, kind Portuguese, Patua families."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1315
+translate chinesesim GH_Beijing_busy_d2964ee2:
+
+    # "Life was safer..."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1316
+translate chinesesim GH_Beijing_busy_86253d0f:
+
+    # "If I had stayed in Macau and gotten a chance to attend a school in Portugal I wonder where I would be now."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1317
+translate chinesesim GH_Beijing_busy_61819615:
+
+    # "Would I be criticizing Salazar?"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1318
+translate chinesesim GH_Beijing_busy_412851ef:
+
+    # "Become an activist for the Spanish civil war?"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1319
+translate chinesesim GH_Beijing_busy_c8f96caf:
+
+    # "God knows."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1320
+translate chinesesim GH_Beijing_busy_bd9486db:
+
+    # "I sure as hell wouldn't be out here on the front line of a total war between two stubborn nations."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1321
+translate chinesesim GH_Beijing_busy_9e9821f0:
+
+    # "While Peking university is prestigious and honorable I would have wanted something better."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1322
+translate chinesesim GH_Beijing_busy_7e57137c:
+
+    # "Something less pathetic than this option in life."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1323
+translate chinesesim GH_Beijing_busy_12bf6c3f:
+
+    # "I didn't hate my \"Ancestral Land\" just that I didn't feel safe on it."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1324
+translate chinesesim GH_Beijing_busy_bd005767:
+
+    # "If I had tried to phrase this a neutral as I could Uncle Ku would be prepared to raise his fist."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1325
+translate chinesesim GH_Beijing_busy_c327a23d:
+
+    # "To Uncle Ku, his rule was simple."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1326
+translate chinesesim GH_Beijing_busy_90a26a6c:
+
+    # "Principles first...{w}people second."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1327
+translate chinesesim GH_Beijing_busy_e81de76e:
+
+    # "My heart longed for Macau."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1328
+translate chinesesim GH_Beijing_busy_2dcd6e7f:
+
+    # "It was a guilty feeling nonetheless."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1330
+translate chinesesim GH_Beijing_busy_0ae9bcd0_3:
+
+    # ""
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1332
+translate chinesesim GH_Beijing_busy_6a84d0e8:
+
+    # "Back in Hong Kong my experience with temples were different."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1334
+translate chinesesim GH_Beijing_busy_eee0e936:
+
+    # "The Po Lin monastery was a real piece of work."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1335
+translate chinesesim GH_Beijing_busy_6cd82332:
+
+    # "Before 1924 everyone just called it \"the big hut\"."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1336
+translate chinesesim GH_Beijing_busy_2235edf6:
+
+    # "The monastery has 3 statues of Buddha."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1337
+translate chinesesim GH_Beijing_busy_4aec52b9:
+
+    # "The three status represent states of time."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1338
+translate chinesesim GH_Beijing_busy_4c8ac3ff:
+
+    # "The Past."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1339
+translate chinesesim GH_Beijing_busy_30ae8306:
+
+    # "The Present."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1340
+translate chinesesim GH_Beijing_busy_5c8b008b:
+
+    # "And of course the future."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1341
+translate chinesesim GH_Beijing_busy_77058bf1:
+
+    # "It's a beautiful message."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1342
+translate chinesesim GH_Beijing_busy_16413e6c:
+
+    # "The big hut also houses a lot of great Buddhist scriptures."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1343
+translate chinesesim GH_Beijing_busy_03abaa11:
+
+    # "A place of true interest."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1345
+translate chinesesim GH_Beijing_busy_282ee4cb:
+
+    # "The Man-Mo temple was beautiful."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1346
+translate chinesesim GH_Beijing_busy_d254319e:
+
+    # "Man-Mo temples typically worship the god of civil and literature."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1347
+translate chinesesim GH_Beijing_busy_ea3df024:
+
+    # "{i}Man-Cheong{/i}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1348
+translate chinesesim GH_Beijing_busy_7ddbc252:
+
+    # "There are several of these types of temples back in Hong Kong."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1349
+translate chinesesim GH_Beijing_busy_4b450920:
+
+    # "I guess this explains why my essay writing skills became good enough to come to Peking University."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1350
+translate chinesesim GH_Beijing_busy_da93d29f:
+
+    # "Most of the time I don't mind what the religious affiliation of a temple is."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1351
+translate chinesesim GH_Beijing_busy_499cd2b0:
+
+    # "I typically find them comforting."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1352
+translate chinesesim GH_Beijing_busy_e5531ac1:
+
+    # "It's like a place to heal wounds."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1353
+translate chinesesim GH_Beijing_busy_69c6e7a1:
+
+    # "To think."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1354
+translate chinesesim GH_Beijing_busy_20721cc4:
+
+    # "One tough days a visit to the temple typically just clears all my stress."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1355
+translate chinesesim GH_Beijing_busy_4fc3ea6f:
+
+    # "For me a visit it like meditating."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1357
+translate chinesesim GH_Beijing_busy_cfd234a7:
+
+    # "Normally I would attend churches."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1358
+translate chinesesim GH_Beijing_busy_c6bc3bd2:
+
+    # "Alongside that I would attend temples."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1359
+translate chinesesim GH_Beijing_busy_0bf441db:
+
+    # "I would spend time walking around Buddhist or Taoist temples."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1360
+translate chinesesim GH_Beijing_busy_7bc72d88:
+
+    # "Anything temple I came across."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1361
+translate chinesesim GH_Beijing_busy_b1cbfbb0:
+
+    # "It was calming."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1362
+translate chinesesim GH_Beijing_busy_adbea813:
+
+    # "Something about it attracted me to it."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1363
+translate chinesesim GH_Beijing_busy_ec9d517e:
+
+    # "Most of the time I was allowed this when i was young."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1364
+translate chinesesim GH_Beijing_busy_f84967e9:
+
+    # "As I got older they became more strict about this sort of stuff."
+    ""
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:217
+    old "Pretty Well"
+    new ""
+
+    # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:217
+    old "I guess alright"
+    new ""
+
+    # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:217
+    old "Not that good"
+    new ""
+
+    # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy:1202
+    old "Visit the village temple"
+    new ""
+

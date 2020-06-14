@@ -416,27 +416,27 @@ translate chinesesim strings:
 
     # renpy/common/00gui.rpy:374
     old "Are you sure?"
-    new ""
+    new "你确定吗？"
 
     # renpy/common/00gui.rpy:375
     old "Are you sure you want to delete this save?"
-    new ""
+    new "你确定删除存档吗？"
 
     # renpy/common/00gui.rpy:376
     old "Are you sure you want to overwrite your save?"
-    new ""
+    new "你确定覆盖存档吗？"
 
     # renpy/common/00gui.rpy:377
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new ""
+    new "读档后将失去当前进度。\n你确定吗？"
 
     # renpy/common/00gui.rpy:378
     old "Are you sure you want to quit?"
-    new ""
+    new "你确定要退出吗?"
 
     # renpy/common/00gui.rpy:379
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new ""
+    new "你确定返回主菜单吗？\n这样会丢失当前进度。"
 
     # renpy/common/00gui.rpy:380
     old "Are you sure you want to end the replay?"
@@ -444,15 +444,15 @@ translate chinesesim strings:
 
     # renpy/common/00gui.rpy:381
     old "Are you sure you want to begin skipping?"
-    new ""
+    new "你确定开始跳过吗？"
 
     # renpy/common/00gui.rpy:382
     old "Are you sure you want to skip to the next choice?"
-    new ""
+    new "你确定要跃至未读信息或下一选项吗？"
 
     # renpy/common/00gui.rpy:383
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new ""
+    new "你确定跃至下一选项吗？"
 
     # renpy/common/00keymap.rpy:267
     old "Failed to save screenshot as %s."
@@ -752,11 +752,11 @@ translate chinesesim strings:
 
     # renpy/common/_developer/developer.rpym:649
     old "✔ "
-    new ""
+    new "✔"
 
     # renpy/common/_developer/developer.rpym:652
     old "✘ "
-    new ""
+    new "✘ "
 
     # renpy/common/_developer/developer.rpym:657
     old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
@@ -916,7 +916,7 @@ translate chinesesim strings:
 
     # renpy/common/00gallery.rpy:615
     old "return"
-    new ""
+    new "返回"
 
     # renpy/common/00gltest.rpy:70
     old "Renderer"
@@ -952,7 +952,7 @@ translate chinesesim strings:
 
     # renpy/common/00gltest.rpy:145
     old "Framerate"
-    new ""
+    new "帧率"
 
     # renpy/common/00gltest.rpy:149
     old "Screen"
@@ -960,11 +960,11 @@ translate chinesesim strings:
 
     # renpy/common/00gltest.rpy:153
     old "60"
-    new ""
+    new "六十"
 
     # renpy/common/00gltest.rpy:157
     old "30"
-    new ""
+    new "三十"
 
     # renpy/common/00gltest.rpy:163
     old "Tearing"

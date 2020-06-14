@@ -336,7 +336,7 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:167
     old "Republic of China"
-    new ""
+    new "中華民国"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:167
     old "Chiang Chie Shih"
@@ -364,7 +364,7 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:168
     old "Chinese Soviet Republic"
-    new ""
+    new "中国ソビエト共和国"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:168
     old "Mao Tse-Tung"
@@ -388,7 +388,7 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:170
     old "Empire of Japan"
-    new ""
+    new "大日本帝国"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:170
     old "Emperor Hirohito"
@@ -416,7 +416,7 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:171
     old "Empire of Manchukuo"
-    new ""
+    new "満州国帝国"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:171
     old "Aisin Gioro Pu-Yi"
@@ -436,11 +436,11 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:172
     old "Reorganized National Government of the Republic of China"
-    new ""
+    new "中華民国南京国民政府"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:172
     old "Wang Ching-Wei"
-    new ""
+    new "汪兆銘"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:172
     old "Japanese Collaborationist Dictator"

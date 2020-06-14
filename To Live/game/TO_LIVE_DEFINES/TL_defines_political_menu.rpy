@@ -27,9 +27,70 @@ init python:
         __("Piercing wind,\nfreezing river of Yi.\nThe hero fords,\nand he never returns!\n -Jing-Ke (failed Assassin of Emperor Qin Shi Huang"),
         __("Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n -Li Bai")
     ]
+    TL_leader_pic = [
+        "country_leader/CHI_chiang_kai_shek.png"
+    ]
 
-    def P_quote(x):
-       x = renpy.random.choice(TL_quotes)
+ ######  ######## ##    ## ##       ########  ######  
+##    ##    ##     ##  ##  ##       ##       ##    ## 
+##          ##      ####   ##       ##       ##       
+ ######     ##       ##    ##       ######    ######  
+      ##    ##       ##    ##       ##             ## 
+##    ##    ##       ##    ##       ##       ##    ## 
+ ######     ##       ##    ######## ########  ######  
+
+style mapon is button:
+    activate_sound "sounds/menu/select_flip.ogg"
+
+style chinesesim_header is text:
+    antialias True
+    kerning 2
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 60
+
+style chinesesim_leader is text:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 45
+
+style chinesesim_sub is text:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 30
+
+style chinesesim_text is text:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 40
+
+style chinese_header is text:
+    antialias True
+    kerning 2
+    font "fonts/chi_weidong/wts11.ttf"
+    color "#848783"
+    size 60
+
+style chinese_leader is text:
+    antialias True
+    font "fonts/chi_weidong/wts11.ttf"
+    color "#848783"
+    size 45
+
+style chinese_sub is text:
+    antialias True
+    font "fonts/chi_weidong/wts11.ttf"
+    color "#e0e0e0"
+    size 30
+
+style chinese_text is text:
+    antialias True
+    font "fonts/chi_weidong/wts11.ttf"
+    color "#e0e0e0"
+    size 40
 
 ######## ########     ###    ##    ##  ######  ########  #######  ########  ##     ##  ######  
    ##    ##     ##   ## ##   ###   ## ##    ## ##       ##     ## ##     ## ###   ### ##    ## 
@@ -128,6 +189,7 @@ transform am_res:
         linear 5 yalign 0.74
         linear 4.95 yalign 0.76
         repeat
+
 
 
 #Country pages
