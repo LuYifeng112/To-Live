@@ -309,8 +309,6 @@ menu:
        $ Fang_dexterity = 4
        $ inventory.earn(30)
        $ current_money = inventory.money
-       play sound "sounds/stat_increase/00_stat_increase.ogg"
-       "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity!{/color}{/font}"
        fang "I'm taking a break from military conscription training."
        Po "How come you weren't enlisted?"
        "Professor Po looks confused as he asks me this question."
@@ -342,6 +340,7 @@ Po "What belief system do you follow?"
 
 menu:
     "Taoism and Confucianism":
+       $ fang.rel = "Taoism" 
        $ Taoist = True
        Po "You seem to be clinging on the old ways."
        "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
@@ -407,6 +406,7 @@ menu:
        Gu "Wait,"
        jump taoism_breakaway
     "Buddhism":
+       $ fang.rel = "Buddhism" 
        $ Buddhist = True
        Po "Ah...{w}{cps=*0.9}A fellow buddhist.{/cps}"
        "Professor Po sipped his {i}Máotái{/i} lightly before facing me."
@@ -414,6 +414,7 @@ menu:
        Po "Have you ever heard of {i}Dhammapada{/i}? {w}{cps=*1.5}the poem of Buddha awakening?{/cps}"
        jump buddhism_breakaway
     "Christianity":
+        $ fang.rel = "Christianity"
         $ Christian = True
         if Fang_from_hong_kong:
             Po "You being from Hong Kong I wouldn't be suprised at that perspective."
@@ -549,6 +550,8 @@ fang "They keep taking from us."
 Gu "I know..."
 "Uncle Ku didn't believe in violence,{w=1.0} he didn't feel the need to fight back."
 fang "Now we have a drunk, a looming war {fast}and what more!" with sshake
+$ Gu.mood = __("Upset")
+$ msg.msg("Ku did not like that.")
 "I had lost my composure."
 "I could see Uncle Ku's reaction to me lashing out after such a long time."
 "Pressure that had built up from everything had finally burst the bottle."
@@ -722,7 +725,7 @@ Lc "I guess that suits it."
 "This was because young or able men would get kidnapped by the Kuomintang army and chained and walked down to military headquarters to forcefully enlist."
 "These days the reports of Kuomintang barging and taking had gone down."
 "My shoes rubbed in the dirt pass as I ambled on."
-"In six months of residing in this district I had a memorised map of the place."
+"In 2 weekss of residing in this district I had started to memorise a map of the place."
 "There were a few facilities I was going to walk past."
 "The most interesting was the brothel."
 "The sex industry had grown in Manchuria and many boys would talk about it in the alley ways."
@@ -1135,8 +1138,8 @@ elif Fang_from_Beijing:
     fang "I am from Peiping."
     Gh "But you seem new to this place."
     "He was right."
-    "Despite the six months I had stayed here with Uncle Ku."
-    "I couldn't fit in."
+    "For only two weeks I had stayed here with Uncle Ku."
+    "I felt I couldn't fit in."
     "I never knew why..."
     fang "There's two reasons to explain that."
     fang "Firstly my family has a habit of moving across China for different jobs and oppurutunities."
@@ -1181,12 +1184,10 @@ label Beijing_1_GH_afterward:
     "I don't have in the slightest an idea of what to do."
     menu:
         "Keep conversing with Guo Heng.":
-            hide countdown
             $ activities_left = 2
             jump GH_dive_convo
 
         "Take leave":
-            hide countdown
             fang "I think its time I get moving."
             fang "I have a pending interview to undergo."
             fang "He should be coming to conduct it soon."
@@ -1411,16 +1412,19 @@ label GH_Beijing_busy:
                 monk "What would you think?"
                 menu:
                     "People fear ruining their eternal afterlife.":
+                        $ monk.eventlog.append("CONVO_1_fear_afterlife")
                         fang "People do the wrong thing and try to make up for it."
                         fang "I feel they don't realize it's better to just avoid doing the wrong thing."
                         monk "Of course, I would agree with that."
                         monk "Yet I could argue that the money from Ma-Shih to the temple allows that man to live safely and comfortably."
                     "People are naturally selfish.":
+                        $ monk.eventlog.append("CONVO_1_Cynical")
                         fang "They seem to act in self interest a lot of the time."
                         fang "I think it's not fair that one can be cruel and then expect to be free from their consequence."
                         monk "You aren't wrong there."
                         monk "But did you ever think he gave up something that enabled him material power? A portion of wealth?"
                     "In the end it doesn't matter, it's better to live nicer when alive.":
+                        $ monk.eventlog.append("CONVO_1_nihilism")
                         fang "Death is absolute so who really knows the meaning of justice in the afterlife?"
                         fang "Maybe people get judged differently from what we comprehend."
                         monk "I like that point of yours."
@@ -1452,24 +1456,121 @@ label MW_CONVO_1:
     define MW_CONVO_1_run_away = False
     define MW_CONVO_1_further_plans = False
     define MW_CONVO_1_family = False
+    define MW_CONVO_1_mother = False
+    define MW_CONVO_1_wealth = False
+    define MW_CONVO_1_attention = False
     menu:
         "Why hasn't he taken you back yet?" if not MW_CONVO_1_taken_back:
             $ MW_CONVO_1_taken_back = True
-
+            Mw "I thought he wouldn't care."
+            Mw "He's the type who doesn't bother anyway."
+            Mw "He did try, he sent some servants to convince me but I refused."
+            Mw "Did he lack the capacity to walk his own two feet to talk to me?"
+            Mw "After sending more people to talk to me and I keep refusing..."
+            Mw "He just gave up."
+            Mw "Just like that. In three days."
+            Mw "To be fair he lasted longer than I expected in trying to commit to his \"family\"."
+            Mw "He just donated lump sums of money so I could \"live comfortably\"."
+            Mw "I think it's his superstitions playing on his guilt."
+            Mw "That or.."
+            Mw "He just wants to remind me that I'm still depending on him."
+            Mw "I don't think he'll ever walk on his own two feet and respectfully ask me to return."
             jump MW_CONVO_1
         "Why did you of all people run away?" if not MW_CONVO_1_run_away:
             $ MW_CONVO_1_run_away = True
-
+            Mw "Just because I lived lavishly and didn't have to struggle for anything did not mean I wanted to live with some narcissist."
+            Mw "His attitude, behavior, constant escaping of laborers."
+            Mw "It builds up in your head."
+            Mw "In defiance of his controlling personality I just walked out."
+            Mw "Sometimes it's that simple to send a message to someone that dense."
             jump MW_CONVO_1
         "What will you plan on doing further on?" if not MW_CONVO_1_further_plans:
             $ MW_CONVO_1_further_plans = True
-            
+            Mw "Anything that keeps me away from him."
+            Mw "I'm trying not to use bad language to talk about that man after I picked up this new life."
+            Mw "If I could still curse, you wouldn't hear the end of it."
+            Mw "In the end, I can do anything I want."
+            Mw "I have a whole life ahead of me."
+            Mw "Becoming a farmer or a peasant for all I care."
+            Mw "As long I never see his face ever again I don't mind what I'm doing."
             jump MW_CONVO_1      
         "What about the rest of your family?" if not MW_CONVO_1_family:
             $ MW_CONVO_1_family = True
-
+            Mw "My mother died a few winters back."
+            Mw "The only place I see her are in my dreams."
+            Mw "I feel like it's punishment for not mourning her death for three years."
+            Mw "That was my responsibility as her son."
+            Mw "As for my siblings..."
+            Mw "They can go their own way."
+            Mw "They'll soon realize how toxic their \"Oh so precious father\" is."
+            Mw "I know they'll do that."
+            jump MW_CONVO_1
+        "What happened to your mother?" if not MW_CONVO_1_mother and MW_CONVO_1_family:
+            $ MW_CONVO_1_mother = True
+            Mw "I don't want to talk about it."
+            Mw "It's personal."
+            $ Mw.mood = "Offended"
+            $ Mw.bondp(-1)
+            $ Mw.eventlog.append("Ask Mother")
+            $ msg.msg("Ma-Wen didn't like that.")
+            jump MW_CONVO_1
+        "Was leaving behind so much wealth worth it?" if not MW_CONVO_1_wealth:
+            $ MW_CONVO_1_wealth = True
+            if MW_CONVO_1_run_away:
+                Mw "Didn't you hear what I said?"
+                Mw "Money doesn't feel nice when there's a narcissist pissing you off every second."
+                Mw "Pay more attention when I'm talking."
+                $ Mw.mood = "Offended"
+                $ Mw.bondp(-1)
+                $ MW_CONVO_1_attention = True
+                $ Mw.eventlog.append("Lacked Attention")
+                $ msg.msg("Ma-Wen didn't like that.")
+            else:
+                Mw "I wouldn't think twice if I had to do it again."
+                Mw "Life is much better off without him."
+                Mw "Wealth doesn't necessarily bring happiness now does it?"
             jump MW_CONVO_1
         ">> So the temple is your new life?":
             pass
+Mw "Yeah."
+Mw "I probably won't get an inheritance either."
+Mw "Nothing to return to."
+Mw "So I'm going to try and live a good life wherever I may be."
+monk "Quite the story."
+monk "I don't judge people so I took him in."
+monk "Different lives don't matter as long there is mutual respect."
+monk "When he came here, he was just like you."
+monk "Everyone has a struggle."
+monk "Listening to others will ease that feeling that no-one understands your burdens."
+monk "Stories are a window to empathy."
+"Ma Wen sat there unmoving."
+"He seemed eerily... stolid."
+monk "I'm here to talk if you want."
+monk "What about you Ma-Wen?"
+"Ma Wen looks up from the floor."
+Mw "I shoud attend to some duties."
+monk "I guess that's alright."
+if Mw.mood == "Offended":
+    "Ma Wen abruptly stands up and leaves the room."
+    "I could hear his heavy rapid footsteps hit the wooden floors until he stormed into the next room."
+    "I didn't realise I had angered him so much."
+    if MW_CONVO_1_mother:
+        monk "He's still hung up on the death of his mother."
+        monk "He was close to her."
+        monk "I don't even know what happened to his mother."
+        monk "He only talks of fond moments."
+    if MW_CONVO_1_attention:
+        fang "I should have also paid attention I guess."
+        fang "He was talking about something personal and I kept digging the wrong places."
+    $ MW_impression = __("Bad First Impression")
+else:
+    "Ma Wen ambled out the door."
+    "Despite that I could still feel his cloud of melancholy."
+    $ MW_impression = __("Netural First Impression")
+$ msg.msg("You made a [MW_impression] on Ma-Wen")
+monk "Don't overthink it."
+monk "It will take time for him to come to terms with these feelings."
+monk "Self hate is a poison in which time is its antidote."
+fang "I guess I can agree with that."
 
 return

@@ -4,6 +4,9 @@ init python:
     year = 1937
     timeofday = "Late Morning"
 
+style datetime is text:
+    font "fonts/eng_phat_grunge/PhatGrunge.ttf"
+
 define dayperiods = [ "Late Morning", "early afternoon", "dusk", "early night", "late night", "midnight", "early morning" ]
 
 transform cd_transform:

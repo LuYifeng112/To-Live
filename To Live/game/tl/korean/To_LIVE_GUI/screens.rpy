@@ -4,87 +4,87 @@ translate korean strings:
 
     # game/To_LIVE_GUI/screens.rpy:265
     old "Back"
-    new ""
+    new "되감기"
 
     # game/To_LIVE_GUI/screens.rpy:266
     old "History"
-    new ""
+    new "대사록"
 
     # game/To_LIVE_GUI/screens.rpy:267
     old "Skip"
-    new ""
+    new "넘기기"
 
     # game/To_LIVE_GUI/screens.rpy:268
     old "Auto"
-    new ""
+    new "자동진행"
 
     # game/To_LIVE_GUI/screens.rpy:269
     old "Save"
-    new ""
+    new "저장하기"
 
     # game/To_LIVE_GUI/screens.rpy:270
     old "Q.Save"
-    new ""
+    new "Q.저장"
 
     # game/To_LIVE_GUI/screens.rpy:271
     old "Q.Load"
-    new ""
+    new "Q.불러오기"
 
     # game/To_LIVE_GUI/screens.rpy:272
     old "Prefs"
-    new ""
+    new "설정"
 
     # game/To_LIVE_GUI/screens.rpy:314
     old "Start"
-    new ""
+    new "시작하기"
 
     # game/To_LIVE_GUI/screens.rpy:322
     old "Load"
-    new ""
+    new "불러오기"
 
     # game/To_LIVE_GUI/screens.rpy:324
     old "Preferences"
-    new ""
+    new "환경설정"
 
     # game/To_LIVE_GUI/screens.rpy:330
     old "Poems"
-    new ""
+    new "시"
 
     # game/To_LIVE_GUI/screens.rpy:332
     old "Pinyin GLossary"
-    new ""
+    new "병음 용어집"
 
     # game/To_LIVE_GUI/screens.rpy:336
     old "End Replay"
-    new ""
+    new "리플레이 끝내기"
 
     # game/To_LIVE_GUI/screens.rpy:342
     old "About"
-    new ""
+    new "작품정보"
 
     # game/To_LIVE_GUI/screens.rpy:347
     old "Help"
-    new ""
+    new "조작방법"
 
     # game/To_LIVE_GUI/screens.rpy:350
     old "Quit"
-    new ""
+    new "종료하기"
 
     # game/To_LIVE_GUI/screens.rpy:587
     old "Version [config.version!t]\n"
-    new ""
+    new "버전 [config.version!t]]\n"
 
     # game/To_LIVE_GUI/screens.rpy:676
     old "{#file_time}%A, %B %d %Y, %H:%M"
-    new ""
+    new "{#file_time}%Y년 %B %d일 %A, %H시 %M분"
 
     # game/To_LIVE_GUI/screens.rpy:676
     old "empty slot"
-    new ""
+    new "빈 칸"
 
     # game/To_LIVE_GUI/screens.rpy:693
     old "<"
-    new ""
+    new "<"
 
     # game/To_LIVE_GUI/screens.rpy:696
     old "{#auto_page}A"
@@ -96,35 +96,35 @@ translate korean strings:
 
     # game/To_LIVE_GUI/screens.rpy:705
     old ">"
-    new ""
+    new ">"
 
     # game/To_LIVE_GUI/screens.rpy:781
     old "Display"
-    new ""
+    new "화면 모드"
 
     # game/To_LIVE_GUI/screens.rpy:782
     old "Window"
-    new ""
+    new "창 화면"
 
     # game/To_LIVE_GUI/screens.rpy:783
     old "Fullscreen"
-    new ""
+    new "전체 화면"
 
     # game/To_LIVE_GUI/screens.rpy:787
     old "Rollback Side"
-    new ""
+    new "측면 되감기"
 
     # game/To_LIVE_GUI/screens.rpy:788
     old "Disable"
-    new ""
+    new "비활성화"
 
     # game/To_LIVE_GUI/screens.rpy:789
     old "Left"
-    new ""
+    new "화면 왼쪽 클릭"
 
     # game/To_LIVE_GUI/screens.rpy:790
     old "Right"
-    new ""
+    new "화면 오른쪽 클릭"
 
     # game/To_LIVE_GUI/screens.rpy:793
     old "Tracking"
@@ -152,223 +152,207 @@ translate korean strings:
 
     # game/To_LIVE_GUI/screens.rpy:804
     old "Laguages"
-    new ""
+    new "언어"
 
     # game/To_LIVE_GUI/screens.rpy:805
     old "English"
-    new ""
+    new "영어"
 
     # game/To_LIVE_GUI/screens.rpy:811
     old "Game Type"
-    new ""
+    new "게임 타입"
 
     # game/To_LIVE_GUI/screens.rpy:812
     old "Permanent Revolution"
-    new ""
+    new "영원한 혁명"
 
     # game/To_LIVE_GUI/screens.rpy:813
     old "Recite and Learn"
-    new ""
+    new "암송하고 배우다"
 
     # game/To_LIVE_GUI/screens.rpy:818
     old "Unseen Text"
-    new ""
+    new "읽지 않은 지문"
 
     # game/To_LIVE_GUI/screens.rpy:819
     old "After Choices"
-    new ""
+    new "선택지 이후"
 
     # game/To_LIVE_GUI/screens.rpy:820
     old "Transitions"
-    new ""
+    new "화면 전환 효과"
 
     # game/To_LIVE_GUI/screens.rpy:833
     old "Text Speed"
-    new ""
+    new "텍스트 속도"
 
     # game/To_LIVE_GUI/screens.rpy:837
     old "Auto-Forward Time"
-    new ""
+    new "자동 진행 시간"
 
     # game/To_LIVE_GUI/screens.rpy:844
     old "Music Volume"
-    new ""
+    new "배경음 음량"
 
     # game/To_LIVE_GUI/screens.rpy:851
     old "Sound Volume"
-    new ""
+    new "효과음 음량"
 
     # game/To_LIVE_GUI/screens.rpy:857
     old "Test"
-    new ""
+    new "테스트"
 
     # game/To_LIVE_GUI/screens.rpy:861
     old "Voice Volume"
-    new ""
+    new "음성 음량"
 
     # game/To_LIVE_GUI/screens.rpy:872
     old "Mute All"
-    new ""
+    new "모두 음소거"
 
     # game/To_LIVE_GUI/screens.rpy:989
     old "The dialogue history is empty."
-    new ""
+    new "대사가 없습니다."
 
-    # game/To_LIVE_GUI/screens.rpy:1059
+        # screens.rpy:1041
     old "Keyboard"
-    new ""
+    new "키보드"
 
-    # game/To_LIVE_GUI/screens.rpy:1060
+    # screens.rpy:1042
     old "Mouse"
-    new ""
+    new "마우스"
 
-    # game/To_LIVE_GUI/screens.rpy:1063
+    # screens.rpy:1045
     old "Gamepad"
-    new ""
+    new "게임패드"
 
-    # game/To_LIVE_GUI/screens.rpy:1076
+    # screens.rpy:1058
     old "Enter"
-    new ""
+    new "엔터(Enter)"
 
-    # game/To_LIVE_GUI/screens.rpy:1077
+    # screens.rpy:1059
     old "Advances dialogue and activates the interface."
-    new ""
+    new "대사 진행 및 UI (선택지 포함) 선택."
 
-    # game/To_LIVE_GUI/screens.rpy:1080
+    # screens.rpy:1062
     old "Space"
-    new ""
+    new "스페이스(Space)"
 
-    # game/To_LIVE_GUI/screens.rpy:1081
+    # screens.rpy:1063
     old "Advances dialogue without selecting choices."
-    new ""
+    new "대사를 진행하되 선택지는 선택하지 않음."
 
-    # game/To_LIVE_GUI/screens.rpy:1084
+    # screens.rpy:1066
     old "Arrow Keys"
-    new ""
+    new "화살표 키"
 
-    # game/To_LIVE_GUI/screens.rpy:1085
+    # screens.rpy:1067
     old "Navigate the interface."
-    new ""
+    new "UI 이동."
 
-    # game/To_LIVE_GUI/screens.rpy:1088
+    # screens.rpy:1070
     old "Escape"
-    new ""
+    new "이스케이프(Esc)"
 
-    # game/To_LIVE_GUI/screens.rpy:1089
+    # screens.rpy:1071
     old "Accesses the game menu."
-    new ""
+    new "게임 메뉴 불러옴."
 
-    # game/To_LIVE_GUI/screens.rpy:1092
+    # screens.rpy:1074
     old "Ctrl"
-    new ""
+    new "컨트롤(Ctrl)"
 
-    # game/To_LIVE_GUI/screens.rpy:1093
+    # screens.rpy:1075
     old "Skips dialogue while held down."
-    new ""
+    new "누르고 있는 동안 대사를 넘기기."
 
-    # game/To_LIVE_GUI/screens.rpy:1096
+    # screens.rpy:1078
     old "Tab"
-    new ""
+    new "탭(Tab)"
 
-    # game/To_LIVE_GUI/screens.rpy:1097
+    # screens.rpy:1079
     old "Toggles dialogue skipping."
-    new ""
+    new "대사 넘기기를 토글."
 
-    # game/To_LIVE_GUI/screens.rpy:1100
+    # screens.rpy:1082
     old "Page Up"
-    new ""
+    new "페이지 업(Page Up)"
 
-    # game/To_LIVE_GUI/screens.rpy:1101
+    # screens.rpy:1083
     old "Rolls back to earlier dialogue."
-    new ""
+    new "이전 대사로 롤백."
 
-    # game/To_LIVE_GUI/screens.rpy:1104
+    # screens.rpy:1086
     old "Page Down"
-    new ""
+    new "페이지 다운(Page Down)"
 
-    # game/To_LIVE_GUI/screens.rpy:1105
+    # screens.rpy:1087
     old "Rolls forward to later dialogue."
-    new ""
+    new "이후 대사로 롤포워드."
 
-    # game/To_LIVE_GUI/screens.rpy:1109
-    old "Toggles the visibility of the glossary tab to see what certain words mean."
-    new ""
-
-    # game/To_LIVE_GUI/screens.rpy:1113
+    # screens.rpy:1091
     old "Hides the user interface."
-    new ""
+    new "UI를 숨김."
 
-    # game/To_LIVE_GUI/screens.rpy:1116
-    old "Toggles the visibility of the historical events log tab to see what battles and events happen in the story to their real life counterparts."
-    new ""
-
-    # game/To_LIVE_GUI/screens.rpy:1119
-    old "Toggles the visibility of the National Map where you can see cities and information on the countries of the time period."
-    new ""
-
-    # game/To_LIVE_GUI/screens.rpy:1122
-    old "Toggles the visibility of the Poems Tab to see some poems you have unlocked throughout the game."
-    new ""
-
-    # game/To_LIVE_GUI/screens.rpy:1125
+    # screens.rpy:1095
     old "Takes a screenshot."
-    new ""
+    new "스크린샷 저장."
 
-    # game/To_LIVE_GUI/screens.rpy:1129
+    # screens.rpy:1099
     old "Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}."
-    new ""
+    new "{a=https://www.renpy.org/l/voicing}대사 읽어주기 기능{/a} 토글."
 
-    # game/To_LIVE_GUI/screens.rpy:1137
+    # screens.rpy:1105
     old "Left Click"
-    new ""
+    new "클릭"
 
-    # game/To_LIVE_GUI/screens.rpy:1141
+    # screens.rpy:1109
     old "Middle Click"
-    new ""
+    new "휠버튼 클릭"
 
-    # game/To_LIVE_GUI/screens.rpy:1145
+    # screens.rpy:1113
     old "Right Click"
-    new ""
+    new "우클릭"
 
-    # game/To_LIVE_GUI/screens.rpy:1149
+    # screens.rpy:1117
     old "Mouse Wheel Up\nClick Rollback Side"
-    new ""
+    new "휠 위로\n롤백 클릭"
 
-    # game/To_LIVE_GUI/screens.rpy:1153
+    # screens.rpy:1121
     old "Mouse Wheel Down"
-    new ""
+    new "휠 아래로"
 
-    # game/To_LIVE_GUI/screens.rpy:1160
+    # screens.rpy:1128
     old "Right Trigger\nA/Bottom Button"
-    new ""
+    new "오른쪽 트리거(RT)\nA버튼/아래 버튼"
 
-    # game/To_LIVE_GUI/screens.rpy:1164
+    # screens.rpy:1132
     old "Left Trigger\nLeft Shoulder"
-    new ""
+    new "왼쪽 트리거(LT)\n왼쪽 범퍼(LB)"
 
-    # game/To_LIVE_GUI/screens.rpy:1168
+    # screens.rpy:1136
     old "Right Shoulder"
-    new ""
+    new "오른쪽 범퍼(RB)"
 
-    # game/To_LIVE_GUI/screens.rpy:1173
+    # screens.rpy:1140
     old "D-Pad, Sticks"
-    new ""
+    new "D-Pad, 아날로그 스틱"
 
-    # game/To_LIVE_GUI/screens.rpy:1177
+    # screens.rpy:1144
     old "Start, Guide"
-    new ""
+    new "스타트 버튼/가이드 버튼"
 
-    # game/To_LIVE_GUI/screens.rpy:1181
+    # screens.rpy:1148
     old "Y/Top Button"
-    new ""
+    new "Y버튼/위 버튼"
 
-    # game/To_LIVE_GUI/screens.rpy:1184
+    # screens.rpy:1151
     old "Calibrate"
-    new ""
+    new "조정"
 
-    # game/To_LIVE_GUI/screens.rpy:1296
+    # screens.rpy:1263
     old "Skipping"
-    new ""
+    new "넘기는 중"
 
     # game/To_LIVE_GUI/screens.rpy:1510
     old "Menu"
@@ -384,7 +368,7 @@ translate korean strings:
 
     # game/To_LIVE_GUI/screens.rpy:1667
     old "To Live: The Struggle"
-    new ""
+    new "살다:투쟁"
 
     # game/To_LIVE_GUI/screens.rpy:1668
     old "Press Space to Continue"

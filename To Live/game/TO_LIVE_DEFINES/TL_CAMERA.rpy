@@ -636,7 +636,7 @@ screen _image_selecter(default):
 screen _selected_image(string):
     add string at truecenter
 
-screen _move_keyframes:
+screen _move_keyframes():
     modal True
     key "game_menu" action Hide("_move_keyframes")
     frame:

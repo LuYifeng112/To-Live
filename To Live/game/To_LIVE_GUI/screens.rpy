@@ -94,6 +94,13 @@ style frame:
 ## and id "window" to apply style properties.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
+image ctc_blink:
+       "GUI/ctc.png"
+       linear 0.5 alpha 1.0
+       pause 0.25
+       linear 0.5 alpha 0.0
+       pause 0.25
+       repeat
 
 screen say(who, what):
     style_prefix "say"
@@ -756,6 +763,10 @@ translate japanese python:
 
     gui.interface_text_font = "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
     gui.button_text_font = "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
+
+translate korean python:
+    gui.interface_text_font = "fonts/kor_songmyung/SongMyung-Regular.ttf"
+    gui.button_text_font = "fonts/kor_songmyung/SongMyung-Regular.ttf"
 screen preferences():
 
     tag menu
@@ -1610,11 +1621,6 @@ screen quit():
     textbutton __("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
     textbutton __("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return() keysym "K_ESCAPE"
 
-label TL_quit:
-    $ renpy.call_screen('quit')
-
-
-
 
 screen countdown():
     timer 1 repeat True action If(time > 0, true=SetVariable('time', time - 1), false=[Hide('countdown'), Jump(timer_jump)])
@@ -1693,17 +1699,3 @@ screen gamemodeTL():
         text __("             Revolution is permanent.\nAvailable Saves: One\nSavetype: Game Autosaves Only") size 20 xalign 0.5 yalign 0.5 at fader
     showif R_button_is_hovered:
         text __("              Take the time and learn the way.\nAvailable Saves: 40\nSavetype: Self save and autosave") size 20 xalign 0.5 yalign 0.15 at fader
-
-
-
-
-#EXAMPLE
-screen sample():
-    default button_is_hovered = False
-
-    textbutton "hoverable":
-        action NullAction()
-        hovered SetScreenVariable("button_is_hovered", True)
-        unhovered SetScreenVariable("button_is_hovered", False)
-    showif button_is_hovered:
-        text "button_text" at fader

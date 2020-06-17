@@ -4,53 +4,53 @@ translate korean strings:
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:25
     old "Pause"
-    new ""
+    new "중지"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:27
     old "National Map"
-    new ""
+    new "국가지도"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:28
     old "Historical Event Log"
-    new ""
+    new "역사적 사건 기록"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:29
     old "Save Game"
-    new ""
+    new "게임을 저장"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:30
     old "Load Game"
-    new ""
+    new "게임로드"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:31
     old "Dialogue History"
-    new ""
+    new "대화 역사"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:32
     old "Main Menu"
-    new ""
+    new "메인 메뉴"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:123
     old "Government Type:"
-    new ""
+    new "정부 유형:"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:133
     old "Political Alignment:"
-    new ""
+    new "정치적 정렬:"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:143
     old "Ruling Party:"
-    new ""
+    new "집권당"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:153
     old "Alliances:"
-    new ""
+    new "얼라이언스"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:256
     old "Glossary"
-    new ""
+    new "용어 사전"
 
     # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:329
     old "Historical Events"
-    new ""
+    new "역사적 사건들"
 

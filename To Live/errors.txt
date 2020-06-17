@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE/_1937_sino_japanese_war_bookmark.rpy", line 1455: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation.
-    menu:
-    ^
+File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 1: expected statement.
+    class chaos(object):
+               ^
+
+File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 7: expected statement.
+    class Char(object):
+              ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sun Jun 14 16:46:22 2020
+Tue Jun 16 23:53:25 2020

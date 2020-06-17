@@ -5,6 +5,12 @@ init:
     default result = seen * 100 / dialogue
 $ percent = __("Game Progress: [result]%")
 
+#Transition effect
+init:
+    $ flash = Fade(.25, 0, .75, color="#fff") #flash effect
+    $ noisedissolve = ImageDissolve(im.Tile("00_transitions/00_noise_effect.png"), 1.0, 1) #noise effect
+default sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
+
 #game Time
 init:
     default elap = renpy.get_game_runtime()
