@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/TO_LIVE_DEFINES/TL_Defines_misc.rpy", line 12, in script
-    $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
-  File "game/TO_LIVE_DEFINES/TL_Defines_misc.rpy", line 12, in <module>
-    $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
-NameError: name 'Shake' is not defined
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 1409, in script
+    $ inventory.additem(Work_Recommendation)
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 1409, in <module>
+    $ inventory.additem(Work_Recommendation)
+NameError: name 'Work_Recommendation' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/TO_LIVE_DEFINES/TL_Defines_misc.rpy", line 12, in script
-    $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 1409, in script
+    $ inventory.additem(Work_Recommendation)
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "game/TO_LIVE_DEFINES/TL_Defines_misc.rpy", line 12, in <module>
-    $ sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
-NameError: name 'Shake' is not defined
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 1409, in <module>
+    $ inventory.additem(Work_Recommendation)
+NameError: name 'Work_Recommendation' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.6
-Wed Jun 17 11:15:33 2020
+Sat Jun 20 17:28:35 2020

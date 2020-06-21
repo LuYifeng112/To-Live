@@ -1,4 +1,4 @@
-default chapter = 1
+default persistent.chapter = 1
 
 #OBJ
 default objective = ""
@@ -36,6 +36,7 @@ define character.Ly = Character(__("Lady Yang"), what_prefix='"', what_suffix='"
 define character.monk = Character(__("Monk"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="monk")
 define character.Mw = Character(__("Ma Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Mw")
 define character.Po = Character(__("Professor Po Yeutarng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Po")
+define character.wpc = Character(__("Wang P'u Ch'en"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="wpc")
 define character.wyx = Character(__("Wang Yue Hsiang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.Xw = Character(__("Xiao Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
 define character.Xwe = Character(__("Xiao Wei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xwe")
