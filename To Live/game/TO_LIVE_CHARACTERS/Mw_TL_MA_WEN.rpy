@@ -8,6 +8,7 @@ default Mw = Char(
     pol = None,
     rel = "Buddhism",
     traits = MaWen_traits,
+    skillset = MaWenSkills,
     eventlog = MaWenLog
     )
 define MaWen_traits = [
@@ -23,6 +24,9 @@ define MaWen_traits = [
   __("Short-Tempered"),
   __("Suppressed")
   ]
+define MaWenSkills = dict(
+
+  )
 define MaWenLog = [
   ]
 default MW_impression = None

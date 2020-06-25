@@ -1,4 +1,4 @@
-##     ##    ###    ########  ##      ##  #######  ########  ##    ## 
+###  ##      ##  #######  ########  ##    ## 
 ###   ###   ## ##   ##     ## ##  ##  ## ##     ## ##     ## ##   ##  
 #### ####  ##   ##  ##     ## ##  ##  ## ##     ## ##     ## ##  ##   
 ## ### ## ##     ## ########  ##  ##  ## ##     ## ########  #####    
@@ -10,6 +10,14 @@ default n_map = True
 
 init -10 python:          
     class GuoPlace(object):
+        '''
+        This is the class that creates map coordinate for the map.
+        - It consists of X,Y coordinates for placement.
+        - The city name that will be displayed in the text button.
+        - Whether that city is visible or accessible to show the country.
+        - A country specific ID that has to be the same as the Nation class.
+        - Port and Capital jus set map point visuals.
+        '''
         def __init__(self, x, y, name, IsActive, ID, Port, Capital):
             self.x = x
             self.y = y
@@ -17,7 +25,7 @@ init -10 python:
             self.IsActive = IsActive
             self.ID = ID
             self.Port = Port
-            self.Capital = Capital 
+            self.Capital = Capital
             devlog.info("{} ({}) successfull.".format(self.name, self.ID))
         def deact(self):
             self.IsActive = False
@@ -31,17 +39,20 @@ init -10 python:
             self.icon = icon
             
     class Nation(object):
+        '''
+        How countries are displayed. These are containers for information.
+        '''
         def __init__(self, name, ID, leader, leadersub, politicalID, AlignmentID, rulingparty, factionID, IsActive, dead, flagimg, info):
-            self.name = name
-            self.ID = ID
-            self.leader = leader
-            self.leadersub = leadersub
-            self.politicalID = politicalID
-            self.AlignmentID = AlignmentID
-            self.rulingparty = rulingparty
+            self.name = name                    #THe official name of the country.
+            self.ID = ID                        #A shortened ID to compare to the map point ID. This is a link.
+            self.leader = leader                
+            self.leadersub = leadersub          #The position of the leader of the country.
+            self.politicalID = politicalID      #Form of ideology and government.
+            self.AlignmentID = AlignmentID      #Which power does it align itself to? or ideology.
+            self.rulingparty = rulingparty      
             self.factionID = factionID
             self.IsActive = IsActive
-            self.dead = dead
+            self.dead = dead                    #Dead countries will display but you can track changes across time.
             self.flagimg = flagimg
             self.info = info
 
@@ -68,11 +79,18 @@ init -10 python:
         ##        ##     ##     ##  ######    ######  
         ##        ##     ##     ##  ##             ## 
         ##    ##  ##     ##     ##  ##       ##    ## 
-         ######  ####    ##    #### ########  ######    
+         ######  ####    ##    #### ########  ######  
+    '''
+    These two defines play around with map button sensitivity.
+    If we want to disable looking up the owner for a city say for a quiz then we can toggle it with these two function.
+    '''  
     def mapon():
         n_map = True
     def mapoff():
         n_map = False 
+    '''
+    A list of indexed class objects for cities.
+    '''
     TL_GUO_loc[0] = GuoPlace(2819, 2010, __("Kwangchow"), True, "CHI", False, False)
     TL_GUO_loc[1] = GuoPlace(2888, 2062, __("Hong Kong"), True, "ENG", True, False)
     TL_GUO_loc[2] = GuoPlace(2826, 2069, __("Macau"), True, "POR", True, False)

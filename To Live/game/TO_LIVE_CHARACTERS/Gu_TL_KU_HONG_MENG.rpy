@@ -8,6 +8,7 @@ default Gu = Char(
     pol = None,
     rel = "Taoism",
     traits = Ku_HongMeng_traits,
+    skillset = None,
     eventlog = KuHongMengLog
     )
 define Ku_HongMeng_traits = [
@@ -19,6 +20,8 @@ define Ku_HongMeng_traits = [
     __("Wise"),
     __("Traditional")
     ]
+define KuHongMengSkills = dict(
 
+    )
 define KuHongMengLog = [
     ]

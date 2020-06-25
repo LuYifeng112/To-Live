@@ -8,6 +8,7 @@ default Ls = Char(
     pol = "Anti-KMT",
     rel = None,
     traits = LiTsoShih_traits,
+    skillset = LiTsoShihSkills,
     eventlog = LiTsoShihLog
     )
 define LiTsoShih_traits = [
@@ -21,8 +22,24 @@ define LiTsoShih_traits = [
     __("Manipulative"),
     __("Persuasive"),
     __("Protester"),
-    __("Wrong Track")
+    __("Wrong-Track")
     ]
+define LiTsoShihSkills = dict(
+    determination=9,
+    dexterity=4,
+    equipload=0,
+    faith=0,
+    forgery=7,           #Special Skill
+    hatred=9,            #Special Skill
+    improvised_combat=7, #Special Skill
+    influence=0,
+    intelligence=12,
+    lockpicking=4,
+    luck=3,
+    rhetoric=6,
+    strength=4,
+    vigor = 3
+    )
 define LiTsoShihLog = [
     ]
 

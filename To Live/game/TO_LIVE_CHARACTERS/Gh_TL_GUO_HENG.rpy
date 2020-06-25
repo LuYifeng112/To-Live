@@ -8,18 +8,21 @@ default Gh = Char(
     pol = None,
     rel = None,
     traits = GuoHeng_traits,
+    skillset = GuoHengSkills,
     eventlog = GuoHengLog
     )
 define GuoHeng_traits = [
     __("Insecure"),
-    __("overprotective"),
+    __("Overprotective"),
     __("Stressed"),
     __("Sensitive"),
     __("Workaholic"),
     __("Worrier")
    ]
+define GuoHengSkills = [
+    ]
 define GuoHengLog = [
-  ]
+    ]
 
 default GH_impression = None
 

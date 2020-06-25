@@ -1,5 +1,8 @@
 ﻿init 1:
 
+    #Map
+    image GUO_FOCUS = "maps/GUO_MAP_FOCUS_MASK.png"
+    image GUO_FOCUS_OP = "maps/GUO_MAP_FOCUS_MASK_OP.png"
 
     #Splashscreen 
     image note = "00_menu_images/_NOTE.png"

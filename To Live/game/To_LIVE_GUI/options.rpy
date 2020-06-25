@@ -1,6 +1,6 @@
 ﻿
 ## Basics ######################################################################
-
+define config.debug_image_cache = True
 define config.name = _("To Live")
 define gui.show_name = False
 define config.version = "0.0.6"

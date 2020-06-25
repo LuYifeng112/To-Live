@@ -336,11 +336,11 @@ translate korean strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:155
     old "Republic of China"
-    new ""
+    new "중화민국"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:155
     old "Chiang Chie Shih"
-    new ""
+    new "장제스"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:155
     old "Generalissimo President of the Republic"
@@ -356,7 +356,7 @@ translate korean strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:155
     old "Kuomintang"
-    new ""
+    new "중국 국민당"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:155
     old "Second United Front"

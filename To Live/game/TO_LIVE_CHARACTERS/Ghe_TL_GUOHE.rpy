@@ -8,6 +8,7 @@ default Ghe = Char(
     pol = None,
     rel = "Christianity",
     traits = GuoHe_traits,
+    skillset = GuoHeSkills,
     eventlog = GuoHeLog
     )
 define GuoHe_traits = [
@@ -18,9 +19,12 @@ define GuoHe_traits = [
     __("Indecisive"),
     __("Immature"),
     __("Naive"),
+    __("Playful"),
     __("Prayful")
     ]
+define GuoHeSkills = dict(
 
+    )
 define GuoHeLog = [
     ]
 

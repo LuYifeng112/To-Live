@@ -8,6 +8,7 @@ default ai = Char(
     pol = "Empire of Japan",
     rel = "Shintoism",
     traits = YumiKawashima_traits,
+    skillset = YumiKawashimaSkills,
     eventlog = YumiKawashimaLog
     )
 define YumiKawashima_traits = [
@@ -19,9 +20,24 @@ define YumiKawashima_traits = [
     __("Pacifist"),
     __("Rational"),
     __("Sensitive"),
-    __("Softed-Hearted"),
+    __("Soft-Hearted"),
     __("Well Educated")
   ]
+define YumiKawashimaSkills = dict(
+        determination=3,
+        cooperativeness=0, #Special Skill
+        dexterity=1,
+        disguise=0,        #Special Skill
+        equipload=4,
+        faith=6,
+        influence=2,
+        intelligence=11,
+        lockpicking=0,
+        luck=2,
+        rhetoric=3,
+        strength=2,
+        vigor = 0
+    )
 define YumiKawashimaLog = [
     ]
 

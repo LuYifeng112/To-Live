@@ -8,15 +8,30 @@ default fang = Char(
     pol = None,
     rel = None,
     traits = FangJie_traits,
+    skillset = FangJieSkills,
     eventlog = FangJieLog
     )
 define FangJie_traits = [
    __("Well-Informed"),
-   __("Protestor"),
+   __("Protester"),
    __("Righteous"),
    __("Impulsive"), 
    __("sensitive")
    ]
+define FangJieSkills = dict(
+        determination=5,
+        dexterity=3,
+        equipload=10,
+        faith=4,
+        influence=0,
+        intelligence=10,
+        lockpicking=0,
+        luck=4,
+        rhetoric=4,
+        strength=4,
+        stress=0,           #special skill
+        vigor = 0
+    )
 define FangJieLog = [
     ]
 

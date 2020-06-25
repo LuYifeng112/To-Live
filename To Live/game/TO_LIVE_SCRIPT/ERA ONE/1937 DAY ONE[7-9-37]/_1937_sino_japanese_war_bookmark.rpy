@@ -1263,7 +1263,7 @@ label GH_Beijing_busy:
             "Beijing may be the resident of my ancestors but I have to face reality."
             Gu "Fang?"
             "I sat up not expecting him to enter the house so silently."
-            if stress > 2:
+            if stress > 1:
                 Gu "Ever since this whole conflict broken out I have noticed you are much more...{i}stressed{/i}"
                 Gu "Not just about the hawks."
                 Gu "I know it was my fault for getting the professor drunk and I'm sorry for that."

@@ -8,6 +8,7 @@ default monk = Char(
     pol = None,
     rel = "Buddhism",
     traits = Monk_traits,
+    skillset = None,
     eventlog = MonkLog
     )
 define Monk_traits = [
@@ -18,7 +19,10 @@ define Monk_traits = [
     __("Servile"),
     __("Wise")
     ]
+define Monkskills = [
+    ]
 define MonkLog = [
     ]
+
 
 default monk_impression = None

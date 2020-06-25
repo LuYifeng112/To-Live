@@ -1,5 +1,15 @@
-
+########     ###    ##    ## ########   #######  ##     ##  ######  
+##     ##   ## ##   ###   ## ##     ## ##     ## ###   ### ##    ## 
+##     ##  ##   ##  ####  ## ##     ## ##     ## #### #### ##       
+########  ##     ## ## ## ## ##     ## ##     ## ## ### ##  ######  
+##   ##   ######### ##  #### ##     ## ##     ## ##     ##       ## 
+##    ##  ##     ## ##   ### ##     ## ##     ## ##     ## ##    ## 
+##     ## ##     ## ##    ## ########   #######  ##     ##  ######  
 init python:
+    '''
+    This is a list of random quotes.
+    A global variable chooses it through a renpy.random.choice function.
+    '''
     TL_quotes = [
         __("We live in the present,\nwe dream of the future\n and we learn eternal truths from the past.\n -Soong Mei Ling"),
         __("We write our own destiny...\nwe become what we do.\n -Chiang Kai-Shek"),
@@ -27,6 +37,10 @@ init python:
         __("Piercing wind,\nfreezing river of Yi.\nThe hero fords,\nand he never returns!\n -Jing-Ke (failed Assassin of Emperor Qin Shi Huang"),
         __("Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n -Li Bai")
     ]
+    '''
+    Similar to the above with random quotes this is more of a visual art thing.
+    Instead of displaying text string it will show an image through a global variable of renpy.random.choice function.
+    '''
     TL_leader_pic = [
         "country_leader/CHI_chiang_kai_shek.png"
     ]
@@ -38,9 +52,31 @@ init python:
       ##    ##       ##    ##       ##             ## 
 ##    ##    ##       ##    ##       ##       ##    ## 
  ######     ##       ##    ######## ########  ######  
-
 style mapon is button:
     activate_sound "sounds/menu/select_flip.ogg"
+style mapon_zg is text:
+    activate_sound "sounds/menu/select_flip.ogg"
+    font"fonts/chi_cities/MaShanZheng-Regular.ttf"
+    kerning -1
+style mapon_tw is text:
+    activate_sound "sounds/menu/select_flip.ogg"
+    size 25
+    kerning -1
+style mapon_kr is text:
+    activate_sound "sounds/menu/select_flip.ogg"
+    size 25
+    kerning -2
+    font "fonts/kor_songmyung/SongMyung-Regular.ttf"
+style mapon_jp is text:
+    activate_sound "sounds/menu/select_flip.ogg"
+    size 25
+    kerning -1
+    font "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
+style mapon_rs is text:
+    activate_sound "sounds/menu/select_flip.ogg"
+    size 25
+    kerning -1
+    font "fonts/rus_roboto/RobotoSlab-Regular.ttf"
 
 style chinesesim_header is text:
     antialias True
@@ -144,6 +180,12 @@ transform ambient_left:
             linear 5 yoffset -10
             linear 5 yoffset 10
             repeat
+transform ambient:
+    subpixel True
+    on hover:
+        linear .15 zoom 1.25
+    on idle:
+        linear .25 zoom 1.0
 
 transform am_hist:
     yalign 0.55

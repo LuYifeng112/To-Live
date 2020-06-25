@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 1: expected statement.
-    class chaos(object):
-               ^
-
-File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 7: expected statement.
-    class Char(object):
-              ^
+File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 254: u'zorder' is not a keyword argument or valid child for the viewport statement.
+    viewport zorder 1:
+                   ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Tue Jun 16 23:53:25 2020
+Wed Jun 24 21:12:09 2020

@@ -19,7 +19,7 @@ translate japanese strings:
     new "広州湾"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:70
-    old "Shanghai"
+    old "Shanghai" 
     new "上海"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:71
@@ -340,7 +340,7 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:167
     old "Chiang Chie Shih"
-    new ""
+    new "蒋介石"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:167
     old "Generalissimo President of the Republic"
@@ -356,7 +356,7 @@ translate japanese strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:167
     old "Kuomintang"
-    new ""
+    new "中国国民党"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:167
     old "Second United Front"

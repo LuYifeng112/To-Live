@@ -40,14 +40,12 @@ screen political_menu():
     textbutton __("Historical Event Log") xalign 0.91 yalign 0.65 action ShowMenu('historical_event_log') at am_hist:
         keyboard_focus True
         keysym "l"
-    
-    
-    
-    
-    
 
-screen fang_character():
+define TL_pref_tab = "General"
+define _mature = False
+screen TL_pref():
     tag menu
+    modal True
     key "K_SPACE" action ShowMenu(main_menu)
     key "K_TAB" action ShowMenu(main_menu)
     key "K_ESCAPE" action Return()
@@ -59,6 +57,62 @@ screen fang_character():
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
+    window:
+        style "gm_root"
+        add "#141414"
+    add "abyss_snow"
+    text __("Settings") xalign 0.5 size 60
+    hbox xalign 0.45 yalign 0.1 spacing 100:
+        textbutton __("General") keyboard_focus True action SetVariable("TL_pref_tab","General") at ambient
+        textbutton __("Audio") keyboard_focus True action SetVariable("TL_pref_tab", "Audio") at ambient
+        textbutton __("Controls") keyboard_focus True action SetVariable("TL_pref_tab", "Controls") at ambient
+        textbutton __("Map Settings") keyboard_focus True action SetVariable("TL_pref_tab", "Map") at ambient
+        textbutton __("Character Settings") keyboard_focus True action SetVariable("TL_pref_tab", "Character") at ambient
+
+    showif TL_pref_tab == "General":
+        vbox xalign 0.3 yalign 0.25:
+            style_prefix "radio"
+            label _("Display")
+            textbutton _("Window") action Preference("display", "window")
+            textbutton _("Fullscreen") action Preference("display", "fullscreen")
+        vbox xalign 0.5 yalign 0.25:
+            style_prefix "radio"
+            label _("Rollback Side")
+            textbutton _("Disable") action Preference("rollback side", "disable")
+            textbutton _("Left") action Preference("rollback side", "left")
+            textbutton _("Right") action Preference("rollback side", "right")
+        vbox xalign 0.7 yalign 0.25:
+            style_prefix "radio"
+            label __("Mature Themes")
+            textbutton __("Enable") action SetVariable("_mature",True)
+            textbutton __("Disable") action SetVariable("_mature", False)
+
+
+    showif TL_pref_tab == "Audio":
+        vbox xalign 0.2 yalign 0.25:
+            if config.has_music:
+                label _("Music Volume")
+
+                hbox:
+                    bar value Preference("music volume")
+
+            if config.has_sound:
+
+                label _("Sound Volume")
+
+                hbox:
+                    bar value Preference("sound volume")
+
+                    if config.sample_sound:
+                        textbutton _("Test") action Play("sound", config.sample_sound)
+
+    showif TL_pref_tab == "Map":
+        vbox xalign 0.7 yalign 0.25:
+            style_prefix "radio"
+            label __("Audio")
+            textbutton "No Ocean SFX" action ToggleField(persistent, "_map_ocean_SFX")
+            
+
 
 screen guo(): 
     tag menu
@@ -186,7 +240,8 @@ screen guo():
                     font "fonts/chi_cities/MaShanZheng-Regular.ttf"
 
 
-
+define persistent._map_audio = True
+define persistent._map_ocean_SFX = True
 screen guo_map():
     tag menu
     key "K_SPACE" action ShowMenu(main_menu)
@@ -202,17 +257,15 @@ screen guo_map():
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
+    add "abyss_snow"
     viewport:
         xysize (config.screen_width, config.screen_height)
         child_size (4040, 2230)
-        mousearea: # For dyanmic sounds
-            area (3065, 827, 975, 1403)
-            hovered [SetScreenVariable("seaside", True), Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
-            unhovered [SetScreenVariable("seaside", False), Stop("sound",fadeout=2.5)]
-        mousearea: # For dyanmic sounds
-            area (2108, 1881, 1959, 349)
-            hovered [SetScreenVariable("seaside", True), Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
-            unhovered [SetScreenVariable("seaside", False), Stop("sound", fadeout=2.5)]
+        if persistent._map_audio and persistent._map_ocean_SFX:
+            mousearea: # For dyanmic sounds
+                focus_mask "GUO_FOCUS_OP"
+                hovered [SetScreenVariable("seaside", True), Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
+                unhovered [SetScreenVariable("seaside", False), Stop("sound",fadeout=2.5)]
         if show_beijing:
             xinitial 2300
             yinitial 500
@@ -236,15 +289,33 @@ screen guo_map():
                     keyboard_focus True
                     text q.name color "#000000" hover_color "#FF0000" size 20 kerning -2 style "mapon":
                         if _preferences.language == "chinesesim":
+                            # style mapon_zg
+                            antialias True
                             font"fonts/chi_cities/MaShanZheng-Regular.ttf"
-                            kerning -1 
+                            kerning -1
                         elif _preferences.language == "chinese":
+                            # style mapon_tw
+                            antialias True
                             size 25
                             kerning -1
                         elif _preferences.language == "korean":
+                            # style mapon_kr
+                            antialias True
                             size 25
                             kerning -2
                             font "fonts/kor_songmyung/SongMyung-Regular.ttf"
+                        elif _preferences.language == "russian":
+                            # style mapon_rs
+                            antialias True
+                            size 25
+                            kerning -1
+                            font "fonts/rus_roboto/RobotoSlab-Regular.ttf"
+                        elif _preferences.language == "japanese":
+                            # style mapon_jp
+                            antialias True
+                            size 25
+                            kerning -1
+                            font "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
                     action [act, Stop("sound", fadeout=2.5), Show('guo')]
                 if not q.Port and not q.Capital:
                     add "gui/map_bullet.png" xpos q.x ypos q.y

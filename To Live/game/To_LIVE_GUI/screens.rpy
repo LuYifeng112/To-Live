@@ -387,11 +387,13 @@ screen main_menu():
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
+    key "t" action ShowMenu('TL_pref')
     tag menu    
 
     imagemap:
         ground "00_menu_images/_menu.png"
-        hover "00_menu_images/menu_hover.jpg"
+        hover "00_menu_images/_menu_hover.png"
+        cache True
 
         hotspot (134, 148, 442, 656) clicked Start()
         hotspot (635, 202, 417, 579):
@@ -400,7 +402,7 @@ screen main_menu():
             else:
                 action ShowMenu("load")
         hotspot (1147, 102, 649, 432) clicked ShowMenu("preferences")
-        hotspot (1175, 590, 581, 399) clicked ShowMenu("quit") 
+        hotspot (1175, 590, 581, 420) clicked ShowMenu("quit") 
         hotspot (61, 842, 528, 171) clicked ShowMenu("glossary")
         hotspot (642, 833, 459, 247) clicked ShowMenu("historical_event_log")
     
@@ -767,6 +769,10 @@ translate japanese python:
 translate korean python:
     gui.interface_text_font = "fonts/kor_songmyung/SongMyung-Regular.ttf"
     gui.button_text_font = "fonts/kor_songmyung/SongMyung-Regular.ttf"
+
+translate russian python:
+    gui.interface_text_font = "fonts/rus_roboto/RobotoSlab-Regular.ttf"
+    gui.button_text_font = "fonts/rus_roboto/RobotoSlab-Regular.ttf"
 screen preferences():
 
     tag menu
@@ -778,6 +784,7 @@ screen preferences():
     key "2" action ShowMenu('glossary')
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
+    key "t" action ShowMenu('TL_pref')
 
     use game_menu(_("Preferences"), scroll="viewport"):
 
@@ -800,11 +807,6 @@ screen preferences():
                     textbutton _("Disable") action Preference("rollback side", "disable")
                     textbutton _("Left") action Preference("rollback side", "left")
                     textbutton _("Right") action Preference("rollback side", "right")
-                vbox:
-                    style_prefix "radio"
-                    label _("Tracking")
-                    textbutton _("Enabled") action SetField(persistent, "analytics", True)
-                    textbutton _("Disabled") action SetField(persistent, "analytics", False)
                 if _preferences.language == None:
                     vbox:
                         style_prefix "radio"
@@ -819,6 +821,7 @@ screen preferences():
                     textbutton "繁體中文" action [Language("chinese")]
                     textbutton "日本語" text_font "fonts/jap_mincho/SawarabiMincho-Regular.ttf" action [Language("japanese")]
                     textbutton "한국어" text_font "fonts/kor_songmyung/SongMyung-Regular.ttf" action [Language("korean")]
+                    textbutton "русский" text_font "fonts/rus_roboto/RobotoSlab-Regular.ttf" action [Language("russian")]
                 vbox:
                     style_prefix "radio"
                     label _("Game Type")

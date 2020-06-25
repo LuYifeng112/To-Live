@@ -8,6 +8,7 @@ default Lc = Char(
     pol = None,
     rel = None,
     traits = LaoChang_traits,
+    skillset = None,
     eventlog = LaoChangLog
     )
 define LaoChang_traits = [
@@ -20,6 +21,8 @@ define LaoChang_traits = [
     __("Wise"),
     __("Well-Informed"),
     __("Workaholic")
+    ]
+define LaoChangSkills = [
     ]
 define LaoChangLog = [
     ]
