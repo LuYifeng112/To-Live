@@ -1,4 +1,4 @@
-Thu Jun 25 14:43:19 2020
+Sat Jun 27 23:26:58 2020
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.6
@@ -23,266 +23,9 @@ Added <'Image' u'00_menu_images/_menu.png'> (13.29%)
 Added <'Image' u'00_menu_images/_menu_hover.png'> (15.92%)
 ----
 game/script.rpy 62
-----
-game/script.rpy 63
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_menu_images/_menu_renpy.png'>
 Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 65
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-----
-game/script.rpy 66
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 68
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-game/script.rpy 69
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 72
-----
-game/script.rpy 73
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 74
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (15.93%)
-Added <'Image' u'gui/map_bullet_capital.png'> (15.93%)
-Added <'Image' u'maps/GUO_map.png'> (27.38%)
-Added <'Image' u'gui/map_bullet.png'> (27.38%)
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (30.02%)
-Predict screen TL_pref
-Added <'Image' u'gui/button/check_foreground.png'> (30.02%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (30.02%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (30.02%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (30.02%)
-Predict screen load
-Predict screen preferences
-Added <'Image' u'gui/game_menu.png'> (32.66%)
-Predict screen quit
-Added <'Image' u'gui/main_menu.png'> (35.29%)
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Added <'Image' u'gui/overlay/game_menu.png'> (37.93%)
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
-Total Miss <'Image' u'gui/button/idle_background.png'>
-Total Miss <'Image' u'maps/GUO_MAP_FOCUS_MASK_OP.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
-Total Miss <'Image' u'gui/button/hover_background.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/slider/horizontal_idle_bar.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-game/script.rpy 58
-Total Miss <'Image' u'00_menu_images/_NOTE.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen main_menu
-Predict screen quick_menu
-Predict screen notif
-Added <'Image' u'00_menu_images/slash.jpg'> (5.30%)
-Added <'Image' u'00_menu_images/_menu_renpy.png'> (8.01%)
-Added <'Image' u'00_background/00_placeholder.png'> (10.65%)
-Added <'Image' u'00_menu_images/_menu.png'> (13.29%)
-Added <'Image' u'00_menu_images/_menu_hover.png'> (15.92%)
-----
-game/script.rpy 62
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-----
-game/script.rpy 63
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 65
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-game/script.rpy 66
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 68
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-game/script.rpy 69
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 72
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 73
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 74
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-game/script.rpy 58
-Total Miss <'Image' u'00_menu_images/_NOTE.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen main_menu
-Predict screen quick_menu
-Predict screen notif
-Added <'Image' u'00_menu_images/slash.jpg'> (5.30%)
-Added <'Image' u'00_menu_images/_menu_renpy.png'> (8.01%)
-Added <'Image' u'00_background/00_placeholder.png'> (10.65%)
-Added <'Image' u'00_menu_images/_menu.png'> (13.29%)
-Added <'Image' u'00_menu_images/_menu_hover.png'> (15.92%)
-----
-game/script.rpy 62
-Kept <'Image' u'_transparent_tile.png'>
 ----
 game/script.rpy 63
 Kept <'Image' u'_transparent_tile.png'>
@@ -343,125 +86,22 @@ Predict screen guo_map
 Added <'Image' u'gui/map_port.png'> (15.93%)
 Added <'Image' u'gui/map_bullet_capital.png'> (15.93%)
 Predict screen glossary
-Added <'Image' u'maps/GUO_map.png'> (27.38%)
-Added <'Image' u'gui/map_bullet.png'> (27.38%)
 Predict screen poems
 Predict screen historical_event_log
 Predict screen TL_pref
+Predict screen load
+Predict screen preferences
+Predict screen quit
+Added <'Image' u'maps/GUO_map.png'> (27.38%)
+Added <'Image' u'gui/map_bullet.png'> (27.38%)
 Added <'Image' u'history_log_bgs/default_history_bg.png'> (30.02%)
 Added <'Image' u'gui/button/check_foreground.png'> (30.02%)
 Added <'Image' u'gui/button/check_selected_foreground.png'> (30.02%)
 Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (30.02%)
 Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (30.02%)
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
-Total Miss <'Image' u'gui/button/idle_background.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
-Total Miss <'Image' u'gui/button/hover_background.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
 Added <'Image' u'gui/game_menu.png'> (32.66%)
 Added <'Image' u'gui/main_menu.png'> (35.29%)
 Added <'Image' u'gui/overlay/game_menu.png'> (37.93%)
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
 Added <'Image' u'00_menu_images/00_end.png'> (40.57%)
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
@@ -474,6 +114,63 @@ Kept <'Image' u'maps/GUO_map.png'>
 Kept <'Image' u'gui/map_bullet.png'>
 Predict screen glossary
 Predict screen poems
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
 Predict screen TL_pref
@@ -515,9 +212,6 @@ Predict screen quit
 Kept <'Image' u'00_menu_images/00_end.png'>
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/slider/horizontal_idle_bar.png'>
-Total Miss <'Image' u'gui/scrollbar/vertical_idle_thumb.png'>
-Total Miss <'Image' u'gui/scrollbar/vertical_idle_bar.png'>
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_background/00_placeholder.png'>
 Predict screen guo_map
@@ -539,13 +233,69 @@ Kept <'Image' u'gui/game_menu.png'>
 Kept <'Image' u'gui/main_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
 Predict screen preferences
-Predict screen about
-Predict screen help
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
 Predict screen quit
 Kept <'Image' u'00_menu_images/00_end.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
@@ -554,215 +304,653 @@ Kept <'Image' u'00_background/00_placeholder.png'>
 renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-game/script.rpy 58
-Total Miss <'Image' u'00_menu_images/_NOTE.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen main_menu
-Predict screen quick_menu
-Predict screen notif
-Added <'Image' u'00_menu_images/slash.jpg'> (5.30%)
-Added <'Image' u'00_menu_images/_menu_renpy.png'> (8.01%)
-Added <'Image' u'00_background/00_placeholder.png'> (10.65%)
-Added <'Image' u'00_menu_images/_menu.png'> (13.29%)
-Added <'Image' u'00_menu_images/_menu_hover.png'> (15.92%)
-----
-game/script.rpy 62
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-----
-game/script.rpy 63
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 65
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-----
-game/script.rpy 66
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 68
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-game/script.rpy 69
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
-----
-game/script.rpy 72
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 73
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 74
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen main_menu
-Kept <'Image' u'00_menu_images/_menu.png'>
-Kept <'Image' u'00_menu_images/_menu_hover.png'>
-Predict screen quick_menu
-Predict screen notif
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_background/00_placeholder.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
 Total Miss <'Image' u'gui/button/idle_background.png'>
-Total Miss <'Image' u'gui/button/check_foreground.png'>
-Total Miss <'Image' u'gui/button/check_selected_foreground.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_background/00_placeholder.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
 Total Miss <'Image' u'gui/button/hover_background.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Total Miss <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/slider/horizontal_idle_bar.png'>
-Kept <'Image' u'_transparent_tile.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (15.95%)
-Added <'Image' u'gui/map_bullet_capital.png'> (15.95%)
-Predict screen glossary
-Predict screen poems
-Added <'Image' u'maps/GUO_map.png'> (27.41%)
-Predict screen historical_event_log
-Added <'Image' u'gui/map_bullet.png'> (27.41%)
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (30.05%)
-Predict screen load
-Added <'Image' u'gui/game_menu.png'> (32.68%)
-Added <'Image' u'gui/main_menu.png'> (35.32%)
-Predict screen preferences
-Added <'Image' u'gui/overlay/game_menu.png'> (37.96%)
-Predict screen quit
-Added <'Image' u'00_menu_images/00_end.png'> (40.59%)
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/scrollbar/vertical_idle_thumb.png'>
-Total Miss <'Image' u'gui/scrollbar/vertical_idle_bar.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
@@ -778,45 +966,3 @@ Kept <'Image' u'gui/overlay/game_menu.png'>
 Predict screen preferences
 Predict screen quit
 Kept <'Image' u'00_menu_images/00_end.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary

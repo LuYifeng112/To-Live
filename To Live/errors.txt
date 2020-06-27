@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 254: u'zorder' is not a keyword argument or valid child for the viewport statement.
-    viewport zorder 1:
-                   ^
+File "game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy", line 28: keyword can't be an expression
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Wed Jun 24 21:12:09 2020
+Sat Jun 27 18:44:18 2020

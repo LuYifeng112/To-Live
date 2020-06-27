@@ -107,7 +107,7 @@ label start:
         discord_rpc.update_connection()
         discord_rpc.run_callbacks()
     python:
-        inventory = Inventory()
+        inventory = Container(100)
     if persistent.ironman:
         python:
             config.has_autosave = True

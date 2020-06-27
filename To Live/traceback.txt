@@ -1,69 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen TL_pref():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen TL_pref():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 109, in execute
-    showif TL_pref_tab == "Map":
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 110, in execute
-    vbox xalign 0.7 yalign 0.25:
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 113, in execute
-    textbutton "No Ocean SFX" action SetVariable(persistent, "_map_ocean_SFX", False)
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 113, in keywords
-    textbutton "No Ocean SFX" action SetVariable(persistent, "_map_ocean_SFX", False)
-TypeError: SetVariable() takes exactly 2 arguments (3 given)
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in script
+    $ TL_glossary.addword('maotai')
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in <module>
+    $ TL_glossary.addword('maotai')
+  File "game/TO_LIVE_DEFINES/TL_defines_glossary.rpy", line 12, in addword
+    raise Exception("Mispelt or non-existent key being added.")
+Exception: Mispelt or non-existent key being added.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in script
+    $ TL_glossary.addword('maotai')
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
     exec bytecode in globals, locals
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ui.py", line 297, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2702, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3094, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 541, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 541, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 541, in visit_all
-    d.visit_all(callback, seen)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 430, in visit_all
-    callback(self)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3094, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 440, in per_interact
-    self.update()
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 625, in update
-    self.screen.function(**self.scope)
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen TL_pref():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 46, in execute
-    screen TL_pref():
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 109, in execute
-    showif TL_pref_tab == "Map":
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 110, in execute
-    vbox xalign 0.7 yalign 0.25:
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 113, in execute
-    textbutton "No Ocean SFX" action SetVariable(persistent, "_map_ocean_SFX", False)
-  File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 113, in keywords
-    textbutton "No Ocean SFX" action SetVariable(persistent, "_map_ocean_SFX", False)
-  File "<screen language>", line 113, in <module>
-TypeError: SetVariable() takes exactly 2 arguments (3 given)
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in <module>
+    $ TL_glossary.addword('maotai')
+  File "game/TO_LIVE_DEFINES/TL_defines_glossary.rpy", line 12, in addword
+    raise Exception("Mispelt or non-existent key being added.")
+Exception: Mispelt or non-existent key being added.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.6
-Thu Jun 25 14:49:46 2020
+Sat Jun 27 22:27:19 2020
