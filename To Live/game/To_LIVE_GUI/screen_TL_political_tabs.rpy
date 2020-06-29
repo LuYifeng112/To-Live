@@ -281,7 +281,7 @@ screen guo_map():
             $ ny = q.y -12
             if q.IsActive:
                 for n in TL_GUO:
-                    if n.ID ==q.ID:
+                    if n.ID == q.ID:
                         $ act = SetVariable('nation', n)
                 button:
                     xpos nx
@@ -290,35 +290,15 @@ screen guo_map():
                     keyboard_focus True
                     text q.name antialias True color "#000000" hover_color "#FF0000" size 20 kerning -2 style "mapon" at ambient:
                         if _preferences.language == "chinesesim":
-                            # style mapon_zg
-                            antialias True
-                            font"fonts/chi_cities/MaShanZheng-Regular.ttf"
-                            kerning -1
+                            style "mapon_zg"
                         elif _preferences.language == "chinese":
-                            # style mapon_tw
-                            antialias True
-                            size 25
-                            kerning -1
+                            style mapon_tw
                         elif _preferences.language == "korean":
-                            # style mapon_kr
-                            antialias True
-                            size 25
-                            kerning -2
-                            font "fonts/kor_songmyung/SongMyung-Regular.ttf"
-                            language "korean-with-spaces"
+                            style "mapon_kr"
                         elif _preferences.language == "russian":
-                            # style mapon_rs
-                            antialias True
-                            size 25
-                            kerning -1
-                            font "fonts/rus_roboto/RobotoSlab-Regular.ttf"
+                            style "mapon_rs"
                         elif _preferences.language == "japanese":
-                            # style mapon_jp
-                            antialias True
-                            size 25
-                            kerning -1
-                            font "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
-                            language "japanese-normal"
+                            style "mapon_jp"
                     action [act, Stop("sound", fadeout=2.5), Show('guo')]
                 if not q.Port and not q.Capital:
                     add "gui/map_bullet.png" xpos q.x ypos q.y
@@ -364,10 +344,13 @@ screen glossary():
             vbox spacing 20:
             # loop over persistent here
                 for word in sorted(persistent.unlocked):
-                    textbutton word:
-                           action SetVariable("display_desc", word)
+                    button:
+                        text word:
+                            style "TL_menu"
+                        action SetVariable("display_desc", word)
         vbox ypos 100 xsize 650 ysize 500 box_wrap True:
-            text glossary_dict.get(display_desc, "")
+            text glossary_dict.get(display_desc, ""):
+                style "TL_menu"
 
 
 screen poems():
@@ -396,10 +379,12 @@ screen poems():
             arrowkeys True
             vbox spacing 20:
                 for poem in sorted(persistent.unlocked_poem):
-                    textbutton poem:
+                    button:
+                        text poem style "TL_menu"
                         action SetVariable("poem_display_desc", poem)
         vbox ypos 100 xsize 650 ysize 500 box_wrap True:
-            text poem_dict.get(poem_display_desc, "")
+            text poem_dict.get(poem_display_desc, ""):
+                style "TL_menu"
 
 
 default event_display_bg = 0
@@ -434,9 +419,12 @@ screen historical_event_log():
             arrowkeys True
             vbox spacing 20:
                 for  num,event in enumerate(persistent.unlocked_history):
-                    textbutton event:
+                    button:
+                        text event:
+                            style "TL_menu"
                         action [SetVariable("event_display_desc", event), SetVariable("event_display_bg", num)]
                         selected event_display_desc == event and event_display_bg == num
                         sensitive event_display_desc != event and event_display_bg != num
         vbox ypos 100 xsize 650 ysize 500 box_wrap True:
-            text historical_event_log.get(event_display_desc, "")
+            text historical_event_log.get(event_display_desc, ""):
+                style "TL_menu"

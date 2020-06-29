@@ -1654,29 +1654,15 @@ transform choices:
         linear 3.5 ypos 10
         repeat
 
-# screen choice(items):
-#     style_prefix "choice"
-#     add "gui/choice_bg.png" at choice_bg
-#     vbox:
-#         for i in items:
-#             textbutton i.caption:
-#                 at choices
-#                 action i.action
 screen choice(items):
     style_prefix "choice"
-
+    add "gui/choice_bg.png" at choice_bg
     vbox:
         for i in items:
-            $ tt = i.caption[i.caption.find("(")+1:i.caption.find(")")]
-            $ caption = i.caption.replace(" ("+tt+")", "")
-            textbutton caption:
+            textbutton i.caption:
+                at choices
                 action i.action
-                tooltip tt
 
-    $ tooltip = GetTooltip()
-
-    if tooltip:
-        text "[tooltip]" xalign 0.55 yalign 0.45
 transform transform_blink:
     linear 1.0 alpha 0.2
     linear 1.0 alpha 1.0

@@ -2,7 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy", line 28: keyword can't be an expression
+File "game/TO_LIVE_DEFINES/TL_defines_mapping.rpy", line 285: end of line expected.
+(Perhaps you left out a ' at the end of the first line.)
+    '''
+    This will optimise code in the long run. 
+    It's easier to give country tags as reference points when needing to work with nation objects.
+         ^
+    '''
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Sat Jun 27 18:44:18 2020
+Mon Jun 29 15:46:25 2020

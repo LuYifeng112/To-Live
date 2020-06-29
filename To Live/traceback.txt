@@ -1,30 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in script
-    $ TL_glossary.addword('maotai')
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in <module>
-    $ TL_glossary.addword('maotai')
-  File "game/TO_LIVE_DEFINES/TL_defines_glossary.rpy", line 12, in addword
-    raise Exception("Mispelt or non-existent key being added.")
-Exception: Mispelt or non-existent key being added.
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in script
+    if fang.haslog("Hometown:Taiwan"):
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in <module>
+    if fang.haslog("Hometown:Taiwan"):
+AttributeError: 'Char' object has no attribute 'haslog'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in script
-    $ TL_glossary.addword('maotai')
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 12, in <module>
-    $ TL_glossary.addword('maotai')
-  File "game/TO_LIVE_DEFINES/TL_defines_glossary.rpy", line 12, in addword
-    raise Exception("Mispelt or non-existent key being added.")
-Exception: Mispelt or non-existent key being added.
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in script
+    if fang.haslog("Hometown:Taiwan"):
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 1832, in execute
+    if renpy.python.py_eval(condition):
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2059, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in <module>
+    if fang.haslog("Hometown:Taiwan"):
+AttributeError: 'Char' object has no attribute 'haslog'
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.6
-Sat Jun 27 22:27:19 2020
+Mon Jun 29 16:55:08 2020

@@ -12,6 +12,8 @@
                     raise Exception("Mispelt or non-existent event being logged.")
             else:
                 msg.msg(event+" is a logged Historical Event")
+        def addhome(self, home):
+            self.container.append(home)
 
 default TL_history_log = historydict(
     container = persistent.unlocked_history

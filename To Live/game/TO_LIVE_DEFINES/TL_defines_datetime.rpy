@@ -86,14 +86,6 @@ init python:
 
         def return_daytime(self):
             return unicode(self.daytime)
-        
-        def updatetime(self):
-            date = unicode(self.day)
-            month = unicode(self.month)
-            year = unicode(self.year)
-            timeofday = unicode(self.daytime)
-
-
 
 default TL_datetime = Date(
         year = 1937,

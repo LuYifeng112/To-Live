@@ -26,7 +26,6 @@ init -10 python:
             self.ID = ID
             self.Port = Port
             self.Capital = Capital
-            devlog.info("{} ({}) successfull.".format(self.name, self.ID))
         def deact(self):
             self.IsActive = False
     class Guoflavour(object):
@@ -50,7 +49,7 @@ init -10 python:
         '''
         How countries are displayed. These are containers for information.
         '''
-        def __init__(self, name, ID, leader, leadersub, politicalID, AlignmentID, rulingparty, factionID, IsActive, dead, flagimg, info):
+        def __init__(self, name, ID, leader, leadersub, politicalID, AlignmentID, rulingparty, factionID, IsActive, dead, flagimg, log, info):
             self.name = name                    #THe official name of the country.
             self.ID = ID                        #A shortened ID to compare to the map point ID. This is a link.
             self.leader = leader                
@@ -62,9 +61,8 @@ init -10 python:
             self.IsActive = IsActive
             self.dead = dead                    #Dead countries will display but you can track changes across time.
             self.flagimg = flagimg
+            self.log = log
             self.info = info
-
-            devlog.info("{} :Tag of {} successful".format(self.name, self.ID))
 
         def activate(self):
             self.isActive = True
@@ -81,6 +79,10 @@ init -10 python:
         def flag(self, flag):
             self.flagimg = flag
 
+        def getleadername(self):
+            global leader
+            leader = self.leader
+
     TL_GUO_loc = []
     TL_GUO = []
     TL_map_flavour = []
@@ -88,7 +90,7 @@ init -10 python:
     t = 0
     while t < 200:
         TL_GUO_loc.append(GuoPlace(0,0,"",False, "", False, False))
-        TL_GUO.append(Nation("", "", "", "", "", "", "", "", False, False, "", ""))
+        TL_GUO.append(Nation("", "", "", "", "", "", "", "", False, False, "", "", ""))
         TL_map_flavour.append(Guoflavour(0,0,"", False, 0, ""))
         TL_Provinces.append(Province(0,0,"", "",""))
         t += 1
@@ -200,41 +202,529 @@ init -10 python:
         ## ## ## ##     ##    ##     ##  ##     ## ## ## ##  ######  
         ##  #### #########    ##     ##  ##     ## ##  ####       ## 
         ##   ### ##     ##    ##     ##  ##     ## ##   ### ##    ## 
-        ##    ## ##     ##    ##    ####  #######  ##    ##  ######  
-    TL_GUO[0] = Nation(__("Republic of China"), "CHI", __("Chiang Chie Shih"), __("Generalissimo President of the Republic"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/CHI.png", "The Republic of China was established on Janurary 1st 1912 after the Xinhai Revolution which overthrew the Qing dynasty. It was de-facto dissolved during the warlord era until in 1921 the Kuomintang established a rival government in Canton. Chiang Chieh Shih who came into power through a military coup began a northern expedition to capture cities fro warlords and proclaim a central government to unite China under. Many foreign nations recognised the Nationalist government as the legitimate unified government of China, even the Soviet Union which supported the Chinese communists. After the Nanjing decades of the 1930s the Republic was weak and thrown into constant war of unification and resistance against foreign powers such as Japan.")
-    TL_GUO[1] = Nation(__("Chinese Soviet Republic"), "PRC", __("Mao Tse-Tung"), __("Revolutionary Marxist Leader"), __("Marxist Guerillas"), __("International Marxism"), __("Chung-kuo Kung-ch'an-tang"), __("Second United Front"), True, False, "country_flags/PRC_1937.png", "" )
-    #CO-Propserity Sphere
-    TL_GUO[2] = Nation(__("Empire of Japan"), "JAP", __("Emperor Hirohito"), __("Emperor of Japan"), __("Fascist Monarchy"), __("Co-Prosperity Sphere"), __("Tohokai"), __("Co-Properity Sphere"), True, False, "country_flags/JAP.png", "")
-    TL_GUO[3] = Nation(__("Empire of Manchukuo"), "MAN", __("Aisin Gioro Pu-Yi"),__("Collaborationist Emperor of Manchukuo"), __("Fascist Puppet Monarchy"), __("Co-Prosperity Sphere"), __("Manchōwkuó Hsiéhehuì"), __("Co-Prosperity Sphere"), True, False, "country_flags/MAN.png", "")
-    TL_GUO[4] = Nation(__("Reorganized National Government of the Republic of China"), "RNG", __("Wang Ching-Wei"),__("Japanese Collaborationist Dictator"), __("Fascist Puppet State"), __("Co-Prosperity Sphere"), __("Left Kuomintang"), __("Co-Prosperity Sphere"), False, False, "country_flags/RNG.png", "")
-    TL_GUO[5] = Nation(__("East Hopeh autonomous\nanti-communism council"), "EHA", __("Yin-Ju-Keng"), __("Japanese Collaborationist Dictator"), __("Buffer State"), __("Co-Prosperity Sphere"), __("East Hopei Autonomous Government"), __("Co-Prosperity Sphere"), True, False, "country_flags/EHA.png", "")
-    TL_GUO[6] = Nation(__("Mongol United\nAutonomous Government"), "MEN", __("Prince Demchugdongrub"), __("Japanese Collaborationist Dictator"), __("Fascist Puppet State"), __("Co-Prosperity Sphere"), __("Mongol Military Government"), __("Co-Prosperity Sphere"), True, False, "country_flags/MEN.png", "")
-    #Warlord Cliques
-    TL_GUO[7] = Nation(__("Hopeh-Chahar Political Council"), "PGR", __("Sung Che Yuan"), __("Chairman of Hopeh-Chahar"), __("Buffer State"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/PGR.png", "")
-    TL_GUO[8] = Nation(__("Shaanxi Clique"), "SHX", __("Yan HsiShan"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/SHX.png", "")
-    TL_GUO[9] = Nation(__("Hsi Pei San Ma"), "XSM", __("Ma Bu Fang"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/XSM.png", "")
-    TL_GUO[10] = Nation(__("KwangHsi Clique"), "GXC", __("Li Tsun-Jen"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/GXC.png", "")
-    TL_GUO[11] = Nation(__("Yunnan Clique"), "YUN", __("Lung Yun"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/YUN.png", "")
-    TL_GUO[12] = Nation(__("Shandong Clique"), "SDC", __("Han Fuju"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/SDC.png", "")
-    TL_GUO[13] = Nation(__("Hunan Clique"), "HNC", __("Chang Chih Chung"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/HNC.png", "")
-    TL_GUO[14] = Nation(__("Szechewan Clique"), "SHC", __("Liu Hsiang"), __("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/SHC.png", "")
-    TL_GUO[15] = Nation(__("Sikang Clique"), "SKC", __("Liu Wen Hui"),__("Warlord"), __("Conservative Junta"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Second United Front"), True, False, "country_flags/SKC.png", "")
-    TL_GUO[16] = Nation(__("Sinkiang Clique"), "SIK", __("ShengShih Ts'ai"), __("Warlord"), __("Soviet Junta"), __("Internationale & Central Government of Kuomintang"), __("People's Anti-Imperialist Association"), __("Second United Front"), True, False, "country_flags/SIK.png", "")
-    TL_GUO[17] = Nation(__("Kingdom of Tibet"), "TIB", __("Jamphel Yeshe Gyaltsen"), __("Fifth Reting Rinpoche"), __("Monastic Monarchy"), __("Non-Aligned"), __("Dalai Lama"), __("No Faction"), True, False, "country_flags/TIB.png", "")
-    TL_GUO[18] = Nation(__("Second East Turkestan Republic"), "ETR", __("Elihan Tore"), __("President of East Turkestan Republic"), __("Independance Uprising"), __("Non-Aligned"), __("East Turkestan Governemnt"), __("No Faction"), False, False, "country_flags/ETR.png", "")
-    TL_GUO[19] = Nation(__("Yunnan Anti-communist National Salvation Army"), "BKT", __("Li Mi"), __("General of the Yunnan National Salvation Army"), __("Nationalist Guerillas"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Nationalist Coalition"), False, False, "country_flags/BKT.png", "")
-    TL_GUO[20] = Nation(__("Kuomintang Islamic Insurgency"), "KII", __("Ma Bu Fang"), __("General of the Islamic Insurgency"), __("Nationalist Guerillas"), __("Central Government of Kuomintang"), __("Kuomintang"), __("Nationalist Coalition"), False, False, "country_flags/KII.png", "")
-    TL_GUO[21] = Nation(__("Kingdom of Ngolok"), "KON", __("Ngolok Tribes"), __("Ngolok Tibetan Insurgents"), __("Independance Uprising"), __("Non-Aligned"), __("Ngolok Tribes"), __("No Faction"), True, False, "country_flags/KON.png", "")
-    
-    TL_GUO[22] = Nation(__("Provisional People's Committee for North Korea"), "DRK", __("Kim Il-Sung"), __("Chairman of the Provisional Comittee"), __("Provisional Military Government"), __("International Marxism"), __("Provisional People's Committee for North Korea"), __("No Faction"), False, False, "country_flags/DRK_1945.png", "")
-    TL_GUO[23] = Nation(__("United States Army Military Government in Korea"), "KOR", __("Archibald Vincent Arnold"), __("Military Governer of Korea"), __("Provisional Military Government"), __("United States"), __("United State Army Military Government"), __("No Faction"), False, False, "country_flags/KOR_1945", "")
+        ##    ## ##     ##    ##    ####  #######  ##    ##  ###### 
+    CHI_log = []
+    PRC_log = []
+    JAP_log = []
+    MAN_log = []
+    RNG_log = []
+    EHA_log = []
+    MEN_log = []
+    PGR_log = []
+    SHX_log = []
+    XSM_log = []
+    GXC_log = []
+    YUN_log = []
+    SDC_log = []
+    HNC_log = []
+    SHC_log = []
+    SKC_log = []
+    SIK_log = []
+    TIB_log = []
+    ETR_log = []
+    BKT_log = []
+    KII_log = []
+    KON_log = []
+    DRK_log = []
+    KOR_log = []
+    ENG_log = []
+    POR_log = []
+    FRA_log = []
+    SOV_log = []
+    USA_log = []
 
-    #European Colonies
-    TL_GUO[24] = Nation(__("United Kingdom"), "ENG", __("Neville Chamberlain"), __("Prime Minister of United Kingdom"), __("Imperial Federation"), __("League of Nations"), __("Conservative Party"), __("Anglo-French Alliance"), True, False, "country_flags/ENG.png", "")
-    TL_GUO[25] = Nation(__("Portugese Republic"), "POR", __("Antonio de Oliveira Salazar"), __("Prime Minister of Portugal"), __("Authoritarian Oligarchic Republic"), __("Estada Novo"), __("Uniao Nacional"), __("No Faction"), True, False, "country_flags/POR.png", "")
-    TL_GUO[26] = Nation(__("French Republic"), "FRA", __("Camille Chautemps"),__("Prime Minister of France"), __("Democratic Republic"), __("League of Nations"), __("Parti radical"), __("Anglo-French Alliance"), True, False, "country_flags/FRA.png", "")
-    TL_GUO[27] = Nation(__("Union of\nSoviet Socialist Republics"), "SOV", __("Joseph Stalin"),__("General Secretary of the Communist Party of the Soviet Union"), __("Marxist Dictatorship"), __("International Marxism"), __("Kommunisticheskaya partiya\nSovetskogo Soyuza"), __("Comintern"), True, False, "country_flags/SOV.png", "")
-    TL_GUO[28] = Nation(__("United States of America"), "USA", __("Franklin D Roosevelt"), __("President of the United States"), __("Democratic Republic"), __("Isolationism"), __("Democratic party"), __("No Faction"), True, False, "country_flags/USA.png", "")
+    CHI_DESC = "The Republic of China was established on Janurary 1st 1912 after the Xinhai Revolution which overthrew the Qing dynasty. It was de-facto dissolved during the warlord era until in 1921 the Kuomintang established a rival government in Canton. Chiang Chieh Shih who came into power through a military coup began a northern expedition to capture cities fro warlords and proclaim a central government to unite China under. Many foreign nations recognised the Nationalist government as the legitimate unified government of China, even the Soviet Union which supported the Chinese communists. After the Nanjing decades of the 1930s the Republic was weak and thrown into constant war of unification and resistance against foreign powers such as Japan."
+    PRC_DESC = ""
+    JAP_DESC = ""
+    MAN_DESC = ""
+    RNG_DESC = ""
+    EHA_DESC = ""
+    MEN_DESC = ""
+    PGR_DESC = ""
+    SHX_DESC = ""
+    XSM_DESC = ""
+    GXC_DESC = ""
+    YUN_DESC = ""
+    SDC_DESC = ""
+    HNC_DESC = ""
+    SHC_DESC = ""
+    SKC_DESC = ""
+    SIK_DESC = ""
+    TIB_DESC = ""
+    ETR_DESC = ""
+    BKT_DESC = ""
+    KII_DESC = ""
+    KON_DESC = ""
+    DRK_DESC = ""
+    KOR_DESC = ""
+    ENG_DESC = ""
+    POR_DESC = ""
+    FRA_DESC = ""
+    SOV_DESC = ""
+    USA_DESC = ""
+##     ##    ###    #### ##    ##    ##    ##    ###    ######## ####  #######  ##    ##  ######  
+###   ###   ## ##    ##  ###   ##    ###   ##   ## ##      ##     ##  ##     ## ###   ## ##    ## 
+#### ####  ##   ##   ##  ####  ##    ####  ##  ##   ##     ##     ##  ##     ## ####  ## ##       
+## ### ## ##     ##  ##  ## ## ##    ## ## ## ##     ##    ##     ##  ##     ## ## ## ##  ######  
+##     ## #########  ##  ##  ####    ##  #### #########    ##     ##  ##     ## ##  ####       ## 
+##     ## ##     ##  ##  ##   ###    ##   ### ##     ##    ##     ##  ##     ## ##   ### ##    ## 
+##     ## ##     ## #### ##    ##    ##    ## ##     ##    ##    ####  #######  ##    ##  ######  
+    TL_GUO[0] = Nation(
+        __("Republic of China"),
+        "CHI", 
+        __("Chiang Chie Shih"), 
+        __("Generalissimo President of the Republic"), 
+        __("Conservative Junta"),
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/CHI.png", 
+        CHI_log, 
+        CHI_DESC)
+    
+
+    TL_GUO[1] = Nation(
+        __("Chinese Soviet Republic"), 
+        "PRC", 
+        __("Mao Tse-Tung"), 
+        __("Revolutionary Marxist Leader"), 
+        __("Marxist Guerillas"), 
+        __("International Marxism"), 
+        __("Chung-kuo Kung-ch'an-tang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/PRC_1937.png", 
+        PRC_log, 
+        PRC_DESC)
+
+ ######   #######          ########  ########   #######  ########   ######  ######## ########  #### ######## ##    ##     ######  ########  ##     ## ######## ########  ######## 
+##    ## ##     ##         ##     ## ##     ## ##     ## ##     ## ##    ## ##       ##     ##  ##     ##     ##  ##     ##    ## ##     ## ##     ## ##       ##     ## ##       
+##       ##     ##         ##     ## ##     ## ##     ## ##     ## ##       ##       ##     ##  ##     ##      ####      ##       ##     ## ##     ## ##       ##     ## ##       
+##       ##     ## ####### ########  ########  ##     ## ########   ######  ######   ########   ##     ##       ##        ######  ########  ######### ######   ########  ######   
+##       ##     ##         ##        ##   ##   ##     ## ##              ## ##       ##   ##    ##     ##       ##             ## ##        ##     ## ##       ##   ##   ##       
+##    ## ##     ##         ##        ##    ##  ##     ## ##        ##    ## ##       ##    ##   ##     ##       ##       ##    ## ##        ##     ## ##       ##    ##  ##       
+ ######   #######          ##        ##     ##  #######  ##         ######  ######## ##     ## ####    ##       ##        ######  ##        ##     ## ######## ##     ## ######## 
+    
+    TL_GUO[2] = Nation(
+        __("Empire of Japan"), 
+        "JAP", 
+        __("Emperor Hirohito"), 
+        __("Emperor of Japan"), 
+        __("Fascist Monarchy"), 
+        __("Co-Prosperity Sphere"), 
+        __("Tohokai"), 
+        __("Co-Properity Sphere"), 
+        True, 
+        False, 
+        "country_flags/JAP.png", 
+        JAP_log, 
+        JAP_DESC)
+
+    TL_GUO[3] = Nation(
+        __("Empire of Manchukuo"), 
+        "MAN", 
+        __("Aisin Gioro Pu-Yi"),
+        __("Collaborationist Emperor of Manchukuo"), 
+        __("Fascist Puppet Monarchy"), 
+        __("Co-Prosperity Sphere"), 
+        __("Manchōwkuó Hsiéhehuì"), 
+        __("Co-Prosperity Sphere"), 
+        True, 
+        False, 
+        "country_flags/MAN.png", 
+        MAN_log, 
+        MAN_DESC)
+    
+    TL_GUO[4] = Nation(
+        __("Reorganized National Government of the Republic of China"), 
+        "RNG", 
+        __("Wang Ching-Wei"),
+        __("Japanese Collaborationist Dictator"), 
+        __("Fascist Puppet State"), 
+        __("Co-Prosperity Sphere"), 
+        __("Left Kuomintang"), 
+        __("Co-Prosperity Sphere"), 
+        False, 
+        False, 
+        "country_flags/RNG.png", 
+        RNG_log, 
+        RNG_DESC)
+
+    TL_GUO[5] = Nation(
+        __("East Hopeh autonomous\nanti-communism council"), 
+        "EHA", 
+        __("Yin-Ju-Keng"), 
+        __("Japanese Collaborationist Dictator"), 
+        __("Buffer State"), 
+        __("Co-Prosperity Sphere"), 
+        __("East Hopei Autonomous Government"), 
+        __("Co-Prosperity Sphere"), 
+        True, 
+        False, 
+        "country_flags/EHA.png",
+        EHA_log, 
+        EHA_DESC)
+
+    TL_GUO[6] = Nation(
+        __("Mongol United\nAutonomous Government"), 
+        "MEN", 
+        __("Prince Demchugdongrub"), 
+        __("Japanese Collaborationist Dictator"), 
+        __("Fascist Puppet State"), 
+        __("Co-Prosperity Sphere"), 
+        __("Mongol Military Government"), 
+        __("Co-Prosperity Sphere"), 
+        True, 
+        False, 
+        "country_flags/MEN.png",
+        MEN_log, 
+        MEN_DESC)
+
+##      ##    ###    ########  ##        #######  ########  ########      ######  ##       ####  #######  ##     ## ########  ######  
+##  ##  ##   ## ##   ##     ## ##       ##     ## ##     ## ##     ##    ##    ## ##        ##  ##     ## ##     ## ##       ##    ## 
+##  ##  ##  ##   ##  ##     ## ##       ##     ## ##     ## ##     ##    ##       ##        ##  ##     ## ##     ## ##       ##       
+##  ##  ## ##     ## ########  ##       ##     ## ########  ##     ##    ##       ##        ##  ##     ## ##     ## ######    ######  
+##  ##  ## ######### ##   ##   ##       ##     ## ##   ##   ##     ##    ##       ##        ##  ##  ## ## ##     ## ##             ## 
+##  ##  ## ##     ## ##    ##  ##       ##     ## ##    ##  ##     ##    ##    ## ##        ##  ##    ##  ##     ## ##       ##    ## 
+ ###  ###  ##     ## ##     ## ########  #######  ##     ## ########      ######  ######## ####  ##### ##  #######  ########  ######  
+    TL_GUO[7] = Nation(
+        __("Hopeh-Chahar Political Council"), 
+        "PGR", 
+        __("Sung Che Yuan"), 
+        __("Chairman of Hopeh-Chahar"), 
+        __("Buffer State"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/PGR.png", 
+        PGR_log, 
+        PGR_DESC)
+
+    TL_GUO[8] = Nation(
+        __("Shaanxi Clique"), 
+        "SHX", 
+        __("Yan HsiShan"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/SHX.png", 
+        SHX_log, 
+        SHX_DESC)
+
+    TL_GUO[9] = Nation(
+        __("Hsi Pei San Ma"), 
+        "XSM", 
+        __("Ma Bu Fang"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/XSM.png", 
+        XSM_log, 
+        XSM_DESC)
+
+    TL_GUO[10] = Nation(
+        __("KwangHsi Clique"), 
+        "GXC", 
+        __("Li Tsung-Jen"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/GXC.png", 
+        GXC_log, 
+        GXC_DESC)
+
+    TL_GUO[11] = Nation(
+        __("Yunnan Clique"), 
+        "YUN", 
+        __("Lung Yun"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/YUN.png", 
+        YUN_log, 
+        YUN_DESC)
+
+    TL_GUO[12] = Nation(
+        __("Shandong Clique"), 
+        "SDC", 
+        __("Han Fuju"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/SDC.png", 
+        SDC_log, 
+        SDC_DESC)
+
+    TL_GUO[13] = Nation(
+        __("Hunan Clique"),
+        "HNC", 
+        __("Chang Chih Chung"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/HNC.png", 
+        HNC_log, 
+        HNC_DESC)
+
+    TL_GUO[14] = Nation(
+        __("Szechewan Clique"), 
+        "SHC", 
+        __("Liu Hsiang"), 
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/SHC.png", 
+        SHC_log, 
+        SHC_DESC)
+
+    TL_GUO[15] = Nation(
+        __("Sikang Clique"), 
+        "SKC", 
+        __("Liu Wen Hui"),
+        __("Warlord"), 
+        __("Conservative Junta"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/SKC.png", 
+        SKC_log, 
+        SKC_DESC)
+
+    TL_GUO[16] = Nation(
+        __("Sinkiang Clique"), 
+        "SIK", 
+        __("ShengShih Ts'ai"), 
+        __("Warlord"), 
+        __("Soviet Junta"), 
+        __("Internationale & Central Government of Kuomintang"), 
+        __("People's Anti-Imperialist Association"), 
+        __("Second United Front"), 
+        True, 
+        False, 
+        "country_flags/SIK.png", 
+        SIK_log, 
+        SIK_DESC)
+
+    TL_GUO[17] = Nation(
+        __("Kingdom of Tibet"), 
+        "TIB", 
+        __("Jamphel Yeshe Gyaltsen"), 
+        __("Fifth Reting Rinpoche"), 
+        __("Monastic Monarchy"), 
+        __("Non-Aligned"), 
+        __("Dalai Lama"), 
+        __("No Faction"), 
+        True, 
+        False, 
+        "country_flags/TIB.png", 
+        TIB_log, 
+        TIB_DESC)
+
+    TL_GUO[18] = Nation(
+        __("Second East Turkestan Republic"), 
+        "ETR", 
+        __("Elihan Tore"), 
+        __("President of East Turkestan Republic"), 
+        __("Independance Uprising"), 
+        __("Non-Aligned"), 
+        __("East Turkestan Governemnt"),
+        __("No Faction"), 
+        False, 
+        False, 
+        "country_flags/ETR.png", 
+        ETR_log, 
+        ETR_DESC)
+
+    TL_GUO[19] = Nation(
+        __("Yunnan Anti-communist National Salvation Army"), 
+        "BKT", 
+        __("Li Mi"), 
+        __("General of the Yunnan National Salvation Army"), 
+        __("Nationalist Guerillas"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Nationalist Coalition"), 
+        False, 
+        False, 
+        "country_flags/BKT.png",  
+        BKT_log, 
+        BKT_DESC)
+
+    TL_GUO[20] = Nation(
+        __("Kuomintang Islamic Insurgency"), 
+        "KII", 
+        __("Ma Bu Fang"), 
+        __("General of the Islamic Insurgency"), 
+        __("Nationalist Guerillas"), 
+        __("Central Government of Kuomintang"), 
+        __("Kuomintang"), 
+        __("Nationalist Coalition"), 
+        False, 
+        False, 
+        "country_flags/KII.png", 
+        KII_log, 
+        KII_DESC)
+
+    TL_GUO[21] = Nation(
+        __("Kingdom of Ngolok"), 
+        "KON", 
+        __("Ngolok Tribes"), 
+        __("Ngolok Tibetan Insurgents"), 
+        __("Independance Uprising"), 
+        __("Non-Aligned"), 
+        __("Ngolok Tribes"), 
+        __("No Faction"), 
+        True, 
+        False, 
+        "country_flags/KON.png", 
+        KON_log, 
+        KON_DESC)
+    
+    TL_GUO[22] = Nation(
+        __("Provisional People's Committee for North Korea"), 
+        "DRK", 
+        __("Kim Il-Sung"), 
+        __("Chairman of the Provisional Comittee"), 
+        __("Provisional Military Government"), 
+        __("International Marxism"), 
+        __("Provisional People's Committee for North Korea"), 
+        __("No Faction"), 
+        False, 
+        False, 
+        "country_flags/DRK_1945.png", 
+        DRK_log, 
+        DRK_DESC)
+
+    TL_GUO[23] = Nation(
+        __("United States Army Military Government in Korea"), 
+        "KOR", 
+        __("Archibald Vincent Arnold"), 
+        __("Military Governer of Korea"), 
+        __("Provisional Military Government"), 
+        __("United States"), 
+        __("United State Army Military Government"), 
+        __("No Faction"), 
+        False, 
+        False, 
+        "country_flags/KOR_1945", 
+        KOR_log, 
+        KOR_DESC)
+######## ##     ## ########   #######  ########  ########    ###    ##    ##     ######   #######  ##        #######  ##    ## #### ########  ######  
+##       ##     ## ##     ## ##     ## ##     ## ##         ## ##   ###   ##    ##    ## ##     ## ##       ##     ## ###   ##  ##  ##       ##    ## 
+##       ##     ## ##     ## ##     ## ##     ## ##        ##   ##  ####  ##    ##       ##     ## ##       ##     ## ####  ##  ##  ##       ##       
+######   ##     ## ########  ##     ## ########  ######   ##     ## ## ## ##    ##       ##     ## ##       ##     ## ## ## ##  ##  ######    ######  
+##       ##     ## ##   ##   ##     ## ##        ##       ######### ##  ####    ##       ##     ## ##       ##     ## ##  ####  ##  ##             ## 
+##       ##     ## ##    ##  ##     ## ##        ##       ##     ## ##   ###    ##    ## ##     ## ##       ##     ## ##   ###  ##  ##       ##    ## 
+########  #######  ##     ##  #######  ##        ######## ##     ## ##    ##     ######   #######  ########  #######  ##    ## #### ########  ######  
+    TL_GUO[24] = Nation(
+        __("United Kingdom"), 
+        "ENG", 
+        __("Neville Chamberlain"), 
+        __("Prime Minister of United Kingdom"), 
+        __("Imperial Federation"), 
+        __("League of Nations"), 
+        __("Conservative Party"), 
+        __("Anglo-French Alliance"), 
+        True, 
+        False, 
+        "country_flags/ENG.png", 
+        ENG_log, 
+        ENG_DESC)
+
+    TL_GUO[25] = Nation(
+        __("Portugese Republic"), 
+        "POR", 
+        __("Antonio de Oliveira Salazar"), 
+        __("Prime Minister of Portugal"), 
+        __("Authoritarian Oligarchic Republic"), 
+        __("Estada Novo"), 
+        __("Uniao Nacional"), 
+        __("No Faction"), 
+        True, 
+        False, 
+        "country_flags/POR.png", 
+        POR_log, 
+        POR_DESC)
+
+    TL_GUO[26] = Nation(
+        __("French Republic"), 
+        "FRA", 
+        __("Camille Chautemps"),
+        __("Prime Minister of France"), 
+        __("Democratic Republic"), 
+        __("League of Nations"), 
+        __("Parti radical"), 
+        __("Anglo-French Alliance"), 
+        True, 
+        False, 
+        "country_flags/FRA.png", 
+        FRA_log, 
+        FRA_DESC)
+
+    TL_GUO[27] = Nation(
+        __("Union of\nSoviet Socialist Republics"), 
+        "SOV",
+        __("Joseph Stalin"),
+        __("General Secretary of the Communist Party of the Soviet Union"), 
+        __("Marxist Dictatorship"), 
+        __("International Marxism"), 
+        __("Kommunisticheskaya partiya\nSovetskogo Soyuza"), 
+        __("Comintern"), 
+        True, 
+        False, 
+        "country_flags/SOV.png", 
+        SOV_log, 
+        SOV_DESC)
+
+    TL_GUO[28] = Nation(
+        __("United States of America"), 
+        "USA", 
+        __("Franklin D Roosevelt"), 
+        __("President of the United States"), 
+        __("Democratic Republic"), 
+        __("Isolationism"), 
+        __("Democratic party"), 
+        __("No Faction"), 
+        True, 
+        False, 
+        "country_flags/USA.png", 
+        USA_log, 
+        USA_DESC)
     
 
     TL_Provinces[0] = Province(2493, 1848, __("kuang tung"), "CHI", "GDG")
@@ -242,3 +732,37 @@ init -10 python:
     TL_Provinces[2] = Province(2439, 1515, __("Hunan"), "HNC", "HNN")
     TL_Provinces[3] = Province(2824, 1509, __("Chiang Hsi"), "CHI", "JNX")
     TL_Provinces[4] = Province(3019, 1624, __("Fukien"), "CHI", "FJN")
+
+# '''
+# This will optimise code in the long run. 
+# It's easier to give country tags as reference points when needing to work with nation objects.
+# '''
+    CHI = TL_GUO[0]
+    PRC = TL_GUO[1]
+    JAP = TL_GUO[2]
+    MAN = TL_GUO[3]
+    RNG = TL_GUO[4]
+    EHA = TL_GUO[5]
+    MEN = TL_GUO[6]
+    PGR = TL_GUO[7]
+    SHX = TL_GUO[8]
+    XSM = TL_GUO[9]
+    GXC = TL_GUO[10]
+    YUN = TL_GUO[11]
+    SDC = TL_GUO[12]
+    HNC = TL_GUO[13]
+    SHC = TL_GUO[14]
+    SKC = TL_GUO[15]
+    SIK = TL_GUO[16]
+    TIB = TL_GUO[17]
+    ETR = TL_GUO[18]
+    BKT = TL_GUO[19]
+    KII = TL_GUO[20]
+    KON = TL_GUO[21]
+    DRK = TL_GUO[22]
+    KOR = TL_GUO[23]
+    ENG = TL_GUO[24]
+    POR = TL_GUO[25]
+    FRA = TL_GUO[26]
+    SOV = TL_GUO[27]
+    USA = TL_GUO[28]

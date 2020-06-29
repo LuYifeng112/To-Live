@@ -1,7 +1,6 @@
 label Beijing_chapter_one:
 if not persistent.history_home_unlocked:
-  $ persistent.unlocked_history.append("Home")
-  $ persistent.history_home_unlocked = True
+  $ TL_history_log.addhome("home")
 un "It is important you answer these questions properly."
 un "I will go through them one by one."
 un "Do not fret."
@@ -396,7 +395,7 @@ menu:
     "Christianity":
         $ fang.rel = "Christianity"
         $ Christian = True
-        if fang.haslog("Hometown:HongKong"):
+        if fang.hasLog("Hometown:HongKong"):
             Po "You being from Hong Kong I wouldn't be suprised at that perspective."
         Po "Do you like listening to hymns?"
         "Professor Po held his {i}Máotái{/i} up to the sunlight where he could see it tinker."
@@ -493,7 +492,7 @@ Gu "He grew up around the drink."
 "I guess{w=1.0} the interview will be conducted later."
 "I turned my head around to the Taoist Shrine."
 "It consisted of a {i}Yīnyáng{/i} emblem,{w=0.5} A candle that possessed a mediocre flame,{w=0.5} and a copy of {i}Tao Te Ch\'ing{/i}."
-$ TL_glossary.addword("YinYang")
+$ TL_glossary.addword("Yīnyáng")
 "I stood up from the uncomfortable chair and approached the shrine."
 "It was peaceful to stand before the shrine."
 "I wasn't required to announce my presence."
@@ -872,7 +871,7 @@ Gh "Hence I chose Nanking."
 Gh "The Japanese would probably confiscate the shop and make me do work without profit."
 fang "That is true."
 fang "I'm from [hometown!t]"
-if fang.haslog("Hometown:Taiwan"):
+if fang.hasLog("Hometown:Taiwan"):
     fang "I can't go back to Taiwan."
     fang "They won't believe me since I'm crossing over from the Mainland."
     fang "I won't see my family till the end of the war."
@@ -905,7 +904,7 @@ if fang.haslog("Hometown:Taiwan"):
 
         "I don't think so.":
             fang "I don't know about this idea."
-elif fang.haslog("Hometown:Macau"):
+elif fang.hasLog("Hometown:Macau"):
     Gh "Gambling is like water there.{w=1}Isn't it?"
     "It seems everybody had this stereotype."
     fang "I never grew up around the casinos."
@@ -949,8 +948,7 @@ elif fang.haslog("Hometown:Macau"):
     Gh "Is your dialect a mix of Portugese and Cantonese?"
     "I nod to him."
     Gh "Thats good."
-elif fang.haslog("Hometown:Guangzhou"):
-    #TEST!!!
+elif fang.hasLog("Hometown:Guangzhou"):
     Gh "Kwangchow is an interesting place."
     Gh "By the way, what has the political situation been for Kwangchow like?"
     fang "hmmm"
@@ -993,7 +991,7 @@ elif fang.haslog("Hometown:Guangzhou"):
             $ Gh.eventlog.appened("Yue_Yu_Promise_n")
             fang "I am not confident when it comes to teaching."
             
-elif fang.haslog("Hometown:Nanjing"):
+elif fang.hasLog("Hometown:Nanjing"):
     Gh "The capital itself."
     Gh "What is it like there?"
     "Guo Heng applied the rag to his sweaty face again."
@@ -1028,7 +1026,7 @@ elif fang.haslog("Hometown:Nanjing"):
     Gh "What's in the Mausoleum now?"
     fang "A marble sarcophagus."
     fang "and a ceiling with the Kuomintang sun stretching above."
-elif fang.haslog("Hometown:HongKong"):
+elif fang.hasLog("Hometown:HongKong"):
     Gh "In Pu Tong Hua we call it \"Xiang Gang\"."
     fang "That's something new I guess."
     Gh "What are the British like there?"
@@ -1096,7 +1094,7 @@ elif fang.haslog("Hometown:HongKong"):
             Gh "I'm sure you can."
             Gh "Nobody beats me in eatery around here."
             "It seemed Guo Heng took great pride in his line of work."
-elif fang.haslog("Hometown:Peiping"):
+elif fang.hasLog("Hometown:Peiping"):
     fang "I am from Peiping."
     Gh "But you seem new to this place."
     "He was right."
@@ -1328,7 +1326,7 @@ label GH_Beijing_busy:
                     fang "I'm afraid I will have to go to [hometown]."
                     fang "I know this might be harsh but I don't want to leave you behind at all costs."
                     fang "That is why I need you to come with me."
-                    if fang.haslog("Hometown:Peiping"):
+                    if fang.hasLog("Hometown:Peiping"):
                         fang "Didn't you say at the interview that you knew a scholarly friend back in Qingdao?"
                     else:
                         fang "Correct me if I'm wrong but isn't there some friend in Qingdao you can contact?"
@@ -1458,16 +1456,16 @@ label GH_Beijing_busy:
             "Maybe it's why these poor dis-empowered people turn to communism."
             "After all why defend something that oppresses you?"
             "As I keep walking, other thoughts amble into my mind."
-            if fang.haslog("Hometown:Peiping"):
+            if fang.hasLog("Hometown:Peiping"):
                 "This temple in front of me."
                 "Its the only temple I've been to in a commitment sense."
                 "I've been living with Uncle Ku here for about 6 months to be closer to Peking university and to reconnect with the \"Ancestral land\"."
                 ""
-            elif fang.haslog("Hometown:Nanjing"):
+            elif fang.hasLog("Hometown:Nanjing"):
                 ""
-            elif fang.haslog("Hometown:Guangzhou"):
+            elif fang.hasLog("Hometown:Guangzhou"):
                 ""
-            elif fang.haslog("Hometown:Macau"):
+            elif fang.hasLog("Hometown:Macau"):
                 "In Macau the Ma Kok temple is beautiful."
                 "It brings me back to the beautiful days of being in Macau."
                 "Tonnes of boats, kind Portuguese, Patua families."
@@ -1485,9 +1483,9 @@ label GH_Beijing_busy:
                 "Principles first...{w}people second."
                 "My heart longed for Macau."
                 "It was a guilty feeling nonetheless."
-            elif fang.haslog("Hometown:Taiwan"):
+            elif fang.hasLog("Hometown:Taiwan"):
                 ""
-            elif fang.haslog("Hometown:HongKong"):
+            elif fang.hasLog("Hometown:HongKong"):
                 "Back in Hong Kong my experience with temples were different."
                 if Buddhist:
                     "The Po Lin monastery was a real piece of work."
@@ -1728,7 +1726,7 @@ fang "I don't want to drop everything and run."
 fang "I don't want to get caught in crossfire."
 fang "Or enslaved by the army."
 monk "All fair crticisms."
-monk "I can't disagree witht that."
+monk "I can't disagree with that."
 monk "Have you talked to Ku Hsien-Sheng?"
 fang "No I have not yet..."
 monk "I have a good feeling about you."
@@ -1747,7 +1745,25 @@ return
 
 label DayOneEarlyNight:
 fang "Time to meet Guo Heng again."
-if fang.haslog("PackedUp"):
+if fang.hasLog("PackedUp"):
+    if fang.hasLog("Promise_HELP_LS"):
+        "I should also go meet with Li-Tso-Shih on the way to Tsingtao."
+        "I wonder how he feels towards me."
+        "Would he have that warm friendship? Or has it rotted away after the arrests?"
+        "I've heard he was being kept somewhere in Tientsin which was not too far and on the way to Tsingtao."
+        "I was not aware why he was transferred from Peking to Tientsin during police custody."
+        "Maybe he was perceived more seriously because of his ethnic background."
+        "Li Tso-Shih was my friend and classmate at Peking."
+        "He was from Amdo and his family originates from the Ngolok people who are fighting the Kuomintang."
+        "He has personal reasons to fight against the republic."
+        "After entertaining my thoughts I decided to snap out of it."
+        "I should focus on my task at hand."
+    elif not fang.hasLog("Promise_HELP_LS"):
+        "It might be harsh to leave my friend out to dry."
+        "What else can I do."
+        "Everyone is trying to save their skin."
+        "I have my own personal reasons to fight moral dilemmas."
+        "I have to focus on getting to Tsingtao."
     "I was prepared to leave tonight."
     "With Uncle Ku's help I was prepared to face the challenges of a struggling republic at war."
     "I could talk with Guo Heng and leave out tonight."
@@ -1764,4 +1780,4 @@ else:
 "I wonder how many days it will take to experience this tranquil atmosphere once again."
 "I absorbed the sweet image into my memory."
 "I began to walk down that path I had walked down a few times today."
-"Obects becoming more and more like silhouettes."
+"Objects becoming more and more like silhouettes."

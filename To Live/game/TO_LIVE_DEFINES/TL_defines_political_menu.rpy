@@ -67,11 +67,13 @@ style mapon_kr is text:
     size 25
     kerning -2
     font "fonts/kor_songmyung/SongMyung-Regular.ttf"
+    language "korean-with-spaces"
 style mapon_jp is text:
     activate_sound "sounds/menu/select_flip.ogg"
     size 25
     kerning -1
     font "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
+    language "japanese-normal"
 style mapon_rs is text:
     activate_sound "sounds/menu/select_flip.ogg"
     size 25
@@ -133,6 +135,11 @@ style TL_pref is text:
     color "#d4d4d4"
     hover_color "#e3e3e3"
     selected_color "#fc1919"
+
+style TL_menu is text:
+    font "fonts/chi_pinyin/Alegreya-Regular.ttf"
+    antialias True
+    kerning -1
 # style TL_pref is button:
 #     activate_sound "sounds/menu/select_flip.ogg"
 ######## ########     ###    ##    ##  ######  ########  #######  ########  ##     ##  ######  

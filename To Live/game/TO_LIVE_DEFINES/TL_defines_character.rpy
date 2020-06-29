@@ -25,16 +25,25 @@ init python:
             self.traits.append(trait)
 
         def removeTrait(self, trait):
-            self.traits.remove(trait)
+            if trait in self.traits:
+                self.traits.remove(trait)
+            else:
+                raise Exception("Invalid Trait Key in \'removeTrait()\' function.")
 
         def addSkill(self, skill, val):
             self.skillset.update(skill=val)
 
         def updateSkill(self, skill, val):
-            self.skillset[skill] += val
+            if skill in self.skillset:
+                self.skillset[skill] += val
+            else:
+                raise Exception("Invalid Skill Key or Invalid Skill in Character Skillset for function \'updateSkill()\'.")
     
         def skillval(self, skill):
-            return self.skillset.get(skill)
+            if skill in self.skillset:
+                return self.skillset.get(skill)
+            else:
+                raise Exception("Invalid Skill Key for function \'skillval()\'.")
 
         def convo(self, topic):
             self.convolog.append(topic)
