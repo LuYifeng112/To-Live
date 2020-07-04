@@ -1,28 +1,116 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in script
-    if fang.haslog("Hometown:Taiwan"):
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in <module>
-    if fang.haslog("Hometown:Taiwan"):
-AttributeError: 'Char' object has no attribute 'haslog'
+While loading <'Image' 'images/00_character_side_images/character.visualcomprehension/visualcomprehension_neutral.png'>:
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 6, in script
+    visualcomprehension neutral "Hello"
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 6, in script
+    visualcomprehension neutral "Hello"
+IOError: Couldn't find file 'images/00_character_side_images/character.visualcomprehension/visualcomprehension_neutral.png'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in script
-    if fang.haslog("Hometown:Taiwan"):
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 1832, in execute
-    if renpy.python.py_eval(condition):
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2059, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 874, in <module>
-    if fang.haslog("Hometown:Taiwan"):
-AttributeError: 'Char' object has no attribute 'haslog'
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 578, in main
+    run(restart)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 143, in run
+    renpy.execution.run_context(True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\execution.py", line 908, in run_context
+    context.run()
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 6, in script
+    visualcomprehension neutral "Hello"
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 6, in script
+    visualcomprehension neutral "Hello"
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 708, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\exports.py", line 1345, in say
+    who(what, *args, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\character.py", line 1142, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\character.py", line 842, in do_display
+    **display_args)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\character.py", line 591, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ui.py", line 297, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2702, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3194, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2094, in draw_screen
+    renpy.config.screen_height,
+  File "renpy/display/render.pyx", line 490, in renpy.display.render.render_screen (gen\renpy.display.render.c:6805)
+    rv = render(root, width, height, st, st)
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 675, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 722, in render
+    surf = render(child, width, height, cst, cat)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\image.py", line 500, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\image.py", line 306, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "renpy/display/render.pyx", line 166, in renpy.display.render.render (gen\renpy.display.render.c:4075)
+    cpdef render(d, object widtho, object heighto, double st, double at):
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "accelerator.pyx", line 110, in renpy.display.accelerator.transform_render
+  File "renpy/display/render.pyx", line 259, in renpy.display.render.render (gen\renpy.display.render.c:3520)
+    rv = d.render(widtho, heighto, st, at)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\im.py", line 583, in render
+    return cache.get(self, render=True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\im.py", line 266, in get
+    surf = image.load()
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\im.py", line 628, in load
+    surf = renpy.display.pgrender.load_image(renpy.loader.load(self.filename), self.filename)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'images/00_character_side_images/character.visualcomprehension/visualcomprehension_neutral.png'.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.6
-Mon Jun 29 16:55:08 2020
+Sat Jul 04 13:04:27 2020

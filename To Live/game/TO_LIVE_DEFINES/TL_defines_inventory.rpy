@@ -66,7 +66,9 @@ init python:
                 print("Number: "+str(i.amount))   ## same here - note that it's i.amount, not i.item.amount!
 
         def earn(self, amount):
+            global current_money
             self.money += amount
+            current_money = self.money
 
 
 python:

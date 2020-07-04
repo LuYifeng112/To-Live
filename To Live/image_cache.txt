@@ -1,4 +1,4 @@
-Mon Jun 29 16:49:22 2020
+Sat Jul 04 13:27:20 2020
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.6
@@ -8,75 +8,69 @@ renpy/common/00gltest.rpy 445
 Total Miss <'Image' u'GUI/00_cursor.png'>
 ----
 renpy/common/00gltest.rpy 445
-Added <'Image' u'_transparent_tile.png'> (0.02%)
 ----
-game/script.rpy 58
+game/script.rpy 19
 Total Miss <'Image' u'00_menu_images/_NOTE.png'>
+Total Miss <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'_transparent_tile.png'>
 Predict screen main_menu
 Predict screen quick_menu
 Predict screen notif
 Added <'Image' u'00_menu_images/slash.jpg'> (5.30%)
 Added <'Image' u'00_menu_images/_menu_renpy.png'> (8.01%)
-Added <'Image' u'00_background/00_placeholder.png'> (10.65%)
-Added <'Image' u'00_menu_images/_menu.png'> (13.29%)
-Added <'Image' u'00_menu_images/_menu_hover.png'> (15.92%)
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'00_menu_images/_NOTE.png'>
-----
-game/script.rpy 58
-----
-game/script.rpy 62
-Total Miss <'Image' u'00_menu_images/slash.jpg'>
-Kept <'Image' u'_transparent_tile.png'>
-Added <'Image' u'00_menu_images/_menu_renpy.png'> (8.01%)
-Added <'Image' u'00_background/00_placeholder.png'> (10.65%)
-----
-game/script.rpy 63
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen main_menu
-Predict screen quick_menu
-Predict screen notif
+Added <'Image' u'00_bg_environment/00_placeholder.png'> (10.65%)
 Added <'Image' u'00_menu_images/_menu.png'> (13.29%)
 Added <'Image' u'00_menu_images/_menu_hover.png'> (15.92%)
 ----
-game/script.rpy 65
+game/script.rpy 23
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 ----
-game/script.rpy 66
+game/script.rpy 24
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_menu_images/_menu_renpy.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen main_menu
 Kept <'Image' u'00_menu_images/_menu.png'>
 Kept <'Image' u'00_menu_images/_menu_hover.png'>
 Predict screen quick_menu
 Predict screen notif
 ----
-game/script.rpy 68
+game/script.rpy 26
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' u'00_menu_images/_menu_renpy.png'>
 ----
-game/script.rpy 69
+game/script.rpy 27
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' u'00_menu_images/_menu_renpy.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen main_menu
 Kept <'Image' u'00_menu_images/_menu.png'>
 Kept <'Image' u'00_menu_images/_menu_hover.png'>
 Predict screen quick_menu
 Predict screen notif
 ----
-game/script.rpy 72
+game/script.rpy 29
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
+----
+game/script.rpy 30
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
+Predict screen main_menu
+Kept <'Image' u'00_menu_images/_menu.png'>
+Kept <'Image' u'00_menu_images/_menu_hover.png'>
+Predict screen quick_menu
+Predict screen notif
+----
+game/script.rpy 33
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/script.rpy 73
+game/script.rpy 34
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/script.rpy 74
+game/script.rpy 35
 Kept <'Image' u'_transparent_tile.png'>
 Predict screen main_menu
 Kept <'Image' u'00_menu_images/_menu.png'>
@@ -85,9 +79,8 @@ Predict screen quick_menu
 Predict screen notif
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'GUI/00_cursor.png'>
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
 Added <'Image' u'gui/map_port.png'> (15.93%)
 Added <'Image' u'gui/map_bullet_capital.png'> (15.93%)
@@ -111,264 +104,15 @@ Added <'Image' u'gui/overlay/game_menu.png'> (37.93%)
 Added <'Image' u'00_menu_images/00_end.png'> (40.57%)
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/button/idle_background.png'>
-Total Miss <'Image' u'maps/GUO_MAP_FOCUS_MASK_OP.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Total Miss <'Image' u'gui/button/hover_background.png'>
 ----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/button_return_icon.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
-Total Miss <'Image' u'country_flags/CHI.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+game/script.rpy 96
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
-Total Miss <'Image' u'00_globals/abyss.png'>
-Removed <'Image' u'00_globals/abyss.png'>
-Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
-Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Added <'Image' u'00_bookmark_location/00_Beijing_city.jpg'> (43.20%)
 ----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/button_return_icon_hovered.png'>
+game/script.rpy 97
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'country_flags/GXC.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'country_flags/YUN.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
-Kept <'Image' u'00_menu_images/00_end.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/scrollbar/vertical_idle_thumb.png'>
-Total Miss <'Image' u'gui/scrollbar/vertical_idle_bar.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen glossary
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
-Kept <'Image' u'00_menu_images/00_end.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
-Kept <'Image' u'00_menu_images/00_end.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen poems
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-----
-game/script.rpy 135
-Kept <'Image' u'_transparent_tile.png'>
-Added <'Image' u'00_location_bookmark/00_Beijing_city.jpg'> (48.66%)
-----
-game/script.rpy 136
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_location_bookmark/00_Beijing_city.jpg'>
+Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
 Predict screen date
 Predict screen month
 Predict screen year
@@ -389,19 +133,18 @@ Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
 Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (49.02%)
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (43.57%)
 ----
-game/script.rpy 138
+game/script.rpy 99
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_location_bookmark/00_Beijing_city.jpg'>
 ----
-game/script.rpy 139
+game/script.rpy 100
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_location_bookmark/00_Beijing_city.jpg'>
+Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
 ----
-game/script.rpy 140
+game/script.rpy 101
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_location_bookmark/00_Beijing_city.jpg'>
+Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
 Predict screen date
 Predict screen month
 Predict screen year
@@ -413,18 +156,21 @@ Predict screen save
 Kept <'Image' u'gui/main_menu.png'>
 Kept <'Image' u'gui/game_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
-Added <'Image' u'gui/textbox.png'> (49.70%)
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
+Added <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'> (45.40%)
+Added <'Image' u'gui/textbox.png'> (46.07%)
 Kept <'Image' u'maps/GUO_map.png'>
 Kept <'Image' u'gui/map_bullet.png'>
 ----
-game/script.rpy 148
+game/script.rpy 109
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
 ----
-game/script.rpy 149
+game/script.rpy 110
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
 Predict screen date
 Predict screen month
 Predict screen year
@@ -441,6 +187,8 @@ Predict screen save
 Kept <'Image' u'gui/main_menu.png'>
 Kept <'Image' u'gui/game_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
+Added <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'> (47.87%)
+Added <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'> (49.70%)
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
@@ -453,11 +201,15 @@ Kept <'Image' u'history_log_bgs/default_history_bg.png'>
 Predict screen political_menu
 Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
 ----
-game/script.rpy 151
+game/script.rpy 112
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
 ----
-game/script.rpy 152
+game/script.rpy 113
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 Predict screen date
 Predict screen month
 Predict screen year
@@ -489,177 +241,36 @@ Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
 ----
 game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
 Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
 ----
 game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
 Total Miss <'Image' 'GUI/ctc.png'>
-Added <'Image' u'00_background/Ku_house.png'> (52.30%)
 Total Miss <'Image' u'gui/namebox.png'>
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 Predict screen say
 Kept <'Image' u'gui/textbox.png'>
 Predict screen say
-Total Miss <'Image' u'gui/button/quick_hover_background.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-renpy/common/00gamemenu.rpy 173
-Total Miss <'Image' u'gui/slider/horizontal_idle_bar.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/slider/horizontal_hover_bar.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen history
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen load
-Predict screen preferences
-Predict screen about
-Predict screen help
-Predict screen quit
-Kept <'Image' u'00_menu_images/00_end.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-Predict screen notify
-----
-renpy/common/00gamemenu.rpy 173
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'GUI/ctc.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
-Total Miss <'Image' u'gui/skip.png'>
 ----
 game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 ----
 game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 8
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 9
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 10
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 11
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 15
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 16
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 17
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 18
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 19
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 20
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 21
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 22
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 23
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 24
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 26
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
-----
-unknown 0
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 26
-Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 Predict screen say
 Kept <'Image' u'gui/textbox.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
 Predict screen choice
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
+Added <'Image' u'gui/choice_bg.png'> (52.34%)
 Predict screen say
 Predict screen say
 Predict screen say
@@ -670,53 +281,24 @@ Predict screen save
 Kept <'Image' u'gui/main_menu.png'>
 Kept <'Image' u'gui/game_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'00_background/Ku_house.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 26
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen choice
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (5.94%)
-Added <'Image' u'gui/game_menu.png'> (8.58%)
-Added <'Image' u'gui/overlay/game_menu.png'> (11.21%)
 Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (11.22%)
-Added <'Image' u'gui/map_bullet_capital.png'> (11.22%)
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
 Predict screen glossary
-Added <'Image' u'maps/GUO_map.png'> (22.67%)
 Predict screen poems
-Added <'Image' u'gui/map_bullet.png'> (22.67%)
 Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (25.31%)
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
 Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (25.67%)
+Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
 Predict screen history
 Predict screen notify
 Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (25.67%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (25.67%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (25.67%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (25.67%)
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
 ----
 renpy/common/00keymap.rpy 421
 ----
@@ -729,93 +311,54 @@ renpy/common/00gltest.rpy 445
 ----
 renpy/common/00keymap.rpy 456
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 26
-Total Miss <'Image' u'00_background/Ku_house.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
 Total Miss <'Image' u'_transparent_tile.png'>
 Total Miss <'Image' u'gui/namebox.png'>
 Total Miss <'Image' 'GUI/ctc.png'>
 Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 Total Miss <'Image' u'gui/button/quick_idle_background.png'>
 Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-Total Miss <'Image' u'gui/choice_bg.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-Total Miss <'Image' u'gui/button/choice_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-Kept <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'00_background/Ku_house.png'>
-Total Miss <'Image' u'gui/choice_bg.png'>
-Total Miss <'Image' u'gui/button/choice_idle_background.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-Kept <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/button/choice_hover_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 56
-Total Miss <'Image' u'gui/textbox.png'>
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 56
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (5.13%)
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Added <'Image' u'gui/main_menu.png'> (7.77%)
+Added <'Image' u'gui/game_menu.png'> (10.41%)
+Added <'Image' u'gui/overlay/game_menu.png'> (13.04%)
 Total Miss <'Image' u'gui/button/quick_hover_background.png'>
+Predict screen guo_map
+Added <'Image' u'gui/map_port.png'> (13.04%)
+Added <'Image' u'gui/map_bullet_capital.png'> (13.04%)
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 56
-Total Miss <'Image' u'gui/skip.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 57
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 58
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 59
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 60
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 61
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 62
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 63
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 64
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 65
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 66
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 68
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 68
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 68
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 68
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
+Total Miss <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Added <'Image' u'maps/GUO_map.png'> (28.16%)
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 68
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 68
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
 Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 106
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 106
-Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 Predict screen say
 Kept <'Image' u'gui/textbox.png'>
 Predict screen say
@@ -823,196 +366,50 @@ Predict screen say
 Predict screen say
 Predict screen say
 Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Kept <'Image' u'gui/choice_bg.png'>
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Added <'Image' u'gui/map_bullet.png'> (28.16%)
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (30.80%)
+Predict screen political_menu
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (31.16%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (31.16%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (31.16%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (31.16%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (31.16%)
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 106
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 107
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 108
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 109
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 110
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 111
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 112
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 113
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 114
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 115
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 116
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 117
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 118
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 119
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 120
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 121
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 122
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 123
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 124
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 125
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 126
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 127
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 128
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 129
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 235
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 237
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 237
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 237
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 237
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 237
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 237
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
 Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 241
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 241
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 241
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 242
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 243
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 244
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 245
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 246
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 247
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 249
-Total Miss <'Image' u'gui/frame.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 250
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 251
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 252
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 253
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 254
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 255
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 256
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 257
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 258
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 259
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 260
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 261
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 318
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 390
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 390
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 390
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 390
-Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
 Predict screen say
 Kept <'Image' u'gui/textbox.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Predict screen say
+Predict screen say
 Predict screen say
 Predict screen say
 Predict screen say
@@ -1022,1705 +419,12 @@ Predict screen say
 Predict screen say
 Predict screen say
 Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 390
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 390
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 391
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 392
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 393
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 456
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 456
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 465
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 465
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 465
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 466
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 467
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 468
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 469
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 470
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 471
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 472
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 473
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 474
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 475
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 476
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 477
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 478
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 479
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 482
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 483
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 487
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 488
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 489
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 490
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 491
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 492
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 493
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 494
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 496
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 497
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 498
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 499
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 500
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 501
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 502
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 504
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 505
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 506
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 507
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 508
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 509
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 510
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 511
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 512
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 513
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 514
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 515
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 516
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 517
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 518
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 519
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 520
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 521
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 522
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 523
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 524
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 525
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 528
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 529
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 530
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 531
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 532
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 533
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 534
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 535
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 536
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 537
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 539
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 541
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 544
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 545
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 546
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 547
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 549
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 550
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 551
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 552
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 553
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 554
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 555
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 556
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 557
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 558
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 559
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 560
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 561
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 562
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 563
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 564
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 565
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 566
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 567
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 568
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 569
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 570
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 571
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 572
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 573
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 574
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 575
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 576
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 577
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 578
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 579
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 580
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 581
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 582
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 583
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 584
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 585
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 586
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 587
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 588
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 589
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 590
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 591
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 592
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 593
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 594
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 595
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 596
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 597
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 598
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 599
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 600
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 601
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 602
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 603
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 604
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 605
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 606
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 609
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 609
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 609
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 610
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 611
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 612
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 613
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 614
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 615
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 683
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 684
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 685
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 686
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 687
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 688
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 689
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 690
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 691
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 692
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 693
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 694
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 695
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 696
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 697
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 698
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 699
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 700
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 701
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 702
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 703
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 704
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 705
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 706
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 707
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 707
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
 Predict screen quick_menu
 Predict screen notif
 Predict screen save
-Predict screen guo_map
-Added <'Image' u'gui/main_menu.png'> (9.19%)
-Added <'Image' u'gui/game_menu.png'> (11.83%)
-Predict screen glossary
-Predict screen poems
-Added <'Image' u'gui/overlay/game_menu.png'> (14.47%)
-Predict screen historical_event_log
-Added <'Image' u'gui/map_port.png'> (14.47%)
-Added <'Image' u'gui/map_bullet_capital.png'> (14.47%)
-Predict screen political_menu
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'maps/GUO_map.png'> (11.46%)
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'00_background/Ku_house.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 707
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Predict screen guo_map
-Added <'Image' u'gui/main_menu.png'> (17.40%)
-Kept <'Image' u'maps/GUO_map.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Predict screen political_menu
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/game_menu.png'> (20.03%)
-Added <'Image' u'gui/overlay/game_menu.png'> (22.67%)
-Added <'Image' u'gui/map_port.png'> (22.67%)
-Added <'Image' u'gui/map_bullet_capital.png'> (22.67%)
-Added <'Image' u'gui/map_bullet.png'> (22.67%)
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (25.31%)
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (25.67%)
-Added <'Image' u'gui/button/check_foreground.png'> (25.67%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (25.67%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (25.67%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (25.67%)
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 707
-Total Miss <'Image' u'00_background/Ku_house.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-Added <'Image' u'gui/main_menu.png'> (5.94%)
-Total Miss <'Image' u'gui/frame.png'>
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-Total Miss <'Image' u'gui/button/quick_hover_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 709
-Total Miss <'Image' u'gui/skip.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 710
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 711
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 712
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 713
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 714
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 715
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 716
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 717
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 718
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 719
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 720
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 721
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 722
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 723
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 724
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 725
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 726
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 727
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 728
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 729
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 730
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 731
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 732
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 733
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 734
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 735
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 736
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 737
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 738
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 739
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 740
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 741
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 742
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 743
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 744
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 745
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 746
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 747
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 748
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 749
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 750
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 751
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 752
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 753
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 754
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 755
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 756
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 757
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 758
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 759
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 760
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 761
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 762
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 763
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 764
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 765
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 766
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 767
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 768
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 769
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 770
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 771
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 772
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 773
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 774
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 775
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 787
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 788
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 789
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 790
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 791
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 792
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 793
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 794
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 795
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 796
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 797
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 798
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 799
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 800
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 801
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 802
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 803
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 804
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 805
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 806
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 807
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 808
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 809
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 810
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 811
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 812
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 813
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 814
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 815
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 816
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 817
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 818
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 819
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 820
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 821
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 822
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 823
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 824
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 825
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 826
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 827
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 828
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 829
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 830
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 831
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 832
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 833
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 834
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 835
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 837
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 838
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 839
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 840
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 841
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 842
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 843
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 844
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 845
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 846
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 847
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 848
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 849
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 850
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 851
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 852
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 853
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 854
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 855
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 856
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 857
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 858
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 859
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 860
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 861
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 862
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 863
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 864
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 865
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 866
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 867
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 868
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 869
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 870
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 871
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 872
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 873
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-unknown 0
-----
-unknown 0
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/Ku_house.png'>
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-unknown 0
-Total Miss <'Image' u'gui/textbox.png'>
-Added <'Image' u'_transparent_tile.png'> (0.67%)
-Added <'Image' u'00_background/Ku_house.png'> (3.30%)
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 995
-Total Miss <'Image' u'00_background/Ku_house.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/button/quick_hover_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 995
-Total Miss <'Image' u'gui/skip.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 995
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 995
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 996
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 997
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 998
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 999
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1000
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1001
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1002
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1003
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1004
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1005
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1006
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1007
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1008
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1009
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1010
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1011
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1012
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1013
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1014
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1015
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1016
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1017
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1018
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1019
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1020
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1021
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1022
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1023
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1024
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1025
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1026
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1027
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1028
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1143
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1144
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1145
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1146
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1146
-Total Miss <'Image' u'gui/choice_bg.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1146
-Total Miss <'Image' u'gui/button/choice_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1146
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1146
-Kept <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/button/choice_hover_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1152
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1152
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1152
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1153
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1154
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1155
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1156
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1157
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_chance_events_beijing_chapter_one.rpy 78
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1161
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1162
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1163
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1164
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1165
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1166
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1167
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_chance_events_beijing_chapter_one.rpy 78
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1169
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1170
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1171
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1172
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1173
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1173
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1173
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1173
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1173
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1173
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1176
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1176
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1176
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1177
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1178
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1179
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1180
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1181
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1182
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1183
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1184
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1185
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1186
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1187
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1188
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1189
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1190
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1191
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1192
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1193
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1194
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1195
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1196
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1197
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1198
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1199
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1200
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1201
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1202
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1203
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1204
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1205
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1206
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1207
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1208
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1209
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1210
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1211
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1212
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1213
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1214
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1215
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1216
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1217
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1218
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1219
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1223
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1224
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1225
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1226
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1227
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1228
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1229
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1230
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1231
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1232
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1233
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1234
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1235
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1236
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1237
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1238
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1239
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1240
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1241
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1242
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1243
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1244
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1252
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1253
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1254
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1255
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1256
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1257
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1258
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1259
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1260
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1261
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1262
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1263
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1264
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1265
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1266
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1267
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1268
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1269
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1270
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1271
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1272
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1273
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1274
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1275
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1276
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1277
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1277
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1277
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1277
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1277
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1288
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1288
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1288
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1289
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1290
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1291
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1296
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1297
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1298
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1299
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1300
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1301
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1302
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1303
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1304
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1305
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1306
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1307
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1308
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1308
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1308
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1308
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1308
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1320
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1320
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1321
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1322
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1323
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1324
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1324
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1324
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1324
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1324
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1324
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1326
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1326
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1326
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1327
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1328
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1332
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1333
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1334
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1335
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1338
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1339
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1340
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1341
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1342
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1343
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1345
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1346
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1347
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1348
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1349
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1350
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1351
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1352
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1352
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1352
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1352
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1352
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-Total Miss <'Image' u'gui/frame.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1358
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1359
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1379
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1380
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1381
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1384
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1385
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1386
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1387
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1390
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1391
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1392
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1393
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1394
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1395
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1396
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1397
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1400
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1400
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1400
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1401
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1402
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1403
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1404
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1405
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1406
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1407
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1409
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1412
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1413
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1416
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1417
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1418
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1419
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1420
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1421
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1422
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1423
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1424
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1425
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1426
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1428
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1429
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1430
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1431
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1432
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1433
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1747
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1762
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1763
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1764
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1765
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1766
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1767
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1768
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1769
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1777
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1778
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1779
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1780
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1781
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1782
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 1783
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'00_menu_images/_menu.png'>
-Total Miss <'Image' u'00_menu_images/_menu_hover.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Added <'Image' u'00_background/00_placeholder.png'> (14.47%)
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (14.47%)
-Added <'Image' u'gui/map_bullet_capital.png'> (14.47%)
-Predict screen glossary
-Predict screen poems
-Added <'Image' u'maps/GUO_map.png'> (25.92%)
-Predict screen historical_event_log
-Added <'Image' u'gui/map_bullet.png'> (25.92%)
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (28.56%)
-Predict screen TL_pref
-Added <'Image' u'gui/button/check_foreground.png'> (28.56%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (28.56%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (28.56%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (28.56%)
-Predict screen load
-Added <'Image' u'gui/game_menu.png'> (31.20%)
-Added <'Image' u'gui/main_menu.png'> (33.83%)
-Added <'Image' u'gui/overlay/game_menu.png'> (36.47%)
-Predict screen preferences
-Predict screen quit
-----
-renpy/common/_layout/screen_main_menu.rpym 28
-Added <'Image' u'00_menu_images/00_end.png'> (39.11%)
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
@@ -2730,21 +434,578 @@ Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
+Predict screen political_menu
+Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
+Predict screen history
+Predict screen notify
+Predict screen preferences
 Kept <'Image' u'gui/button/check_foreground.png'>
 Kept <'Image' u'gui/button/check_selected_foreground.png'>
 Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
 Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
-Kept <'Image' u'00_menu_images/00_end.png'>
 ----
-renpy/common/_layout/screen_main_menu.rpym 28
-Total Miss <'Image' u'gui/button/idle_background.png'>
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_background/00_placeholder.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (5.13%)
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Added <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'> (4.33%)
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (6.96%)
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Added <'Image' u'gui/main_menu.png'> (9.60%)
+Added <'Image' u'gui/game_menu.png'> (12.24%)
+Added <'Image' u'gui/overlay/game_menu.png'> (14.87%)
+Predict screen guo_map
+Added <'Image' u'gui/map_port.png'> (14.87%)
+Added <'Image' u'gui/map_bullet_capital.png'> (14.87%)
+Added <'Image' u'maps/GUO_map.png'> (26.33%)
+Added <'Image' u'gui/map_bullet.png'> (26.33%)
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Predict screen political_menu
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (28.97%)
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (29.33%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (29.33%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (29.33%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (29.33%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (29.33%)
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (5.14%)
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Predict screen guo_map
+Added <'Image' u'gui/main_menu.png'> (7.77%)
+Added <'Image' u'gui/game_menu.png'> (10.41%)
+Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
+Added <'Image' u'gui/map_port.png'> (13.05%)
+Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
+Predict screen glossary
+Added <'Image' u'maps/GUO_map.png'> (24.50%)
+Added <'Image' u'gui/map_bullet.png'> (24.50%)
+Predict screen poems
+Predict screen historical_event_log
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
+Predict screen political_menu
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (5.14%)
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Added <'Image' u'gui/main_menu.png'> (7.77%)
+Added <'Image' u'gui/game_menu.png'> (10.41%)
+Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
+Predict screen guo_map
+Added <'Image' u'gui/map_port.png'> (13.05%)
+Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
+Added <'Image' u'maps/GUO_map.png'> (24.50%)
+Added <'Image' u'gui/map_bullet.png'> (24.50%)
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
+Predict screen political_menu
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Total Miss <'Image' u'gui/button/quick_hover_background.png'>
+Predict screen say
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+Total Miss <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (10.63%)
+Predict screen say
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Kept <'Image' u'gui/choice_bg.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Added <'Image' u'gui/main_menu.png'> (13.26%)
+Added <'Image' u'gui/game_menu.png'> (15.90%)
+Added <'Image' u'gui/overlay/game_menu.png'> (18.54%)
+Predict screen guo_map
+Added <'Image' u'gui/map_port.png'> (18.54%)
+Added <'Image' u'gui/map_bullet_capital.png'> (18.54%)
+Added <'Image' u'maps/GUO_map.png'> (29.99%)
+Added <'Image' u'gui/map_bullet.png'> (29.99%)
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (32.63%)
+Predict screen political_menu
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (32.99%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (32.99%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (32.99%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (32.99%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (32.99%)
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Kept <'Image' u'gui/choice_bg.png'>
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen political_menu
+Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Kept <'Image' u'gui/choice_bg.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen political_menu
+Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Added <'Image' u'gui/choice_bg.png'> (5.14%)
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Added <'Image' u'gui/main_menu.png'> (7.77%)
+Added <'Image' u'gui/game_menu.png'> (10.41%)
+Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
+Predict screen guo_map
+Added <'Image' u'gui/map_port.png'> (13.05%)
+Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
+Added <'Image' u'maps/GUO_map.png'> (24.50%)
+Added <'Image' u'gui/map_bullet.png'> (24.50%)
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
+Predict screen political_menu
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/namebox.png'>
+Total Miss <'Image' 'GUI/ctc.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen choice
+Predict screen say
+Added <'Image' u'gui/choice_bg.png'> (5.14%)
+Predict screen say
+Predict screen say
+Predict screen say
+Predict screen quick_menu
+Predict screen notif
+Predict screen save
+Added <'Image' u'gui/main_menu.png'> (7.77%)
+Added <'Image' u'gui/game_menu.png'> (10.41%)
+Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
+Predict screen guo_map
+Added <'Image' u'gui/map_port.png'> (13.05%)
+Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
+Added <'Image' u'maps/GUO_map.png'> (24.50%)
+Added <'Image' u'gui/map_bullet.png'> (24.50%)
+Predict screen glossary
+Predict screen poems
+Predict screen historical_event_log
+Predict screen political_menu
+Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
+Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
+Predict screen history
+Predict screen notify
+Predict screen preferences
+Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
+Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
+Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+Total Miss <'Image' u'gui/overlay/confirm.png'>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'gui/frame.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
 Total Miss <'Image' u'gui/button/hover_background.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>

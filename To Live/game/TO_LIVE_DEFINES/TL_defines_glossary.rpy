@@ -33,8 +33,8 @@ init -1 python:
      __('Blueshirts Society') : __('This organisation went under many names such as \'Society of the Practice of the Three Principles of the People\', \'Spirit Encouragement Society\', and the \'China Reconstruction Society\'. This organisation was a secret ultranationalist faction that modelled Italian Fascism in the Kuomintang. The Blueshirts Society mainly had influence in the Nationalist Military and key areas such as the capital of the time \'Nanjing\'. The Blueshirts Society slowly dissolved after the end of the Sino-Japanese war for many reasons. It persisted as a Youth organisation known as \'Youth League of the Three principles of the People\'.'),
      __('Tong-pei'): __('Romanized as \"Dong Bei\" this just means north east and generally defines the Manchurian territory. These normally include the provinces of Heilongjiang, Liaoning, Jilin and a portion of Inner Mongolia.'),
      __('Yīnyáng'):__('N/A'),
-     __('Siheyuan'):__('N/A'),
+     __('sìhéyuàn'):__('N/A'),
      __('Chang San'): __('N/A'),
      __('Ma-Kok'):__('N/A'),
-     __('Bai-Jiu'):__('N/A'),
+     __('Báijiǔ'):__('N/A'),
      __('I-Kuan-Tao'):__('N/A')}

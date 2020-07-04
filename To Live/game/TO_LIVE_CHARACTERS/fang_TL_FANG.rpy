@@ -20,18 +20,28 @@ define FangJie_traits = [
    __("sensitive")
    ]
 define FangJieSkills = dict(
+        authority=0,
+        composure=2,
+        conceptualization=2,
         determination=5,
         dexterity=3,
+        empathy=4,
+        encyclopedia=6,
         equipload=10,
         faith=4,
+        focus=2,
         influence=0,
-        intelligence=10,
         lockpicking=0,
-        luck=4,
+        logic=4,
+        luck=3,
+        psychethreshhold=2,
         rhetoric=4,
+        reaction=3,
         strength=4,
         stress=0,           #special skill
-        vigor = 0
+        vice=1,
+        vigor=0,
+        visualcomprehension=3
     )
 define FangJieConvo = [
     ]
@@ -42,13 +52,6 @@ define FangJieLog = [
 default currenthp = 50
 default maxhp = 50
 default money_loc = _("Fabi")
-
-default Fang_from_Beijing = False
-default Fang_from_Nanjing = False
-default Fang_from_Guangzhou = False
-default Fang_from_hong_kong = False
-default Fang_from_Macau = False
-default Fang_from_Taiwan = False
 
 #Religion
 define Taoist = False

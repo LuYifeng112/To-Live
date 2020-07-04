@@ -1,10 +1,94 @@
+define npercentage = 0
+define nskill = 0
+
+ ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######
+##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ##
+##       ##     ##  ##   ##  ##     ##  ##   ##  ##          ##    ##       ##     ## ##
+##       ######### ##     ## ########  ##     ## ##          ##    ######   ########   ######
+##       ##     ## ######### ##   ##   ######### ##          ##    ##       ##   ##         ##
+##    ## ##     ## ##     ## ##    ##  ##     ## ##    ##    ##    ##       ##    ##  ##    ##
+ ######  ##     ## ##     ## ##     ## ##     ##  ######     ##    ######## ##     ##  ######
+#Protagonist
+define character.fang = Character(__("Fang Jie"), image="fang", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
+define character.authority = Character(__("Social Influence"), image="authority", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.composure = Character(__("Focus"), image="composure", what_italic=True, who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
+define character.concept = Character(__("Abstraction Compeherension"), image="concept", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.empathy = Character(__("Empathy"), image="empathy", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.logic = Character(__("Logic"), image="logic", who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", who_kerning=-1, what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.luck = Character(__("Luck"), image="luck", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.rhetoric = Character(__("Rhetorics"), image="rhetoric", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.correction = Character(__("Judgement"), image="correction", who_font="fonts/eng_chars/correction/KelmscottRomanNF.ttf", what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_italic=True, who_color="#000000", what_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.schema = Character(__("Schema"), image="schema", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.vice = Character(__("Vice"), image="vice", who_font="fonts/eng_chars/vice/dispose/DISPOSE1.ttf", what_font="fonts/eng_chars/vice/Eutemia.ttf", what_size=50, what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.visualcomprehension = Character(__("Visual Observation"), image="visualcomprehension", what_italic=True, who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", what_font="fonts/eng_chars/visualcomprehension/Caladea-Italic.ttf", what_color="#000000",  who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+
+define character.narrator = Character(ctc="ctc_blink", ctc_position="nestled")
+define character.f = Character(__("The Father"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.m = Character(__("The Mother"), who_color="#0d00ff", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.v = Character(__("The Voices"), who_color="#5b5963", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+#MISC
+define character.un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.thought = Character(None, what_italic=True, what_alt="I think, [text]")
+define character.prostitute = Character(__("Chang San Brothel worker"),what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+#1937
+define character.Ab = Character(__("Ah Bai"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
+define character.Am = Character(__("Ah Mei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
+define character.Ghe = Character(__("Guo He"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
+define character.Gh = Character(__("Guo Heng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
+define character.Gu = Character(__("Ku Hong-Meng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
+define character.Lc = Character(__("Lao Chang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc")
+define character.Li = Character(__("Li-Li"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Li")
+define character.Ls = Character(__("Li Tso-Shih"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ls")
+define character.Ly = Character(__("Lady Yang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ly")
+define character.monk = Character(__("Monk"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="monk")
+define character.Mw = Character(__("Ma Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Mw")
+define character.Po = Character(__("Professor Po Yeutarng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Po")
+define character.wpc = Character(__("Wang P'u Ch'en"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="wpc")
+define character.wyx = Character(__("Wang Yue Hsiang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.Xw = Character(__("Xiao Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
+define character.Xwe = Character(__("Xiao Wei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xwe")
+
+#1937 Japanese
+define ai = Character(__("Yumi"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="ai")
+
+transform change_transform(old, new):
+    contains:
+        old
+        yalign 1.0
+        xpos 0.0 xanchor 0.0
+        linear 0.2 xanchor 1.0
+    contains:
+        new
+        yalign 1.0
+        xpos 0.0 xanchor 1.0
+        linear 0.2 xanchor 0.0
+
+define config.side_image_change_transform = change_transform
+
 init python:
-    class chapter(object):
+    import renpy.store as store
+    import renpy.exports as renpy 
+    import time as time
+    def WeightedChoice(choices):
+        """
+        @param choices: A list of (choice, weight) tuples. Returns a random
+        choice (using renpy.random as the random number generator)
+        """
+        totalweight = 0.0
+        for choice, weight in choices:
+            totalweight += weight
+        randval = renpy.random.random() * totalweight
+        for choice, weight in choices:
+            if randval <= weight:
+                return choice
+            else:
+                randval -= weight
+    class chapter(store.object):
         def __init__(self, name, number, specialactions):
             self.name = name
             self.number = number
             self.specialactions = specialactions
-    class Char(object):      
+    class Char(store.object):      
         def __init__(self, mood, bond, pol, rel, traits, skillset, convolog, eventlog):
             self.mood = mood
             self.bond = bond
@@ -45,6 +129,29 @@ init python:
             else:
                 raise Exception("Invalid Skill Key for function \'skillval()\'.")
 
+        def randomise_compare(self, skill, x, y, sound, vol, msge):
+            if skill in self.skillset:
+                temp_val = self.skillset.get(skill) + self.skillset.get("luck")
+                opposition = renpy.random.randint(x, y)
+                test = WeightedChoice([("Success", temp_val),
+                                ("Failure", opposition)])
+                if test == "Success":
+                    if sound == True:
+                        renpy.music.set_volume(vol, delay=0, channel='skills') 
+                        renpy.play("sounds/menu/00_checksuccess.ogg", channel="skills")
+                    if msge == True:
+                        msg.msg(skill+" challenge success.")
+                    return True
+                elif test == "Failure":
+                    if sound == True:
+                        renpy.music.set_volume(vol, delay=0, channel='skills') 
+                        renpy.play("sounds/menu/00_checkfail.ogg", channel="skills")
+                    if msge == True:
+                        msg.msg(skill+" challenge failed.")
+                    return False
+            else:
+                raise Exception("Invalid Skill Key for function \'skillval()\'.")
+
         def convo(self, topic):
             self.convolog.append(topic)
 
@@ -63,8 +170,34 @@ init python:
         def chardead(self):
             self.mood = None
             self.traits = None
-
-
+ ######   ########     ###    ########  ##     ## ####  ######   ######  
+##    ##  ##     ##   ## ##   ##     ## ##     ##  ##  ##    ## ##    ## 
+##        ##     ##  ##   ##  ##     ## ##     ##  ##  ##       ##       
+##   #### ########  ##     ## ########  #########  ##  ##        ######  
+##    ##  ##   ##   ######### ##        ##     ##  ##  ##             ## 
+##    ##  ##    ##  ##     ## ##        ##     ##  ##  ##    ## ##    ## 
+ ######   ##     ## ##     ## ##        ##     ## ####  ######   ######  
+'''
+The side images for each character.
+'''
+style default:
+    antialias True
+image side vice neutral:
+    "images/00_character_side_images/character.vice/vice_neutral.png"
+    size(300, 300)
+    zoom 1.1
+image side correction neutral:
+    "images/00_character_side_images/character.correction/correction_neutral.png"
+    size(300, 300)
+    zoom 1.1
+image side visualcomprehension neutral:
+    "images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png"
+    size(300, 300)
+    zoom 1.1
+image side logic neutral:
+    "images/00_character_side_images/character.logic/logic_neutral.png"
+    size(300, 300)
+    zoom 1.1
 ######## ########     ###    #### ########  ######     ########  ####  ######  ######## 
    ##    ##     ##   ## ##    ##     ##    ##    ##    ##     ##  ##  ##    ##    ##    
    ##    ##     ##  ##   ##   ##     ##    ##          ##     ##  ##  ##          ##    
@@ -147,7 +280,21 @@ I would like to automate learning of player choice habits so that these traits i
 ##    ## ##   ##   ##  ##       ##       ##    ## ##          ##    
  ######  ##    ## #### ######## ########  ######  ########    ##    
 
-###default skill set
+### Interactive SkillSet
+
+# Authority
+# Composure
+# Coneptualisation
+# Empathy
+# Schema
+# Logic
+# Luck
+# Rhetoric
+# Judgement
+# Vice
+# Visual-Comprehension
+
+### Default skill set
 
 # determination
 # dexterity

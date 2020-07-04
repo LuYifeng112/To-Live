@@ -12,6 +12,7 @@
                     raise Exception("Mispelt or non-existent poem key being added.")
             else:
                 msg.msg(poem+" is already in the Poem Booklet")
+        
         def haspoem(self, poem):
             return poem in self.container
 

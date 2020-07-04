@@ -2,13 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_DEFINES/TL_defines_mapping.rpy", line 285: end of line expected.
-(Perhaps you left out a ' at the end of the first line.)
-    '''
-    This will optimise code in the long run. 
-    It's easier to give country tags as reference points when needing to work with nation objects.
-         ^
-    '''
+File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 187: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    antialias True
+                  ^
+
+File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 192: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+    antialias True
+                  ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Mon Jun 29 15:46:25 2020
+Fri Jul 03 14:58:27 2020

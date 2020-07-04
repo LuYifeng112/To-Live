@@ -8,8 +8,10 @@
 default show_beijing  = True
 default n_map = True
 
-init -10 python:          
-    class GuoPlace(object):
+init -10 python: 
+    import renpy.store as store
+    import renpy.exports as renpy         
+    class GuoPlace(store.object):
         '''
         This is the class that creates map coordinate for the map.
         - It consists of X,Y coordinates for placement.
@@ -28,7 +30,7 @@ init -10 python:
             self.Capital = Capital
         def deact(self):
             self.IsActive = False
-    class Guoflavour(object):
+    class Guoflavour(store.object):
         def __init__(self, x, y, name, IsActive, strength, icon):
             self.x = x
             self.y = y
@@ -37,7 +39,7 @@ init -10 python:
             self.strength = strength 
             self.icon = icon
     
-    class Province(object):
+    class Province(store.object):
         def __init__(self, x, y, name, ID, ProvinceID):
             self.x = x
             self.y = y
@@ -45,7 +47,7 @@ init -10 python:
             self.ID = ID
             self.ProvinceID = ProvinceID
 
-    class Nation(object):
+    class Nation(store.object):
         '''
         How countries are displayed. These are containers for information.
         '''
@@ -66,7 +68,6 @@ init -10 python:
 
         def activate(self):
             self.isActive = True
-            devlog.info("Activated Country")
         def dead(self):
             self.dead = True
 
@@ -79,9 +80,17 @@ init -10 python:
         def flag(self, flag):
             self.flagimg = flag
 
-        def getleadername(self):
-            global leader
-            leader = self.leader
+        def logevent(self, event, msg):
+            if event not in self.log:
+                self.log.append(event)
+            else:
+                raise Exception("Repeated Log in National Log.")
+            if bool(msg) == True:
+                msg.msg("New Event in " +[self.name]+":"+[event])
+            elif bool(msg) == False:
+                pass
+            else:
+                pass
 
     TL_GUO_loc = []
     TL_GUO = []
@@ -203,35 +212,35 @@ init -10 python:
         ##  #### #########    ##     ##  ##     ## ##  ####       ## 
         ##   ### ##     ##    ##     ##  ##     ## ##   ### ##    ## 
         ##    ## ##     ##    ##    ####  #######  ##    ##  ###### 
-    CHI_log = []
-    PRC_log = []
-    JAP_log = []
-    MAN_log = []
-    RNG_log = []
-    EHA_log = []
-    MEN_log = []
-    PGR_log = []
-    SHX_log = []
-    XSM_log = []
-    GXC_log = []
-    YUN_log = []
-    SDC_log = []
-    HNC_log = []
-    SHC_log = []
-    SKC_log = []
-    SIK_log = []
-    TIB_log = []
-    ETR_log = []
-    BKT_log = []
-    KII_log = []
-    KON_log = []
-    DRK_log = []
-    KOR_log = []
-    ENG_log = []
-    POR_log = []
-    FRA_log = []
-    SOV_log = []
-    USA_log = []
+    persistent.CHI_log = []
+    persistent.PRC_log = []
+    persistent.JAP_log = []
+    persistent.MAN_log = []
+    persistent.RNG_log = []
+    persistent.EHA_log = []
+    persistent.MEN_log = []
+    persistent.PGR_log = []
+    persistent.SHX_log = []
+    persistent.XSM_log = []
+    persistent.GXC_log = []
+    persistent.YUN_log = []
+    persistent.SDC_log = []
+    persistent.HNC_log = []
+    persistent.SHC_log = []
+    persistent.SKC_log = []
+    persistent.SIK_log = []
+    persistent.TIB_log = []
+    persistent.ETR_log = []
+    persistent.BKT_log = []
+    persistent.KII_log = []
+    persistent.KON_log = []
+    persistent.DRK_log = []
+    persistent.KOR_log = []
+    persistent.ENG_log = []
+    persistent.POR_log = []
+    persistent.FRA_log = []
+    persistent.SOV_log = []
+    persistent.USA_log = []
 
     CHI_DESC = "The Republic of China was established on Janurary 1st 1912 after the Xinhai Revolution which overthrew the Qing dynasty. It was de-facto dissolved during the warlord era until in 1921 the Kuomintang established a rival government in Canton. Chiang Chieh Shih who came into power through a military coup began a northern expedition to capture cities fro warlords and proclaim a central government to unite China under. Many foreign nations recognised the Nationalist government as the legitimate unified government of China, even the Soviet Union which supported the Chinese communists. After the Nanjing decades of the 1930s the Republic was weak and thrown into constant war of unification and resistance against foreign powers such as Japan."
     PRC_DESC = ""
@@ -281,7 +290,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/CHI.png", 
-        CHI_log, 
+        persistent.CHI_log, 
         CHI_DESC)
     
 
@@ -297,7 +306,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/PRC_1937.png", 
-        PRC_log, 
+        persistent.PRC_log, 
         PRC_DESC)
 
  ######   #######          ########  ########   #######  ########   ######  ######## ########  #### ######## ##    ##     ######  ########  ##     ## ######## ########  ######## 
@@ -320,7 +329,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/JAP.png", 
-        JAP_log, 
+        persistent.JAP_log, 
         JAP_DESC)
 
     TL_GUO[3] = Nation(
@@ -335,7 +344,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/MAN.png", 
-        MAN_log, 
+        persistent.MAN_log, 
         MAN_DESC)
     
     TL_GUO[4] = Nation(
@@ -350,7 +359,7 @@ init -10 python:
         False, 
         False, 
         "country_flags/RNG.png", 
-        RNG_log, 
+        persistent.RNG_log, 
         RNG_DESC)
 
     TL_GUO[5] = Nation(
@@ -365,7 +374,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/EHA.png",
-        EHA_log, 
+        persistent.EHA_log, 
         EHA_DESC)
 
     TL_GUO[6] = Nation(
@@ -380,7 +389,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/MEN.png",
-        MEN_log, 
+        persistent.MEN_log, 
         MEN_DESC)
 
 ##      ##    ###    ########  ##        #######  ########  ########      ######  ##       ####  #######  ##     ## ########  ######  
@@ -402,7 +411,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/PGR.png", 
-        PGR_log, 
+        persistent.PGR_log, 
         PGR_DESC)
 
     TL_GUO[8] = Nation(
@@ -417,7 +426,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/SHX.png", 
-        SHX_log, 
+        persistent.SHX_log, 
         SHX_DESC)
 
     TL_GUO[9] = Nation(
@@ -432,7 +441,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/XSM.png", 
-        XSM_log, 
+        persistent.XSM_log, 
         XSM_DESC)
 
     TL_GUO[10] = Nation(
@@ -447,7 +456,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/GXC.png", 
-        GXC_log, 
+        persistent.GXC_log, 
         GXC_DESC)
 
     TL_GUO[11] = Nation(
@@ -462,7 +471,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/YUN.png", 
-        YUN_log, 
+        persistent.YUN_log, 
         YUN_DESC)
 
     TL_GUO[12] = Nation(
@@ -477,7 +486,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/SDC.png", 
-        SDC_log, 
+        persistent.SDC_log, 
         SDC_DESC)
 
     TL_GUO[13] = Nation(
@@ -492,7 +501,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/HNC.png", 
-        HNC_log, 
+        persistent.HNC_log, 
         HNC_DESC)
 
     TL_GUO[14] = Nation(
@@ -507,7 +516,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/SHC.png", 
-        SHC_log, 
+        persistent.SHC_log, 
         SHC_DESC)
 
     TL_GUO[15] = Nation(
@@ -522,7 +531,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/SKC.png", 
-        SKC_log, 
+        persistent.SKC_log, 
         SKC_DESC)
 
     TL_GUO[16] = Nation(
@@ -537,7 +546,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/SIK.png", 
-        SIK_log, 
+        persistent.SIK_log, 
         SIK_DESC)
 
     TL_GUO[17] = Nation(
@@ -552,7 +561,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/TIB.png", 
-        TIB_log, 
+        persistent.TIB_log, 
         TIB_DESC)
 
     TL_GUO[18] = Nation(
@@ -567,7 +576,7 @@ init -10 python:
         False, 
         False, 
         "country_flags/ETR.png", 
-        ETR_log, 
+        persistent.ETR_log, 
         ETR_DESC)
 
     TL_GUO[19] = Nation(
@@ -582,7 +591,7 @@ init -10 python:
         False, 
         False, 
         "country_flags/BKT.png",  
-        BKT_log, 
+        persistent.BKT_log, 
         BKT_DESC)
 
     TL_GUO[20] = Nation(
@@ -597,7 +606,7 @@ init -10 python:
         False, 
         False, 
         "country_flags/KII.png", 
-        KII_log, 
+        persistent.KII_log, 
         KII_DESC)
 
     TL_GUO[21] = Nation(
@@ -612,7 +621,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/KON.png", 
-        KON_log, 
+        persistent.KON_log, 
         KON_DESC)
     
     TL_GUO[22] = Nation(
@@ -627,7 +636,7 @@ init -10 python:
         False, 
         False, 
         "country_flags/DRK_1945.png", 
-        DRK_log, 
+        persistent.DRK_log, 
         DRK_DESC)
 
     TL_GUO[23] = Nation(
@@ -642,7 +651,7 @@ init -10 python:
         False, 
         False, 
         "country_flags/KOR_1945", 
-        KOR_log, 
+        persistent.KOR_log, 
         KOR_DESC)
 ######## ##     ## ########   #######  ########  ########    ###    ##    ##     ######   #######  ##        #######  ##    ## #### ########  ######  
 ##       ##     ## ##     ## ##     ## ##     ## ##         ## ##   ###   ##    ##    ## ##     ## ##       ##     ## ###   ##  ##  ##       ##    ## 
@@ -663,7 +672,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/ENG.png", 
-        ENG_log, 
+        persistent.ENG_log, 
         ENG_DESC)
 
     TL_GUO[25] = Nation(
@@ -678,7 +687,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/POR.png", 
-        POR_log, 
+        persistent.POR_log, 
         POR_DESC)
 
     TL_GUO[26] = Nation(
@@ -693,7 +702,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/FRA.png", 
-        FRA_log, 
+        persistent.FRA_log, 
         FRA_DESC)
 
     TL_GUO[27] = Nation(
@@ -708,7 +717,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/SOV.png", 
-        SOV_log, 
+        persistent.SOV_log, 
         SOV_DESC)
 
     TL_GUO[28] = Nation(
@@ -723,7 +732,7 @@ init -10 python:
         True, 
         False, 
         "country_flags/USA.png", 
-        USA_log, 
+        persistent.USA_log, 
         USA_DESC)
     
 

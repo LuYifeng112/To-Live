@@ -240,6 +240,10 @@ screen guo():
             text nation.info size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
                 if _preferences.language == "chinesesim":
                     font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    text "National Log" size 25 font "fonts/eng_moria/MoriaCitadel.ttf" style "TL_menu" color "#FFFFFF" xalign 0.3 ypos 680
+    vbox xalign 0.3 ypos 700 spacing 5:
+            for i in nation.log:
+                text i size 20 style "TL_menu"
 
 
 define persistent._map_audio = True

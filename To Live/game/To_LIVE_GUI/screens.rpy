@@ -113,9 +113,9 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                text who id "who" style "clear_name"
 
-        text what id "what"
+        text what id "what" style "clear"
 
 
     ## If there's a side image, display it above the text. Do not display on the
@@ -154,6 +154,13 @@ style namebox:
 
     background Frame("gui/namebox.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
+
+style clear_name is text:
+    antialias True
+    kerning -4
+
+style clear is text:
+    antialias True
 
 style say_label:
     properties gui.text_properties("name", accent=True)

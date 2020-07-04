@@ -48,7 +48,7 @@ screen notif():
         for i in msg.list:
             frame:
                 at notif_t(msg.delay)
-                text "{}".format(i[1])
+                text "{}".format(i[1]) style "TL_menu"
     # test button, remove
     # button:
     #     text "ssd"

@@ -8,17 +8,20 @@
     image note = "00_menu_images/_NOTE.png"
     image splash ="00_menu_images/slash.jpg"
     image renpy_cred = "00_menu_images/_menu_renpy.png" 
-    image placeholder = "00_background/00_placeholder.png"
+    image placeholder = "00_bg_environment/00_placeholder.png"
     define audio.act = "sounds/menu/select_flip.ogg"
 
     #Beijing
-    image Ku_house = "00_background/Ku_house.png"
-    image CDX_village = "00_background/art_cuandixia_village_route.png"
+    image Ku_house = "00_bg_environment/Ku_house.png"
+    image CDX_village = "00_bg_environment/art_cuandixia_village_route.png"
 
     #Location Sprites
-    image Beijing_location = "00_location_bookmark/00_Beijing_city.jpg"
+    image Beijing_location = "00_bookmark_location/00_Beijing_city.jpg"
 
     #Sounds
+
+    define audio.checkfail = "sounds/menu/00checkfail.wav"
+    define audio.checksuccess = "sounds/menu/00checksuccess.wav"
 
     define audio.sound_menu_logo = "sounds/menu/logo_sound.ogg"
 

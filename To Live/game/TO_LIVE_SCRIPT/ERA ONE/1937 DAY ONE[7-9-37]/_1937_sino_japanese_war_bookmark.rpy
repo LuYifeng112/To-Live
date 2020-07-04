@@ -1,23 +1,73 @@
 label Beijing_chapter_one:
 if not persistent.history_home_unlocked:
   $ TL_history_log.addhome("home")
+vice neutral "Hello"
+correction neutral "hello"
+visualcomprehension neutral "Hello"
+logic neutral "Hello"
+un "Fang"
+un "{cps=*0.4}...{/cps}"
+un "You awake?"
+"The faint figure was only a silhouette in my half opened eyes."
+"I had waited so long for him to arrive I had fallen asleep in this god awful uncomfortable chair."
+menu:
+    "I'm awake":
+        pass
+un "That's good."
+"The silhouette moved around a bit more as I tried to gain focus."
 un "It is important you answer these questions properly."
 un "I will go through them one by one."
+un "Alright?"
+menu:
+    "...":
+        pass
 un "Do not fret."
 fang "Yes I understand."
 un "Good."
-un "we're here for you."
+un "We're here for you."
+un "Let's get this over with."
 "That thought was calming to me."
-"I knew I had screwed up.. yet I got my chance back."
-
+"Tough times needed tough people or support."
+"In this case I knew what {i}I{/i} needed."
+"I knew I had screwed up..."
+"Protesting and rebelling."
+"Showing the power of a voice without hope."
+"Of harsh unfiltered criticism."
+"What should I expect?"
+menu:
+    "{i}That was my choice; thus my consequence.{/i}":
+        pass
+    "{i}Justice being punished is just proof of a unjust leadership.{/i}":
+        if fang.randomise_compare("rhetoric", 0,1, True, 0.35, True):
+            "This gives me a message on autority and power in this country."
+            "It's better to not believe in it too much."
+            correction "Perhaps it is human nature to be self centered."
+            correction "How else is one expected to live in a naturally cruel world?"
+            menu:
+                "By cooperating and becoming strong as a group":
+                    correction "perhaps so."
+                "You're right. A litte sefishness is necessary.":
+                    "But most people tka it too far."
+                    "They fail to limit ambition or a desire for inhibition."
+                    correction "Maybe..."
+                    correction "Maybe not."
+            $ fang.log("Political_Disbelief")
+            $ fang.addTrait("LightCynical")
+        else:
+            fang "But if they really want to preserve Dr Sun's legacy they will have to change their ways."
+            fang "They will listen one way or the other."
+        "I should just focus on getting this interview done."
 scene Ku_house
 
-"I gulped as I braced myself."
-"Times were getting scary."
-"China is on the edge of total war."
-"I had also made mistakes in showing protest and oppsition."
+"Times are getting intense these days."
+"We are on the edge of total war - {i}again{/i}."
+"I began to adjust my eyes and get used to who was around me."
+"Resting my eyes on the previously known \"Silhouette\" I recognised him as \"Professor Po-YeurtTarng\"."
 "Professor Po Yeutarng is a lawyer who is quite well connected wtih Kuomintang \"Hawks\"."
-"Hawks in the sense that they perch on your shoulder and are aggressive in every action they take."
+"\"Hawks\" in the sense that they perch on your shoulder and are aggressive in every action they take."
+"The Professor's very close with my uncle \"Ku Hong-Meng\"."
+"A scholar who used to work in Peking before he became \"enlightened\" in a lifestyle of spiritual content and cosmic toiling."
+"A full time Taoist in essence."
 "Professor Po Yeutarng on request of Uncle Ku had come to interview me to clear of any charges or suspicions with communist acivity."
 "All three of us knew that I was in no way connected with communists or had any clear sympathies for them."
 "The interview still had to be carried out superficially... just to clear my name."
@@ -30,28 +80,55 @@ menu:
         pass
         
     "Please Give me a minute to think.": 
-        fang "Please give me a minute to think."
-        Po "That's fine,"
-        "Normally I would be ready to answer any question coming my way."
-        "I never passed up answering a question."
-        "Beads of sweat formed on my brow."
-        "Summer had just ended so the heat was burning out like some star."
-        "I controlled my air-flow and calmed myself down."
-        "I can do this."
-        Po "I don't think you did anything wrong."
-        Po "You're young."
-        Po "You have this burning fire in you that can't be matched."
-        Po "You have to vent it out somewhere."
-        Po "Those hawks will let you go unless they see you have an incentive to believe in communism through traits such as poverty."
-        Po "Which means that any of the other kids that were protesting and weren't affluent can be suspected more harshly as communists due to their economic conditions."
-        Po "I'll have to interview them as well."
-        Po "I can spot damn communists really well."
-        Po "My hair may be greying but I sure got a sharp eye."
-        "Uncle Ku looked at me like how a human judges a lamb."
-        Gu "Don't overthink it Fang."
-        Gu "If the hawks were paranoid they would have taken you from our house already."
-        Gu "Just make sure you can answer their questions."
-        Gu "They will be used against you."
+        if fang.randomise_compare("composure", 0, 1, True, 1, False):
+            composure "{i}Succeeded in focussing.{/i}"
+            $ fang.updateSkill("focus", 1)
+            fang "Please give me a minute to think."
+            Po "That's fine,"
+            "Normally I would be ready to answer any question coming my way."
+            "I never passed up answering a question."
+            "Beads of sweat formed on my brow."
+            "Summer had just ended so the heat was burning out like some star."
+            "I controlled my air-flow and calmed myself down."
+            "I can do this."
+            Po "I don't think you did anything wrong."
+            Po "You're young."
+            Po "You have this burning fire in you that can't be matched."
+            Po "You have to vent it out somewhere."
+            Po "Those hawks will let you go..."
+            Po "unless they see you have an incentive to believe in communism through traits such as {i}poverty.{/i}"
+            Po "Which means that any of the other kids that were protesting and weren't affluent can be suspected more {i}harshly{/i} as \"communists\" due to their economic conditions."
+            Po "I'll have to interview them as well."
+            Po "I can spot damn communists really well."
+            if fang.randomise_compare("visualcomprehension", 2,4, True, 0.35, True):
+                visualcomprehension neutral "I mean you can tell by that patriotic insignia he wears."
+                visualcomprehension neutral "Normally he wears a coat to cover it up or keep the coat resting on his shoulder."
+                logic neutral "Why would he hide it?"
+                visualcomprehension neutral "He's not part of any Kuomintang adminstration based on his job or uniform."
+                visualcomprehension neutral "So you can guess why he wears that at all."
+                "Professor Po wore the insignia of the Kuomintang flag on his arm."
+                "It looked well stitched and taken care of."
+                Po "You spotted that?"
+                Po "Good eye there."
+                visualcomprehension neutral "I know."
+                "Professor Po brushed it lightly."
+                Po "I do this to preserve Dr Sun's legacy."
+                "Professor Po smirked."
+                Po "Unlike that \"Generalissimo\" Chiang."
+                "Professor Po let out a large sigh."
+                Po "Communists are the {i}worst{/i}"
+            Po "I hoped they would have lost back in Fusze."
+            "Professor Po cursed under his breath as he said this."
+        else:
+            composure "{i}Failed to focus.{/i}"
+            "I tried my best to focus but something kept burning up in me."
+            "It was painful to confront my own emotions."
+            "The pressure of everything just kept building up."
+            "Like a bag of rocks on my back. Like something kept putting in more rocks."
+            "{i}Whose burdem am I carrying?{/i}"
+            "The flames of stress and neuroticism just growing and expanding."
+            "{i}Life feels like a fucking nightmare.{/i}"
+            fang "I'm ready."
         
 Po "Well Let us start now."
 Po "The hawks want to know more about you this will information will help you reflect on what you want to do with the looming war."
@@ -222,6 +299,7 @@ menu:
         Gu "They won't mess with you then I guess."
         Po "Out of curiosity..."
         Po "How have the Japanese run Taiwan?"
+        $ devtool.criticial("Hometown:TAiwan menu")
         menu:
             "Pretty Well":
                 pass
@@ -236,7 +314,7 @@ Po "So what are you doing in Peiping right now?"
 
 menu:
     "Attending school as a student.":
-        $ is_student = True
+        $ fang.log("Reason:Student")
         play sound "sounds/stat_increase/00_stat_increase.ogg"
         "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 Determination; 3 Intellect and 2 Dexterity!{/color}{/font}"
         fang "I came here to actually continue my education."
@@ -261,7 +339,7 @@ menu:
         "He looked down at his papers as he dipped the brush back into a clay pot of ink and scribed some details on a creased paper."
 
     "Working as a scholarly apprentice under my uncle":
-        $ is_apprentice = True
+        $ fang.log("Reason:Apprentice")
         play sound "sounds/stat_increase/00_stat_increase.ogg"
         "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 Intellect and 3 Dexterity!{/color}{/font}"
         fang "I am working as an apprentice to my Uncle."
@@ -272,9 +350,8 @@ menu:
         Po "anyway..."
 
     "Working here to send money back home.":
-        $ is_working = True
+        $ fang.log("Reason:Working")
         $ inventory.earn(200)
-        $ current_money = inventory.money
         play sound "sounds/stat_increase/00_stat_increase.ogg"
         "{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 2 determination!{/color}{/font}"
         Po "what a hardworking kid."
@@ -289,9 +366,8 @@ menu:
         Po "That is great to hear"
 
     "Taking a break after military conscription training":
-       $ is_free = True
+       $ fang.log("Reason:Military")
        $ inventory.earn(30)
-       $ current_money = inventory.money
        fang "I'm taking a break from military conscription training."
        Po "How come you weren't enlisted?"
        "Professor Po looks confused as he asks me this question."
@@ -410,7 +486,7 @@ $ TL_glossary.addword("Tao Te Ch\'ing")
 Gu "Would you like to hear a poem from {i}Tao Te Ch\'ing{/i}?"
 Gu "{i}Tao the water way{/i}"
 menu:
-    "Yes" if not haspoem("Tao The Water Way"):
+    "Yes" if not TL_poem.haspoem("Tao The Water Way"):
         fang "Yes I would like to hear it."
         "Professor Po was now heavily intoxicated and slumping in his chair as he strained to keep focus."
         Gu "I don't think he will ming me reciting a poem of backwards tradition."
@@ -499,14 +575,23 @@ $ TL_glossary.addword("Yīnyáng")
 "Part of me was afraid of the new world I had stepped into."
 "Will the gods protect me?"
 "Thoughts invaded my mind as I looked at the shrine."
+if fang.randomise_compare("reaction", 2,4):
+    correction neutral "But you have to stay focussed."
+    correction neutral "Overtinking will not be useful to you this way."
+    correction neutral "You should try to calm down and think."
+    $ stress -= 1
+    $ msg.msg("Stress reduced.")
 "Lúgōuqiáo Shìbiàn had begun only a few days ago."
-$ TL_history_log.addevent("1937 Marco-Polo Incident")
+$ TL_history_log.addevent("Marco-Polo Incident")
+$ CHI.logevent("1937-7-7: Marco-Polo Incident", False)
+$ JAP.logevent("1937-7-7: Marco-Polo Incident", False)
+$ PGR.logevent("1937-7-7: Marco-Polo Incident", False)
 "Uncle Ku ambled out of the guest room with his hands concealed under his robes."
 "He grimaced slightly at the situation."
-Gu "You might have to wait to attain your visa."
+Gu "I don't know what will come out of this."
 "He seemed to say that calmly."
 "Something so important...{w=1} taken so lightly."
-fang "That's fine...{w=1} I cant deal with that."
+fang "That's fine...{w=1} I can deal with that."
 "Uncle Ku sat down at the shrine and opened Tao Te Ch\'ing."
 "He was a commited reader and devotee."
 Gu "You should go outside and find something to do."
@@ -545,7 +630,7 @@ default activities_left = 3
 "It's a real shame I never even learnt his name despite knowing how well known he was in this local place."
 "My great grandfather disliked the Qing as they were Manchus as opposed to the Ming who were a Han Chinese dynasty."
 "He had a wealthy wine business which gave him the money to buy a large {i}Siheyuan{/i}"
-$ TL_glossary.addword("Siheyuan")
+$ TL_glossary.addword("sìhéyuàn")
 "The Sakura was planted to mark the growth a new era without the Qing."
 "The Sakura plant was also foreign and thus showcased his wealth when he had it planted."
 "Everything I ever learnt about him indicated that...{w=1} wealth controlled his choices."
@@ -757,33 +842,25 @@ prostitute "You talk better to the ones your age."
 prostitute "I'm only a few years your senior. {w=1}A solid 19 year old."
 prostitute "You're disappointed. Aren't you?"
 "She was teasing me."
-prostitute "The ones you talk to aren't here."
-"It seemed their sisterhood all shared the same mind like some collective conscious."
-prostitute "They tell me, how you blush when they compliment you."
-prostitute "Maybe when you're older you can whisk one away and keep her."
-"I gave a faint giggle as I felt butterflies in my stomach."
-prostitute "Xiao Wen dreams about you, I've heard."
-"That took me off guard."
-"I could feel my heart pumping and racing."
-"It was just embarassing at this point."
-prostitute "I think you two would be cute."
 prostitute "By the way, my name is Wang Yuelan."
-prostitute "If you ever need shelter, just ask Xiao Wen to share the room."
+prostitute "If you ever need shelter, just ask {i}Xiao Wen{/i} to share the room."
 "She laughed as she opened the door and walked inside."
+if fang.randomise_compare("rhetoric", 3,4, True, 0.35, True):
+    rhetoric "She's implying you should use their services if you need shelter."
+    rhetoric "After all you will {b}stay the night{/b} there by any way."
+    vice "Well would you?"
+    menu:
+        "I don't indulge in such vices.":
+            vice "Playing good guy?"
+            vice "What a bore."
+            vice "I guess it's your \"choice\"."
+        "Maybe when I'm more \"curious\".":
+            vice "Vice would be proud to hear \"this\"."
+            vice "It's human to have such desires."
+"Interesting indeed."
 "They were an interesting bunch,{w=1}strange but interesting."
 "While I do confess Xiao Wen's attraction, caste was a stigma that would burrow itself deep in me, like some toxic idea or opinion."
 "I felt guilty to admit to myself such things."
-if saucy_thoughts <= 30:
-  "Despite that..."
-  "I couldn't help wanting to... {w=1} touch her."
-  "Like feel her skin,"
-  "Hear her moan."
-  "It would keep me up all night until I did something about it."
-  "At this point I didn't know when I felt lust for her,{w=2} and when I felt love."
-  "She would flirt with me everytime I would pass by and no one else was around."
-  "It was intense."
-  "Despite that..{w=1}I can't keep thinking so provocatively."
-  "I had to come to my senses."
 "I kept on walking along the dirt path."
 "The ambient noises from the brothel faded away with my distance."
 "I kept walking on."
@@ -1101,9 +1178,17 @@ elif fang.hasLog("Hometown:Peiping"):
     "For only two weeks I had stayed here with Uncle Ku."
     "I felt I couldn't fit in."
     "I never knew why..."
-    fang "There's two reasons to explain that."
-    fang "Firstly my family has a habit of moving across China for different jobs and oppurutunities."
-    fang "Secondly all my experience of Peiping was South of it where you could consider it a part of Tientsen.{w=1} So I guess overall I lack much experience if any about living in Peiping."
+    menu:
+        "Come up with some reasons":
+            if fang.randomise_compare("conceptualization", 2,4, True, 0.35, False):
+                fang "There's two reasons to explain that."
+                fang "Firstly my family has a habit of moving across China for different jobs and oppurutunities."
+                fang "Secondly all my experience of Peiping was South of it where you could consider it a part of Tientsen.{w=1} So I guess overall I lack much experience if any about living in Peiping."
+            else:
+                "Failed to come up with a reason."
+                fang "I don't know why I don't fit in here."
+        "I don\'t know why I can't fit in here":
+            pass
     Gh "I see then."
     Gh "If you need any help anytime..."
     Gh "I'm here and I'll teach you the ropes of anything."
@@ -1113,12 +1198,12 @@ elif fang.hasLog("Hometown:Peiping"):
     Gh "We have to look after you."
     fang "Again.{w=1} Thanks."
     Gh "On a separate note...{w=0.5} Have you ever drank some {i}Bai-Jiu{/i}?"
-    $ TL_glossary.addword("Bai-Jiu")
+    $ TL_glossary.addword("Báijiǔ")
     Gh "Your Great Grandpa's factory sells the good stuff to us, sometimes to some Japanese as well on the other side."
     Gh "You should try it."
     menu:
         "Sure, I'll try":
-            $ promise_GH_beer = True
+            $ fang.log("Promise_GH_BAI_JIU")
             fang "Surely it can't be that bad."
             Gh "You got a good spirit in you."
             Gh "Unfortunately my work day isn't over{w=1} and I won't cook while I'm not sober."
@@ -1126,7 +1211,6 @@ elif fang.hasLog("Hometown:Peiping"):
             Gh "Especially in regards to the start of a war."
 
         "No thanks, I'm fine":
-            $ promise_Gh_talk_escape = True
             fang "I don't feel like drinking."
             Gh "Ah well, that's fine."
             Gh "I respect that."
@@ -1327,28 +1411,46 @@ label GH_Beijing_busy:
                     fang "I know this might be harsh but I don't want to leave you behind at all costs."
                     fang "That is why I need you to come with me."
                     if fang.hasLog("Hometown:Peiping"):
-                        fang "Didn't you say at the interview that you knew a scholarly friend back in Qingdao?"
+                        fang "Didn't you say at the interview that you knew a scholarly friend back in Tsingtao?"
                     else:
                         fang "Correct me if I'm wrong but isn't there some friend in Qingdao you can contact?"
                     Gu "Fang."
                     Gu "I accept your goodwill and honest intentions for my safety."
-                    Gu "I also have some disagreements"
-                "If you keep me here then my blood is on your hands.":
-                    Gu "Don't talk like that."
-            Gu "You got accepted into Peking university."
-            Gu "You joined a protest about things that matter to you and to you only."
-            Gu "Now you are forcing my own hand to your will."
-            Gu "Have you noticed how self-entitled you are?"
-            Gu "You've only been here two weeks and I'm starting to see a controlling trait of yours emerging."
-            Gu "Fang you don't need to be {i}this{/i} rash."
-            $ Gu.bondp(-1)
-            Gu "I'm sorry."
-            Gu "I may be that old traditional thinking fundamentalist."
-            Gu "But my choices will remain my choices."
-            Gu "You can leave."
-            "Uncle Ku sat on the guest bed."
-            Gu "I don't have any hard feelings from what is a natural response to fear and danger."
-            Gu "Out of goodwill I can help prepare you."
+                    Gu "I also have some disagreements."
+                "It will be better if you could come.":
+                    if fang.randomise_compare("rhetoric"，5，7，True, 0.35, False):
+                        rhetoric "{b}Challenge Successful{/b}"
+                        rhetoric "Uncle Ku won't budge knowing his \"stubbornness\"."
+                        rhetoric "It would be best to leave him without drama."
+                        rhetoric "Talking to him maturely could allow us to have a better head-start on departure."
+                        "I guess you're right on that part."
+                        fang "It would be better if you came with me."
+                        menu:
+                            "If you can't then at least farewell on a good note":
+                                $ devtool.critical("KU_farewell_convo - GOOD_NOTE")
+                                pass
+                            "I'll respect your choices but you'll have to respect mine.":
+                                $ devtool.critical("KU_farewell_convo - MUTUAL_RESPECT")
+                                pass
+                        $ fang.log("KU_farewell_convo")
+            if not fang.hasLog("KU_farewell_convo"):
+                Gu "You got accepted into Peking university."
+                Gu "You joined a protest about things that matter to you and to you only."
+                Gu "Now you are forcing my own hand to your will."
+                Gu "Have you noticed how self-entitled you are?"
+                Gu "You've only been here two weeks and I'm starting to see a controlling trait of yours emerging."
+                Gu "Fang you don't need to be {i}this{/i} rash."
+                $ Gu.bondp(-1)
+                Gu "I'm sorry."
+                Gu "I may be that old traditional thinking fundamentalist."
+                Gu "But my choices will remain my choices."
+                Gu "You can leave."
+                "Uncle Ku sat on the guest bed."
+                Gu "I don't have any hard feelings from what is a natural response to fear and danger."
+                Gu "Out of goodwill I can help prepare you."
+            else:
+                $ devtool.critical("KU_farewell_convo_branch")
+                pass
             menu:
                 "Thank you.":
                     pass
@@ -1655,6 +1757,14 @@ label MW_CONVO_1:
             $ Mw.bondp(-1)
             $ Mw.log("CONVO_1_MW_Mother")
             $ msg.msg("Ma-Wen didn't like that.")
+            menu:
+                "I'm sorry" if fang.randomise_compare("empathy", 3,6, True, 0.35, True):
+                    fang "I'm sorry."
+                    "Ma Wen didn't budge from my offense."
+                    Mw "Forget it."
+                "...":
+                    "What could I say."
+                    "It felt too awkward..."
             jump MW_CONVO_1
         "Was leaving behind so much wealth worth it?" if not Mw.said("Wealth"):
             $ Mw.convo("Wealth")
@@ -1711,6 +1821,7 @@ else:
     "Despite that I could still feel his cloud of melancholy."
     $ MW_impression = __("Netural First Impression")
 $ msg.msg("You made a [MW_impression] on Ma-Wen")
+$ del MW_impression
 monk "Don't overthink it."
 monk "It will take time for him to come to terms with these feelings."
 monk "Self hate is a poison in which time is its antidote."
@@ -1781,3 +1892,8 @@ else:
 "I absorbed the sweet image into my memory."
 "I began to walk down that path I had walked down a few times today."
 "Objects becoming more and more like silhouettes."
+if fang.randomise_compare("visualcomprehension", 3,5, True, 1, False):
+    visualcomprehension "{b}Visual Comprehension Task successful{/b}"
+    visualcomprehension "The sun hasn't completely gone down yet but your eyes can adjust."
+    visualcomprehension "Silhouettes are just shapes and that is enough to go your way around."
+
