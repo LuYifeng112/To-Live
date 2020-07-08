@@ -1,7 +1,7 @@
 python:
 
     import TL_defines_character
-
+    import TL_defines_inventory
 default fang = Char( 
     mood ="Anxious",
     bond = 0,
@@ -10,7 +10,8 @@ default fang = Char(
     traits = FangJie_traits,
     skillset = FangJieSkills,
     convolog = FangJieConvo,
-    eventlog = FangJieLog
+    eventlog = FangJieLog,
+    bag = fangbag
     )
 define FangJie_traits = [
    __("Well-Informed"),
@@ -27,6 +28,7 @@ define FangJieSkills = dict(
         dexterity=3,
         empathy=4,
         encyclopedia=6,
+        endurance=2,
         equipload=10,
         faith=4,
         focus=2,
@@ -34,6 +36,7 @@ define FangJieSkills = dict(
         lockpicking=0,
         logic=4,
         luck=3,
+        perception=2,
         psychethreshhold=2,
         rhetoric=4,
         reaction=3,
@@ -47,6 +50,7 @@ define FangJieConvo = [
     ]
 define FangJieLog = [
     ]
+
 
 #health
 default currenthp = 50

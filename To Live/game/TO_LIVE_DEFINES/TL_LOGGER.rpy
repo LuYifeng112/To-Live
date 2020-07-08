@@ -37,16 +37,6 @@ init -100 python:
     fm = logging.Formatter('%(asctime)-s %(levelname)-s %(name)-s %(message)s')
     devlogfile.setFormatter(fm)
     del fm
-
-    devlog.info("Game directory: %s" % gamedir)
-    devtool = logging.getLogger(" ".join([config.name, config.version]))
-    devtoolfile = logging.FileHandler(os.path.join(gamedir, "devtools.txt"), mode='w')
-    devtoolfile.setLevel(logging.DEBUG)
-    devtool.addHandler(devtoolfile)
-    devtool.critical("\n--- launch game ---")
-    devtooler = logging.Formatter('%(lineno)d %(message)s')
-    devtoolfile.setFormatter(devtooler)
-    del devtooler
 python early:
     # These control the name and version of the game, that are reported
     # with tracebacks and other debugging logs.
@@ -54,6 +44,9 @@ python early:
     config.version = "0.0.79"
 
 define devlog = logging.getLogger(" ".join([config.name, config.version]))
-define devtool = logging.getLogger("".join([config.name, config.version]))
 
 
+# define config.missing_label_callback = Tl_ScriptError
+
+# label Tl_ScriptError:
+#     "TL Failure"

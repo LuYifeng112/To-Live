@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 187: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
-    antialias True
-                  ^
-
-File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 192: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
-    antialias True
-                  ^
+File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 261: text expects a non-empty block.
+    text q.name style "MapText" at ambient:
+                                           ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Fri Jul 03 14:58:27 2020
+Thu Jul 09 00:41:11 2020

@@ -815,3 +815,63 @@ translate chinesesim strings:
     old "Democratic party"
     new ""
 
+# TODO: Translation updated at 2020-07-06 23:06
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:739
+    old "kuang tung"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:740
+    old "Kwanghsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:741
+    old "Hunan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:742
+    old "Chiang Hsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:743
+    old "Fukien"
+    new ""
+
+# TODO: Translation updated at 2020-07-06 23:08
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:125
+    old "Kwangchow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:126
+    old "Hong Kong"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:127
+    old "Macau"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:130
+    old "Nanking"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:140
+    old "Peiping"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:281
+    old "Chiang Chie Shih"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:297
+    old "Mao Tse-Tung"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:447
+    old "Li Tsung-Jen"
+    new ""
+

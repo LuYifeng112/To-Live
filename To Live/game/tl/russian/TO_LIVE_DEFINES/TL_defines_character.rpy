@@ -18,3 +18,69 @@ translate russian d0ed2b47:
     # "These are skills that apply to specific characters. Sometimes more than one."
     ""
 
+# TODO: Translation updated at 2020-07-08 16:34
+
+# game/TO_LIVE_DEFINES/TL_defines_character.rpy:184
+translate russian 54fbd177:
+
+    # "The side images for each character."
+    ""
+
+translate russian strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:13
+    old "Social Influence"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:14
+    old "Focus"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:15
+    old "Abstraction Compeherension"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:16
+    old "Empathy"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:17
+    old "Logic"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:18
+    old "Luck"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:19
+    old "Sensory Perception"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:20
+    old "Predatory Instinct"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:21
+    old "Rhetorics"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:22
+    old "Judgement"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:23
+    old "Schema"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:24
+    old "Vice"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:25
+    old "Visual Comprehension"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:38
+    old "Da-Yu"
+    new ""
+

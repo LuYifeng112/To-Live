@@ -16,11 +16,13 @@ define character.concept = Character(__("Abstraction Compeherension"), image="co
 define character.empathy = Character(__("Empathy"), image="empathy", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.logic = Character(__("Logic"), image="logic", who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", who_kerning=-1, what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
 define character.luck = Character(__("Luck"), image="luck", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.perception = Character(__("Sensory Perception"), image="perception", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.rhetoric = Character(__("Rhetorics"), image="rhetoric", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.correction = Character(__("Judgement"), image="correction", who_font="fonts/eng_chars/correction/KelmscottRomanNF.ttf", what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_italic=True, who_color="#000000", what_color="#000000", ctc="ctc_blink", ctc_position="nestled")
 define character.schema = Character(__("Schema"), image="schema", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.vice = Character(__("Vice"), image="vice", who_font="fonts/eng_chars/vice/dispose/DISPOSE1.ttf", what_font="fonts/eng_chars/vice/Eutemia.ttf", what_size=50, what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
-define character.visualcomprehension = Character(__("Visual Observation"), image="visualcomprehension", what_italic=True, who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", what_font="fonts/eng_chars/visualcomprehension/Caladea-Italic.ttf", what_color="#000000",  who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.visualcomprehension = Character(__("Visual Comprehension"), image="visualcomprehension", what_italic=True, who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", what_font="fonts/eng_chars/visualcomprehension/Caladea-Italic.ttf", what_color="#000000",  who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
 
 define character.narrator = Character(ctc="ctc_blink", ctc_position="nestled")
 define character.f = Character(__("The Father"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
@@ -33,6 +35,7 @@ define character.prostitute = Character(__("Chang San Brothel worker"),what_pref
 #1937
 define character.Ab = Character(__("Ah Bai"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
 define character.Am = Character(__("Ah Mei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
+define character.Dy = Character(__("Da-Yu"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Dy")
 define character.Ghe = Character(__("Guo He"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
 define character.Gh = Character(__("Guo Heng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
 define character.Gu = Character(__("Ku Hong-Meng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
@@ -89,7 +92,7 @@ init python:
             self.number = number
             self.specialactions = specialactions
     class Char(store.object):      
-        def __init__(self, mood, bond, pol, rel, traits, skillset, convolog, eventlog):
+        def __init__(self, mood, bond, pol, rel, traits, skillset, convolog, eventlog, bag=None):
             self.mood = mood
             self.bond = bond
             self.pol = pol
@@ -98,6 +101,7 @@ init python:
             self.skillset = skillset
             self.convolog = convolog
             self.eventlog = eventlog
+            self.bag = bag
         
         def bondp(self, amount):
             self.bond += amount
@@ -129,7 +133,7 @@ init python:
             else:
                 raise Exception("Invalid Skill Key for function \'skillval()\'.")
 
-        def randomise_compare(self, skill, x, y, sound, vol, msge):
+        def randomise_compare(self, skill, x, y, sound=True, vol=0.35, msge=True):
             if skill in self.skillset:
                 temp_val = self.skillset.get(skill) + self.skillset.get("luck")
                 opposition = renpy.random.randint(x, y)
@@ -160,16 +164,16 @@ init python:
 
         def clearconvo(self):
             self.convolog.clear()
-
-        def log(self, event):
-            self.eventlog.append(event)
-        
-        def hasLog(self, event):
-            return event in self.eventlog
         
         def chardead(self):
             self.mood = None
             self.traits = None
+
+        def log(self, event):
+            self.eventlog.append(event)
+
+        def hasLog(self, event):
+            return event in self.eventlog
  ######   ########     ###    ########  ##     ## ####  ######   ######  
 ##    ##  ##     ##   ## ##   ##     ## ##     ##  ##  ##    ## ##    ## 
 ##        ##     ##  ##   ##  ##     ## ##     ##  ##  ##       ##       

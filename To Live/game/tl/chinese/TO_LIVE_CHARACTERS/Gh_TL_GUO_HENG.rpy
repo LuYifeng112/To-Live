@@ -26,3 +26,11 @@ translate chinese strings:
     old "Worrier"
     new ""
 
+# TODO: Translation updated at 2020-07-06 23:27
+
+translate chinese strings:
+
+    # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
+    old "Overprotective"
+    new ""
+

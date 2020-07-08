@@ -52,83 +52,110 @@ init python:
       ##    ##       ##    ##       ##             ## 
 ##    ##    ##       ##    ##       ##       ##    ## 
  ######     ##       ##    ######## ########  ######  
-style mapon is button:
+style MapText is button:
     activate_sound "sounds/menu/select_flip.ogg"
-style mapon_zg is text:
+style MapText is text:
+    antialias True 
+    color "#000000" 
+    hover_color "#FF0000" 
+    size 20 
+    kerning -2
+    # size 25
+    # kerning -1
+translate chinesesim style MapText:
     activate_sound "sounds/menu/select_flip.ogg"
     font"fonts/chi_cities/MaShanZheng-Regular.ttf"
     kerning -1
-style mapon_tw is text:
-    activate_sound "sounds/menu/select_flip.ogg"
-    size 25
-    kerning -1
-style mapon_kr is text:
+translate korean style MapText:
     activate_sound "sounds/menu/select_flip.ogg"
     size 25
     kerning -2
     font "fonts/kor_songmyung/SongMyung-Regular.ttf"
     language "korean-with-spaces"
-style mapon_jp is text:
+translate japanese style MapText:
     activate_sound "sounds/menu/select_flip.ogg"
     size 25
     kerning -1
     font "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
     language "japanese-normal"
-style mapon_rs is text:
+translate russian style MapText:
     activate_sound "sounds/menu/select_flip.ogg"
     size 25
     kerning -1
     font "fonts/rus_roboto/RobotoSlab-Regular.ttf"
 
-style chinesesim_header is text:
+
+style GuoHeader is text:
+    size 40 
+    color "#e0e0e0" 
+    font "fonts/eng_moria/MoriaCitadel.ttf"
+    kerning 3
+    antialias True
+translate chinesesim style GuoHeader:
     antialias True
     kerning 2
     font "fonts/chi_cities/MaShanZheng-Regular.ttf"
     color "#e0e0e0"
     size 60
-
-style chinesesim_leader is text:
-    antialias True
-    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-    color "#e0e0e0"
-    size 45
-
-style chinesesim_sub is text:
-    antialias True
-    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-    color "#e0e0e0"
-    size 30
-
-style chinesesim_text is text:
-    antialias True
-    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-    color "#e0e0e0"
-    size 40
-
-style chinese_header is text:
+translate chinese style GuoHeader:
     antialias True
     kerning 2
     font "fonts/chi_weidong/wts11.ttf"
     color "#848783"
     size 60
 
-style chinese_leader is text:
+
+style GuoLeader is text:
+    size 25 
+    color "#e0e0e0" 
+    font "fonts/eng_moria/MoriaCitadel.ttf"
+    kerning 2
+    antialias True   
+translate chinese style GuoLeader:
     antialias True
     font "fonts/chi_weidong/wts11.ttf"
     color "#848783"
     size 45
+translate chinesesim style GuoLeader:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 45
 
-style chinese_sub is text:
+
+style GuoLeaderSub is text:
+    size 13 
+    color "#e0e0e0" 
+    font "fonts/eng_moria/MoriaCitadel.ttf"
+    kerning 0.5
+    antialias True
+translate chinese style GuoLeaderSub:
     antialias True
     font "fonts/chi_weidong/wts11.ttf"
     color "#e0e0e0"
     size 30
+translate chinesesim style GuoLeaderSub:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 30
 
-style chinese_text is text:
+
+style GuoText is text:
+    size 15 
+    color "#e0e0e0" 
+    font "fonts/eng_moria/MoriaCitadel.ttf"
+    antialias True
+translate chinese style GuoText:
     antialias True
     font "fonts/chi_weidong/wts11.ttf"
     color "#e0e0e0"
     size 40
+translate chiensesim style GuoText:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+    color "#e0e0e0"
+    size 40 
 
 style TL_pref is text:
     antialias True
@@ -136,6 +163,28 @@ style TL_pref is text:
     hover_color "#e3e3e3"
     selected_color "#fc1919"
 
+style TL_PrefObjective is text:
+    antialias True
+    size 20 
+    font "fonts/eng_moria/MoriaCitadel.ttf" 
+    antialias True
+
+style TL_PrefSubtext is text:
+    antialias True
+    size 12 
+    font "fonts/eng_moria/MoriaCitadel.ttf"
+
+style TL_PrefQuote is text:
+    antialias True
+    size 15 
+    font "fonts/eng_moria/MoriaCitadel.ttf" 
+    color "#FFFFFF"
+
+style TL_PrefPause is text:
+    size 55 
+    kerning -1 
+    font "fonts/eng_moria/MoriaCitadel.ttf"
+    antialias True
 style TL_menu is text:
     font "fonts/chi_pinyin/Alegreya-Regular.ttf"
     antialias True
@@ -252,6 +301,13 @@ transform am_res:
 transform slant_guo_name:
     subpixel True
     #rotate 355
+    block:
+        linear 4.5 yoffset -10
+        linear 5.0 yoffset 10
+        repeat
+transform slant_guo_name_d:
+    subpixel True
+    linear 0.2
     block:
         linear 4.5 yoffset -10
         linear 5.0 yoffset 10

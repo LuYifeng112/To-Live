@@ -34,3 +34,11 @@ translate chinese strings:
     old "Prayful"
     new ""
 
+# TODO: Translation updated at 2020-07-06 23:27
+
+translate chinese strings:
+
+    # game/TO_LIVE_CHARACTERS/Ghe_TL_GUOHE.rpy:15
+    old "Playful"
+    new ""
+

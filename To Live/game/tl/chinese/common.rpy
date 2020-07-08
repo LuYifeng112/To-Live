@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2020-06-06 00:01
+﻿# TODO: Translation updated at 2020-07-06 23:44
 
 translate chinese strings:
 
@@ -940,10 +940,6 @@ translate chinese strings:
 
     # renpy/common/00gltest.rpy:93
     old "NPOT"
-    new ""
-
-    # renpy/common/00gltest.rpy:97
-    old "Enable"
     new ""
 
     # renpy/common/00gltest.rpy:131

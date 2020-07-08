@@ -26,3 +26,11 @@ translate chinese strings:
     old "Well Educated"
     new ""
 
+# TODO: Translation updated at 2020-07-06 23:27
+
+translate chinese strings:
+
+    # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
+    old "Soft-Hearted"
+    new ""
+

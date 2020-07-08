@@ -106,3 +106,27 @@ python early:
         return p["block"]
 
     renpy.register_statement("block", parse=parse_block, next=next_block, predict_all=True, block=True)
+
+python early:
+
+    def parse_smartline(lex):
+        who = lex.simple_expression()
+        what = lex.rest()
+        return (who, what)
+
+    def execute_smartline(o):
+        who, what = o
+        renpy.say(eval(who), what)
+
+    def lint_smartline(o):
+        who, what = o
+        try:
+            eval(who)
+        except:
+            renpy.error("Character not defined: %s" % who)
+
+        tte = renpy.check_text_tags(what)
+        if tte:
+            renpy.error(tte)
+
+    renpy.register_statement("line", parse=parse_smartline, execute=execute_smartline, lint=lint_smartline)

@@ -1,17 +1,17 @@
-Sat Jul 04 13:27:20 2020
+Thu Jul 09 00:55:53 2020
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
-To Live 0.0.6
+To Live 0.0.8
 
 ----
 renpy/common/00gltest.rpy 445
 Total Miss <'Image' u'GUI/00_cursor.png'>
 ----
 renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
 ----
 game/script.rpy 19
 Total Miss <'Image' u'00_menu_images/_NOTE.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'_transparent_tile.png'>
 Predict screen main_menu
 Predict screen quick_menu
@@ -40,6 +40,7 @@ Predict screen notif
 game/script.rpy 26
 Kept <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'00_menu_images/_menu_renpy.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 ----
 game/script.rpy 27
 Kept <'Image' u'_transparent_tile.png'>
@@ -88,6 +89,7 @@ Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Predict screen TL_pref
+Predict screen invdisplay
 Predict screen load
 Predict screen preferences
 Predict screen quit
@@ -99,30 +101,22 @@ Added <'Image' u'gui/button/check_selected_foreground.png'> (30.02%)
 Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (30.02%)
 Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (30.02%)
 Added <'Image' u'gui/game_menu.png'> (32.66%)
-Added <'Image' u'gui/main_menu.png'> (35.29%)
-Added <'Image' u'gui/overlay/game_menu.png'> (37.93%)
-Added <'Image' u'00_menu_images/00_end.png'> (40.57%)
+Added <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486> (32.76%)
+Added <'Image' u'gui/main_menu.png'> (35.40%)
+Added <'Image' u'gui/overlay/game_menu.png'> (38.04%)
+Added <'Image' u'00_menu_images/00_end.png'> (40.67%)
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'maps/GUO_MAP_FOCUS_MASK_OP.png'>
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 ----
-game/script.rpy 96
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Added <'Image' u'00_bookmark_location/00_Beijing_city.jpg'> (43.20%)
-----
-game/script.rpy 97
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
@@ -132,299 +126,43 @@ Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (43.57%)
-----
-game/script.rpy 99
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 100
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
-----
-game/script.rpy 101
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Added <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'> (45.40%)
-Added <'Image' u'gui/textbox.png'> (46.07%)
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-----
-game/script.rpy 109
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-----
-game/script.rpy 110
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Added <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'> (47.87%)
-Added <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'> (49.70%)
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-----
-game/script.rpy 112
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-----
-game/script.rpy 113
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (52.34%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-Predict screen history
-Predict screen notify
-Predict screen preferences
+Predict screen TL_pref
 Kept <'Image' u'gui/button/check_foreground.png'>
 Kept <'Image' u'gui/button/check_selected_foreground.png'>
 Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
 Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (5.13%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (7.77%)
-Added <'Image' u'gui/game_menu.png'> (10.41%)
-Added <'Image' u'gui/overlay/game_menu.png'> (13.04%)
-Total Miss <'Image' u'gui/button/quick_hover_background.png'>
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (13.04%)
-Added <'Image' u'gui/map_bullet_capital.png'> (13.04%)
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
-Total Miss <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Added <'Image' u'maps/GUO_map.png'> (28.16%)
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
+Predict screen invdisplay
+Predict screen load
 Kept <'Image' u'gui/game_menu.png'>
+Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
+Kept <'Image' u'gui/main_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Total Miss <'Image' u'gui/scrollbar/vertical_idle_thumb.png'>
+Total Miss <'Image' u'gui/scrollbar/vertical_idle_bar.png'>
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
 Kept <'Image' u'maps/GUO_map.png'>
-Added <'Image' u'gui/map_bullet.png'> (28.16%)
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (30.80%)
-Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (31.16%)
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (31.16%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (31.16%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (31.16%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (31.16%)
+Kept <'Image' u'gui/map_bullet.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
@@ -434,376 +172,14 @@ Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
 ----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 ----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-Added <'Image' u'_transparent_tile.png'> (0.02%)
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (5.13%)
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Added <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'> (4.33%)
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (6.96%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (9.60%)
-Added <'Image' u'gui/game_menu.png'> (12.24%)
-Added <'Image' u'gui/overlay/game_menu.png'> (14.87%)
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (14.87%)
-Added <'Image' u'gui/map_bullet_capital.png'> (14.87%)
-Added <'Image' u'maps/GUO_map.png'> (26.33%)
-Added <'Image' u'gui/map_bullet.png'> (26.33%)
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Predict screen political_menu
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (28.97%)
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (29.33%)
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (29.33%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (29.33%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (29.33%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (29.33%)
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (5.14%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Predict screen guo_map
-Added <'Image' u'gui/main_menu.png'> (7.77%)
-Added <'Image' u'gui/game_menu.png'> (10.41%)
-Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
-Added <'Image' u'gui/map_port.png'> (13.05%)
-Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
-Predict screen glossary
-Added <'Image' u'maps/GUO_map.png'> (24.50%)
-Added <'Image' u'gui/map_bullet.png'> (24.50%)
-Predict screen poems
-Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
-Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-Added <'Image' u'_transparent_tile.png'> (0.02%)
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (5.14%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (7.77%)
-Added <'Image' u'gui/game_menu.png'> (10.41%)
-Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (13.05%)
-Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
-Added <'Image' u'maps/GUO_map.png'> (24.50%)
-Added <'Image' u'gui/map_bullet.png'> (24.50%)
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
-Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-Added <'Image' u'_transparent_tile.png'> (0.02%)
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Total Miss <'Image' u'gui/button/quick_hover_background.png'>
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Total Miss <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (10.63%)
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (13.26%)
-Added <'Image' u'gui/game_menu.png'> (15.90%)
-Added <'Image' u'gui/overlay/game_menu.png'> (18.54%)
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (18.54%)
-Added <'Image' u'gui/map_bullet_capital.png'> (18.54%)
-Added <'Image' u'maps/GUO_map.png'> (29.99%)
-Added <'Image' u'gui/map_bullet.png'> (29.99%)
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (32.63%)
-Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (32.99%)
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (32.99%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (32.99%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (32.99%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (32.99%)
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 4
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.vice/vice_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
@@ -813,50 +189,28 @@ Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-Predict screen history
-Predict screen notify
-Predict screen preferences
+Predict screen TL_pref
 Kept <'Image' u'gui/button/check_foreground.png'>
 Kept <'Image' u'gui/button/check_selected_foreground.png'>
 Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
 Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 5
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.correction/correction_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 6
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' 'images/00_character_side_images/character.visualcomphrehension/visualcomprehension_neutral.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
+Predict screen invdisplay
+Predict screen load
 Kept <'Image' u'gui/game_menu.png'>
+Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
+Kept <'Image' u'gui/main_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
+----
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
 Kept <'Image' u'gui/map_port.png'>
 Kept <'Image' u'gui/map_bullet_capital.png'>
@@ -866,146 +220,64 @@ Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
 Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen political_menu
-Kept <'Image' u'country_leader/CHI_chiang_kai_shek.png'>
-Predict screen history
-Predict screen notify
-Predict screen preferences
+Predict screen TL_pref
 Kept <'Image' u'gui/button/check_foreground.png'>
 Kept <'Image' u'gui/button/check_selected_foreground.png'>
 Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
 Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen invdisplay
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
+Predict screen preferences
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
 ----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-Added <'Image' u'_transparent_tile.png'> (0.02%)
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (5.14%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (7.77%)
-Added <'Image' u'gui/game_menu.png'> (10.41%)
-Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (13.05%)
-Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
-Added <'Image' u'maps/GUO_map.png'> (24.50%)
-Added <'Image' u'gui/map_bullet.png'> (24.50%)
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
 Predict screen glossary
 Predict screen poems
 Predict screen historical_event_log
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
-Predict screen political_menu
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
-Predict screen history
-Predict screen notify
+Kept <'Image' u'history_log_bgs/default_history_bg.png'>
+Predict screen TL_pref
+Kept <'Image' u'gui/button/check_foreground.png'>
+Kept <'Image' u'gui/button/check_selected_foreground.png'>
+Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
+Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
+Predict screen invdisplay
+Predict screen load
+Kept <'Image' u'gui/game_menu.png'>
+Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
+Kept <'Image' u'gui/main_menu.png'>
+Kept <'Image' u'gui/overlay/game_menu.png'>
 Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
+Predict screen quit
+Kept <'Image' u'00_menu_images/00_end.png'>
 ----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00keymap.rpy 421
-----
-renpy/common/00gltest.rpy 445
-Total Miss <'Image' u'GUI/00_cursor.png'>
-----
-renpy/common/00gltest.rpy 445
-----
-renpy/common/00keymap.rpy 456
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Total Miss <'Image' u'_transparent_tile.png'>
-Total Miss <'Image' u'gui/namebox.png'>
-Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/textbox.png'>
-Total Miss <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
+renpy/common/_layout/screen_main_menu.rpym 28
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Predict screen say
-Added <'Image' u'gui/choice_bg.png'> (5.14%)
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Added <'Image' u'gui/main_menu.png'> (7.77%)
-Added <'Image' u'gui/game_menu.png'> (10.41%)
-Added <'Image' u'gui/overlay/game_menu.png'> (13.05%)
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (13.05%)
-Added <'Image' u'gui/map_bullet_capital.png'> (13.05%)
-Added <'Image' u'maps/GUO_map.png'> (24.50%)
-Added <'Image' u'gui/map_bullet.png'> (24.50%)
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>
 Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Predict screen political_menu
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (27.14%)
-Added <'Image' u'country_leader/CHI_chiang_kai_shek.png'> (27.50%)
-Predict screen history
-Predict screen notify
-Predict screen preferences
-Added <'Image' u'gui/button/check_foreground.png'> (27.50%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (27.50%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (27.50%)
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-Total Miss <'Image' u'gui/overlay/confirm.png'>
-Total Miss <'Image' u'gui/button/idle_background.png'>
-Total Miss <'Image' u'gui/frame.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 7
+renpy/common/_layout/screen_main_menu.rpym 28
+Kept <'Image' u'_transparent_tile.png'>
+Kept <'Image' u'00_bg_environment/00_placeholder.png'>
 Total Miss <'Image' u'gui/button/hover_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' 'images/00_character_side_images/character.logic/logic_neutral.png'>
+Predict screen guo_map
+Kept <'Image' u'gui/map_port.png'>
+Kept <'Image' u'gui/map_bullet_capital.png'>
+Kept <'Image' u'maps/GUO_map.png'>
+Kept <'Image' u'gui/map_bullet.png'>

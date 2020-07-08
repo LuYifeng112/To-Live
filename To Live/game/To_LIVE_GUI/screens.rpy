@@ -256,16 +256,7 @@ style choice_button_text is default:
 
 screen quick_menu():
 
-    key "n" action ShowMenu('guo_map')
-    key "g" action ShowMenu('glossary')
-    key "p" action ShowMenu('poems')
-    key "l" action ShowMenu('historical_event_log')
-    key "1" action ShowMenu('guo_map')
-    key "2" action ShowMenu('glossary')
-    key "3" action ShowMenu('poems')
-    key "4" action ShowMenu('historical_event_log')
-    key "o" action ShowMenu('political_menu')
-    key "K_ESCAPE" action ShowMenu('political_menu')
+    use TL_keyfocus
     ## Ensure this appears on top of other screens.
     zorder 100
 
@@ -395,6 +386,7 @@ screen main_menu():
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
     key "t" action ShowMenu('TL_pref')
+    key "q" action ShowMenu('invdisplay')
     tag menu    
 
     imagemap:

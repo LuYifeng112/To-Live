@@ -1,45 +1,53 @@
 default nation = None
 
+screen TL_keyfocus():
+    tag menu
+    key "K_SPACE" action ShowMenu(main_menu)
+    key "K_TAB" action ShowMenu(main_menu)
+    key "K_ESCAPE" action Return()
+    key "o" action ShowMenu('political_menu')
+    key "n" action ShowMenu('guo_map')
+    key "1" action ShowMenu('guo_map')    
+    key "g" action ShowMenu('glossary')
+    key "2" action ShowMenu('glossary')
+    key "p" action ShowMenu('poems')
+    key "3" action ShowMenu('poems')
+    key "l" action ShowMenu('historical_event_log')
+    key "4" action ShowMenu('historical_event_log')
+    if renpy.current_screen().screen_name[0] == "political_menu":
+        key "o" action Return()
+    elif renpy.current_screen().screen_name[0] == "guo_map":
+        key "n" action Return()
+        key "1" action Return()
+    elif renpy.current_screen().screen_name[0] == "glossary":
+        key "g" action Return()
+        key "2" action Return()
+    elif renpy.current_screen().screen_name[0] == "poems":
+        key "p" action Return()
+        key "3" action Return()
+    elif renpy.current_screen().screen_name[0] == "historical_event_log":
+        key "l" action Return()
+        key "4" action Return()
 
 screen political_menu():
     tag menu
     default quote = renpy.random.choice(TL_quotes)
     default leader = renpy.random.choice(TL_leader_pic)
-
-    key "K_SPACE" action ShowMenu(main_menu)
-    key "K_TAB" action ShowMenu(main_menu)
-    key "K_ESCAPE" action Return()
-    key "o" action Return()
-    key "g" action ShowMenu('glossary')
-    key "p" action ShowMenu('poems')
-    key "2" action ShowMenu('glossary')
-    key "3" action ShowMenu('poems')
-
+    use TL_keyfocus
     add "#141414"
-
-    text "[objective]" xalign 0.05 yalign 0.05 size 20 font "fonts/eng_moria/MoriaCitadel.ttf" at slant antialias True
-    text "[subtext]" xalign 0.07 yalign 0.15 size 12 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_st antialias True
-    text "[quote]" xpos 45 yalign 1.1 size 15 font "fonts/eng_moria/MoriaCitadel.ttf" color "#FFFFFF" at slant_q antialias True
-    text __("Pause") xalign 0.4 size 55 kerning -1 font "fonts/eng_moria/MoriaCitadel.ttf" at slant_title antialias True
+    text "[objective]" xalign 0.05 yalign 0.05 style "TL_PrefObjective" at slant
+    text "[subtext]" xalign 0.07 yalign 0.15 style "TL_PrefSubtext"  at slant_st 
+    text "[quote]" xpos 45 yalign 1.1 style "TL_PrefQuote" at slant_q 
+    text __("Pause") xalign 0.4 style "TL_PrefPause" at slant_title 
     add leader xalign 0.55 yalign 0.45
 
     if not main_menu:
-        textbutton __("Main Menu") xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left:
-            keyboard_focus True    
-        textbutton __("Save Game") xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left:
-            keyboard_focus True
-            keysym "s"
-    textbutton __("Dialogue History") xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left:
-        keyboard_focus True
-        keysym "h"
-    textbutton __("Load Game") xalign 0.3 yalign 0.45 action ShowMenu('main_menu') at ambient_left:
-        keyboard_focus True
-    textbutton __("National Map") xalign 0.9 yalign 0.56 action ShowMenu('guo_map') at am_map:
-        keyboard_focus True
-        keysym "n"
-    textbutton __("Historical Event Log") xalign 0.91 yalign 0.65 action ShowMenu('historical_event_log') at am_hist:
-        keyboard_focus True
-        keysym "l"
+        textbutton __("Main Menu") xalign 0.3 yalign 0.25 action ShowMenu('main_menu') at ambient_left keyboard_focus True    
+        textbutton __("Save Game") xalign 0.3 yalign 0.35 action ShowMenu('save') at ambient_left keyboard_focus True
+    textbutton __("Dialogue History") xalign 0.3 yalign 0.55 action ShowMenu('history') at ambient_left keyboard_focus True
+    textbutton __("Load Game") xalign 0.3 yalign 0.45 action ShowMenu('main_menu') at ambient_left keyboard_focus True
+    textbutton __("National Map") xalign 0.9 yalign 0.56 action ShowMenu('guo_map') at am_map keyboard_focus True
+    textbutton __("Historical Event Log") xalign 0.91 yalign 0.65 action ShowMenu('historical_event_log') at am_hist keyboard_focus True
 
 define TL_pref_tab = "General"
 define _mature = False
@@ -47,17 +55,7 @@ define persistant.edgeval = 200
 screen TL_pref():
     tag menu
     modal True
-    key "K_SPACE" action ShowMenu(main_menu)
-    key "K_TAB" action ShowMenu(main_menu)
-    key "K_ESCAPE" action Return()
-    key "n" action ShowMenu('guo_map')
-    key "1" action ShowMenu('guo_map')
-    key "g" action ShowMenu('glossary')
-    key "p" action ShowMenu('poems')
-    key "l" action ShowMenu('historical_event_log')
-    key "2" action ShowMenu('glossary')
-    key "3" action ShowMenu('poems')
-    key "4" action ShowMenu('historical_event_log')
+    use TL_keyfocus
     window:
         style "gm_root"
         add "#141414"
@@ -119,17 +117,7 @@ screen guo():
     tag menu
     modal True
     default vbox_button_is_hovered = False
-    key "K_SPACE" action ShowMenu(main_menu)
-    key "K_TAB" action ShowMenu(main_menu)
-    key "K_ESCAPE" action Return()
-    key "n" action ShowMenu('guo_map')
-    key "1" action ShowMenu('guo_map')
-    key "g" action ShowMenu('glossary')
-    key "p" action ShowMenu('poems')
-    key "l" action ShowMenu('historical_event_log')
-    key "2" action ShowMenu('glossary')
-    key "3" action ShowMenu('poems')
-    key "4" action ShowMenu('historical_event_log')
+    use TL_keyfocus
     imagebutton:
         idle "gui/button_return_icon.png"
         hover "gui/button_return_icon_hovered.png"
@@ -142,7 +130,7 @@ screen guo():
         unhovered SetScreenVariable("vbox_button_is_hovered", False)        
     window:
         style "gm_root"
-        add "#141414"
+        add "images/00_screens/00_country_screen/country_bg.png"
     viewport:
         xpos 0 ypos 110 xsize 300 ysize 700
         draggable True
@@ -156,113 +144,42 @@ screen guo():
                     if n.IsActive:
                         textbutton n.name:
                             keyboard_focus True
-                            action SetVariable("nation", n)                    
-    text [nation.name] xalign 0.5 ypos 10 at slant_guo_name:
-        if _preferences.language == None: 
-            size 40 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            kerning 3
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_header"
-        elif _preferences.language == "chinese":
-            style "chinese_header"
-    text [nation.leader] xalign 0.25 yalign 0.2:
-        if _preferences.language == None:
-            size 25 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            kerning 2
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_leader"
-        elif _preferences.language == "chinese":
-            style "chinese_leader"
-    text [nation.leadersub] xalign 0.28 yalign 0.25:
-        if _preferences.language == None:
-            size 13 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            kerning 0.5
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_sub"
-        elif _preferences.language == "chinese":
-            style "chiense_sub"
-    text [__("Government Type:")]+[nation.politicalID] xalign 0.9 yalign 0.45:
-        if _preferences.language == None:
-            size 15 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_text"
-        elif _preferences.language == "chinese":
-            style "chinese_text"
-    text [__("Political Alignment:")]+[nation.AlignmentID] xalign 0.9 yalign 0.5:
-        if _preferences.language == None:
-            size 15 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_text"
-        elif _preferences.language == "chinese":
-            style "chinese_text"
-    text [__("Ruling Party:")]+[nation.rulingparty] xalign 0.9 yalign 0.55: 
-        if _preferences.language == None:
-            size 15 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_text"
-        elif _preferences.language == "chinese":
-            style "chinese_text"
-    text [__("Alliances:")]+[nation.factionID] xalign 0.9 yalign 0.6:
-        if _preferences.language == None:
-            size 15 
-            color "#e0e0e0" 
-            font "fonts/eng_moria/MoriaCitadel.ttf"
-            antialias True
-        if _preferences.language == "chinesesim":
-            style "chinesesim_text"
-        elif _preferences.language == "chinese":
-            style "chinese_text"
+                            action SetVariable("nation", n)     
+
+    text [nation.name] xalign 0.5 ypos 40 style "GuoHeader" at slant_guo_name
+    text [nation.leader] xalign 0.25 yalign 0.2 style "GuoLeader"
+    text [nation.leadersub] xalign 0.28 yalign 0.25 style "GuoLeaderSub"
+    text [__("Government Type:")]+[nation.politicalID] xalign 0.9 yalign 0.45 style "GuoText"
+    text [__("Political Alignment:")]+[nation.AlignmentID] xalign 0.9 yalign 0.5 style "GuoText"
+    text [__("Ruling Party:")]+[nation.rulingparty] xalign 0.9 yalign 0.55 style "GuoText"
+    text [__("Alliances:")]+[nation.factionID] xalign 0.9 yalign 0.6 style "GuoText"
     add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
+
     imagebutton:
         idle "gui/button_return_icon.png"
         hover "gui/button_return_icon_hovered.png"
         xalign 0.96
         action Return()
     vbox xalign 0.3 ypos 300 xsize 600 ysize 1000 box_wrap True:
+        # if persistent.descbox == "info":
             text nation.info size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
                 if _preferences.language == "chinesesim":
                     font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+        # elif persistent.descbox == "leader":
+        #     text nation.leaderinfo size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
+        #         if _preferences.language == "chinesesim":
+        #             font "fonts/chi_cities/MaShanZheng-Regular.ttf"
     text "National Log" size 25 font "fonts/eng_moria/MoriaCitadel.ttf" style "TL_menu" color "#FFFFFF" xalign 0.3 ypos 680
     vbox xalign 0.3 ypos 700 spacing 5:
             for i in nation.log:
-                text i size 20 style "TL_menu"
+                text i size 35 style "TL_menu"
 
 
 define persistent._map_audio = True
 define persistent._map_ocean_SFX = True
 screen guo_map():
     tag menu
-    key "K_SPACE" action ShowMenu(main_menu)
-    key "K_TAB" action ShowMenu(main_menu)
-    key "K_ESCAPE" action Return()
-    key "5" action ShowMenu ('guo')
-    key "n" action Return()
-    key "1" action Return()
-    key "o" action ShowMenu('political_menu')
-    key "g" action ShowMenu('glossary')
-    key "p" action ShowMenu('poems')
-    key "l" action ShowMenu('historical_event_log')
-    key "2" action ShowMenu('glossary')
-    key "3" action ShowMenu('poems')
-    key "4" action ShowMenu('historical_event_log')
+    use TL_keyfocus
     viewport:
         xysize (config.screen_width, config.screen_height)
         child_size (4040, 2230)
@@ -292,17 +209,7 @@ screen guo_map():
                     ypos ny
                     sensitive n_map != False
                     keyboard_focus True
-                    text q.name antialias True color "#000000" hover_color "#FF0000" size 20 kerning -2 style "mapon" at ambient:
-                        if _preferences.language == "chinesesim":
-                            style "mapon_zg"
-                        elif _preferences.language == "chinese":
-                            style mapon_tw
-                        elif _preferences.language == "korean":
-                            style "mapon_kr"
-                        elif _preferences.language == "russian":
-                            style "mapon_rs"
-                        elif _preferences.language == "japanese":
-                            style "mapon_jp"
+                    text q.name style "MapText" at ambient
                     action [act, Stop("sound", fadeout=2.5), Show('guo')]
                 if not q.Port and not q.Capital:
                     add "gui/map_bullet.png" xpos q.x ypos q.y
@@ -320,15 +227,7 @@ screen guo_map():
 screen glossary():
     default show_return = False
     default return_button_img = renpy.random.randint(1,3)
-    key "g" action [Return()]
-    key "2" action [Return()]
-    key "K_ESCAPE" action Return()
-    key "n" action ShowMenu('guo_map')
-    key "p" action ShowMenu('poems')
-    key "l" action ShowMenu('historical_event_log')
-    key "1" action ShowMenu('guo_map')
-    key "3" action ShowMenu('poems')
-    key "4" action ShowMenu('historical_event_log')
+    use TL_keyfocus
     tag menu
     window:
         style "gm_root"
@@ -358,15 +257,7 @@ screen glossary():
 
 
 screen poems():
-    key "p" action Return()
-    key "3" action Return()
-    key "K_ESCAPE" action Return()
-    key "n" action ShowMenu('guo_map')
-    key "g" action ShowMenu('glossary')
-    key "l" action ShowMenu('historical_event_log')
-    key "1" action ShowMenu('guo_map')
-    key "2" action ShowMenu('glossary')
-    key "4" action ShowMenu('historical_event_log')
+    use TL_keyfocus
     tag menu
     window:
         style "gm_root"
@@ -399,15 +290,7 @@ image historical_event_background = ConditionSwitch(
 
 screen historical_event_log():
     tag menu
-    key "l" action Return()
-    key "4" action Return()
-    key "K_ESCAPE" action Return()
-    key "n" action ShowMenu('guo_map')
-    key "g" action ShowMenu('glossary')
-    key "p" action ShowMenu('poems')
-    key "1" action ShowMenu('guo_map')
-    key "2" action ShowMenu('glossary')
-    key "3" action ShowMenu('poems')
+    use TL_keyfocus
     window:
         style "gm_root"
         add "historical_event_background"

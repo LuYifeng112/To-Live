@@ -41,20 +41,20 @@ screen daytime():
     if _datetime:
     
         showif TL_datetime.return_daytime() == "Late Morning":
-            text __("Late Morning") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Late Morning") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Early Afternoon":
-            text __("Early Afternoon") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Early Afternoon") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Late Afternoon":
-            text __("Late Afternoon") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Late Afternoon") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Dusk":
-            text __("Dusk") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Dusk") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Early Night":
-            text __("Early Night") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Early Night") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Late Night":
-            text __("Late Night") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Late Night") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Midnight":
-            text __("Midnight") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Midnight") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Dawn":
-            text __("Dawn") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Dawn") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform
         elif TL_datetime.return_daytime() == "Early Morning":
-            text __("Early Morning") size 35 xalign 0.97 yalign 0.15 style "datetime" at cd_transform
+            text __("Early Morning") size 35 xalign 0.97 yalign 0.15 style "TL_datetime" at cd_transform

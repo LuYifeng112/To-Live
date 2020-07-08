@@ -94,3 +94,29 @@ default TL_datetime = Date(
         weekday = weekdays[1],
         daytime = dayperiods[1]
         )
+
+style TL_datetime is text:
+    antialias True
+    font "fonts/eng_phat_grunge/PhatGrunge.ttf"
+
+translate chinesesim style TL_datetime:
+    antialias True
+    font "fonts/chi_cities/MaShanZheng-Regular.ttf"
+
+translate chinese style TL_datetime:
+    antialias True
+    font "fonts/chi_wangfonts/wt064.ttf"
+
+translate korean style TL_datetime:
+    antialias True
+    font "fonts/kor_songmyung/SongMyung-Regular.ttf"
+    language "korean-with-spaces"
+
+translate japanese style TL_datetime:
+    antialias True
+    font "fonts/jap_mincho/SawarabiMincho-Regular.ttf"
+    language "japanese-normal"
+
+translate russian style TL_datetime:
+    antialias True
+    font "fonts/rus_roboto/RobotoSlab-Regular.ttf"

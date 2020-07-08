@@ -12,12 +12,12 @@ init python:
                     raise Exception("Mispelt or non-existent key being added.")
             else:
                 msg.msg(word+" is already in the glossary")
-
+define persistent.unlocked = [] # empty word list
 default TL_glossary = glossarydict(
     container = persistent.unlocked
     )
 #Glossary
-define persistent.unlocked = [] # empty word list
+
 init -1 python:
     display_desc = ""
     glossary_dict = \

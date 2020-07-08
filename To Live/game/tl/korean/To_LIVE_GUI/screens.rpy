@@ -382,3 +382,23 @@ translate korean strings:
     old "              Take the time and learn the way.\nAvailable Saves: 40\nSavetype: Self save and autosave"
     new ""
 
+# TODO: Translation updated at 2020-07-08 16:34
+
+translate korean strings:
+
+    # game/To_LIVE_GUI/screens.rpy:1134
+    old "Toggles the visibility of the glossary tab to see what certain words mean."
+    new ""
+
+    # game/To_LIVE_GUI/screens.rpy:1141
+    old "Toggles the visibility of the historical events log tab to see what battles and events happen in the story to their real life counterparts."
+    new ""
+
+    # game/To_LIVE_GUI/screens.rpy:1144
+    old "Toggles the visibility of the National Map where you can see cities and information on the countries of the time period."
+    new ""
+
+    # game/To_LIVE_GUI/screens.rpy:1147
+    old "Toggles the visibility of the Poems Tab to see some poems you have unlocked throughout the game."
+    new ""
+

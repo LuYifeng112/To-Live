@@ -51,3 +51,35 @@ translate chinesesim strings:
     old "Glossary"
     new ""
 
+# TODO: Translation updated at 2020-07-06 23:06
+
+translate chinesesim strings:
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:65
+    old "Settings"
+    new ""
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:67
+    old "General"
+    new ""
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:68
+    old "Audio"
+    new ""
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:69
+    old "Controls"
+    new ""
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:70
+    old "Map Settings"
+    new ""
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:71
+    old "Character Settings"
+    new ""
+
+    # game/To_LIVE_GUI/screen_TL_political_tabs.rpy:87
+    old "Mature Themes"
+    new ""
+

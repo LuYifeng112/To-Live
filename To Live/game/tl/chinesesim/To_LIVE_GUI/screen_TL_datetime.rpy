@@ -16,7 +16,7 @@ translate chinesesim strings:
 
     # game/To_LIVE_GUI/screen_TL_datetime.rpy:49
     old "Dusk"
-    new "黄昏"
+    new "黄昏" 
 
     # game/To_LIVE_GUI/screen_TL_datetime.rpy:51
     old "Early Night"

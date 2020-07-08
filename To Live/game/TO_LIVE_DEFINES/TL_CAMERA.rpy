@@ -165,7 +165,7 @@ init -1600 python:
         for x, y, z, rotate, duration, warper in check_points:
             camera_check_points["x"].append((x, duration, warper))
             camera_check_points["y"].append((y, duration, warper))
-            camera_check_points["z"].append((z, duration, warper))
+            camera_check_points["z"].append((z, duration, warper)) 
             camera_check_points["rotate"].append((rotate, duration, warper))
         kwargs = {coordinate+"_loop":loop for coordinate in ["x", "y", "z", "rotate"]}
         all_moves(camera_check_points=camera_check_points, loop=loop, subpixel=subpixel, x_express=x_express, y_express=y_express, z_express=z_express, rotate_express=rotate_express, **kwargs)

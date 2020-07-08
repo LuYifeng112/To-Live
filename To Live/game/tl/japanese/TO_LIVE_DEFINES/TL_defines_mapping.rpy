@@ -690,3 +690,159 @@ translate japanese strings:
     old "Comintern"
     new ""
 
+# TODO: Translation updated at 2020-07-08 16:33
+
+translate japanese strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:402
+    old "Hopeh-Chahar Political Council"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:402
+    old "Sung Che Yuan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:402
+    old "Chairman of Hopeh-Chahar"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:537
+    old "People's Anti-Imperialist Association"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:567
+    old "Second East Turkestan Republic"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:567
+    old "Elihan Tore"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:567
+    old "President of East Turkestan Republic"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:567
+    old "Independance Uprising"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:567
+    old "East Turkestan Governemnt"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:582
+    old "Yunnan Anti-communist National Salvation Army"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:582
+    old "Li Mi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:582
+    old "General of the Yunnan National Salvation Army"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:582
+    old "Nationalist Guerillas"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:582
+    old "Nationalist Coalition"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:597
+    old "Kuomintang Islamic Insurgency"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:597
+    old "General of the Islamic Insurgency"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:612
+    old "Kingdom of Ngolok"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:612
+    old "Ngolok Tribes"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:612
+    old "Ngolok Tibetan Insurgents"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:627
+    old "Provisional People's Committee for North Korea"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:627
+    old "Kim Il-Sung"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:627
+    old "Chairman of the Provisional Comittee"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:627
+    old "Provisional Military Government"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:642
+    old "United States Army Military Government in Korea"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:642
+    old "Archibald Vincent Arnold"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:642
+    old "Military Governer of Korea"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:642
+    old "United States"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:642
+    old "United State Army Military Government"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:723
+    old "United States of America"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:723
+    old "Franklin D Roosevelt"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:723
+    old "President of the United States"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:723
+    old "Isolationism"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:723
+    old "Democratic party"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:739
+    old "kuang tung"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:740
+    old "Kwanghsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:741
+    old "Hunan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:742
+    old "Chiang Hsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:743
+    old "Fukien"
+    new ""
+

@@ -9,7 +9,8 @@ $ percent = __("Game Progress: [result]%")
 init:
     $ flash = Fade(.25, 0, .75, color="#fff") #flash effect
     $ noisedissolve = ImageDissolve(im.Tile("00_transitions/00_noise_effect.png"), 1.0, 1) #noise effect
-default sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
+python:
+    sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect
 
 #game Time
 init:

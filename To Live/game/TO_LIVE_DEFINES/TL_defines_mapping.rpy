@@ -91,7 +91,6 @@ init -10 python:
                 pass
             else:
                 pass
-
     TL_GUO_loc = []
     TL_GUO = []
     TL_map_flavour = []
@@ -242,10 +241,10 @@ init -10 python:
     persistent.SOV_log = []
     persistent.USA_log = []
 
-    CHI_DESC = "The Republic of China was established on Janurary 1st 1912 after the Xinhai Revolution which overthrew the Qing dynasty. It was de-facto dissolved during the warlord era until in 1921 the Kuomintang established a rival government in Canton. Chiang Chieh Shih who came into power through a military coup began a northern expedition to capture cities fro warlords and proclaim a central government to unite China under. Many foreign nations recognised the Nationalist government as the legitimate unified government of China, even the Soviet Union which supported the Chinese communists. After the Nanjing decades of the 1930s the Republic was weak and thrown into constant war of unification and resistance against foreign powers such as Japan."
-    PRC_DESC = ""
-    JAP_DESC = ""
-    MAN_DESC = ""
+    CHI_DESC = __("The Republic of China was established on Janurary 1st 1912 after the Xinhai Revolution which overthrew the Qing dynasty. It was de-facto dissolved during the warlord era until in 1921 the Kuomintang established a rival government in Canton. Chiang Chieh Shih who came into power through a military coup began a northern expedition to capture cities fro warlords and proclaim a central government to unite China under. Many foreign nations recognised the Nationalist government as the legitimate unified government of China, even the Soviet Union which supported the Chinese communists. After the Nanjing decades of the 1930s the Republic was weak and thrown into constant war of unification and resistance against foreign powers such as Japan.")
+    PRC_DESC = __("The communists knew aafter the 1927 Shanghai massacre that anywhere under nationalist rule was not their home anymore. They retreated and began to cross rivers and mountains and set up a base in Shanxi to try and regroup. It seemed hope was not on their side especially at the brink of a full out war. The great march has finished and only a fraction of the red army remains at their last stand in Shanxi. After three failed Kuomintang encirclements and a respite after the Sian incident in 1936 the Chinese Soviet Republic has to keep itself together and face the adversities of foreign aggression and imperialism. Left with a barely standing army decisions have to be made and people have to join the fight to protect the sovereignty of China. ")
+    JAP_DESC = __("Three quarters of a century have passed since the establishement of a modern empire in the east. The code of Bushido and a sense of unity has finally left Japan strong and resistant to western imperialism in Asia. They kept building ships and producing guns for foreign conquests in Korea and North East China and exploiting people and resources in the dire times of the great depression. The empire now stands at crossroads after choosing the military and supressing the Kodoha coup in 1936 which lead to end of the government assassination period and a new future to an empire where the sun never sets. Japan's eyes are now on China's resources and weak military and see no reason to take what feels it rightfully theres. For the Emperor!")
+    MAN_DESC = __("Manchukuo was set up by the Japanese to give legitimacy to their occupation of North East China. An area of rich industrial strength allowed Japan to grow their strength and look at the future. Emperor Aisin Gioro Pu-Yi sits on his consolation throne and dreams of the Qing returning and flying the flag of the dragon once again. Pressed under the thumb of the militant Japanese and the autonomous Kwantung army and facing beligerancy from bandits and anti-Japanese resistance Manchukuo must juggle the responsbilities of a unwanted monarchy in a chaotic time period. The flag of Manchukuo unites the 5 races under the one hand of Pu-Yi and extends it out to reclaim what it rightfully owns. Manchukuo will rise and unshackle itself.")
     RNG_DESC = ""
     EHA_DESC = ""
     MEN_DESC = ""
@@ -269,7 +268,7 @@ init -10 python:
     ENG_DESC = ""
     POR_DESC = ""
     FRA_DESC = ""
-    SOV_DESC = ""
+    SOV_DESC = __("The Molotov-Ribbentrop Pact guaranteed security. It seems that Hitler's ambitions in Europe will keep on growing and Soviet requirement to increase defence capability is important. Two Anti-Comintern pact members are now sizing up the borders of the USSR. A ultra-nationalist Germany in the west which will flatten land up to Moscow and a beligerant Japan in the East expecting a second Russo-Japanese war and a hefy territory to conquer. The Soviet Union now paranoid and in chaos has purged hope literally and figuretively as Stalin's paranoia grows. The USSR will arm themselves under their flag and fight for their motherland. They will sing glories of the defence of the motherland. Our men will follow order 255: Not One Step Back!")
     USA_DESC = ""
 ##     ##    ###    #### ##    ##    ##    ##    ###    ######## ####  #######  ##    ##  ######  
 ###   ###   ## ##    ##  ###   ##    ###   ##   ## ##      ##     ##  ##     ## ###   ## ##    ## 

@@ -830,3 +830,27 @@ translate chinese strings:
     old "Democratic party"
     new ""
 
+# TODO: Translation updated at 2020-07-06 23:27
+
+translate chinese strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:739
+    old "kuang tung"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:740
+    old "Kwanghsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:741
+    old "Hunan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:742
+    old "Chiang Hsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:743
+    old "Fukien"
+    new ""
+
