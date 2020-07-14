@@ -4,25 +4,25 @@ translate chinesesim strings:
 
     # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
     old "Determined"
-    new ""
+    new "坚定"
 
     # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
     old "Impulsive"
-    new ""
+    new "浮躁"
 
     # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
     old "Non-Violent"
-    new ""
+    new "非暴力"
 
     # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
     old "Pacifist"
-    new ""
+    new "和平主义者"
 
     # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
     old "Soft-Hearted"
-    new ""
+    new "心肠软"
 
     # game/TO_LIVE_CHARACTERS/ai_TL_YUMI_KAWASHIMA.rpy:15
     old "Well Educated"
-    new ""
+    new "受过良好教育"
 

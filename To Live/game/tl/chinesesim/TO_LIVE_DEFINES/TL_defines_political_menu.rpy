@@ -98,3 +98,11 @@ translate chinesesim strings:
     old "Amongst the flowers is a pot of wine\n I pour alone but with no friend at hand\n So I lift the cup to invite the shining moon\n Along with my shadow\n a fellowship of three.\n -Li Bai"
     new ""
 
+# TODO: Translation updated at 2020-07-09 23:44
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_political_menu.rpy:13
+    old "A journey of a thousand miles begins with a single step.\n -Lao-Tzu"
+    new ""
+

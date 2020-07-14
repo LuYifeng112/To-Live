@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/To_LIVE_GUI/screen_TL_political_tabs.rpy", line 261: text expects a non-empty block.
-    text q.name style "MapText" at ambient:
-                                           ^
+File "game/TO_LIVE_DEFINES/TL_defines_political_menu.rpy", line 170: style property antialias appears twice.
+    antialias True
+             ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu Jul 09 00:41:11 2020
+Thu Jul 09 18:40:30 2020

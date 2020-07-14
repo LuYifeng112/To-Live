@@ -741,7 +741,7 @@ translate chinesesim strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:177
     old "Kuomintang Islamic Insurgency"
-    new ""
+    new "西北剿匪"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:177
     old "General of the Islamic Insurgency"
@@ -753,11 +753,11 @@ translate chinesesim strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:178
     old "Ngolok Tribes"
-    new ""
+    new "高乐部落"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:178
     old "Ngolok Tibetan Insurgents"
-    new ""
+    new "高乐藏叛乱分子"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:180
     old "Provisional People's Committee for North Korea"
@@ -821,23 +821,23 @@ translate chinesesim strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:739
     old "kuang tung"
-    new ""
+    new "广东"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:740
     old "Kwanghsi"
-    new ""
+    new "广西"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:741
     old "Hunan"
-    new ""
+    new "湖南"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:742
     old "Chiang Hsi"
-    new ""
+    new "江西"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:743
     old "Fukien"
-    new ""
+    new "福建"
 
 # TODO: Translation updated at 2020-07-06 23:08
 
@@ -845,33 +845,57 @@ translate chinesesim strings:
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:125
     old "Kwangchow"
-    new ""
+    new "广州"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:126
     old "Hong Kong"
-    new ""
+    new "香港"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:127
     old "Macau"
-    new ""
+    new "澳门"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:130
     old "Nanking"
-    new ""
+    new "南京"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:140
     old "Peiping"
-    new ""
+    new "北京"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:281
     old "Chiang Chie Shih"
-    new ""
+    new "蒋介石"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:297
     old "Mao Tse-Tung"
-    new ""
+    new "毛泽东"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:447
     old "Li Tsung-Jen"
+    new "李宗仁"
+
+# TODO: Translation updated at 2020-07-09 23:44
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:244
+    old "The Republic of China was established on Janurary 1st 1912 after the Xinhai Revolution which overthrew the Qing dynasty. It was de-facto dissolved during the warlord era until in 1921 the Kuomintang established a rival government in Canton. Chiang Chieh Shih who came into power through a military coup began a northern expedition to capture cities fro warlords and proclaim a central government to unite China under. Many foreign nations recognised the Nationalist government as the legitimate unified government of China, even the Soviet Union which supported the Chinese communists. After the Nanjing decades of the 1930s the Republic was weak and thrown into constant war of unification and resistance against foreign powers such as Japan."
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:245
+    old "The communists knew aafter the 1927 Shanghai massacre that anywhere under nationalist rule was not their home anymore. They retreated and began to cross rivers and mountains and set up a base in Shanxi to try and regroup. It seemed hope was not on their side especially at the brink of a full out war. The great march has finished and only a fraction of the red army remains at their last stand in Shanxi. After three failed Kuomintang encirclements and a respite after the Sian incident in 1936 the Chinese Soviet Republic has to keep itself together and face the adversities of foreign aggression and imperialism. Left with a barely standing army decisions have to be made and people have to join the fight to protect the sovereignty of China. "
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:246
+    old "Three quarters of a century have passed since the establishement of a modern empire in the east. The code of Bushido and a sense of unity has finally left Japan strong and resistant to western imperialism in Asia. They kept building ships and producing guns for foreign conquests in Korea and North East China and exploiting people and resources in the dire times of the great depression. The empire now stands at crossroads after choosing the military and supressing the Kodoha coup in 1936 which lead to end of the government assassination period and a new future to an empire where the sun never sets. Japan's eyes are now on China's resources and weak military and see no reason to take what feels it rightfully theres. For the Emperor!"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:247
+    old "Manchukuo was set up by the Japanese to give legitimacy to their occupation of North East China. An area of rich industrial strength allowed Japan to grow their strength and look at the future. Emperor Aisin Gioro Pu-Yi sits on his consolation throne and dreams of the Qing returning and flying the flag of the dragon once again. Pressed under the thumb of the militant Japanese and the autonomous Kwantung army and facing beligerancy from bandits and anti-Japanese resistance Manchukuo must juggle the responsbilities of a unwanted monarchy in a chaotic time period. The flag of Manchukuo unites the 5 races under the one hand of Pu-Yi and extends it out to reclaim what it rightfully owns. Manchukuo will rise and unshackle itself."
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:271
+    old "The Molotov-Ribbentrop Pact guaranteed security. It seems that Hitler's ambitions in Europe will keep on growing and Soviet requirement to increase defence capability is important. Two Anti-Comintern pact members are now sizing up the borders of the USSR. A ultra-nationalist Germany in the west which will flatten land up to Moscow and a beligerant Japan in the East expecting a second Russo-Japanese war and a hefy territory to conquer. The Soviet Union now paranoid and in chaos has purged hope literally and figuretively as Stalin's paranoia grows. The USSR will arm themselves under their flag and fight for their motherland. They will sing glories of the defence of the motherland. Our men will follow order 255: Not One Step Back!"
     new ""
 

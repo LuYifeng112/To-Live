@@ -4,5 +4,5 @@ translate chinesesim strings:
 
     # game/TO_LIVE_DEFINES/TL_Defines_misc.rpy:6
     old "Game Progress: [result]%"
-    new ""
+    new "游戏进度： [result]%"
 

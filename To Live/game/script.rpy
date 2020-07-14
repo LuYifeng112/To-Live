@@ -99,7 +99,7 @@ label Sino_Japanese_bookmark_chapter_one_splash:
     $ renpy.movie_cutscene("00_bookmark_chapter/1937_sino_japanese_war_bookmark.ogv")
     scene black with dissolve
     with Pause(0.5)
-    $ save_name = "Chapter One- Peiping\n Talk Like Doves"
+    $ save_name = __("Chapter One- Peiping\n Talk Like Doves")
     $ inventory.earn(100)
     $ current_money = inventory.money
     $currenthp = 50

@@ -3,3 +3,53 @@
 Credits to Lu-Yi-Feng
 Logging system established 9-6-2020 :)
 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 
+2020-07-15 00:34:45,795 CRITICAL To Live 0.0.79 
+--- launch game ---
+2020-07-15 00:34:45,796 CRITICAL To Live 0.0.79 Credits to Lu-Yi-Feng
+2020-07-15 00:34:45,798 CRITICAL To Live 0.0.79 Logging system established 9-6-2020 :)
+2020-07-15 00:34:45,799 CRITICAL To Live 0.0.79 

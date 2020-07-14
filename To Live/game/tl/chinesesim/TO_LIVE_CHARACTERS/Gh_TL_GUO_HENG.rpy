@@ -4,25 +4,25 @@ translate chinesesim strings:
 
     # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
     old "Insecure"
-    new ""
+    new "不安全的"
 
     # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
     old "Overprotective"
-    new ""
+    new "过度保护"
 
     # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
     old "Stressed"
-    new ""
+    new "压力"
 
     # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
     old "Sensitive"
-    new ""
+    new "敏感"
 
     # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
     old "Workaholic"
-    new ""
+    new "工作狂"
 
     # game/TO_LIVE_CHARACTERS/Gh_TL_GUO_HENG.rpy:15
     old "Worrier"
-    new ""
+    new "担心者"
 

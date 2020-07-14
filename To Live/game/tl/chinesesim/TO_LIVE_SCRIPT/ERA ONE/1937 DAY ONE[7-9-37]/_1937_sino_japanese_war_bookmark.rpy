@@ -10944,3 +10944,431 @@ translate chinesesim strings:
     old "Take leave"
     new ""
 
+# TODO: Translation updated at 2020-07-09 23:43
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:8
+translate chinesesim Beijing_chapter_one_8f5f8072:
+
+    # rhetoric neutral "Hello"
+    rhetoric neutral ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2183
+translate chinesesim DayOneEarlyNight_5a1473f9:
+
+    # Dy "They're expensive cause' they're classy."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2192
+translate chinesesim DayOneEarlyNight_8a43f8f7:
+
+    # Dy "So that means it en-route so no need to pay for that."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2193
+translate chinesesim DayOneEarlyNight_7f718fc0:
+
+    # Dy "Makes everything else cheaper now? Doesn't it?"
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2194
+translate chinesesim DayOneEarlyNight_a6a07b57:
+
+    # "Da-Yu took another puff of his classy cigarette."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2195
+translate chinesesim DayOneEarlyNight_548ae423:
+
+    # "{i}How could he afford such expensive stuff?{/i}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2213
+translate chinesesim DayOneEarlyNight_a57fc5b8:
+
+    # fang "I can."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2215
+translate chinesesim DayOneEarlyNight_778a2b83:
+
+    # "Ma Wen looks at me for a second with a neutral face."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2216
+translate chinesesim DayOneEarlyNight_8c5651d4:
+
+    # "It was strange."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2217
+translate chinesesim DayOneEarlyNight_29fd162e:
+
+    # Mw "Thanks."
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2218
+translate chinesesim DayOneEarlyNight_0fc71de2:
+
+    # "He said it without a tone."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2219
+translate chinesesim DayOneEarlyNight_6ad0dd4f:
+
+    # rhetoric "Eerie."
+    rhetoric ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2220
+translate chinesesim DayOneEarlyNight_57f1a1bf:
+
+    # correction neutral "Agreed."
+    correction neutral ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2222
+translate chinesesim DayOneEarlyNight_9845fce8:
+
+    # Mw "Really?"
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2223
+translate chinesesim DayOneEarlyNight_3928167a:
+
+    # fang "Sure, why not?"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2224
+translate chinesesim DayOneEarlyNight_30e44450:
+
+    # Mw "Ma Wen looked glumly before Da-Yu took the bill into his hand."
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2226
+translate chinesesim DayOneEarlyNight_bdfe299f:
+
+    # Gh "Let me pay for him."
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2228
+translate chinesesim DayOneEarlyNight_dfedfbf7:
+
+    # "Ma Wen looks at me with his arms crossed."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2229
+translate chinesesim DayOneEarlyNight_47a296ab:
+
+    # "His eyes send a message to me."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2231
+translate chinesesim DayOneEarlyNight_4b9f6bd0:
+
+    # concept "He expected this type of behaviour from you."
+    concept ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2232
+translate chinesesim DayOneEarlyNight_81e0c74a:
+
+    # concept "Maybe he thought {b}you{/b} didn't keep grudges?"
+    concept ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2233
+translate chinesesim DayOneEarlyNight_0ea07a7f:
+
+    # concept "Did this prove him right or wrong?"
+    concept ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2235
+translate chinesesim DayOneEarlyNight_71e935d9:
+
+    # "What he said will remain a mystery to you."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2237
+translate chinesesim DayOneEarlyNight_5ecc83dd:
+
+    # "Guo Heng passed a thin stack of small notes to Da-Yu."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2238
+translate chinesesim DayOneEarlyNight_fd79a24c:
+
+    # "Ma Wen guiltilly watched ahead."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2239
+translate chinesesim DayOneEarlyNight_72f76186:
+
+    # "Da-Yu took the bills Guo Heng."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2240
+translate chinesesim DayOneEarlyNight_062bba8c:
+
+    # Dy "Well that settles it."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2241
+translate chinesesim DayOneEarlyNight_8d97dd6a:
+
+    # Dy "Congrats on a chance at new life."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2242
+translate chinesesim DayOneEarlyNight_5ca8b79b:
+
+    # "He opens the door and hops in."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2243
+translate chinesesim DayOneEarlyNight_5feaba2a:
+
+    # Dy "I envy you guys."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2244
+translate chinesesim DayOneEarlyNight_d350a407_1:
+
+    # Gh "Why?"
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2245
+translate chinesesim DayOneEarlyNight_313bae1c:
+
+    # Dy "You get to feel the cool breeze and open air space around it."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2246
+translate chinesesim DayOneEarlyNight_e06dd9f7:
+
+    # Mw "We're going to be in the back?"
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2248
+translate chinesesim DayOneEarlyNight_c0f9713d:
+
+    # rhetoric "He means \"Are you fucking serious?\"."
+    rhetoric ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2249
+translate chinesesim DayOneEarlyNight_fbe66d94:
+
+    # Dy "It's not that bad."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2250
+translate chinesesim DayOneEarlyNight_7eedb51e:
+
+    # Dy "Like I said.. I really do envy you."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2252
+translate chinesesim DayOneEarlyNight_12232b3f:
+
+    # Dy "When I start this thing up give this place a formal farewell."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2253
+translate chinesesim DayOneEarlyNight_d8f0b377:
+
+    # Dy "Who knows what will happen to it or you."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2254
+translate chinesesim DayOneEarlyNight_79f9b419:
+
+    # "What a depressing thought."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2255
+translate chinesesim DayOneEarlyNight_0250264c:
+
+    # "I walk around to the back with Guo Heng and Ma Wen."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2256
+translate chinesesim DayOneEarlyNight_ab98486d:
+
+    # "It's dark and full of stock."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2258
+translate chinesesim DayOneEarlyNight_753ff4fc:
+
+    # logic neutral "{i}Maybe he sneaks stuff from his deliveries?{/i}"
+    logic neutral ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2259
+translate chinesesim DayOneEarlyNight_3bc6c3e2:
+
+    # logic neutral "A packet of cigarettes or maybe that pocketwatch would take a year or so to earn."
+    logic neutral ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2260
+translate chinesesim DayOneEarlyNight_9511a452:
+
+    # logic neutral "That wouldn't explain why his clothes are so western."
+    logic neutral ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2261
+translate chinesesim DayOneEarlyNight_99d32a89:
+
+    # logic neutral "He'd been caught and fired by now."
+    logic neutral ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2265
+translate chinesesim DayOneEarlyNight_70a2aeee:
+
+    # Gh "Get on Fang."
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2267
+translate chinesesim DayOneEarlyNight_0529d76a:
+
+    # "Ma Wen still looked pissed."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2268
+translate chinesesim DayOneEarlyNight_8f7087b5:
+
+    # "He just stared me down from atop of the open backdoor of the truck."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2269
+translate chinesesim DayOneEarlyNight_040b7269:
+
+    # "I grab the cold bars at the side of the back and hop on."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2270
+translate chinesesim DayOneEarlyNight_bad50560:
+
+    # Gh "Surreal?"
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2271
+translate chinesesim DayOneEarlyNight_53d89823:
+
+    # fang "Yeah"
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2272
+translate chinesesim DayOneEarlyNight_a8eb4c0c:
+
+    # "Ma Wen just lies against the wall of the truck and stares up at the black roof."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2273
+translate chinesesim DayOneEarlyNight_f670db73:
+
+    # "{i}To a new life{/i}"
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2280
+translate chinesesim DayOneEarlyNight_658d1014:
+
+    # Gh "Fang, get up."
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2281
+translate chinesesim DayOneEarlyNight_c90e0141:
+
+    # "I try to adjust my eyes again."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2282
+translate chinesesim DayOneEarlyNight_e8493f97:
+
+    # "It's dark and there aren't any silhouette's even."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2283
+translate chinesesim DayOneEarlyNight_1a6a5e90:
+
+    # Gh "We're nearing Tientsin."
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2284
+translate chinesesim DayOneEarlyNight_b31ded1b:
+
+    # Gh "Pretty much whatever is left of Hsi-Ku arsenal."
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2285
+translate chinesesim DayOneEarlyNight_72d3baa8:
+
+    # Mw "They turned that place into a school didn't they?"
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2286
+translate chinesesim DayOneEarlyNight_81ae2120:
+
+    # Gh "Yeah."
+    Gh ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2287
+translate chinesesim DayOneEarlyNight_c56b1399:
+
+    # Mw "That arsenal would be really handy right now."
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2288
+translate chinesesim DayOneEarlyNight_49684785:
+
+    # Dy "30 minute stopover."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2289
+translate chinesesim DayOneEarlyNight_32aecb1a:
+
+    # "I rub my eyes and look over as the empty street."
+    ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2290
+translate chinesesim DayOneEarlyNight_df111ad5:
+
+    # fang "It's too dark to go out."
+    fang ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2292
+translate chinesesim DayOneEarlyNight_8c4d1285:
+
+    # Mw "Just go and get your shit done."
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2293
+translate chinesesim DayOneEarlyNight_4bb283ff:
+
+    # Mw "We don't wanna be bombarded any minute now."
+    Mw ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2294
+translate chinesesim DayOneEarlyNight_b1617ca1:
+
+    # Dy "We passed a skirmish a while bacm while you all were napping."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2295
+translate chinesesim DayOneEarlyNight_98d912a1:
+
+    # Dy "At least an area reported to be hosting one."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2296
+translate chinesesim DayOneEarlyNight_f38e91c3:
+
+    # Dy "Didn't see or hear anything."
+    Dy ""
+
+# game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2297
+translate chinesesim DayOneEarlyNight_54d7e70d:
+
+    # Gh "Unsettling..."
+    Gh ""
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy:2262
+    old "There's another reason"
+    new ""
+
