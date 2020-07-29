@@ -9058,3 +9058,51 @@ Choice: You're right. A litte sefishness is necessary.
 
 No choice chosen.
 
+﻿--- Wed Jul 29 21:01:24 2020
+
+Vice
+Hello
+
+Judgement
+hello
+
+Visual Comprehension
+Hello
+
+Logic
+Hello
+
+Rhetorics
+Hello
+
+Empathy
+hello
+
+Predatory Instinct
+hello
+
+Sensory Perception
+hello
+
+???
+"Fang"
+
+???
+"{cps=*0.4}...{/cps}"
+
+﻿--- Wed Jul 29 21:06:53 2020
+
+{size=30}Republic of China - 1937   Peiping{/size}
+
+{size=30}Republic of China - 1937   Peiping{/size}
+
+Are these you memories??{cps=*0.4}!?!?!{cps=*0.6}?!?!{/cps}?!?!{/cps}
+
+The father calls you.
+
+WHERE ARE YOU
+
+SHOW YOURSELF
+
+SHOW YOURSELF!{cps=*0.4}!!!!{/cps}
+

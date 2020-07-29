@@ -102,7 +102,28 @@ image ctc_blink:
        pause 0.25
        repeat
 
-screen say(who, what):
+# screen say(who, what):
+#     style_prefix "say"
+
+#     window:
+#         id "window"
+
+#         if who is not None:
+
+#             window:
+#                 id "namebox"
+#                 style "namebox"
+#                 text who id "who" style "clear_name"
+
+#         text what id "what" style "clear"
+
+
+#     ## If there's a side image, display it above the text. Do not display on the
+#     ## phone variant - there's no room.
+
+
+    # FancyText: To use this say screen, you need to add the three parameters exactly as given!
+screen say(who, what, slow_effect = slow_typewriter, slow_effect_delay = 0, always_effect = None):
     style_prefix "say"
 
     window:
@@ -113,17 +134,15 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who" style "clear_name"
+                text who id "who"
 
-        text what id "what" style "clear"
-
-
-    ## If there's a side image, display it above the text. Do not display on the
-    ## phone variant - there's no room.
+        
+        # FancyText: Here's where all the magic happens.
+        # Replace your usual "text" statement with "fancytext" to enable
+        # some fancy effects on text display.
+        fancytext what id "what" slow_effect slow_effect slow_effect_delay slow_effect_delay always_effect always_effect
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
-
-
 ## Make the namebox available for styling through the Character object.
 init python:
     config.character_id_prefixes.append('namebox')
@@ -228,7 +247,7 @@ style input:
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
 ## menu captions will be displayed as empty buttons.
-define config.narrator_menu = True
+define config.narrator_menu = False
 
 
 style choice_vbox is vbox
@@ -1663,11 +1682,29 @@ screen choice(items):
         at choice_transform
         style "menu_window"
     style_prefix "choice"
+    # if not choicetype == "dream":
     add "gui/choice_bg.png" at choice_bg
     vbox:
         for i in items:
             textbutton i.caption:
                 action i.action
+# screen choice(items):
+#     window:
+#         at choice_transform
+#         style "menu_window"
+#     style_prefix "choice"
+#     add "gui/choice_bg.png" at choice_bg
+#     frame:
+#         has vbox
+#         for i in items:
+#             if '|' in i.caption:
+#                 textbutton i.caption.split('|')[0] action i.action hovered SetScreenVariable("status", i.caption.split('|')[1])
+#             else:
+#                 textbutton i.caption action i.action hovered SetScreenVariable("status", None)
+        
+#         if status is not None:
+#             add status.image xalign 0.6 yalign 0.25 size(80,80)
+#             text status.name xalign 0.75 yalign 0.25 size 35
 
 transform transform_blink:
     linear 1.0 alpha 0.2

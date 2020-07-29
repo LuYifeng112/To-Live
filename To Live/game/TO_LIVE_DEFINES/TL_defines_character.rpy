@@ -17,14 +17,18 @@ define character.empathy = Character(__("Empathy"), image="empathy", what_italic
 define character.logic = Character(__("Logic"), image="logic", who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", who_kerning=-1, what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
 define character.luck = Character(__("Luck"), image="luck", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.perception = Character(__("Sensory Perception"), image="perception", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
-define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
 define character.rhetoric = Character(__("Rhetorics"), image="rhetoric", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.correction = Character(__("Judgement"), image="correction", who_font="fonts/eng_chars/correction/KelmscottRomanNF.ttf", what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_italic=True, who_color="#000000", what_color="#000000", ctc="ctc_blink", ctc_position="nestled")
-define character.schema = Character(__("Schema"), image="schema", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
-define character.vice = Character(__("Vice"), image="vice", who_font="fonts/eng_chars/vice/dispose/DISPOSE1.ttf", what_font="fonts/eng_chars/vice/Eutemia.ttf", what_size=50, what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.schema = Character(__("Schema"), image="schema", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_slow_effect = slow_nonsense, show_slow_effect_delay = 1.0)
+define character.reaction = Character(__("Quick Wit"), image="reaction", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.vice = Character(__("Vice"), image="vice", who_font="fonts/eng_chars/vice/dispose/DISPOSE1.ttf", what_font="fonts/eng_chars/vice/Eutemia.ttf", what_size=50, what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
 define character.visualcomprehension = Character(__("Visual Comprehension"), image="visualcomprehension", what_italic=True, who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", what_font="fonts/eng_chars/visualcomprehension/Caladea-Italic.ttf", what_color="#000000",  who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
 
 define character.narrator = Character(ctc="ctc_blink", ctc_position="nestled")
+init 9999:
+    define na = Character(None, show_slow_effect = slow_nonsense, show_slow_effect_delay = 1.0, kind=centered)
+    define no = Character(None, show_always_effect = always_shake(x = 1, y = 1), kind=centered, show_layer='master')
 define character.f = Character(__("The Father"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.m = Character(__("The Mother"), who_color="#0d00ff", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.v = Character(__("The Voices"), who_color="#5b5963", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
@@ -32,9 +36,12 @@ define character.v = Character(__("The Voices"), who_color="#5b5963", what_pefix
 define character.un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.thought = Character(None, what_italic=True, what_alt="I think, [text]")
 define character.prostitute = Character(__("Chang San Brothel worker"),what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.ko = Character(__("Kuomintang Officer"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.ds = Character(__("Distant Soldier"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #1937
 define character.Ab = Character(__("Ah Bai"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
 define character.Am = Character(__("Ah Mei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
+define character.Ch = Character(__("Corporal Hu"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.Dy = Character(__("Da-Yu"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Dy")
 define character.Ghe = Character(__("Guo He"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
 define character.Gh = Character(__("Guo Heng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
@@ -46,6 +53,7 @@ define character.Ly = Character(__("Lady Yang"), what_prefix='"', what_suffix='"
 define character.monk = Character(__("Monk"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="monk")
 define character.Mw = Character(__("Ma Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Mw")
 define character.Po = Character(__("Professor Po Yeutarng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Po")
+define character.Ts = Character(__("Liutenant Tsai"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.wpc = Character(__("Wang P'u Ch'en"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="wpc")
 define character.wyx = Character(__("Wang Yue Hsiang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.Xw = Character(__("Xiao Wen"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Xw")
@@ -72,8 +80,10 @@ init python:
     import renpy.store as store
     import renpy.exports as renpy 
     import time as time
+    import operator
+    from collections import Counter
     def WeightedChoice(choices):
-        """
+        """ 
         @param choices: A list of (choice, weight) tuples. Returns a random
         choice (using renpy.random as the random number generator)
         """
@@ -90,7 +100,7 @@ init python:
         def __init__(self, name, number, specialactions):
             self.name = name
             self.number = number
-            self.specialactions = specialactions
+            self.specialactions = specialactions   
     class Char(store.object):      
         def __init__(self, mood, bond, pol, rel, traits, skillset, convolog, eventlog, bag=None):
             self.mood = mood
@@ -102,7 +112,11 @@ init python:
             self.convolog = convolog
             self.eventlog = eventlog
             self.bag = bag
-        
+
+        def setmood(self, moodname, responsibility=True):
+            self.mood = moodname
+            IsResponsible[self.mood] = responsibility
+
         def bondp(self, amount):
             self.bond += amount
         
@@ -132,32 +146,9 @@ init python:
                 return self.skillset.get(skill)
             else:
                 raise Exception("Invalid Skill Key for function \'skillval()\'.")
-
-        def randomise_compare(self, skill, x, y, sound=True, vol=0.35, msge=True):
-            if skill in self.skillset:
-                temp_val = self.skillset.get(skill) + self.skillset.get("luck")
-                opposition = renpy.random.randint(x, y)
-                test = WeightedChoice([("Success", temp_val),
-                                ("Failure", opposition)])
-                if test == "Success":
-                    if sound == True:
-                        renpy.music.set_volume(vol, delay=0, channel='skills') 
-                        renpy.play("sounds/menu/00_checksuccess.ogg", channel="skills")
-                    if msge == True:
-                        msg.msg(skill+" challenge success.")
-                    return True
-                elif test == "Failure":
-                    if sound == True:
-                        renpy.music.set_volume(vol, delay=0, channel='skills') 
-                        renpy.play("sounds/menu/00_checkfail.ogg", channel="skills")
-                    if msge == True:
-                        msg.msg(skill+" challenge failed.")
-                    return False
-            else:
-                raise Exception("Invalid Skill Key for function \'skillval()\'.")
-
         def convo(self, topic):
             self.convolog.append(topic)
+            self.eventlog.add(topic)
 
         def said(self, phrase):
             return phrase in self.convolog
@@ -170,10 +161,72 @@ init python:
             self.traits = None
 
         def log(self, event):
-            self.eventlog.append(event)
+            self.eventlog.add(event)
 
         def hasLog(self, event):
-            return event in self.eventlog
+            if event in self.eventlog:
+                return True
+            else:
+                return False
+
+        def RandomCheck(self, skill, x, y, sound=True, vol=0.35, msge=True, modifiers=None):
+            if skill in self.skillset:
+                global temp_val
+                if modifiers is not None:
+                        temp_val = self.skillset.get(skill) + self.skillset.get("luck") + int(sum(modifiers.values()))
+                else:
+                    temp_val = self.skillset.get(skill) + self.skillset.get("luck")
+                opposition = renpy.random.randint(x, y)
+                test = WeightedChoice([("Success", temp_val),
+                                ("Failure", opposition)])
+                if test == "Success":
+                    if sound == True:
+                        renpy.music.set_volume(vol, delay=0, channel='skills') 
+                        renpy.play("sounds/menu/00_checksuccess.ogg", channel="skills")
+                    if msge == True:
+                        msg.msg(SkillsetDictionary[skill]+" challenge success.")
+                    return True
+
+                elif test == "Failure":
+                    if sound == True:
+                        renpy.music.set_volume(vol, delay=0, channel='skills') 
+                        renpy.play("sounds/menu/00_checkfail.ogg", channel="skills")
+                    if msge == True:
+                        msg.msg(SkillsetDictionary[skill]+" challenge failed.")
+                    return False
+            else:
+                raise Exception("Invalid Skill Key for function \'skillval()\'.")
+
+init python:
+   def GetMaxPol(d):
+        try:
+            return max(d, key=lambda key: d[key])
+        except:
+            raise Exception("value did not get returned.")
+##     ##  #######   #######  ########     ########    ###     ######    ######  
+###   ### ##     ## ##     ## ##     ##       ##      ## ##   ##    ##  ##    ## 
+#### #### ##     ## ##     ## ##     ##       ##     ##   ##  ##        ##       
+## ### ## ##     ## ##     ## ##     ##       ##    ##     ## ##   ####  ######  
+##     ## ##     ## ##     ## ##     ##       ##    ######### ##    ##        ## 
+##     ## ##     ## ##     ## ##     ##       ##    ##     ## ##    ##  ##    ## 
+##     ##  #######   #######  ########        ##    ##     ##  ######    ######  
+# '''
+# Moodtags just need to find a way to put down a list of tags. 
+# For now True means the mood is positive and False means negative.
+# '''
+define Moodtags = {
+    "Angry":False,
+    "Agressive":False,
+    "Disappointed":False,
+    "Disgruntled":False,
+    "Melancholic":False,
+    "Offended":False,
+    "Sinister":False
+    }
+define IsResponsible = {
+    }
+
+
  ######   ########     ###    ########  ##     ## ####  ######   ######  
 ##    ##  ##     ##   ## ##   ##     ## ##     ##  ##  ##    ## ##    ## 
 ##        ##     ##  ##   ##  ##     ## ##     ##  ##  ##       ##       
@@ -206,12 +259,24 @@ image side rhetoric neutral:
     "images/00_character_side_images/character.rhetoric/rhetoric_neutral.png"
     size(300, 300)
     zoom 1.1
+image side perception neutral:
+    "images/00_character_side_images/character.perception/perception_neutral.png"
+    size(300, 300)
+    zoom 1.1
 image side empathy neutral:
     "images/00_character_side_images/character.empathy/empathy_neutral.png"
     size(300,300)
     zoom 1.1
 image side pred neutral:
     "images/00_character_side_images/character.pred/pred_neutral.png"
+    size(300,300)
+    zoom 1.1
+image side schema neutral:
+    "images/00_character_side_images/character.schema/schema_neutral.png"
+    size(300,300)
+    zoom 1.1
+image side reaction neutral:
+    "images/00_character_side_images/character.reaction/reaction_neutral.png"
     size(300,300)
     zoom 1.1
 ######## ########     ###    #### ########  ######     ########  ####  ######  ######## 
