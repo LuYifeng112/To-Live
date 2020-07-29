@@ -15,18 +15,18 @@ default subtext = ""
 label splashscreen:
     $ _dismiss_pause = False
     $ mouse_visible = False
-    show note
+    show MENU_note
     with Pause(3)
     scene black
 
-    play sound sound_menu_logo
-    show splash with dissolve
+    play sound menu_sound_logo
+    show MENU_YYDSJ_logo with dissolve
     with Pause(2)
 
     scene black with dissolve
     with Pause(1)
 
-    show renpy_cred with dissolve
+    show MENU_RENPY with dissolve
     with Pause(2)
 
     show placeholder
@@ -46,6 +46,7 @@ label splashscreen:
 ##    ##    ##    ##     ## ##    ##     ##    
  ######     ##    ##     ## ##     ##    ##    
 label start:
+    window hide
     python:
         callbacks = {
             'ready': readyCallback,
@@ -106,7 +107,7 @@ label Sino_Japanese_bookmark_chapter_one_splash:
     $maxhp = 50
 
     play sound ambience_steps
-    show Beijing_location with dissolve
+    show LOCATION_Beijing with dissolve
     with Pause (2)
     $ _skipping = True
     scene black with dissolve

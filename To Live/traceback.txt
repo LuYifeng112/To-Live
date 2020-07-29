@@ -1,26 +1,44 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in script
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in <module>
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-NameError: name 'always_shake' is not defined
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 4, in script
+    if fang.GetMaxPol() == "fascism":
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 4, in script
+    if fang.GetMaxPol() == "fascism":
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 4, in <module>
+    if fang.GetMaxPol() == "fascism":
+  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 170, in GetMaxPol
+    raise Exception("value did not get returned.")
+Exception: value did not get returned.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in script
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 2108, in execute
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 578, in main
+    run(restart)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 143, in run
+    renpy.execution.run_context(True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\execution.py", line 908, in run_context
+    context.run()
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 4, in script
+    if fang.GetMaxPol() == "fascism":
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 4, in script
+    if fang.GetMaxPol() == "fascism":
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 1832, in execute
+    if renpy.python.py_eval(condition):
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2059, in py_eval
+    return py_eval_bytecode(code, globals, locals)
   File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in <module>
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-NameError: name 'always_shake' is not defined
+  File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy", line 4, in <module>
+    if fang.GetMaxPol() == "fascism":
+  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 170, in GetMaxPol
+    raise Exception("value did not get returned.")
+Exception: value did not get returned.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
-To Live 0.0.79
-Wed Jul 29 21:05:46 2020
+To Live 0.0.84
+Wed Jul 29 21:49:32 2020

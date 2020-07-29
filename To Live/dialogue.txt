@@ -1,15 +1,8 @@
-Death
-You can feel your body slipping away in the dust.
-Your lungs expelling its final breaths.
-The world is becoming slower...{nw}
-{fast}or is your life ending faster?{nw}
-but something burns in you.
-A flame that cannot be extenguished.
-Just agree to struggle by stating \"Agneepath\"
-Just agree to struggle by stating \"Neidan\"
-Just agree to struggle by stating \"Resurrection\"
-Just agree to struggle by stating \"I accept\"
-Excellant
+The side images for each character.
+Traits are how characters have behaviours that will influence how they interact with other NPCs and the protagonist. Traits change through events and help characters develop. Below each trait is listed alphabetically and with their ingame use/effect.
+NOTE: An AI system off of this is yet to be perfected. I would like to automate learning of player choice habits so that these traits interact with each other automaticlaly and flexibly.
+These are skills that apply to specific characters. Sometimes more than one.
+Credit to Socradeath
 I feel light.
 I feel as if there's no weight in me.
 Like something scraped me from the inside to become hollow.
@@ -19,7 +12,7 @@ Absolution.
 The voices kept murmuring.
 Gossiping about me.
 I could feel it.
-It's true,{w=0.5}urchin.
+It's true,urchin.
 They all just gossip about you.
 How pathetic you are.
 How weak you are.
@@ -52,22 +45,63 @@ An incarnation of your guilt, self hate or frustrations.
 I may be a passing thought.
 I may be the essence of your character with autonomy.
 You will have to define me.
+Republic of China - 1937 \n Peiping
+Are these you memories??!?!?!?!?!?!?!
+The father calls you.
+WHERE ARE YOU
+SHOW YOURSELF
+SHOW YOURSELF!!!!!
+Fang
+...
+You awake?
+The faint figure was only a silhouette in my half opened eyes.
+Sounded like you were having a nightmare of some sort.
+I had waited so long for him to arrive for this interview I had fallen asleep in this god awful uncomfortable chair.
+That's good.
+The silhouette moved around a bit more as I tried to gain focus.
 It is important you answer these questions properly.
 I will go through them one by one.
+Alright?
 Do not fret.
 Yes I understand.
 Good.
-we're here for you.
+We're here for you.
+Let's get this over with.
 That thought was calming to me.
-I gulped as I braced myself.
-Times were getting scary.
-China is on the edge of total war.
-Uncle Ku Hong-Meng would know what to do.
-Professor Po Yeutarng is quite experienced in dealing with wars.
-After all they both lived through the Manchurian conquest.
-Professor Po Yeutarng volunteered to help guide me what to do based on my life.
-It was a good oppurunity to evaluate my situation and possible choices.
+Tough times needed tough people or support.
+In this case I knew what I needed.
+I knew I had screwed up...
+Protesting and rebelling.
+Showing the power of a voice without hope.
+Of harsh unfiltered criticism.
+What should I expect?
+This gives me a message on autority and power in this country.
+It's better to not believe in it too much.
+Perhaps it is human nature to be self centered.
+How else is one expected to live in a naturally cruel world?
+perhaps so.
+But most people tka it too far.
+They fail to limit ambition or a desire for inhibition.
+Maybe...
+Maybe not.
+But if they really want to preserve Dr Sun's legacy they will have to change their ways.
+They will listen one way or the other.
+I should just focus on getting this interview done.
+Times are getting intense these days.
+We are on the edge of total war - again.
+I began to adjust my eyes and get used to who was around me.
+Resting my eyes on the previously known \"Silhouette\" I recognised him as \"Professor Po-YeurtTarng\".
+Professor Po Yeutarng is a lawyer who is quite well connected wtih Kuomintang \"Hawks\".
+\"Hawks\" in the sense that they perch on your shoulder and are aggressive in every action they take.
+The Professor's very close with my uncle \"Ku Hong-Meng\".
+A scholar who used to work in Peking before he became \"enlightened\" in a lifestyle of spiritual content and cosmic toiling.
+A full time Taoist in essence.
+Professor Po Yeutarng on request of Uncle Ku had come to interview me to clear of any charges or suspicions with communist acivity.
+All three of us knew that I was in no way connected with communists or had any clear sympathies for them.
+The interview still had to be carried out superficially... just to clear my name.
+It was also a good oppurunity to evaluate my situation and possible choices.
 Are you Ready Fang?
+Succeeded in focussing.
 Please give me a minute to think.
 That's fine,
 Normally I would be ready to answer any question coming my way.
@@ -76,13 +110,44 @@ Beads of sweat formed on my brow.
 Summer had just ended so the heat was burning out like some star.
 I controlled my air-flow and calmed myself down.
 I can do this.
-I am ready.
-Uncle Ku looked at me like how a human judges a lamb.
-Don't overthink it.
-They won't harm civilians, they didn't back in Tong-pei.
-Just make sure you can answer their questions.
+I don't think you did anything wrong.
+You're young.
+You have this burning fire in you that can't be matched.
+You have to vent it out somewhere.
+Those hawks will let you go...
+unless they see you have an incentive to believe in communism through traits such as poverty.
+Which means that any of the other kids that were protesting and weren't affluent can be suspected more harshly as \"communists\" due to their economic conditions.
+I'll have to interview them as well.
+I can spot damn communists really well.
+I mean you can tell by that patriotic insignia he wears.
+Normally he wears a coat to cover it up or keep the coat resting on his shoulder.
+Why would he hide it?
+He's not part of any Kuomintang adminstration based on his job or uniform.
+So you can guess why he wears that at all.
+Professor Po wore the insignia of the Kuomintang flag on his arm.
+It looked well stitched and taken care of.
+You spotted that?
+Good eye there.
+I know.
+Professor Po brushed it lightly.
+I do this to preserve Dr Sun's legacy.
+Professor Po smirked.
+Unlike that \"Generalissimo\" Chiang.
+Professor Po let out a large sigh.
+Communists are the worst
+I hoped they would have lost back in Fusze.
+Professor Po cursed under his breath as he said this.
+Failed to focus.
+I tried my best to focus but something kept burning up in me.
+It was painful to confront my own emotions.
+The pressure of everything just kept building up.
+Like a bag of rocks on my back. Like something kept putting in more rocks.
+Whose burdem am I carrying?
+The flames of stress and neuroticism just growing and expanding.
+Life feels like a fucking nightmare.
+I'm ready.
 Well Let us start now.
-We have to know more about you to help you plan what to do for the upcoming events.
+The hawks want to know more about you this will information will help you reflect on what you want to do with the looming war.
 War's harsh isn't it?
 Professor Po bit his lip and focussed on the blank piece of paper in front of him.
 Yeah it is...
@@ -91,14 +156,20 @@ Your hometown.
 What is your background in terms of location?
 I know you and your family have moved places over the years...
 It's best to choose what is your go-to \"home\".
-Where is it most convenient for you to return home so you won't have any difficulty resettling or get bothered by Japanese?
+Where is it most convenient for you to return home? What would your gut feeling say?
 I'm from Peiping
 I'd suggest you move out of Peiping.
+I mean the hawks don't care.
+All they'll see is you living in this large house and stereotype you as a capitalist.
+The reason why you should move out is because of the war.
+There have been all sorts of conflcits ocurring on the outskirts of Peiping.
+This place will be levelled down with bombs.
 Yan'an is swarming with communists otherwise I would have recommended a temporary stay there.
-My best bet would be to send you to Tsingtao.
+My best bet would be to send you to Tsingtao or further south where the Japanese won't be able to fight through.
 I'd have to be agree with Ku-hsien-sheng
-I have a shcolarly friend who can provide you with oppurtunities for work.
+I have a shcolarly friends all across the place who can provide you with oppurtunities for work.
 Tsingtao will be familiar to you.
+Even if they do reach Tsingtao you can always go to Nanking.
 What do you make of it?
 It's a pending decision.
 That makes sense.
@@ -111,7 +182,7 @@ Everyone wanted to feel a full stomach again.
 Eventually I snuck out and went to the ports.
 I hoarded some stuff and went back to the school.
 Anyway I'll tell the rest a little later.
-We have an interview here.
+We have an \"interview\" here.
 I'm from Nanking
 Well, the capital is a good place.
 Nationalists would fight to the death to keep it safe.
@@ -194,7 +265,7 @@ Plus they let Chiense culture flourish unlike the Guizi in Hong Kong.
 Uncle Ku has a strong bias for Macao, he disliked how the British ran Hong Kong and prefered Portugese ruled Macao.
 Some people are born lucky I guess.
 Will you go ahead and start gambling?
-Gambling is like water in Macao. A {i}necessity{/i}.
+Gambling is like water in Macao. A necessity.
 Professor Po gave a laugh about it.
 Uncle Gu did not approve of gambling but laughed at this joke regardless.
 I think it is a safe place that you should consider returning to.
@@ -203,62 +274,63 @@ I suggest you go back to your family and try to prepare what to do next.
 I'm from Taiwan
 From the foreign devils themself.
 He chuckles
-They won't mess with you then i guess.
+They won't mess with you then I guess.
+Out of curiosity...
+How have the Japanese run Taiwan?
 So what are you doing in Peiping right now?
-{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 Determination; 3 Intellect and 2 Dexterity!{/color}{/font}
+Fang gained 3 Determination; 3 Intellect and 2 Dexterity!
 I came here to actually continue my education.
 I am staying with Uncle Ku since it is close to the facilities.
 I doubt schools will run under foreign occupation.
 Professor Po gave a faint grin.
 Well classes won't.
-Professor Po raised his glass of {i}Máotái{/i} and took a sip.
+Professor Po raised his glass of Máotái and took a sip.
 He normally didn't drink heavily but Uncle Ku had handed him this as a token of thanks for visiting me.
 Giving such an expensive drink symbolised Uncle Ku's gratitude.
 Most students back in Dongbei would just live at the boarding school.
 They would not return to their families.
-He raised the cup of {i}Máotái{/i} to his lips but didn't take a sip. {w}As if something important crossed his mind.{w=1.2}
+He raised the cup of Máotái to his lips but didn't take a sip. As if something important crossed his mind.
 After the first month a few homesick students did in fact return.
 No vandalism, no abusive powers and the old deposed emperor back on a throne.
-Most parents made kids work back on the farms or their old shanty businesses while the Japanese and {i}Kang-te Pu Yi{/i} tried to get the old ways running again.
-I could make out the sorrow in his face.{nw}
+Most parents made kids work back on the farms or their old shanty businesses while the Japanese and Kang-te Pu Yi tried to get the old ways running again.
+I could make out the sorrow in his face.
 It seemed he made himself remember something he wished to forget.
 So I guess you should head back.
 I think your family will need you more.
 He looked down at his papers as he dipped the brush back into a clay pot of ink and scribed some details on a creased paper.
-{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 Intellect and 3 Dexterity!{/color}{/font}
+Fang gained 3 Intellect and 3 Dexterity!
 I am working as an apprentice to my Uncle.
 The kid is quite dexterous.
 It's hard to believe he wasn't born without some miracle jade in the mouth story.
 Comments like that will get you in high places.
 Thank you
 anyway...
-{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 2 determination!{/color}{/font}
+Fang gained 2 determination!
 what a hardworking kid.
 I agree.
 Uncle Ku nodded with professor Po.
-They had seemed to be harmonious in their actions.. {w}{cps=*0.5}Like they were parts of the same piece...{/cps}{w=1.2}
+They had seemed to be harmonious in their actions.. Like they were parts of the same piece...
 This kind of attitude sculpts heroes and leaders.
 You have probably saved enough now. Have you?
 Working at Cheung's silkhouse paid off well. It still does
 This summer I had saved up enough to return home again.
 yes, it is sufficient I would say.
 That is great to hear
-{font=fonts/eng_octin_spraypaint/octin spraypaint a rg.ttf}{color=#4fc1ff}Fang gained 3 strength; 4 determination; 4 dexterity!{/color}{/font}
 I'm taking a break from military conscription training.
 How come you weren't enlisted?
 Professor Po looks confused as he asks me this question.
 I'm only sixteen years old as of now. I can be trained but I can't be enlisted to fight already.
 Your time of birth is lucky I guess.
-I guess,{w}others were rounded up forcefully and marched to camps in chains.
+I guess,others were rounded up forcefully and marched to camps in chains.
 I turn my head towards Uncle Ku
 Uncle Ku paid off the recruiters.
 He gives a smile back.
 Thanks to him I don't have to become a war child.
 Professor Po turns towards Uncle Ku as well.
-{i}Pèifú{/i}{nw}
-He had raised his {i}Máotái{/i} with both hands to show his appreciation.
-You should stay away from the military. {w}You're too young for that life.{w=1.0}
-You're also too young to watch me drink {i}Máotái{/i}
+Pèifú
+He had raised his Máotái with both hands to show his appreciation.
+You should stay away from the military. You're too young for that life.
+You're also too young to watch me drink Máotái
 He gave a hearty chuckle. His face was red from the alcohol.
 He dipped his brush into the little clay pot of abyss-like ink.
 You couldn't see it spin like water. It was fascinating.
@@ -266,19 +338,19 @@ He removed the brush and began to scribe onto his piece of paper once again.
 I will lie and state that you were discharged by injury.
 What belief system do you follow?
 You seem to be clinging on the old ways.
-Professor Po sipped his {i}Máotái{/i} lightly before facing me.
+Professor Po sipped his Máotái lightly before facing me.
 Bits of his face had manifested a gradient of red.
 I guess the Kuomintang did a good job reinforcing tradition.
-He sipped one again. {w}{cps=*0.5}As if something was annoying him inside{/cps}.
+He sipped one again. As if something was annoying him inside.
 Confucianism is a very old principle.
-I...{w}{cps=*2}just don't see it going anywhere in the modern era.{/cps}
+I...just don't see it going anywhere in the modern era.
 Uncle Ku looked at him strangely.
 The \"New Life movement\" is an illusion.
-I am not a \"communist\" {w}but I don't like the policies of the nationalists either.
+I am not a \"communist\" but I don't like the policies of the nationalists either.
 Professor Po seemed engrossed with his political beliefs.
-I respect your beliefs {i}Xiǎo Fāng{/i} but...{nw}
+I respect your beliefs Xiǎo Fāng but...
 From a philosophical and political doctrine I dislike the state being an obstacle to modernism.
-I could agree with that.{nw}
+I could agree with that.
 In english they say something along the lines of \"seperation of church and state\".
 Still, I persist, I believe in Confucianism.
 It worked for 2000 years why can't it work for another 2000?
@@ -289,55 +361,72 @@ Fillial Piety is one of my core beliefs.
 Prossor Po smirked.
 The things you say become more interesting as I get more drunk.
 Professor Po seemed to dip his brush more sloppily and scribe less cautiously.
-I wondered if he was capable of asking another question.
+Fillial Piety...
+I hope he didn't broach the subject.
+The fact that he wasn't sober meant that there was a chance he would bring up a topic I didn't like...
+But isn't it, like, ummm, uhh...
+Lets get back to the itnerview.
+Now is not the time to discuss such matters.
+bu-
+Come on,
+The poor boy has been so patient.
+Let's not waste his time.
+It's important to him to leave fast and unite with his family.
+What f-
+Just understand.
+Uncle Gu had expertly steered the conversation away despite Professor Po's drunk demeanor manifesting.
+In regards to professor Po, I wondered if he was capable of asking another question.
 I hope he would have enough capaicity to finish to interview before he became too drunk.
-I wanted to finish this quickly for the sake of decision making.
-Every second I'm here feels more dangerous.
-Perhaps I', prone to overthinking but I just wanted to leave Peiping.
+Every second I'm here... it feels more dangerous.
+Perhaps I'm prone to overthinking but I just wanted to leave Peiping.
 I don't have the strength to persist through violence.
+Nor do I have time to indulge in my personal family matters.
+I would have asked Uncle Ku why he ever told Professor Po something that was supposed to be so personal to me.
+To an extent this did piss me off.
+Truth is these days things like total war are a biger worry than some petty gossip.
 Fang!
 You dozed off again.
 I used to be like that too.
-I think you overthink a bit don't you?
+I think you retreat into your thoguths a bit don't you?
 You need to calm down.
+Overthing is bad.
 This was you can think better and clearly.
-Hence decision making will be easier.
 Stay alert a litte bit longer then you go think about whatever you want.
 I'm doing my best as well.
 Let's keep going.
 Wait,
-Ah...{w}{cps=*0.9}A fellow buddhist.{/cps}
-Professor Po sipped his {i}Máotái{/i} lightly before facing me.
+Ah...A fellow buddhist.
+Professor Po sipped his Máotái lightly before facing me.
 Bits of his face had manifested a gradient of red.
-Have you ever heard of {i}Dhammapada{/i}? {w}{cps=*1.5}the poem of Buddha awakening?{/cps}
+Have you ever heard of Dhammapada? the poem of Buddha awakening?
 You being from Hong Kong I wouldn't be suprised at that perspective.
 Do you like listening to hymns?
-Professor Po held his {i}Máotái{/i} up to the sunlight where he could see it tinker.
+Professor Po held his Máotái up to the sunlight where he could see it tinker.
 I nodded back towards him.
 I love latin choir and hymns.
 It just moves me to the core.
-{i}Fang{/i}
-Did you read the old poems from {i}\"Tao Te Ch'ing\"{/i}?
-Would you like to hear a poem from {i}Tao Te Ch'ing{/i}?
-{i}Tao the water way{/i}
+Fang
+Did you read the old poems from \"Tao Te Ch'ing\"?
+Would you like to hear a poem from Tao Te Ch'ing?
+Tao the water way
 Yes I would like to hear it.
 Professor Po was now heavily intoxicated and slumping in his chair as he strained to keep focus.
 I don't think he will ming me reciting a poem of backwards tradition.
 Uncle Ku smirked at Po.
-{i}The best of men is like water;{/i}
-{i}Water benefits all things{/i}
-{i}And does not compete with them.{/i}
-{i}It dwells in (the lowly) places that all disdain –{/i}
-{i}Wherein it comes near to the Tao.{/i}
-{i}In his dwelling, (the Sage) loves the (lowly) earth;{/i}
-{i}In his heart, he loves what is profound;{/i}
-{i}In his relations with others, he loves kindness;{/i}
-{i}In his words, he loves sincerity;{/i}
-{i}In government, he loves peace;{/i}
-{i}In business affairs, he loves ability;{/i}
-{i}In his actions, he loves choosing the right time.{/i}
-{i}It is because he does not contend{/i}
-{i}That he is without reproach.{/i}
+The best of men is like water;
+Water benefits all things
+And does not compete with them.
+It dwells in (the lowly) places that all disdain –
+Wherein it comes near to the Tao.
+In his dwelling, (the Sage) loves the (lowly) earth;
+In his heart, he loves what is profound;
+In his relations with others, he loves kindness;
+In his words, he loves sincerity;
+In government, he loves peace;
+In business affairs, he loves ability;
+In his actions, he loves choosing the right time.
+It is because he does not contend
+That he is without reproach.
 That's deep.
 It's life.
 I noticed that you overthink a lot.
@@ -347,7 +436,7 @@ Thanks for that.
 I think everyone needs some calming pep talk.
 I couln't agree less.
 I looked over to Professor Po who didn't have the strength to clutch his cup properly.
-I think maybe later.. {w=1}When this interview is finished.
+I think maybe later.. When this interview is finished.
 The boy knows his priorities.
 Professor Po was begining to talk more openly and slurredly.
 Let's go to the next question.
@@ -356,84 +445,87 @@ Well that's great!
 There are so many out there.
 Professor Po was beginning to look like he had too much to drink.
 It is a great poem.
-Professor Po had becoem slightly{cps=*0.2}...{/cps} {w=1}intoxicated by this point.
+Professor Po had becoem slightly... intoxicated by this point.
 Despite that it seemed that Professor Po was sober enough to recite Buddhist poetry.
-{i}{cps=*0.4}Through the round of many births I roamed{/cps}{/i}{nw}
-Professor Po had in fact placed his {i}{font=fonts/chi_pinyin/cpinyin0.ttf}Máotái{/font}{/i} down as he recited this.
-{i}{cps=*0.4}without reward,{w=2} without rest,{/cps}{/i}{nw}
-{i}{cps=*0.4}seeking the house-builder.{/cps}{/i}{nw}
-{i}{cps=*0.4}Painful is birth{/cps}{/i}{nw}
-{i}{cps=*0.4}again & again.{/cps}{/i}{nw}
-{i}{cps=*0.4}House-builder, you're seen!{/cps}{/i}{nw}
-{i}{cps=*0.4}You will not build a house again.{/cps}{/i}{nw}
-{i}{cps=*-0.4}All your rafters broken,{/cps}{/i}{nw}
-{i}{cps=*0.4}the ridge pole destroyed,{/cps}{/i}{nw}
-{i}{cps=*0.4}gone to the Unformed{/cps}{cps=*0.2}...{/cps}{/i}{nw}
-{i}{cps=*0.4}the mind has come to the end of craving.{/cps}{/i}{nw}
+Through the round of many births I roamed
+Professor Po had in fact placed his Máotái down as he recited this.
+without reward, without rest,
+seeking the house-builder.
+Painful is birth
+again & again.
+House-builder, you're seen!
+You will not build a house again.
+All your rafters broken,
+the ridge pole destroyed,
+gone to the Unformed...
+the mind has come to the end of craving.
 Professor seemed to become internalized during the recital of this poem.
 In his red intoxicated face, you could see his expression of grattitude and servility.
-Professor Po seemed to increasingly become unable to stay...{w=1.0}sober.
+Professor Po seemed to increasingly become unable to stay...sober.
 He might need to take some rest.
 He grew up around the drink.
 Uncle Ku grabbed Professor Po by his arms and mounted him on his back.
 Professor Po only slurred some words as Uncle Ku dragged him to a guest room.
-I guess{w=1.0} the interview will be conducted later.
+I guess the interview will be conducted later.
 I turned my head around to the Taoist Shrine.
-It consisted of a {i}Yīnyáng{/i} emblem,{w=0.5} A candle that possessed a mediocre flame,{w=0.5} and a copy of {i}Tao Te Ch'ing{/i}.
+It consisted of a Yīnyáng emblem, A candle that possessed a mediocre flame, and a copy of Tao Te Ch'ing.
 I stood up from the uncomfortable chair and approached the shrine.
 It was peaceful to stand before the shrine.
 I wasn't required to announce my presence.
 Part of me was afraid of the new world I had stepped into.
 Will the gods protect me?
 Thoughts invaded my mind as I looked at the shrine.
+But you have to stay focussed.
+Overtinking will not be useful to you this way.
+You should try to calm down and think.
 Lúgōuqiáo Shìbiàn had begun only a few days ago.
 Uncle Ku ambled out of the guest room with his hands concealed under his robes.
 He grimaced slightly at the situation.
-You might have to wait to attain your visa.
+I don't know what will come out of this.
 He seemed to say that calmly.
-Something so important...{w=1} taken so lightly.
-That's fine...{w=1} I cant deal with that.
+Something so important... taken so lightly.
+That's fine... I can deal with that.
 Uncle Ku sat down at the shrine and opened Tao Te Ch'ing.
 He was a commited reader and devotee.
 You should go outside and find something to do.
 I looked back at Uncle Ku.
 He could only sigh.
 That was all he could do.
-{cps=*0.4}Don't worry{/cps}
+Don't worry
 We can get ut of here in time.
 Uncle Ku would reguarly meet in the village centre and talk to elders and intelectuals about current events.
-Japan is mobilising an army, they won't go further than Peiping-Tientsen, {w=1}I've heard.
+Japan is mobilising an army, they won't go further than Peiping-Tientsen, I've heard.
 Uncle Ku felt hopeless.
 Staring into those eyes felt like lies.
 They keep taking from us.
 I know...
-Uncle Ku didn't believe in violence,{w=1.0} he didn't feel the need to fight back.
-Now we have a drunk, a looming war {fast}and what more!
+Uncle Ku didn't believe in violence, he didn't feel the need to fight back.
+Now we have a drunk, a looming war and what more!
 I had lost my composure.
 I could see Uncle Ku's reaction to me lashing out after such a long time.
 Pressure that had built up from everything had finally burst the bottle.
 Uncle Ku looked at me solenmly.
-{cps=*0.4}I'm sorry,{w=1} Fang.{/cps}
+I'm sorry, Fang.
 I'm sorry too.
 I turned my back and walked out of the door.
 If there is a air raid just run straight to some air raid shelter.
 If you find a German one, priorotise that.
-The German peoples don't get harassed by {i}guizi{/i}.
+The German peoples don't get harassed by guizi.
 I had crossed the Er-men.
 I kept on walking until I passed through the Da-men.
 Outside was a little garden where my Great Grandfather had planted a Sakura Tree for Sun Yat Sen's new era of the Republic.
 It's a real shame I never even learnt his name despite knowing how well known he was in this local place.
 My great grandfather disliked the Qing as they were Manchus as opposed to the Ming who were a Han Chinese dynasty.
-He had a wealthy wine business which gave him the money to buy a large {i}Siheyuan{/i}
+He had a wealthy wine business which gave him the money to buy a large Siheyuan
 The Sakura was planted to mark the growth a new era without the Qing.
 The Sakura plant was also foreign and thus showcased his wealth when he had it planted.
-Everything I ever learnt about him indicated that...{w=1} wealth controlled his choices.
+Everything I ever learnt about him indicated that... wealth controlled his choices.
 Sadly he died before he realised how the Republic failed China.
-{cps=*0.4}or the shortlived Empire before the warlord era.{/cps}
+or the shortlived Empire before the warlord era.
 Beyond the Sakura tree was a pond he had hired workers to build.
 Apart from showing off his wealth he would also use this pond to grow Lotuses.
 He would grow them in bulks and sell them to Buddhists and Buddhist temples in which he would get blessed and make money.
-now..{w=1} he wasn't shallow that he did that for profit.
+now.. he wasn't shallow that he did that for profit.
 He was a devout buddhist.
 He would donate large sums of charity to people in need and temples.
 I kept walking on until the pond came into view.
@@ -450,7 +542,7 @@ The pond that gave up on life.
 Gave up on struggling.
 He should have hired people to dig a well.
 I turned around fast before facing Lao-Chang.
-We called him that because he was an old milkman who didn't want to retire.{nw}
+We called him that because he was an old milkman who didn't want to retire.
 Hence the name \"old Chang\".
 I would agree.
 That would have been better for the community.
@@ -470,11 +562,11 @@ Lao Chang laughed.
 You remind me of your grandpa.
 Lao Chang sat down on the damp grass next to me that faced the miserable pond.
 How so?
-Whenever there was war...{w=1} the fella just got into a bad mood.
+Whenever there was war... the fella just got into a bad mood.
 During the northern expedition when Chiang Chieh-shih tried to take back from those warlords..
 He had a sulky mood for a week.
 Lao Chang dug his hand into the basket tied to his bicycle and took out a rice snack.
-You see. {w=1}His sister was back in Kwangchow where this crazy reunifier was wailing war and unifying cities under his control.
+You see. His sister was back in Kwangchow where this crazy reunifier was wailing war and unifying cities under his control.
 He wouldn't get any of her letters from kwangchow so he sulked.
 Lao Chang bit into his rice snack and chewed it open mouthed.
 He sent out a lot of letters to.
@@ -511,7 +603,7 @@ Then they all start shooting each other.
 Lao Chang gives a hearty laugh at this satirical joke he made.
 I grin in response.
 but I think we should at least appease until our military is ready to right Japan.
-I don't know if full scale war will happen from the Marco-Polo bridge incident..{w=1}but it is imminent.{nw}
+I don't know if full scale war will happen from the Marco-Polo bridge incident..but it is imminent.
 That's for sure.
 I guess, it's depressing we got to live through this.
 I think Li Tsung-Jen
@@ -559,20 +651,20 @@ Lao Chang grabbed the handles of his makeshift bike and pushed it around.
 THe odd thing about Lao Chang was that he would have a bike he would never ride.
 He would just use the basket and push it for ease.
 Since he was twice the age of Uncle Ku it made sense.
-The bicycle was also too small for him. {w=1}I would have assumed that this was something thrown away by the child of some wealthy family who grew out of the bike.
-I observed Lao Chang walk off in the distance, pushing his bike and the flicking the rusted bell that wouldn't make any sound. {w=1}That was because there was nothing for it to strike against.
+The bicycle was also too small for him. I would have assumed that this was something thrown away by the child of some wealthy family who grew out of the bike.
+I observed Lao Chang walk off in the distance, pushing his bike and the flicking the rusted bell that wouldn't make any sound. That was because there was nothing for it to strike against.
 I turned and began to walk the other way.
 It was a five minute walk away from the village center.
 Most young boys or able men would not be welcome there.
 This was because young or able men would get kidnapped by the Kuomintang army and chained and walked down to military headquarters to forcefully enlist.
 These days the reports of Kuomintang barging and taking had gone down.
 My shoes rubbed in the dirt pass as I ambled on.
-In six months of residing in this district I had a memorised map of the place.
+In 2 weekss of residing in this district I had started to memorise a map of the place.
 There were a few facilities I was going to walk past.
 The most interesting was the brothel.
 The sex industry had grown in Manchuria and many boys would talk about it in the alley ways.
 Over here the brothel was something that you should not be seen entering and leaving if you wanted to have a sense of dignity.
-This brothel was known as a {i}Chang San{/i} brothel.
+This brothel was known as a Chang San brothel.
 It was like an artistic form of prostituition in which the prositute would play the lyre, do calligraphy and do paintings.
 I think it was a progressive way to humanise prostitutes.
 Personally I have never interacted with a prosititute.
@@ -585,18 +677,18 @@ I turned to see her sitting in a chair outside the door.
 Hey
 I did a faint wave.
 Is that a wave?
-Relax, {w=1}waving back to me won't make me pounce on you.
+Relax, waving back to me won't make me pounce on you.
 She crossed her arms and smiled at me.
 I have my principles.
 She grinned.
 I didn't know how to respond to her.
 All I could give her was an awkward grin.
 She giggled at my response.
-Hard to believe{cps=*0.4}...{/cps}{w=1}Some {i}whore{/i} has a sense of principle. Right?
+Hard to believe...Some whore has a sense of principle. Right?
 I looked at the ground.
 At this point I had trouble making any form of eye contact.
 Don't feel bad, little brother.
-I mean, my rules are I don't drink,{w=1} I don't smoke and I don't condone violence.
+I mean, my rules are I don't drink, I don't smoke and I don't condone violence.
 She leaned back on her chair against the chipped brick blocks.
 I have a band of sisters to look after. People in my situation.
 I couldn't keep being judged like this.
@@ -605,7 +697,7 @@ I don't see whatever you're doing as a bad thing.
 I interrupted her mid sentence.
 She gave a strange look.
 Litte brother, if some alleyboy said those words to me, I'd think it's some ploy for pity lovemaking.
-I know my stigma,{cps=*1.2} don't pity me..{/cps}
+I know my stigma, don't pity me..
 She was still in a good mood for some odd reason.
 You know, the conflict happening up there doesn't bother me.
 If the Japanese do take over, we will just be required to service their soldiers instead.
@@ -621,35 +713,22 @@ How do you know my name?
 The other girls you flirt with when they sit outside told me so.
 I felt my face go red.
 You talk better to the ones your age.
-I'm only a few years your senior. {w=1}A solid 19 year old.
+I'm only a few years your senior. A solid 19 year old.
 You're disappointed. Aren't you?
 She was teasing me.
-The ones you talk to aren't here.
-It seemed their sisterhood all shared the same mind like some collective conscious.
-They tell me, how you blush when they compliment you.
-Maybe when you're older you can whisk one away and keep her.
-I gave a faint giggle as I felt butterflies in my stomach.
-Xiao Wen dreams about you, I've heard.
-That took me off guard.
-I could feel my heart pumping and racing.
-It was just embarassing at this point.
-I think you two would be cute.
 By the way, my name is Wang Yuelan.
 If you ever need shelter, just ask Xiao Wen to share the room.
 She laughed as she opened the door and walked inside.
-They were an interesting bunch,{w=1}strange but interesting.
-While I do confess Xiao Wen's attraction, caste was a stigma that would burrow itself deep in me, like some toxic idea or opinion.
-I felt guilty to admit to myself such things.
-Despite that...
-I couldn't help wanting to... {w=1} touch her.
-Like feel her skin,
-Hear her moan.
-It would keep me up all night until I did something about it.
-At this point I didn't know when I felt lust for her,{w=2} and when I felt love.
-She would flirt with me everytime I would pass by and no one else was around.
-It was intense.
-Despite that..{w=1}I can't keep thinking so provocatively.
-I had to come to my senses.
+She's implying you should use their services if you need shelter.
+After all you will stay the night there by any way.
+Well would you?
+Playing good guy?
+What a bore.
+I guess it's your \"choice\".
+Vice would be proud to hear \"this\".
+It's human to have such desires.
+Interesting indeed.
+They were an interesting bunch, strange but interesting.
 I kept on walking along the dirt path.
 The ambient noises from the brothel faded away with my distance.
 I kept walking on.
@@ -658,12 +737,12 @@ The next facility I would see would be the winery my Great Grandpa owned.
 Uncle Ku had sold it when he inherited it from his father.
 Uncle Ku didn't want to support himself by destroying the lives of addicts.
 At first he kept it out of operation.
-It would sit there 5-6 years...{w=1}undisturbed.
+It would sit there 5-6 years...undisturbed.
 Then officials would come and start ordering him to do something productive with that land and facilities.
 After a few months he sold it off to some businessman from Shanghai who wished to expand their winery business.
 Now I walk past it and just look at how many cycles this building has experienced.
 I was never told why this building was built intially, since my Great Grandfather just decided to occupy this empty place for good business.
-His father ran a little business from his home.{w=1}So my Great Grandpa decided what to do,
+His father ran a little business from his home.So my Great Grandpa decided what to do,
 He moved all his stuff there and took care of it.
 Eventually people began to think this abandoned building didn't host any curse or haunted by any angry spirits.
 Some wealthy people like the Ma family invested in the winery and it grew bigger.
@@ -680,11 +759,11 @@ It was run by two brothers around my age.
 The older was Guo Heng, who took over the shop when his father passed away from a stroke two years ago.
 He raised his younger brother to learn to cook as well.
 Eventually they got their skills developed and Guo Heng got to send his brother \"Guo He\" to school.
-I have met Guo Heng only a few times,{w=0.5} but he is very interesting to talk to.
+I have met Guo Heng only a few times, but he is very interesting to talk to.
 He has developed a passion for making all kinds of noodles.
 Last time I visited him he showed me his father's recipe that had been handed down for god knows how long.
 He offered to employ me to his noodle shop if I ever needed a place to work.
-Despite being 23 years old Guo Heng was arguably graying from his stress.{w=1} Something he always loved joking about with the other villagers.
+Despite being 23 years old Guo Heng was arguably graying from his stress. Something he always loved joking about with the other villagers.
 The noodle shop even had a banner which would ostentaciously show off its wealth and success.
 In short, if there was any celebration, meeting, or festival, Guo's noodle shop was the place.
 Mostly because it was the most central and most convenint for everyone to meet at.
@@ -693,9 +772,9 @@ Guo Heng had sat on a table and was appying a dirty rag to wipe the sweat off hi
 The summer sun was strong and it didn't help he cooked behind a fire all day.
 Guo Heng seemed to age faster everytime I visited him.
 His body had become more built and skinny while his face became browner with more wrinkles.
-His hair had remained the same, {w=1}Little whisks of grey popping out once in an occassional spot.
+His hair had remained the same, Little whisks of grey popping out once in an occassional spot.
 Guo Heng looked up at me with his brown eyes that resembled foreign manufactured chocolate.
-Fang!{w=1}{nw}
+Fang!
 I sat down opposite on the same table he was sitting at.
 Hey, Heng
 It was midday and the sun was now forcing its heated will on us like spears.
@@ -707,14 +786,14 @@ I think its fair.
 How is this fair?
 Guo Heng was quite wise because the elders would gather here and include him in philosophical talks.
 There are two things in this world which are fair.
-THese two things never judge...{w=1}never discriminate.
+THese two things never judge...never discriminate.
 He dabbed the cloth on his face again.
-The first is death. In this world God and the Devil may judge you, but death will come for you, no matter how good,{w=1}how bad, or whatever you are.
+The first is death. In this world God and the Devil may judge you, but death will come for you, no matter how good,how bad, or whatever you are.
 Death doesn't pick favourites.
 The Second is the sun.
 For Aeons the Sun had given light regardless of the morality of the creature receiving it.
 The sun when it's too hot will feel this way to everyone.
-If the sun isn't judging than whatever the sun does,{w=1}is fair.
+If the sun isn't judging than whatever the sun does,is fair.
 You really learn some interesting stuff from those elders.
 I know right.
 They don't have anything to do, so i give them discounted noodles and educate myself.
@@ -763,24 +842,24 @@ yeah, I guess I will have to talk to him about it.
 Want to talk about it later tonight?
 I think it's a good idea.
 I don't know about this idea.
-Gambling is like water there.{w=1}Isn't it?
+Gambling is like water there.Isn't it?
 It seems everybody had this stereotype.
 I never grew up around the casinos.
 I guess that's a good thing.
 What is it like there?
 I never hear much about it.
 It's two Islands with lots of ships.
-You never see an empty shoreline..{w=1}Like ever.
+You never see an empty shoreline..Like ever.
 Even in 1930 when the world was hit by the Great Depression, ships were still fishing.
 Fishing is a big thing there.
 Guo Heng listened to what I said with interest.
 The name was a language barrier between the locals and the Portugese arrivers.
-When asked what this place was called the locals told them {i}Ma-kok{/i}.
+When asked what this place was called the locals told them Ma-kok.
 Do you know why?
 Guo Heng shook his head.
 A-Ma is the goddess that looked after the harbor and the waters of \"Macau\".
 They had a well known temple built with her after A-Ma.
-To put it short,{w=1} They thought that the Portugese were asking the name of the Temple which was {i}Ma-Kok{/i} at the time.
+To put it short, They thought that the Portugese were asking the name of the Temple which was Ma-Kok at the time.
 Guo Heng seemed stunned from all of this.
 That's the same story with Japan.
 We both laughed as he mentioned it.
@@ -834,27 +913,19 @@ Guo Heng dabbed his face with the rag.
 He was thinking deeply.
 It makes sense to me, I think everyone should keep their ancestral tongue with them.
 Guo Heng flashed a smile.
-Teach me some Cantonese some time,{w=1} When I'm off work, preferably.
-I don't mind, it would be nice to teach you.
-Thanks.
-Guo Heng was strnage that he wanted to learn a dialect he had no practical use for.
-but then again he might be like those foreigners who see some gem in the language and learn it to keep a sense of that beauty for themselves.
-I am not confident when it comes to teaching.
-Guo Heng gave a grin and didn't say anything for a while.
-That's fine.
-Not all knowledge can be taught.
-Guo Heng stood up and looked at the wooden table.
-I can't read or write or accomplish anything.
-My father sent me to school and I never tried hard.
-I can barely make out what something says if I'm lucky.
-There was a looming guilty melancholia lodged in his head.
-Can you help me read and write at least?
-I could see his eyes looking teary.
-He was ashamed of himself.
-I don't want to fall behind.
-He whispered it, so quietly it could float and be carried by the wind indefinately.
-At this rate I can't make a choice.
-I have an oppurtunity.
+Can you say something in Cantonese right now?
+How much do you remember?
+It's become rusty hasn't it?
+Well show me if you want to so bad.
+gwai ngam ngaan
+Congrats on your native tongue.
+Wow, it really sounds nothing like Mandarin.
+Crazy how diverse this country is.
+I know.
+Crazier to think one vote chose what language I'm speaking now.
+
+Brush up on your cantonese before you try anything stupid.
+It's your mother tongue anyway.
 The capital itself.
 What is it like there?
 Guo Heng applied the rag to his sweaty face again.
@@ -862,13 +933,13 @@ Nanking in it's name means \"Southern Capital\".
 The first time it ruled a united China was in the Ming Dynasty.
 It's a nice place to live overall.
 It has a powerful inland port and it's close to Shanghai.
-If you're rich then you're like a foreigner.{w=1} You dress pretty or look handsome.
+If you're rich then you're like a foreigner. You dress pretty or look handsome.
 There's a lot of people there and you even have western Churches propped up in some places of the city.
 Due to these churches, chinese children of Christian believers learn English well and proficiently.
 Guo Heng looked at me bewildered.
 Can you speak English?
 He looked so excited for some reason.
-A bit,{w=1} I can communicate a good amount with some American residents.
+A bit, I can communicate a good amount with some American residents.
 What other kind sof foreigners are there in Nanking?
 I sat back and thought a little.
 You have German businessmen from the German Reich with their families that settle her to manage German businesses in China.
@@ -878,7 +949,7 @@ You have Japanese people too, who initially settled in the Japanese sector of Sh
 Other europeans are rare to see, apart from some British who do business with Americans.
 I guess Nanking is becoming a global city.
 I'd say the same thing.
-At least foreigners are cooperating rather than invading us.{w=1} Apart from Japan.
+At least foreigners are cooperating rather than invading us. Apart from Japan.
 Guo Heng cursed under his breath.
 He dabbed the rag once again.
 Is there anything special in the capital city of the republic?
@@ -917,46 +988,41 @@ I thin there is some higher power.
 I don't think its sentient.
 The closest thing I consider a God is the good old sun.
 Guo Heng grimaced as the rays of sunlight painted his face.
-To be honest...{w=1} I didn't really.
+To be honest... I didn't really.
 That's fine.
+
+
+--delimit---
+
+
 Not everything is for everyone.
 I normally just keep to myself.
 Sometimes I want to live like Lao Chang.
 He loves delivering milk.
 but most people like him at one point had to learn to love their situation.
-I will also,{w=1} Some noodle-maker with a small shop, I will learn to love this place more.
+I will also, Some noodle-maker with a small shop, I will learn to love this place more.
 There was some strange silence.
 Awkward and ominous.
 Guo Heng looks at me with a grin.
 Want something to eat later?
 Its on me.
-No no no no!
-I have enough money to pay for a meal myself.
-I think you shouldn't have to treat me for free.
-We aren't even that close..
-you're very adamant , aren't you？
-I'm trying to show my hospitability here!
-He gave a warm inviting grin.
-Whenever you feel like it just come up here and it will be on me.
-I looked up at him.
-Don't worry,{w=1} I make enough to treat people for free.
-Sure.
-Guo Heng smirks at me.
-I hope you aren't fuilt tripping me for free meals.
-Don't worry Heng, I'm not like that.
-You can trust me after meeting me four times.
-I'm sure you can.
-Nobody beats me in eatery around here.
-It seemed Guo Heng took great pride in his line of work.
+No thanks but I appreciate the hospitality.
+Guo heng gave a beaming smile at this.
+How much got on you?
+[current_money] Fabi.
+How about I give you a discount?
 I am from Peiping.
+Technically in between Tientsin and Peiping.
 But you seem new to this place.
 He was right.
-Despite the six months I had stayed here with Uncle Ku.
-I couldn't fit in.
+For only two weeks I had stayed here with Uncle Ku.
+I felt I couldn't fit in.
 I never knew why...
 There's two reasons to explain that.
 Firstly my family has a habit of moving across China for different jobs and oppurutunities.
-Secondly all my experience of Peiping was South of it where you could consider it a part of Tientsen.{w=1} So I guess overall I lack much experience if any about living in Peiping.
+Secondly all my experience of Peiping was South of it where you could consider it a part of Tientsen. So I guess overall I lack much experience if any about living in Peiping.
+Failed to come up with a reason.
+I don't know why I don't fit in here.
 I see then.
 If you need any help anytime...
 I'm here and I'll teach you the ropes of anything.
@@ -964,15 +1030,51 @@ Thanks.
 That means a lot to me here.
 I mean you're a guest in our village.
 We have to look after you.
-Again.{w=1} Thanks.
-On a separate note...{w=0.5} Have you ever drank some {i}Bai-Jiu{/i}?
+Again. Thanks.
+On a separate note... Have you ever drank some Bai-Jiu?
 Your Great Grandpa's factory sells the good stuff to us, sometimes to some Japanese as well on the other side.
 You should try it.
+Try it Fang.
+Embrace your desires once in a while.
 Surely it can't be that bad.
 You got a good spirit in you.
-Unfortunately my work day isn't over{w=1} and I won't cook while I'm not sober.
-Meet me up tonight for a drink and we can talk about whatever is on our minds.
-Especially in regards to the start of a war.
+Guo Heng went and got out two bottles.
+Short and stout with a long neck.
+I would wonder how much alcohol were stored in them at all.
+Doesn't look like much eh?
+What it fails in volume it makes up for in substance.
+This is some hard stuff you know?
+I guess.
+Could you actually drink this?
+Good Luck then.
+Just do it.
+Bottoms up.
+You believe in yourself an awful lot.
+Time to unplug the ambrosia.
+Cheers!
+Because of your arrogance and need for social acceptance.
+Harsh way to put it but it's true.
+What a fucking bore.
+I don't if I can drink hard stuff.
+Guo Heng looks up at me.
+I only call it that because I don't drink strong stuff that much.
+It's hard for you but I've gotten used to it.
+Do it.
+Think for a minute and convince him.
+I really don't want to drink.
+I don't want Uncle Ku catching my breath reeking of alcohol.
+Understandable.
+I wouldn't want my old man catching me drinking as well.
+Just hand the bottle here.
+I'll get it down also.
+I can't drink this.
+Why?
+Religious reasons...
+Guo Heng raised his brow at me.
+Why did you agree in the first place?
+I don't know....
+Come on just drink up.
+He got you. The world has got you.
 I don't feel like drinking.
 Ah well, that's fine.
 I respect that.
@@ -981,7 +1083,41 @@ Guo Heng wiped the rag across his forehead.
 You probably need to find a way to get out of here.
 I'm here to help with that.
 I Know...
-Guo Heng really just wanted his brother out of harms way{w=1} which must be the reason why he is trying to support me going away from Peiping.
+Guo Heng really just wanted his brother out of harms way which must be the reason why he is trying to support me going away from Peiping.
+It invades my mouth.
+The bitter taste is masked with it's antique flavour.
+It chugs down my throat where it burns.
+I resist the temptation and the strong fumes in my nose.
+I finally put down the empty bottle and unbutton some top buttons as my chest feels fiery.
+I didn't think you'd be able to take it.
+Why?
+After that hilarious failed attempt at \"Religious Reasons\" I guess.
+I just had a feeling.
+You probably just couldn't predict if your body could take it right?
+I guess you're right.
+it invades my mouth.
+The bitter taste it masked with a aggressive flavour.
+I could feel an inferno form in my throat and chest.
+The fumes occupying my nose aggressively.
+I could feel my stomach lurge and my tongue spasm.
+I bend over and spit it out.
+As I spit it out I feel sick to the core from the strong tase.
+You alright?
+I guess.
+I wipe the alcohol off of my chin.
+That was how my first experience went as well.
+He's speaking the truth.
+I started to drink after my old man left the world.
+Alchol seems like a friend in grief.
+Honestly it's a whole lot more abusive than that.
+I guess you're right.
+How's house arrest been?
+It's been fine.
+I've managed to learn more about my \"ancestral land\".
+Sadly I can't stay here for long.
+Why so?
+There's a war going to start.
+I guess that makes sense.
 There was nothing to say.
 It was a bit awkward but it was difficult to articulate conversation.
 I don't have in the slightest an idea of what to do.
@@ -994,7 +1130,7 @@ It was nice to talk with you Fang.
 Guo Heng put down his sweat rag.
 The sun was piercing through his thin ragged shirt.
 You could see how the sweat now made the shirt a paint to his canvas of a skin.
-No offence Fang,
+No offense Fang,
 I have work now.
 I can't afford always taking a break.
 It takes time to make preparations for a meal.
@@ -1002,6 +1138,261 @@ I grinned at him as well.
 It was pleasant.
 Guo Heng was now slaving away in his kitchen once again.
 I stood up and walked outside and began to think.
+Visiting the village temple was an opportunity to calm myself down and think about life.
+I'd often get to sit and think.
+It was almost as quite as the libraries in Peking University.
+The temple wasn't far from Guo's noddle shop.
+I began to amble to my destination.
+The temple had been around since the inception of the village.
+It was the oldest unchanged object in this whole place.
+It is rumored that the village was built by rich landowning elites in the Ming dynasty.
+It would make sense to see why this village is prosperous more than most.
+Apart from that there is also a gilded reputation of this place.
+It is prosperous but on the backs of laborers and rural wanderers or military deserters.
+People like Ma Shih often hired these desperate people for cheap and made them do things well beyond their pay.
+It's no rumor that a few times a month the newly hired workers on his farm are either hospitalized or were seen running away.
+Lao Chang used to work for Ma Shih's father who was a complete opposite in fact.
+Lao Chang deifies that man because of him Lao Chang had a place to stay and never felt an empty stomach for 15 or so years.
+Then he died and his cheap cruel son took over the farm and made it much more sinister.
+Its a thought that keeps me up at night.
+Maybe it's why these poor dis-empowered people turn to communism.
+After all why defend something that oppresses you?
+As I keep walking, other thoughts amble into my mind.
+This temple in front of me.
+Its the only temple I've been to in a commitment sense.
+I've been living with Uncle Ku here for about 2 weeks to be closer to Peking university and to reconnect with the \"Ancestral land\".
+Apart from house arrest as well for protesting.
+I did not have much experience with temples in my life.
+I would read books on temples.
+From the grandest ones, to the oldest ones, to the abandoned ones.
+The one that stuck out most were...
+
+
+In Macau the Ma Kok temple is beautiful.
+It brings me back to the beautiful days of being in Macau.
+Tonnes of boats, kind Portuguese, Patua families.
+Life was safer...
+If I had stayed in Macau and gotten a chance to attend a school in Portugal I wonder where I would be now.
+Would I be criticizing Salazar?
+Become an activist for the Spanish civil war?
+God knows.
+I sure as hell wouldn't be out here on the front line of a total war between two stubborn nations.
+While Peking university is prestigious and honorable I would have wanted something better.
+Something less pathetic than this option in life.
+I didn't hate my \"Ancestral Land\" just that I didn't feel safe on it.
+If I had tried to phrase this a neutral as I could Uncle Ku would be prepared to raise his fist.
+To Uncle Ku, his rule was simple.
+Principles first...people second.
+My heart longed for Macau.
+It was a guilty feeling nonetheless.
+
+Back in Hong Kong my experience with temples were different.
+The Po Lin monastery was a real piece of work.
+Before 1924 everyone just called it \"the big hut\".
+The monastery has 3 statues of Buddha.
+The three status represent states of time.
+The Past.
+The Present.
+And of course the future.
+It's a beautiful message.
+The big hut also houses a lot of great Buddhist scriptures.
+A place of true interest.
+The Man-Mo temple was beautiful.
+Man-Mo temples typically worship the god of civil and literature.
+Man-Cheong
+There are several of these types of temples back in Hong Kong.
+I guess this explains why my essay writing skills became good enough to come to Peking University.
+Most of the time I don't mind what the religious affiliation of a temple is.
+I typically find them comforting.
+It's like a place to heal wounds.
+To think.
+One tough days a visit to the temple typically just clears all my stress.
+For me a visit it like meditating.
+Normally I would attend churches.
+Alongside that I would attend temples.
+I would spend time walking around Buddhist or Taoist temples.
+Anything temple I came across.
+It was calming.
+Something about it attracted me to it.
+Most of the time I was allowed this when i was young.
+As I got older they became more strict about this sort of stuff.
+Beliefs grow on you with age.
+Like hairs on your skin.
+For some reason that did not apply to me.
+I knelt down and kept my eyes closed.
+I was so calm I could hear my own heartbeat.
+How are you feeling?
+I opened my eyes once more.
+You seem much more calm than when you entered this place.
+A monk wearing the orange robes was standing in front of me with a gentle smile.
+A monk wearing the Taoist robes was standing in front of me with a inviting smile.
+I'm glad to see that.
+The monk turns around and orders a temple worker something in a foreign language.
+Don't take offense to that.
+I speak in my dialect.
+I just told him to bring you some water.
+This temple is just as much of a house for me and him.
+That's why all visitors are treated as guests.
+I would just like to request we do not entertain ourselves to discussion here.
+It's a place of worship.
+Ah.. Sure.
+Thanks for understanding.
+I follow the Monk into a small room.
+That room there is my Parivena.
+That room there is my quarters.
+That room there is my cell.
+This place was donated to by Ma-Shih.
+I'm happy that he is so generous to us.
+That man I asked to get water for you used to work for Ma-Shih.
+He took refuge here 2 winters ago.
+Ma-Shih fearing for his existence gave colossal donations to the temple as a result.
+I wonder if such acts bear one fruit.
+What would you think?
+People do the wrong thing and try to make up for it.
+I feel they don't realize it's better to just avoid doing the wrong thing.
+Of course, I would agree with that.
+Yet I could argue that the money from Ma-Shih to the temple allows that man to live safely and comfortably.
+They seem to act in self interest a lot of the time.
+I think it's not fair that one can be cruel and then expect to be free from their consequence.
+You aren't wrong there.
+But did you ever think he gave up something that enabled him material power? A portion of wealth?
+Death is absolute so who really knows the meaning of justice in the afterlife?
+Maybe people get judged differently from what we comprehend.
+I like that point of yours.
+Such thoughts shouldn't plague ones mind.
+Allowing things to be carried on your shoulders mentally is what creates the burden and worrying we want to run away from.
+I don't know your story.
+I don't know why you came in here looking so upset before your \"prayer\".
+I'm glad you have subdued your frustrations.
+but you must learn to control them at will.
+The temple servant strolled in with a glass of water.
+I assume they had to use the temple well to get the water which would explain the wait.
+Do you recognize him?
+I looked over at the fresh face of the temple servant.
+I'm afraid not.
+He is Ma-Wen. The son of Ma-Shih.
+Namaste.
+He did a slight bow as he did this.
+Have some water to drink.
+Sure.. Thank you.
+You're welcome.
+I picked up the glass of water and drank it down to drown my sense of surprise.
+Don't drink so fast.
+Ma Wen took a seat on the same bench as the Monk.
+It's true, I am Ma-Shih's son.
+I thought he wouldn't care.
+He's the type who doesn't bother anyway.
+He did try, he sent some servants to convince me but I refused.
+Did he lack the capacity to walk his own two feet to talk to me?
+After sending more people to talk to me and I keep refusing...
+He just gave up.
+Just like that. In three days.
+To be fair he lasted longer than I expected in trying to commit to his \"family\".
+He just donated lump sums of money so I could \"live comfortably\".
+I think it's his superstitions playing on his guilt.
+That or..
+He just wants to remind me that I'm still depending on him.
+I don't think he'll ever walk on his own two feet and respectfully ask me to return.
+Just because I lived lavishly and didn't have to struggle for anything did not mean I wanted to live with some narcissist.
+His attitude, behavior, constant escaping of laborers.
+It builds up in your head.
+In defiance of his controlling personality I just walked out.
+Sometimes it's that simple to send a message to someone that dense.
+Anything that keeps me away from him.
+I'm trying not to use bad language to talk about that man after I picked up this new life.
+If I could still curse, you wouldn't hear the end of it.
+In the end, I can do anything I want.
+I have a whole life ahead of me.
+Becoming a farmer or a peasant for all I care.
+As long I never see his face ever again I don't mind what I'm doing.
+My mother died a few winters back.
+The only place I see her are in my dreams.
+I feel like it's punishment for not mourning her death for three years.
+That was my responsibility as her son.
+As for my siblings...
+They can go their own way.
+They'll soon realize how toxic their \"Oh so precious father\" is.
+I know they'll do that.
+I don't want to talk about it.
+It's personal.
+I'm sorry.
+Ma Wen didn't budge from my offense.
+Forget it.
+What could I say.
+It felt too awkward...
+Apologizing wouldn't have done anything anyway.
+He will use this against you.
+He tends to hide grudges.
+Didn't you hear what I said?
+Money doesn't feel nice when there's a narcissist pissing you off every second.
+Pay more attention when I'm talking.
+I wouldn't think twice if I had to do it again.
+Life is much better off without him.
+Wealth doesn't necessarily bring happiness now does it?
+Yeah.
+I probably won't get an inheritance either.
+Nothing to return to.
+So I'm going to try and live a good life wherever I may be.
+Quite the story.
+I don't judge people so I took him in.
+Different lives don't matter as long there is mutual respect.
+When he came here, he was just like you.
+Everyone has a struggle.
+Listening to others will ease that feeling that no-one understands your burdens.
+Stories are a window to empathy.
+Ma Wen sat there unmoving.
+He seemed eerily... stolid.
+I'm here to talk if you want.
+What about you Ma-Wen?
+Ma Wen looks up from the floor.
+I shoud attend to some duties.
+I guess that's alright.
+Ma Wen abruptly stands up and leaves the room.
+I could hear his heavy rapid footsteps hit the wooden floors until he stormed into the next room.
+I didn't realise I had angered him so much.
+He's still hung up on the death of his mother.
+He was close to her.
+I don't even know what happened to his mother.
+He only talks of fond moments.
+I should have also paid attention I guess.
+He was talking about something personal and I kept digging the wrong places.
+Ma Wen ambled out the door.
+Despite that I could still feel his cloud of melancholy.
+Don't overthink it.
+It will take time for him to come to terms with these feelings.
+Self hate is a poison in which time is its antidote.
+I guess I can agree with that.
+The Monk retreats back into his mind to think for a moment.
+You've only been around here for two weeks right?
+Yes, that's right.
+Why are you here?
+There's too many reasons for that.
+Will you walk South?
+I'm not sure about that.
+I don't want to drop everything and run.
+I don't want to get caught in crossfire.
+Or enslaved by the army.
+All fair crticisms.
+I can't disagree with that.
+Have you talked to Ku Hsien-Sheng?
+No I have not yet...
+I have a good feeling about you.
+I feel the same way about Ma-Wen.
+I won't be moving an inch from here.
+That is my personal choice.
+You...
+The monk looked at the ground for a second.
+You're young.
+You don't deserve to get invovled in this.
+You have a whole life ahead of you.
+Every choice you make counts.
+If you don't mind can you help me out with some serivce preparations?
+It will be best to give Ma-Wen a rest for today.
+I stand up and thank the Monk for his hospitality.
+He doesn't reply but retort with a smile.
+I walk past the rooms and the deity room to the outside wind.
+The wind was gentle and inviting as I stood and absorbed it's chilled sensations.
+
 I seemed to have a lot of work left.
 Normally I would be in the urban districts of Peiping where you could see people from all places gather.
 Even the Japanese across the Marco-Polo Bridge.
@@ -1017,7 +1408,7 @@ It's strange really.
 I guess this walk didn't get me anything.
 I felt my leather shoes grind the dust as I ambled.
 Is my education even a priority?
-{i}I should be evacuating... right?{/i}
+I should be evacuating... right?
 The Chang San Brothel was now in view again.
 Chang San was not even its name, it was just a type of brothel.
 I never bothered asking the name anyway.
@@ -1050,7 +1441,7 @@ I recited the final quotes and notes to cement them in my head.
 Studying like this has helped me become more calm.
 It's all I have these days.
 Working towards more work.
-{i}I'm such a workaholic{/i}
+I'm such a workaholic
 Uncle Ku still hasn't come back even despite the fact I had studied to just above an hour.
 I wonder if he was called to a meeting.
 Surely I would meet them on the way to Guo's shop.
@@ -1063,83 +1454,873 @@ Will people be able to keep their sanity after witnessing near death, bloodshed 
 In all honesty I have doubts on my capacity to handle the terrors of war.
 I'm not some mythological hero who can fight till their last breath.
 I just didn't want to be involved in this.
-{i}Is that why I want to run away?{/i}
-{i}If Uncle Ku and Professor Po realized this then this support for escaping further south makes sense.{/i}
+Is that why I want to run away?
+If Uncle Ku and Professor Po realized this then this support for escaping further south makes sense.
 Beijing may be the resident of my ancestors but I have to face reality.
 Fang?
 I sat up not expecting him to enter the house so silently.
-Ever since this whole conflict broken out I have noticed you are much more...{i}stressed{/i}
+Ever since this whole conflict broken out I have noticed you are much more...stressed
+Not just about the hawks.
 I know it was my fault for getting the professor drunk and I'm sorry for that.
 I honestly intend to help you.
-
-Uncle Cheung's silk house was an extraordinary beauty.
-The type poets die away trying to express on paper.
-In the house full of buckling wooden levers and rods were colorful rags hanging down like the dress of an angel.
-A lake of dye would sit in the middle where one would use it to well...{nw}
-dye clothes.
-Uncle Cheung's silk house wasn't too far from Guo Heng's shop.
-It was on the way back home but diverging from the brothel.
-I believe in you.
-I can teach you everything you need to know.
-Guo Heng's face lit up.
-You could see, a faint shimmer of hope in his eyes.
-He clasped his hands and bowed.
-Thank you so much.
-He kept whispering the words to me.
-I couldn't comprehend this situation.
-What was upsetting him.
-What could language offer him.
-Why am I involved?
-Questions swirled in my head as Guo Heng sat back at the table.
-He wiped his teary eyes with his dirt painted sleeves.
-Fang this means so much to me.
-Sorry for getting so worked up.
-Stuff like this happens you know.
-I couldn't directly refuse him.
-I could however console him.
-I had a feeling he had a sense of self hate for failing his father academically.
-His father probably worked hard to educate him and now he can't move on from regrets.
-Guo Heng could only look at me.
-Don't overthink.
-Have a seat.
-I felt like I was talking to some distraught older brother.
-Have a seat.
-I urged him once again.
-Guo Heng glanced at the wooden bench and gradually leveled down to sit on it.
-I don't have confidence to teach.
-I can't be anyone's bastion of hope.
-Guo Heng listened patiently.
-I had to make him understand my view.
-You're very wise Fang.
-Guo Heng seemed more calm and collected now.
-He sat as if he didn't go through what he did now.
-He championed his hiding abilities.
-Guo Heng was still teary.
-My body was frozen.
-I didn't know how to approach this situation.
-I have never seen anyone here to emotional.
-Perhaps I had been{w=1} selfish.
-Guo Heng wiped his teary wet eyes into his dirt painted ragged sleeves.
-He clenched his fists and unclenched as he sat back down at the table.
+...
+What are you hung up about?
+The hawks?
+The communist accusations?
+Uncle Ku sat in silence for a few seconds before manifesting an idea.
+You're hung up on Li aren't you?
+I'm not.
+It does make me guilty.
+But what can I do?
+If he was in my place he wouldn't be doing anything for me either.
+I'm not here to pinpoint whose fault it is that Li is in prison.
+I know.
+Did you even visit him?
+I don't want to raise suspicions that I really am in kahoots with treasonous activity.
+He was your friend.
+Could you do that to a friend?
+Would I want to put my life in danger further?
+And let him suffer?
+You're going to make him grow to hate you.
+My hands are tied.
+What can I do?
+The professor has already left.
+He said the questions he asked what enough to write a statement on you that could get you out.
+I guess you're out of the trouble now aren't you.
+Maybe do something similar for your friend.
+Don't throw your friend into a hole.
+I won't stab him in the back like that.
+I'll try and help him out when I have time.
+Uncle Ku gave a pleasant smile upon hearing this.
+By the way...
+I do realize the situation we are all in.
+I'm afraid my hands are tied.
+We have to try and move out of this place.
+We have to walk south away from this barrage.
+Today I talked with Guo Heng on this.
+A bunch of people are planning on walking down south.
+I've been thinking about it.
+We should walk south far away from the conflict.
+Are you crazy?
+Why would you want to do that?
+To stay safe!
+Why else would I want to escape a bloodbath?
+You are telling me that I should leave my land like food on a platter for some invaders?
+If it means that we will live for another sunrise..
+then YES!
+Uncle Ku had a look of disbelief painted on his face.
+Are you out of your mind?
+How the hell should I approach this?
+They aren't like how they were back in Manchuria!
+THey're planning a total war!
+Just think goddammit!
+Uncle Ku's eye twitched at hearing this.
+This time they want everything.
+They'll use whatever force necessary.
+I may have been too young to remember anything about what happened in Manchuria.
+But I know I sure as am not that stupid to stand upright and courageously unarmed against some imperial thugs.
+We have to make concrete decisions now.
+Do you honestly in your own right mind think that standing upright while they carry guns will change anything?
+It may be nihilistic but
+In this scenario it's realistic.
+We have to make concrete decisions now.
+I'm afraid I will have to go to [hometown].
+I know this might be harsh but I don't want to leave you behind at all costs.
+That is why I need you to come with me.
+Didn't you say at the interview that you knew a scholarly friend back in Tsingtao?
+Correct me if I'm wrong but isn't there some friend in Qingdao you can contact?
+Fang.
+I accept your goodwill and honest intentions for my safety.
+I also have some disagreements.
+Challenge Successful
+Uncle Ku won't budge knowing his \"stubbornness\".
+It would be best to leave him without drama.
+Talking to him maturely could allow us to have a better head-start on departure.
+I guess you're right on that part.
+It would be better if you came with me.
+You got accepted into Peking university.
+You joined a protest about things that matter to you and to you only.
+Now you are forcing my own hand to your will.
+Have you noticed how self-entitled you are?
+You've only been here two weeks and I'm starting to see a controlling trait of yours emerging.
+Fang you don't need to be this rash.
+I'm sorry.
+I may be that old traditional thinking fundamentalist.
+But my choices will remain my choices.
+You can leave.
+Uncle Ku sat on the guest bed.
+I don't have any hard feelings from what is a natural response to fear and danger.
+Out of goodwill I can help prepare you.
+Since you were a student you didn't earn much did you?
+Take 200 Fabi.
+You worked already haven't you?
+I don't think you'll need much from me.
+Take a 50.
+As an apprentice I always feel I didn't pay you enough.
+Take this.
+You were forced into training without pay.
+At least you had food and shelter there.
+Here's 300.
+Keep your admission papers with you.
+Peking university might move during wartime like any other kind of business.
+Even after the war when it returns it will be nice to have your spot guaranteed.
+Uncle Ku scratched his head as he thought.
+Do you still have the work recommendation letter from Cheung?
+A rhetorical question.
+Keep that with you.
+If you could find some kind hearted foreigner to work for then most of your tantrums will go silent.
+You should go to Tsingtao.
+Over there I have an academic colleague by the name of Wang P'u Ch'en
+He's quite rich. Rich as me I would say.
+He has a wife who is referred to as \"Lady Wang\".
+Her full name is Wang Yue Hsiang but don't ever refer to her with that.
+I will write a letter to him explaining him to take you in for as long as you need to be dependent on him or leave further south.
+After all he owes me.
+I sponsored his education and accommodation with my house and inherited wealth.
+His success today is due to my input.
+Since he owes me he can't turn you away.
+I doubt he would have turned you away even if he didn't owe me.
+This sort of goodwill comes in handy down the line you see.
+Uncle Ku kept on dabbing the brush in ink and sliding it elegantly across a piece of paper approximately the size of a table-top world map.
+By the way Fang.
+Have you heard of I Kuan-Tao?
+It's a sect of a larger religious movement that gained popularity after the fall of the Empire.
+I Kuan-Tao is a belief of salvation of the individual and of society.
+Good.
+Wang P'u Ch'en is actually studying about the sect.
+I need to tell you two things in regards to it.
+First you need to stay away from that sect.
+By that I mean don't believe in what they tell you.
+Besides you might get sucked into more obscure and shadowy organizations.
+Secondly if you can help Wang P'u Ch'en gain insight into the organization then you can prolong your stay with him indefinitely by paying him with \"intel\".
+Provided you don't fall victim to their lies.
+Wang P'u Ch'en is eying them carefully.
+I put down in this letter than you might be willing to help him out on learning about it in exchange for living space.
+When you reach there make your own choices.
+Here you go.
+I forgot to tell you.
+Professor Po will stay in contact also.
+He'll use his connections to help you out if you need help.
+Just keep track of how much you owe him.
+Let me walk you off tonight.
+God knows what will come out of this war.
+When the war ends feel free to come back here.
+Or go wherever else you want.
+I'll keep sending letters to you in Tsingtao unless the Japanese begin intercepting them.
+If you do decide to go further south then inform me so that I can keep in contact.
+Do you have a torch or anything?
+It's pretty dark out there.
+I don't have any lanterns around.
+Will you be able to make it still?
+Sure, I can.
+Thanks for everything.
+Uncle Ku gave a faint smile.
+Something you don't normally expect from him.
+It was nice I guess to be sent of with a smile.
+even if I did speak to him like that.
+I hope it didn't leave any hard feelings.
+Time to meet Guo Heng again.
+I should also go meet with Li-Tso-Shih on the way to Tsingtao.
+I wonder how he feels towards me.
+Would he have that warm friendship? Or has it rotted away after the arrests?
+I've heard he was being kept somewhere in Tientsin which was not too far and on the way to Tsingtao.
+I was not aware why he was transferred from Peking to Tientsin during police custody.
+Maybe he was perceived more seriously because of his ethnic background.
+Li Tso-Shih was my friend and classmate at Peking.
+He was from Amdo and his family originates from the Ngolok people who are fighting the Kuomintang.
+He has personal reasons to fight against the republic.
+After entertaining my thoughts I decided to snap out of it.
+I should focus on my task at hand.
+It might be harsh to leave my friend out to dry.
+What else can I do.
+Everyone is trying to save their skin.
+I have my own personal reasons to fight moral dilemmas.
+I have to focus on getting to Tsingtao.
+I was prepared to leave tonight.
+With Uncle Ku's help I was prepared to face the challenges of a struggling republic at war.
+I could talk with Guo Heng and leave out tonight.
+I might have to make a choice on a whim tonight.
+I could plan it out with Guo Heng and quickly pack to go on ahead.
+I would still need to talk to Uncle Ku about this.
+I should try to make him leave with us to Tsingtao for the timebeing.
+Then we can make more long term decisions about how to go up against the war.
+Besides with Uncle Ku on our side the financial aspect of the group will be fixed.
+By now the sun was setting.
+Darkness was slowly invading the battlefield of the sky.
+This scenery was strangely cathartic.
+I wonder how many days it will take to experience this tranquil atmosphere once again.
+I absorbed the sweet image into my memory.
+I began to walk down that path I had walked down a few times today.
+Objects becoming more and more like silhouettes.
+I kept walking ahead.
+I had to rush ahead to Guo Heng's shop.
+I was under the impression that Guo Heng would know what was to be done next.
+At night sneaking past the Chang San is bad news.
+If anyone sees me like this...
+boy, the rumour's won't stop
+You could see the windows of the Brothel had candlelights in some rooms and electricity in some others.
+Grunts and moans also leaked through the window.
+God knows how many unloyal men were in there.
+I squinter off of the dirt path into the darker edges of the trees shielding me from the moonlight.
+Look at them enjoying themselves.
+Don't you ever feel the need for that desire?
+Instead you hide and watch other people wear their vices like their skin.
+Pathetic but rewarding.
+Don't keep dreaming.
+It calls you...
+Guo Heng's shop is in the distance and he has a few lanterns lit.
+I hurriedly sneak over while trying to avoid tripping up on anything.
+It was a few minutes away if I had to sneak.
+I kept my eyes on the lanterns.
+My eyesight could not make out what characters were painted on his lanterns but they shone bright.
+Like the end of a dark hopeless tunnel.
+Guo Heng's lantern felt like... hope.
+I keep my breath under control and made sure to keep my feet stable.
+Skidding down the bank of dirt I regained my balance and reached Guo Heng's shop.
+Guo Heng signalled something to me using his hands.
+He's telling you to come over but quietly.
+I kept going until I was within talking range.
+Glad you made it Fang.
+Same here.
+Guo Heng's shop had padlocks on every door and boards nailed into any open window like entrance as well.
+It's got to go Fang.
+It'll probably be blown up by the time I get back but at least my brother will be safe.
+Plus I saved up enough in the last 6 months.
+Guo heng scans around the lantern lit shop.
+I wasn't the only one there.
+This is Ma-Wen.
+I know him.
+Oh I know this guy alright.
+Ma Wen sarcastically imitiates me.
+Same guy that couldn't listen straight.
+Same guy that will accompany us away from this place?
+Is this guy going to also ask us about our dead loved ones along the way?
+Wen you need to calm down.
+What happened between you and Fang?
+Sure you did.
+Just get this straight.
+Jeez stop Wen!
+Ma Wen looked Guo Heng vehemently.
+He turned his gaze back to me.
+We got issues.
+and... I'll hold them against you.
+You were so nosy before weren't you?
+Wonder what got your tongue?
+Ma-Wen cursed under his breath.
+He called you asshat.
+Smack him.
+Just know that
+I'm holding it against you.
+Nice to see you again.
+Same here.
+you're leaving with us also?
+Ma Wen look into the lunar skies beyond.
+The monk urged me to go.
+He said I got a whole life ahead of me.
+Plus he pretty much kicked me out for that.
+Guo Heng had been watching us two talk it out.
+Some history between you two.
+Good to see we all know each other then.
+Here's the plan right.
+Da-Yu is out back with a truck.
+He does deliveries for my supplies.
+Bring stuff from as far as Ning-Po to over here in Peiping.
+It's not his job but he makes a good ammount of money on the side by doing people favours.
+His boss hasn't caught him since all his side business stuff is en-route.
+Anyway Da-Yu says that passengers should chip in their shares depending on how far we are going to decide to go.
+I don't give a shit how far we go.
+Guo Heng eyes him nervously as his vision darts back to me.
+What about you Fang?
+I'll need to drop off at Tianjin for a quick talk to a friend of mine.
+You mean he'll come with us?
+No, probably not.
+Why?
+He's locked up and in custody.
+Why do you need to see him then?
+Either way we can't stay there for too long.
+It will be dawn or ealier when we reach there.
+You think they'll let you in?
+Why the fuck do we got to play by his tunes?
+Cause you don't have any tunes.
+\"I don't give a shit how far we go\"
+Ma Wen went quiet on this.
+Back to the topic...
+I think they will.
+After all my name has been cleared...
+After that I have a stop...
+Tsingtao
+Why Tsingtao?
+My uncle Ku has a friend there who is indebt to him.
+I have a written notice from my Uncle to take me in his hospitality while the war doesn't reach the Shandong province.
+Depends how fast troops strorm through Hopeh.
+The Japanese are better than us anyway.
+Why say that?
+Hav you seen the state of our army?
+They got to kidnap and chain men to force them to serve.
+The republic is a fucking failure, that's what.
+Ma Wen cynically stated this.
+A cigarette would have fit this persona more.
+What about us two?
+He's going to abandon us.
+Big guy here has his rich uncle take care of everything for him.
+Not a worry in the world for us two right?
+Guo Heng began to look visibly annoyed at this rate.
+Wen, can you just shut up for a moment.
+I can try to find space for you guys.
+You would?
+Lip service shit.
+Like hell you'll find us someplace to stay.
+Guo Heng clenched his fist and breathed in deeply.
+Wang P'u Ch'en is quite influential there.
+I think he can pull some strings for you guys.
+I still think we won't be there for very long.
+Besides I need to get to Guo He in Shanghai.
+Plus that damn cult of I-Kuan-Tao is there.
+Doing their weird cult shit and whatever.
+That too.
+Well we can get some letters sent to Guo He in Tsingtao.
+Wang P'u Ch'en can write something for you anyway.
+Guo Heng's face lit up at this.
+He seemed elated at this.
+Don't think I'll forgive you over this kind shit.
+GUo Heng had already left around back for Da-Yu's truck.
+I'm imagening how annoyed Ma Wen's toxic mood had made him feel.
+Let's just get to the damn truck at least.
+Ma Wen gives a heavy sigh and follows me to the truck.
+Guo Heng then gets up and stretches before walking out to the back where the truck should be.
+Moment of truth?
+I guess so.
+Let's go talk to Da-Yu.
+I walk ahead into a dimly lit area behind the shop.
+Tientsin, Tsingtao and Shanghai?
+What are you all scouring the coast for?
+We all have plans I guess.
+I just don't want to die in the middle of a shootout.
+Da-Yu smirks at Ma Wen.
+I like how this one speaks.
+Sure you will.
+It was too dark to see but I bet Guo Heng rolled his eyes.
+That's Ma Wen.
+He points to me.
+That's Fang.
+Just Fang?
+Just Fang for now.
+Da-Yu shook a box of cigarettes and bit down on a roll.
+Any of you want to try?
+Aren't they crazy expensive?
+Da-Yu brought out a foreign imported lighter up to his roll clamped between his lips.
+Flicking the box till it beamed with life.
+They're expensive cause' they're classy.
+Guo Heng have a small nod.
+Ma Wen stared at him blankly.
+How much do we all chip in?
+I'm stopping up at Tientsin for a delivery.
+Your friend here can get off as well but only for 30 minutes.
+Da-Yu looked at his pocketwatch in his pocket.
+So that means it en-route so no need to pay for that.
+Makes everything else cheaper now? Doesn't it?
+Da-Yu took another puff of his classy cigarette.
+How could he afford such expensive stuff?
+Then you all want to go to Tsingtao for a few days.
+If I drop you all off there then chip in 80 Fabi.
+That much?
+The shit that runs this.
+Da-Yu points to the truck.
+The shit that runs this is subsidized by my employers like crazy.
+Lowest I'm going.
+I only got 50 on me.
+Get these two to help you out.
+If you all went to Shanghai-Nanjing area then boy your wallets would be dry.
+Anyway time to chip in.
+I can.
+Ma Wen looks at me for a second with a neutral face.
+It was strange.
+Thanks.
+He said it without a tone.
+Eerie.
+Agreed.
+Really?
+Sure, why not?
+Ma Wen looked glumly before Da-Yu took the bill into his hand.
+Let me pay for him.
+Ma Wen looks at me with his arms crossed.
+His eyes send a message to me.
+He expected this type of behaviour from you.
+Maybe he thought you didn't keep grudges?
+Did this prove him right or wrong?
+What he said will remain a mystery to you.
+Guo Heng passed a thin stack of small notes to Da-Yu.
+Ma Wen guiltilly watched ahead.
+Da-Yu took the bills Guo Heng.
+Well that settles it.
+Congrats on a chance at new life.
+He opens the door and hops in.
+I envy you guys.
+Why?
+You get to feel the cool breeze and open air space around it.
+We're going to be in the back?
+He means \"Are you fucking serious?\".
+It's not that bad.
+Like I said.. I really do envy you.
+Very few people get to experience moving on the road in a vehicle
+He takes a puff of his cigarette again,
+and even fewer while watching what they leave behind.
+When I start this thing up give this place a formal farewell.
+Who knows what will happen to it or you.
+What a depressing thought.
+I walk around to the back with Guo Heng and Ma Wen.
+It's dark and full of stock.
+Maybe he sneaks stuff from his deliveries?
+A packet of cigarettes or maybe that pocketwatch would take a year or so to earn.
+That wouldn't explain why his clothes are so western.
+He'd been caught and fired by now.
+Get on Fang.
+Ma Wen still looked pissed.
+He just stared me down from atop of the open backdoor of the truck.
+I grab the cold bars at the side of the back and hop on.
+Surreal?
+Yeah
+Ma Wen just lies against the wall of the truck and stares up at the black roof.
+To a new life
+Fang, get up.
+I try to adjust my eyes again.
+It's dark and there aren't any silhouette's even.
+We're nearing Tientsin.
+Pretty much whatever is left of Hsi-Ku arsenal.
+They turned that place into a school didn't they?
+Ma-Wen slept in a way in which you couldn't tell if he was actually awake.
+At least he looked peaceful.
+Yeah.
+That arsenal would be really handy right now.
+30 minute stopover.
+I rub my eyes and look over as the empty street.
+It's too dark to go out.
+Just go and get your shit done.
+We don't wanna be bombarded any minute now.
+We passed a skirmish a while bacm while you all were napping.
+At least an area reported to be hosting one.
+Didn't see or hear anything.
+Unsettling...
+We just unloaded a whole deck of alcohol into a dogdy cellar while you slept.
+Up ahead I know some headquarters where you can get some information on that \"friend\" of yours.
+This street was lit up with a few lanterns unlike the other roads we had been crossing throughout the night.
+It seems we're in town.
+I think it's the Kuomintang officers inspecting people or capturing them for forced consription.
+We shouldn't let them see us.
+You're right.
+I'm in no fucking mood for war.
+Or taking some lives that I've never met or had beef with.
+Me and Guo Heng looked at Ma Wen curiously.
+He glanced at us and leaned back.
+What?
+I'd rather shoot my dad.
+Guo Heng visibly winced on hearing this.
+I don't involve myself with this noble crusade.
+Fuck Bushido, Japanese pigs.
+That's pretty racist.
+Is it personal? or is he a left sympathiser?
+He whispers this expecing the wind to whisk it away into the night sky never to be heard again.
+Seems he was wrong.
+What do you make of this?
+Ma Wen is right!
+They want our vast resources to power themselves and their economic interests!
+They really are pigs that graze in the wrong place.
+Imperialism and capitalism is the problem for this aggression.
+The current government is so incompetent and unprepared for war.
+They divide the nation and make a joke of democracy.
+A powerful military and a strict authority need to unite this fractured country.
+Fascism will fix our problems. They wil unite us under order.
+Differing views can divide the cooperation between our group.
+We need to brush aside our differences.
+There's no incentive to pick a side.
+All this political rhetoric and demagogic thought is confusing.
+Makes my head spin to focus on this any longer.
 Forget it.
-I could tell his strength was a facade.
-Something was breaking him into pieces inside.
-I'm just too selfish to notice.
-I'm sorry Guo-{nw}
-Leave it.
-Don't talk about it.
-Guo Heng seemed to want to forget about it.
-I wasn't sure why he had so much self hate for not studying well.
-Perhaps he felt he failed his father.
-I wasn't much different as well.
-He was quite and more collected.
-I could tell a difference in the atmosphere.
-Guo Heng stood up.
-I hope you come for that meal I promised.
-He have a cheerful grin to me.
-I look forward to learning new things.
-He have a cheerful grin.
-I look forward to helping you out if you come to talk tonight.
-He gave a cheerful grin.
-Join me for some beer.
-He pointed to a distilled alcoholic bottle sitting inside his work kitchen.
+Politics is too much. Focus on what matters.
+Will you guys ever participate in this bullshit?
+Why would I orphan my brother? I have a reason to live.
+What about you? A coward? Some shitty wise martyr?
+Why? Cause you like hurting people?
+Guo Heng just kept gazing at us two.
+Why?
+All that bloodshed?
+Probably cause you're a coward right?
+Guo Heng made a faint smile that you could make out in the dark.
+Why? Something about your beliefs?
+The blurred sounds merge like a bucket of different paints.
+I can't event tell if my eyes are open or closed.
+I try to adjust my eyes again.
+It's dark and there aren't any silhouette's even.
+We're nearing Tientsin.
+Guo Heng had been awake for some time.
+Crouching near a box of liquor with a thin carpet as a blanket.
+He seems cold.
+He let you two have the warm ones.
+Wanna return the favour?
+He might be able to handle it... can you?
+Pay attention to health.
+Guo Heng looks at me weirdly.
+He doesn't expect this from you.
+A stranger of two weeks.
+Are you sure Fang?
+It's pretty cold.
+Push on a bit more.
+I appreciate your goodwill Fang...
+but it won't be wise to put you through misery all night.
+We'll need you awake to talk to that man we are going to.
+He has a point.
+Pay attention to health. You have responsibilies.
+and I need you to tell Wang P'u Ch'en to write your letter to Guo He.
+You need to stay strong for your brother.
+I'm pretty sure I can handle this anyway.
+I could see Guo Heng smile in the dark.
+He can't see you.
+You pull my heart strings Fang.
+I'm a worrier for everyone but you've hit the nail on the head.
+My brother is the biggest worry after all.
+I hand him the blanket.
+How old is he?
+Old enough.
+15 now.
+Guo Heng ruffled in the dark as he tucked the blanket around himself.
+I'll return these in a few hours to you so that you won't get sick before our arrival.
+Fair.
+I appreciate it.
+Guo heng had already cut me off before my argument.
+We're counting on you.
+Stay strong.
+I have a reputation for being stubborn.
+That's why it took my brother a long time to crack my shell so that he could study in Shanghai.
+Guo Heng leaned his head against the wire frames leaning up the wall.
+A soft thud emits from his direction.
+He's burned out.
+I thought so.
+Don't get sick alright?
+We're counting on you.
+Guo Heng leaned back against the cold wire frames lining up the wall of the truck.
+Survival of the fittest.
+Ma Wen was half awake and half asleep.
+You couldn't tell when he would just jump into a conversation.
+I can't believe I sent him to Shanghai.
+He's damn persuasive.
+How long has he been studying there?
+1 year and a half.
+He's meant to graduate from there.
+Its a fancy international school.
+Seems to have surpassed you.
+That's a good thing.
+Guo Heng hesitantly stammers for a moment.
+I'm proud of him after all.
+Fatherly instincts kicking in eh?
+I guess you could call it that.
+We stare out at the dark night sky lit up by tiny stars and a graceful moon.
+Guo Heng clears his throat assuming he remembered something to say.
+Pretty much whatever is left of Hsi-Ku arsenal.
+They turned that place into a school didn't they?
+Yeah.
+That arsenal would be really handy right now.
+They're already scuffling I bet.
+Da-Yu had chimed in after hours to taking front wheel.
+I wondered what else he heard us talking about.
+Lord knows what's going to be the outcome.
+My boss hasn't told me a course of action yet so I continue my job today until I meet him in Shanghai.
+How long will this take?
+5 minutes if all hands are on deck.
+This will get done faster if you help out.
+I don't want to be here too.
+Ma Wen rolled his eyes.
+We began to crawl out of the back and lined up with goods.
+It's right in this establishment.
+The place was shanty but it was a liquor store.
+There was a dim dying lantern one one side of the building.
+A implied lantern was hanging behind the building as well.
+What are we expecting？
+A few drunks.
+Pecker up we'll be fine.
+Da-Yu stacked up two grates and heaved them on his chest.
+He walked ahead of us and began to guide us to where to go.
+The old fella that runs this place tells me to dump it in his cellar.
+Da-Yu gently placed the crates on a little stone wall.
+His hands began to pat the patchs of grass near the wall before tugging on a rotten stringy fibres of rope.
+Got it.
+Da-Yu heaved as he pulled up a concrete lid.
+Shit is heavy.
+Guo Heng looked at me worriedly.
+You think this looks fishy?
+He whispered this to me.
+Even if it is then shut up.
+Let me get a torch.
+Da-Yu jogged back to his truck leaving us to stare at the abyss in the cellar.
+Look like a place to trap people and slave them.
+Wouldn't they have crawled out by now?
+They could be tied up.
+Besides who uses a disguised concrete lid for a cellar?
+A business that has to hide stock from dangerous drunks on a daily basis.
+I'm not walking down there.
+I'll stay near the truck.
+I'll take the damn dive.
+Not like you will Fang.
+Ma Wen glared at me.
+Guo Heng put down his crate on the low stone wall and walked back as Da-Yu came back.
+What's up with him?
+Wants us to keep waiting？
+He said he was going to unload the crates and Fang will fetch them while I takes them inside.
+Made my job easier.
+Here's the torch by the way.
+Watch out for stray rats, don't put them at the lowest level cause they get in.
+Last month my lackey got a bad bite.
+Maybe a damn snake?
+Ma Wen looked at him, a bit shaken.
+Da-Yu burst out laughing.
+I'm kidding. I unload alone, only some damn rats.
+Ma Wen nodded slowly and clutched his crate into his left arm and grabbed the handheld torch.
+He began to descend the cold stairs.
+Fuck this shit.
+He muttered under his breath.
+Fang!
+His voice was faint and distant.
+I began to take steps back to the truck.
+Guo Heng looked down at me.
+Here's a crate.
+I took it into my arms and began to move back.
+After 10 minutes of leaving a crate at the mouth of the cellar the work was finished.
+Glad that's over with.
+Let's get going now.
+Ma Wen crawled out of the mouth of the cellar scratching his sculp viciously.
+He dug his nails into the dirt and climbed out.
+Find many rats down there?
+No.
+The old guy must have hunted them down.
+I heard they fetch good prices in other villages.
+Can we just get going?
+Sure.
+Guo Heng was already at the truck and we were ready to trek down to Tsingtao.
+We should get some good sleep.
+I agree.
+Ma Wen looked tired and shaken up from the bugs in the cellar.
+For a noble... he had good tolerance.
+Why?
+That is strange isn't it?
+The world is a harsh place.
+I don't blame him for adjusting to it as it is required.
+Perhaps we are assuming wrongly about how long he has been on his own.
+He could have lied even.
+People have their secrets.
+Watch your back.
+I sat down in the cold area again.
+Get some shuteye will you?
+What else will I do?
+I adjusted my eyes as I began to realize the sounds around me.
+Fang did you hear that?
+Did we cross into some fucking skirmish?
+No, we haven't.
+Why do I hear guns?
+Cause we're in Tsingtao and I think there's a fucking raid on some communists.
+Communists are a pain in the ass.
+Ma Wen sat up as his eye winced.
+Anyway I got you to your destination.
+On my way to Shanghai now.
+I think I'll get an early leave for a while.
+I won't be coming back.
+You really want to get off here?
+Guo Heng glared at me as Da-Yu swung around from the driver's seat and observed us.
+Unless you guys are communists....
+He says this sarcastically.
+Get out please.
+Guo Heng looked with slight disbelief at Da-Yu who was much more impeding now.
+Da-Yu can't you drive us a bit further away from the raid?
+The longer I stick here, the more likely an officer will inquire what the hell is happening.
+It's in everyone's best interest to leave the truck right now.
+What's happening here?
+Da-Yu gave an audible sigh as the officer asked.
+I'm here to drop off some workers but they're scared of the raid.
+Scared?
+We're rounding up communists and they're scared of us?
+Tell me about it.
+Da-Yu brought out his cigarette and put in his lip again.
+Fancy a smoke officer?
+Sure.
+The officer took a cigarette from Da-Yu's hand. He was wearing tight leather gloves.
+I don't get why people are scared of us doing our damn job.
+Da-Yu just shrugged.
+Take em' off my back will you?
+Let me give them a tour alright?
+I need a fare.
+Da-Yu reached into his glove box and brought out a pack of imported cigarettes.
+Is this a nice fare?
+Sure is.
+The officer slams the side of the truck vehemently.
+Get out of the truck now!
+He screeched at us as he commanded us.
+Fuck.
+We crawled out of the truck where the officer came up to us three.
+I ain't in charge of this raid.
+Officer Tsai is.
+The officer points us to a man wearing dark sunglasses and standing with an immaculate uniform staring down a building.
+Up to 50 soldiers have sealed all sides of this shit-hole.
+When anyone is seen near windows, we just shoot.
+We have no fucking clue if they're armed or not but Tsai really wants to bust the door down sooner or later.
+Guo Heng's eyes widened.
+He doesn't want to witness violence.
+His sorrow is the product of a violent encounter.
+Look after him.
+Ma Wen's face had intrigue.
+Ma Wen is better at hiding his emotions.
+He sees the art in deciphering faces.
+He is only intrigued by this.
+Hard to tell if afraid at all.
+Ma Wen is better at hiding his emotions.
+He sees the art in deciphering faces.
+He is only intrigued by this.
+Hard to tell if afraid at all.
+The building was sealed with hungry troops.
+Their bones were showing in some places.
+Han Fu Ju has made Shandong great.
+He's leading us away from the central government in Kuomintang.
+He's also been talking with the Japanese.
+The officer seemed to be really confident in a warlord.
+While the guizi fight with the Nanjing government we are here trading our securities with them.
+He's a true nationalist and I will not hear any bullshit about him.
+He was holding Me and Wen's necks by the scruff and roughly.
+Professor Tsai was screaming at his men as they swiftly began to follow instructions.
+The sounds of gun clicking.
+Footsteps marching.
+It was going to start.
+The officer holding me and Wen had pushed us forward to the side of Lieutenant Tsai.
+Bring down the door!
+He had his arms on his hips as he stared down the building.
+Kill every fucking communist that fights back.
+Wouldn't that be a blood bath?
+Guo Heng mistakenly uttered.
+Lieutenant Tsai spat on the ground before turning around.
+What the fuck are you doing here?
+They're learning the noble deeds of the Kuomintang.
+Ain't nothing noble about killing, son.
+Don't talk like you've fought.
+The Officer now began to shrivel into his uniform like a turtle.
+Battlefield will be glad to take you guys.
+Stuck here with bullshit \"raids\".
+Lieutenant Tsai seemed to be pissed off from nearly everything.
+As he was shouting down the officer a gun shot emerged from the building.
+Great, who got first blood?
+What?
+A scrawny young soldier about 20 screamed back from inside the building.
+Lieutenant Tsai spat on the ground again and prepared for a screech.
+Who hit who?!
+Despite being far away the young shoulder shuddered at the might of his voice.
+We hit em Sir!
+How many men were there?!
+I could see Guo Heng and Ma Wen visibly confused at this whole situation.
+A weird screeching game between soldiers.
+Don't know sir! We got four teenagers!
+Fucking youngsters.
+He rubbed his mouth before turning back around.
+Clean out the building!
+yes Sir!
+The young soldier ducked back into the building.
+This shit is too boring.
+They don't put up a fight.
+When there is a trace of a challenge then we send in more physical force, more men, more guns, more power and its too easy.
+Lieutenant Tsai pulled out a pack of Marlboro smokes.
+This is a filtered cigarette, which means its marketed to woman mostly.
+Imported items are a gem here and often can fetch you a lot of money or luxury.
+He slid out a cigarette from the packet and packed it between his lips.
+Got a light?
+He had asked this to the Officer but being in Guo Heng's direction his face spoke terror.
+The gunshots began to become more and more frequent as screams of soldiers inside the building roared.
+Screams of soldiers winning.
+My boys may be skinny as a fucking stick but they get the job done.
+Corporal Hu have you heard of the situation in Szechewan?
+The officer now Corporal Hu shook his head to the side.
+Officer Tsai patted his hands on the thighs of his uniform as he sat on a nearby chair.
+This chair makes me feel like a director. Ya know?
+All of us nodded our heads.
+We all could see it.
+Szechewan isn't in great shape.
+My old busted up home is back there in Changsha.
+He picked up a rifle of some sort and proceeded to start cleaning it.
+Liu Hsiang is de-facto leader of Szechewan.
+Too many warlords keep further dividing Szechewan.
+Szechewan is still going through famine in various parts and Liu Hsiang is still consolidating power.
+It was pretty autonomous since the 1911 revolution and it seems to have embraced the warlord period in pushing its autonomy agenda.
+Technically they're autonomous by the National Revolutionary army since...
+When??
+You should ask him soon.
+He seems well educated in geo-politics.
+Ask your questions through him.
+Szechewan is also not one warlord state but many smaller defence districts that too many warlords carved up.
+Liu Hsiang is just the most prominent warlord in Szechewan hence given the title warlord of Szechewan.
+He rubbed the cloth across the stock of the gun before placing it down again.
+There's been a famine since last year I've heard.
+They got the most manpower in their military out of all of us right now.
+You wanna know how they pulled it off?
+Propaganda?
+Lieutenant Tsai let out a sigh of despair.
+It seemed if one thing were to go out of his way he gets fed up.
+The military of all places has become a haven for the poor.
+Consistent meals, shelter and benefits from being stand in cannon-fodder
+They flock like ironic doves to the haven and now will be forced to fight against Japan.
+Hey kids, fly off or we'll make you fight for the NRA(National Revolutionary Army).
+Don't you want to hear more about his story?
+Your world feels so narrow and limited.
+A brave old soldier with a cranky personality talking with pride about his honors.
+Could he have medals?
+This man interests you.
+Pick up some learning...
+Lieutenant Tsai look down and flicks his cigarette out.
+At least you sound serious unlike the clowns who I order to listen to me.
+Success!
+What do you want to know?
+Lieutenant Tsai looked at me in disbelief.
+I'm supervising a raid on communist scums.
+Pardon my french but I don't give enough shits to educate people right now.
+Now please get out of my sight.
+Tell em' corporal.
+Guo Heng had already backed off around a corner of a building.
+You don't want to see those bodies with the blood and guts and shit and piss on them.
+You're young, keep your mind fresh.
+He taps me on the cheek like a kid.
+What a shithead.
+I'll show him.
+Lieutenant Tsai rubs his chin as he contemplates.
+It's my hometown but it's not in great shape.
+It's dishonorable to back stab your hometown.
+I think Liu Hsiang has to pull himself together.
+I also hope they don't rely on throwing men at the enemy rather than bullets. They have a lot of conscripts.
+Generalissimo Chiang would sort them out.
+Hopefully.
+I used to work the ranks under the previous warlord.
+The \" most based\" one.
+He's a lucky bastard.
+He used to be a bandit that involved himself in conflicts.
+Somehow during the 1910s he got himself in charge of a division and began to cooperate with the Japanese backed Fengtian clique.
+Anyway I worked my way up the ranks.
+I was well educated and smart and what not.
+I want to stay as a Lieutenant of Artillery.
+I get paid enough and I don't have to make big choices.
+Anyways I was young and wanted an easy leader to follow.
+I was the kind of lad that would be updated with everything.
+Lieutenant Tsai spat on the ground.
+The Dogmeat General as I said was pretty \"based\".
+Dogmeat General is an interesting nickname.
+Some say it's named after his favourite tonic.
+Others say it's derived from a gambling game he plays often.
+The game in question is Pai-Gow.
+This game is also referred to as \"Eating Dog-meat\"
+Exactly.
+Wait till you hear more about him.
+I wanted to work under him because of his character.
+A self made bandit to General who was infamously cool.
+Sadly the poor fella got shot in 1932 by his nephew.
+Han Fu-Ju took over his role and began the Han-Liu war.
+The fucker won and Shandong is reunited.
+Lieutenant Tsai gave a sarcastic \"yay\".
+I can tell by his eyes he's a coward to the Japanese.
+He'll give em everything to save his tail.
+Honestly I became a soldier to help the nationalists not become a chess piece in feudal games.
+Enough yapping, I'm boring you.
+What other stuff you got to ask?
+Lieutenant Tsai gave a muffled laugh.
+What are you a fucking spy?
+I ain't telling you sensitive things.
+but you can probably tell just by looking that our armies are built to fight Chinese not foreign technologically superior imperialists.

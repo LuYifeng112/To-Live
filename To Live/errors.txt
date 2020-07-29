@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_DEFINES/TL_defines_political_menu.rpy", line 170: style property antialias appears twice.
-    antialias True
-             ^
+File "game/TO_LIVE_CHARACTERS/fang_TL_FANG.rpy", line 1: expected statement.
+    import TL_defines_character
+                               ^
+
+File "game/TO_LIVE_CHARACTERS/fang_TL_FANG.rpy", line 2: expected statement.
+    import TL_defines_inventory
+                               ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu Jul 09 18:40:30 2020
+Fri Jul 24 10:28:19 2020
