@@ -189,7 +189,7 @@ init:
     image heavy_snow = Snow("00_globals/snow.png", max_particles=500)
     image abyss_snow = Snow("00_globals/abyss.png")
 
-    $ flash = Fade(1, 0, 1, color="#fff")
+    $ flash = Fade(0.3, 0, 0.5, color="#fff")
     $ flash2 = Fade(2, 2, 2, color="#fff")
     $ flash_red = Fade(1, 0, 1, color="#e11")
     $ fade3 = Fade(1.5, 0, 1.5)

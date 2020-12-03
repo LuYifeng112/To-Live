@@ -8,20 +8,20 @@
 
 
 init python:
-    class Item(object):
-        def __init__(self, name, weight, value, icon=None, desc=None):
+    import renpy.store as store
+    class Item(store.object):
+        def __init__(self, name, weight, value, icon=None, interactive=False):
             self.name = name
             self.weight = weight
             self.value = value
             self.icon = icon
-            self.desc = desc
-
-    class InvItem(object):
+            self.interactive = interactive
+    class InvItem(store.object):
         def __init__(self, item, amount):
             self.item = item
             self.amount = amount
 
-    class Container(object):
+    class Container(store.object):
         def __init__(self, weight_max, money=100):
             self.inventory = []
             self.weight_max = weight_max
@@ -86,14 +86,15 @@ define fangbag = Container(
     weight_max=12,
     money=100)
 
-define Jade_DESC = __("An Amulet made of Jade. It's precious and pricey and easy to carry around. Beautiful green and serene. This is what hope feels like.")
 
 
-define Jade = Item(__("Jade Amulet"), weight= 0.3, value=250, desc=Jade_DESC)
+
+define Jade = Item(__("Jade Amulet"), weight= 0.3, value=250)
 #Chapter One
-define Peking_admission = Item(__("Peking University Admission paper"), 0.005, 80)
+define Peking_admission = Item(__("Peking University Admission paper"), 0.005, 80, interactive=True)
 define Red_Lantern = Item(__("Red Lantern"), 0.4, 15)
-define Work_Recommendation = Item(__("Cheung's Work Recommendation Document"), 0.005, 10)
-define WPC_letter = Item(__("Ku Hong-Meng's Letter to Wang P'u Ch'en"), 0.005, 0)
+define Work_Recommendation = Item(__("Cheung's Work Recommendation Document"), 0.005, 10, interactive=True)
+define WPC_letter = Item(__("Ku Hong-Meng's Letter to Wang P'u Ch'en"), 0.005, 0, interactive=True)
 
-
+define InventoryItemTags = {
+    }

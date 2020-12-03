@@ -311,8 +311,8 @@ translate chinese strings:
     new "齊齊哈爾"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:143
-    old "佳木斯Kiamusze"
-    new ""
+    # old "Kiamusze"
+    # new "佳木斯S"
 
     # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:144
     old "Mutankiang"

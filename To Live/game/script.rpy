@@ -1,9 +1,6 @@
 default persistent.chapter = 1
 
-#OBJ
-default objective = ""
-default objective_scr = ""
-default subtext = ""
+default chapter_name = __("Merantau")
 
  ######  ########  ##          ###     ######  ##     ##  ######   ######  ########  ######## ######## ##    ##
 ##    ## ##     ## ##         ## ##   ##    ## ##     ## ##    ## ##    ## ##     ## ##       ##       ###   ##
@@ -15,18 +12,22 @@ default subtext = ""
 label splashscreen:
     $ _dismiss_pause = False
     $ mouse_visible = False
-    show note
-    with Pause(3)
+    if not persistent.menu_note == True:
+        show MENU_note
+        with Pause(3)
+    else:
+        pass
+        
     scene black
 
-    play sound sound_menu_logo
-    show splash with dissolve
+    play sound menu_sound_logo
+    show MENU_YYDSJ_logo with dissolve
     with Pause(2)
 
     scene black with dissolve
     with Pause(1)
 
-    show renpy_cred with dissolve
+    show MENU_RENPY with dissolve
     with Pause(2)
 
     show placeholder
@@ -46,6 +47,7 @@ label splashscreen:
 ##    ##    ##    ##     ## ##    ##     ##    
  ######     ##    ##     ## ##     ##    ##    
 label start:
+    window hide
     python:
         callbacks = {
             'ready': readyCallback,
@@ -99,14 +101,14 @@ label Sino_Japanese_bookmark_chapter_one_splash:
     $ renpy.movie_cutscene("00_bookmark_chapter/1937_sino_japanese_war_bookmark.ogv")
     scene black with dissolve
     with Pause(0.5)
-    $ save_name = __("Chapter One- Peiping\n Talk Like Doves")
+    $ save_name = __("Chapter One- Peiping\n [chapter_name]")
     $ inventory.earn(100)
     $ current_money = inventory.money
     $currenthp = 50
     $maxhp = 50
 
     play sound ambience_steps
-    show Beijing_location with dissolve
+    show LOCATION_Beijing with dissolve
     with Pause (2)
     $ _skipping = True
     scene black with dissolve
@@ -121,4 +123,9 @@ label Sino_Japanese_bookmark_chapter_one_splash:
 
     $ mouse_visible = True
     $ _dismiss_pause = True
-    jump Beijing_chapter_one
+    jump Prologue
+
+
+label checkpoint:
+    $ renpy.save("1-1")
+    return

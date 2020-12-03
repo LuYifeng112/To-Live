@@ -47,18 +47,3 @@ label before_main_menu:
         discord_rpc.update_connection()
         discord_rpc.run_callbacks()
     return
-
-label Pre_Menu:
-    show screen press_to_start
-
-
-init python:
-
-    def upper_tag(tag, argument, contents):
-
-        return [
-            (renpy.TEXT_TEXT, k[1].upper()) 
-            if k[0] == renpy.TEXT_TEXT else k
-            for k in contents]
-
-    config.custom_text_tags["upper"] = upper_tag

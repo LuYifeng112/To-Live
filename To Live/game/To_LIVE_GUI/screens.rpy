@@ -101,6 +101,13 @@ image ctc_blink:
        linear 0.5 alpha 0.0
        pause 0.25
        repeat
+transform bounce: # random example transform, obvs change if you wish
+    parallel:
+        ease 0.2 yoffset -10
+        ease 0.2 yoffset 0
+    parallel:
+        alpha 0.0
+        linear 0.4 alpha 1.0
 
 # screen say(who, what):
 #     style_prefix "say"
@@ -132,6 +139,8 @@ screen say(who, what, slow_effect = slow_typewriter, slow_effect_delay = 0, alwa
         if who is not None:
 
             window:
+                if _speaker_changed:
+                    at bounce
                 id "namebox"
                 style "namebox"
                 text who id "who"
@@ -405,7 +414,7 @@ screen main_menu():
     key "3" action ShowMenu('poems')
     key "4" action ShowMenu('historical_event_log')
     key "t" action ShowMenu('TL_pref')
-    key "q" action ShowMenu('invdisplay')
+    key "q" action ShowMenu('invdisplay') 
     tag menu    
 
     imagemap:
@@ -1632,6 +1641,10 @@ screen quit():
     
     tag menu
     modal True
+    default seen = renpy.count_seen_dialogue_blocks()
+    default dialogue = renpy.count_dialogue_blocks()
+    default result = seen * 100 / dialogue
+
 
     add ("00_menu_images/00_end.png")
 
@@ -1642,85 +1655,27 @@ screen quit():
     textbutton __("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
     textbutton __("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return() keysym "K_ESCAPE"
 
-
-screen countdown():
-    timer 1 repeat True action If(time > 0, true=SetVariable('time', time - 1), false=[Hide('countdown'), Jump(timer_jump)])
-    if time <= 2:
-        text str(time) xpos .1 ypos .1 color "#FF0000" at cd_transform
-    else:
-        text str(time) xpos .1 ypos .1 at cd_transform
-
-transform fromleft:
-    subpixel True
-    alpha 0.0 xalign 0.0 xanchor 1.0
-    parallel:
-        easein 1.0 alpha 1.0
-    parallel:
-        easein 1.0 xalign 0.6
-    on hide:            
-        linear 0.1 xoffset -40 yoffset -10  
-
-transform choice_bg:
-    subpixel True
-    linear 1.0 alpha 1.0
-
-transform choice_transform:
-        subpixel True
-        alpha 0.0 xalign 1.0 xanchor 0.0
-        parallel:
-            easein 1.0 alpha 1.0
-        # parallel:
-        #     easein 1.0 xalign 0.5
-        on hide:            
-            alpha 1 zoom 1 xanchor 0.5 yanchor 0.5
-            block:
-                linear 0.1 zoom 1.1
-                linear 0.5 zoom 0
-
 screen choice(items):
     window:
         at choice_transform
         style "menu_window"
     style_prefix "choice"
-    # if not choicetype == "dream":
     add "gui/choice_bg.png" at choice_bg
     vbox:
-        for i in items:
-            textbutton i.caption:
-                action i.action
-# screen choice(items):
-#     window:
-#         at choice_transform
-#         style "menu_window"
-#     style_prefix "choice"
-#     add "gui/choice_bg.png" at choice_bg
-#     frame:
-#         has vbox
-#         for i in items:
-#             if '|' in i.caption:
-#                 textbutton i.caption.split('|')[0] action i.action hovered SetScreenVariable("status", i.caption.split('|')[1])
-#             else:
-#                 textbutton i.caption action i.action hovered SetScreenVariable("status", None)
-        
-#         if status is not None:
-#             add status.image xalign 0.6 yalign 0.25 size(80,80)
-#             text status.name xalign 0.75 yalign 0.25 size 35
+            spacing 2
 
-transform transform_blink:
-    linear 1.0 alpha 0.2
-    linear 1.0 alpha 1.0
-    repeat
+            for t, (caption, action, chosen) in enumerate(items): # t would have value for each choice (start from 0, step 1)
 
-style title is text:
-    font "MoriaCitadel.ttf"
+                if action:
 
-screen press_to_start():
-    key "K_SPACE" action ShowMenu("main_menu")
-    key "K_KP_ENTER" action ShowMenu("main_menu")
-    add "#000c"
-    text __("To Live: The Struggle") size 70 xalign 0.5 yalign 0.4 font "fonts/eng_moria/MoriaCitadel.ttf"
-    text __("Press Space to Continue") size 30 yalign 0.6 xalign 0.5 font "fonts/eng_moria/MoriaCitadel.ttf" at transform_blink
-    
+                    button:
+                        at my_tr(t) # apply transform with t as argument
+                        action action
+                        style "choice_button"
+
+                        text caption style "ChoiceText"
+                else:
+                    text caption style "ChoiceText"at my_tr(t) # apply transform with t as argument
 
 transform fader:
     on show:
@@ -1728,29 +1683,3 @@ transform fader:
         easein 0.25 alpha 1.0
     on hide:
         easeout 0.25 alpha 0.0
-
-screen gamemodeTL():
-    default L_button_is_hovered = False
-    default R_button_is_hovered = False
-    add "#000c"
-    mousearea:
-        area (100, 600, 500, 500)
-        hovered SetScreenVariable("L_button_is_hovered", True)
-        unhovered SetScreenVariable("L_button_is_hovered", False)
-    mousearea:
-        area(1700, 600, 500, 500)
-        hovered SetScreenVariable("R_button_is_hovered", True)
-        unhovered SetScreenVariable("R_button_is_hovered", False)
-    showif L_button_is_hovered:
-        text __("             Revolution is permanent.\nAvailable Saves: One\nSavetype: Game Autosaves Only") size 20 xalign 0.5 yalign 0.5 at fader
-    showif R_button_is_hovered:
-        text __("              Take the time and learn the way.\nAvailable Saves: 40\nSavetype: Self save and autosave") size 20 xalign 0.5 yalign 0.15 at fader
-
-image objective:
-    align (0.5, 0.25)
-    
-    alpha 0.0
-    Text(objective, color="#000000")
-    linear 0.5 alpha 1.0
-    pause 2.0
-    linear 0.5 alpha 0.0

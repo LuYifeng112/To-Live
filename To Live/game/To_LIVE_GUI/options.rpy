@@ -3,12 +3,12 @@
 define config.debug_image_cache = True
 define config.name = _("To Live")
 define gui.show_name = False
-define config.version = "0.0.8"
+define config.version = "0.0.83"
 define gui.about = _("")
 define build.name = "ToLive"
 define config.autosave_on_quit = True
 define config.default_fullscreen = True
-
+define config.gl_clear_color = "#141414"
 define config.debug_text_overflow = True
 define config.autosave_slots = 10
 

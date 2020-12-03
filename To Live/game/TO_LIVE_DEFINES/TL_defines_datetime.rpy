@@ -84,13 +84,16 @@ init python:
         def return_year(self):
             return int(self.year)
 
+        def Ureturn_year(self):
+            return str(self.year)
+
         def return_daytime(self):
             return unicode(self.daytime)
 
 default TL_datetime = Date(
         year = 1937,
         month = 9,
-        day = 7,
+        day = 5,
         weekday = weekdays[1],
         daytime = dayperiods[1]
         )

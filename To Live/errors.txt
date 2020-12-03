@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/TO_LIVE_DEFINES/TL_defines_political_menu.rpy", line 170: style property antialias appears twice.
-    antialias True
-             ^
+File "game/script.rpy", line 18: else clause expects a non-empty block.
+    else:
+         ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Thu Jul 09 18:40:30 2020
+Thu Dec 03 22:32:43 2020

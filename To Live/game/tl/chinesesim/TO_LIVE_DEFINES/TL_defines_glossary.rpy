@@ -110,3 +110,11 @@ translate chinesesim strings:
     old "I-Kuan-Tao"
     new ""
 
+# TODO: Translation updated at 2020-08-12 10:50
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_glossary.rpy:24
+    old "Pai-Gow"
+    new ""
+

@@ -862,3 +862,95 @@ translate french strings:
     old "Fukien"
     new ""
 
+# TODO: Translation updated at 2020-08-12 10:35
+
+translate french strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:211
+    old "Chihfeng"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:223
+    old "Bayingol"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:224
+    old "Kumul"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:225
+    old "Nagqu"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:226
+    old "Kalgan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:227
+    old "Chaochow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:228
+    old "Chengtu"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:229
+    old "Kwuangyun"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:230
+    old "Hsilin Gol"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:231
+    old "Aba"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:232
+    old "Leshan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:233
+    old "Garze"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:234
+    old "Tongren"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:235
+    old "Kingchow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:236
+    old "Ankang"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:237
+    old "Shiyan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:238
+    old "Qamdo"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:239
+    old "Shiukwan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:240
+    old "Kanchow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:241
+    old "Wu-Hsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:365
+    old "Sung Che-Yuan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:425
+    old "Han Fuchu"
+    new ""
+

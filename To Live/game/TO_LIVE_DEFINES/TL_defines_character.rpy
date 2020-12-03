@@ -1,3 +1,5 @@
+# TODO
+# Add a Random Check Modifier Ability.
 define npercentage = 0
 define nskill = 0
 
@@ -10,7 +12,7 @@ define nskill = 0
  ######  ##     ## ##     ## ##     ## ##     ##  ######     ##    ######## ##     ##  ######
 #Protagonist
 define character.fang = Character(__("Fang Jie"), image="fang", who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
-define character.authority = Character(__("Social Influence"), image="authority", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
+define character.authority = Character(__("Authority"), image="authority", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.composure = Character(__("Focus"), image="composure", what_italic=True, who_color="#3154b5", what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="fang")
 define character.concept = Character(__("Abstraction Compeherension"), image="concept", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.empathy = Character(__("Empathy"), image="empathy", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
@@ -19,19 +21,18 @@ define character.luck = Character(__("Luck"), image="luck", what_italic=True, wh
 define character.perception = Character(__("Sensory Perception"), image="perception", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
 define character.rhetoric = Character(__("Rhetorics"), image="rhetoric", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
-define character.correction = Character(__("Judgement"), image="correction", who_font="fonts/eng_chars/correction/KelmscottRomanNF.ttf", what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_italic=True, who_color="#000000", what_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.judgement = Character(__("Judgement"), image="correction", who_font="fonts/eng_chars/correction/KelmscottRomanNF.ttf", what_font="fonts/chi_pinyin/Alegreya-Regular.ttf", what_italic=True, who_color="#000000", what_color="#000000", ctc="ctc_blink", ctc_position="nestled")
 define character.schema = Character(__("Schema"), image="schema", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_slow_effect = slow_nonsense, show_slow_effect_delay = 1.0)
 define character.reaction = Character(__("Quick Wit"), image="reaction", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.vice = Character(__("Vice"), image="vice", who_font="fonts/eng_chars/vice/dispose/DISPOSE1.ttf", what_font="fonts/eng_chars/vice/Eutemia.ttf", what_size=50, what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
 define character.visualcomprehension = Character(__("Visual Comprehension"), image="visualcomprehension", what_italic=True, who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", what_font="fonts/eng_chars/visualcomprehension/Caladea-Italic.ttf", what_color="#000000",  who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
+define character.void = Character(__("Anti-Homunculus"), ctc="ctc_blink", ctc_position="nestled")
 
 define character.narrator = Character(ctc="ctc_blink", ctc_position="nestled")
 init 9999:
     define na = Character(None, show_slow_effect = slow_nonsense, show_slow_effect_delay = 1.0, kind=centered)
     define no = Character(None, show_always_effect = always_shake(x = 1, y = 1), kind=centered, show_layer='master')
-define character.f = Character(__("The Father"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define character.m = Character(__("The Mother"), who_color="#0d00ff", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define character.v = Character(__("The Voices"), who_color="#5b5963", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
+define character.f = Character(__("Pater Abyssum Irent"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #MISC
 define character.un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 define character.thought = Character(None, what_italic=True, what_alt="I think, [text]")
@@ -62,25 +63,8 @@ define character.Xwe = Character(__("Xiao Wei"), what_prefix='"', what_suffix='"
 #1937 Japanese
 define ai = Character(__("Yumi"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="ai")
 
-transform change_transform(old, new):
-    contains:
-        old
-        yalign 1.0
-        xpos 0.0 xanchor 0.0
-        linear 0.2 xanchor 1.0
-    contains:
-        new
-        yalign 1.0
-        xpos 0.0 xanchor 1.0
-        linear 0.2 xanchor 0.0
-
-define config.side_image_change_transform = change_transform
-
 init python:
     import renpy.store as store
-    import renpy.exports as renpy 
-    import time as time
-    import operator
     from collections import Counter
     def WeightedChoice(choices):
         """ 
@@ -96,11 +80,7 @@ init python:
                 return choice
             else:
                 randval -= weight
-    class chapter(store.object):
-        def __init__(self, name, number, specialactions):
-            self.name = name
-            self.number = number
-            self.specialactions = specialactions   
+
     class Char(store.object):      
         def __init__(self, mood, bond, pol, rel, traits, skillset, convolog, eventlog, bag=None):
             self.mood = mood
@@ -146,9 +126,10 @@ init python:
                 return self.skillset.get(skill)
             else:
                 raise Exception("Invalid Skill Key for function \'skillval()\'.")
-        def convo(self, topic):
+        def convo(self, topic, event=False):
             self.convolog.append(topic)
-            self.eventlog.add(topic)
+            if event == True:
+                self.eventlog.add(topic)
 
         def said(self, phrase):
             return phrase in self.convolog
@@ -156,10 +137,6 @@ init python:
         def clearconvo(self):
             self.convolog.clear()
         
-        def chardead(self):
-            self.mood = None
-            self.traits = None
-
         def log(self, event):
             self.eventlog.add(event)
 
@@ -169,13 +146,10 @@ init python:
             else:
                 return False
 
-        def RandomCheck(self, skill, x, y, sound=True, vol=0.35, msge=True, modifiers=None):
-            if skill in self.skillset:
+        def RandomCheck(self, skill, x, y, sound=True, vol=0.35, msge=True):
+            if skill in self.skillset.keys():
                 global temp_val
-                if modifiers is not None:
-                        temp_val = self.skillset.get(skill) + self.skillset.get("luck") + int(sum(modifiers.values()))
-                else:
-                    temp_val = self.skillset.get(skill) + self.skillset.get("luck")
+                temp_val = self.skillset[skill] + self.skillset["luck"]
                 opposition = renpy.random.randint(x, y)
                 test = WeightedChoice([("Success", temp_val),
                                 ("Failure", opposition)])
@@ -195,38 +169,21 @@ init python:
                         msg.msg(SkillsetDictionary[skill]+" challenge failed.")
                     return False
             else:
-                raise Exception("Invalid Skill Key for function \'skillval()\'.")
+                raise Exception("Invalid Skill Key for function RandomCheck.")
 
 init python:
-   def GetMaxPol(d):
-        try:
+    def GetMax(d):
+        r = max(d.values())
+        key = [k for k,v in d.items() if v == r]
+        if len(key) == 2:
+            sentence = " and ".join(key)
+        else:
+            sentence = " ,".join(key)
+        foo = len(key)
+        if foo == 1:
             return max(d, key=lambda key: d[key])
-        except:
-            raise Exception("value did not get returned.")
-##     ##  #######   #######  ########     ########    ###     ######    ######  
-###   ### ##     ## ##     ## ##     ##       ##      ## ##   ##    ##  ##    ## 
-#### #### ##     ## ##     ## ##     ##       ##     ##   ##  ##        ##       
-## ### ## ##     ## ##     ## ##     ##       ##    ##     ## ##   ####  ######  
-##     ## ##     ## ##     ## ##     ##       ##    ######### ##    ##        ## 
-##     ## ##     ## ##     ## ##     ##       ##    ##     ## ##    ##  ##    ## 
-##     ##  #######   #######  ########        ##    ##     ##  ######    ######  
-# '''
-# Moodtags just need to find a way to put down a list of tags. 
-# For now True means the mood is positive and False means negative.
-# '''
-define Moodtags = {
-    "Angry":False,
-    "Agressive":False,
-    "Disappointed":False,
-    "Disgruntled":False,
-    "Melancholic":False,
-    "Offended":False,
-    "Sinister":False
-    }
-define IsResponsible = {
-    }
-
-
+        else:
+            return "Mixed views"+" ("+sentence+")"
  ######   ########     ###    ########  ##     ## ####  ######   ######  
 ##    ##  ##     ##   ## ##   ##     ## ##     ##  ##  ##    ## ##    ## 
 ##        ##     ##  ##   ##  ##     ## ##     ##  ##  ##       ##       
@@ -237,6 +194,19 @@ define IsResponsible = {
 '''
 The side images for each character.
 '''
+transform change_transform(old, new):
+    contains:
+        old
+        yalign 1.0
+        xpos 0.0 xanchor 0.0
+        linear 0.2 xanchor 1.0
+    contains:
+        new
+        yalign 1.0
+        xpos 0.0 xanchor 1.0
+        linear 0.2 xanchor 0.0
+
+define config.side_image_change_transform = change_transform
 style default:
     antialias True
 image side vice neutral:
@@ -277,6 +247,15 @@ image side schema neutral:
     zoom 1.1
 image side reaction neutral:
     "images/00_character_side_images/character.reaction/reaction_neutral.png"
+    size(300,300)
+    zoom 1.1
+image authoritycheck:
+    ConditionSwitch(
+        "fang.pol == None", "images/00_character_side_images/character.authority/authority_neutral.png",
+        "fang.pol == 'KMT' ", "images/00_character_side_images/character.authority/authority_neutral.png",
+        "fang.pol == 'PRC' ", "images/00_character_side_images/character.authority/authority_neutral_com.png")
+image side authority neutral:
+    'authoritycheck'
     size(300,300)
     zoom 1.1
 ######## ########     ###    #### ########  ######     ########  ####  ######  ######## 

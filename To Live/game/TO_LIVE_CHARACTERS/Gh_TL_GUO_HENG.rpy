@@ -1,17 +1,17 @@
 python:
 
     import TL_defines_character
-
-default Gh = Char( 
-    mood ="Sonder",
-    bond = 1,
-    pol = None,
-    rel = None,
-    traits = GuoHeng_traits,
-    skillset = GuoHengSkills,
-    convolog = GuoHengConvo,
-    eventlog = GuoHengLog
-    )
+init 10:
+    default Gh = Char( 
+        mood ="Sonder",
+        bond = 1,
+        pol = GetMax(GhPol),
+        rel = GetMax(GhRel),
+        traits = GuoHeng_traits,
+        skillset = GuoHengSkills,
+        convolog = GuoHengConvo,
+        eventlog = GuoHengLog
+        )
 define GuoHeng_traits = [
     __("Insecure"),
     __("Overprotective"),
@@ -20,12 +20,35 @@ define GuoHeng_traits = [
     __("Workaholic"),
     __("Worrier")
    ]
+default GhPol = {
+    'fascism':-2,
+    'communism':-1,
+    'centrism':2,
+    'anarchism':-1,
+    'conservatism':1,
+    'corporatism':0,
+    'liberalism':0,
+    'libertarianism':0,
+    'moralism':2,
+    'nationalism':1,
+    'progressivism':0
+}
+default GhRel = {
+    'atheism':2,
+    'buddhism':1,
+    'christian':0,
+    'communism':-2,
+    'islam':0,
+    'shintoism':0,
+    'taoism':0,
+    'yiguandao':0
+}
 define GuoHengSkills = [
     ]
 define GuoHengConvo = [
     ]
-define GuoHengLog = [
-    ]
+define GuoHengLog = set(
+    )
 
 default GH_impression = None
 

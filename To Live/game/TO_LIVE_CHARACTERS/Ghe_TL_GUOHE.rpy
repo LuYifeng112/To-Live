@@ -28,7 +28,7 @@ define GuoHeSkills = dict(
     )
 define GuoHeConvo = [
     ]
-define GuoHeLog = [
-    ]
+define GuoHeLog = set(
+    )
 
 default GHe_impression = None

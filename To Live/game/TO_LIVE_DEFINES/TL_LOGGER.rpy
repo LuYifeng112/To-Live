@@ -31,8 +31,6 @@ init -100 python:
     devlogfile.setLevel(logging.DEBUG)
     devlog.addHandler(devlogfile)
     devlog.critical("\n--- launch game ---")
-    devlog.critical("Credits to Lu-Yi-Feng")
-    devlog.critical("Logging system established 9-6-2020 :)")
     devlog.critical("")
     fm = logging.Formatter('%(asctime)-s %(levelname)-s %(name)-s %(message)s')
     devlogfile.setFormatter(fm)

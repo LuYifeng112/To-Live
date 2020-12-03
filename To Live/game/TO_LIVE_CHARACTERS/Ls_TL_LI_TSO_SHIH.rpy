@@ -43,7 +43,7 @@ define LiTsoShihSkills = dict(
     )
 define LiTsohShihConvo = [
     ]
-define LiTsoShihLog = [
-    ]
+define LiTsoShihLog = set(
+    )
 
 default LS_impression = None

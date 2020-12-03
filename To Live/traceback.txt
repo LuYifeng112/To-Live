@@ -1,26 +1,66 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in script
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in <module>
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-NameError: name 'always_shake' is not defined
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 445, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 359, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 384, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+Exception: Unknown layer u'mouseTooltip'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in script
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 2108, in execute
-    value = renpy.python.py_eval_bytecode(self.code.bytecode)
-  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2052, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/TO_LIVE_DEFINES/TL_defines_character.rpy", line 20, in <module>
-    define character.pred = Character(__("Predatory Instinct"), image="pred", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
-NameError: name 'always_shake' is not defined
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\bootstrap.py", line 316, in bootstrap
+    renpy.main.main()
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 578, in main
+    run(restart)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\main.py", line 143, in run
+    renpy.execution.run_context(True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\execution.py", line 908, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "renpy/common/00start.rpy", line 207, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 445, in script
+    $ __gl_test()
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ast.py", line 914, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\python.py", line 2028, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "renpy/common/00gltest.rpy", line 445, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 359, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 384, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\ui.py", line 297, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2702, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2876, in interact_core
+    renpy.display.screen.show_overlay_screens(suppress_overlay)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 1376, in show_overlay_screens
+    if get_screen(i) is not None:
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 1031, in get_screen
+    sd = sl.get_displayable_by_tag(layer, tag)
+  File "E:\renpy\renpy-6.99.12.4-sdk\renpy\display\core.py", line 1366, in get_displayable_by_tag
+    raise Exception("Unknown layer %r." % layer)
+Exception: Unknown layer u'mouseTooltip'.
 
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
-To Live 0.0.79
-Wed Jul 29 21:05:46 2020
+To Live 0.0.83
+Sat Nov 07 21:41:25 2020

@@ -1,4 +1,6 @@
-default nation = None
+default nation = CHI
+default mtt = MouseTooltip(Text(""), padding={"x": 40, "y": -10})
+define TL_edgescroll_speed = 50
 
 screen TL_keyfocus():
     tag menu
@@ -37,7 +39,7 @@ screen political_menu():
     default leader = renpy.random.choice(TL_leader_pic)
     use TL_keyfocus
     add "#141414"
-    text "[objective]" xalign 0.05 yalign 0.05 style "TL_PrefObjective" at slant
+    text "[chapter_name]" xalign 0.05 yalign 0.05 style "TL_PrefObjective" at slant
     text "[subtext]" xalign 0.07 yalign 0.15 style "TL_PrefSubtext"  at slant_st 
     text "[quote]" xpos 45 yalign 1.1 style "TL_PrefQuote" at slant_q 
     text __("Pause") xalign 0.4 style "TL_PrefPause" at slant_title 
@@ -50,7 +52,13 @@ screen political_menu():
     textbutton __("Load Game") xalign 0.3 yalign 0.45 action ShowMenu('main_menu') at ambient_left keyboard_focus True
     textbutton __("National Map") xalign 0.9 yalign 0.56 action ShowMenu('guo_map') at am_map keyboard_focus True
     textbutton __("Historical Event Log") xalign 0.91 yalign 0.65 action ShowMenu('historical_event_log') at am_hist keyboard_focus True
+    textbutton __("Preferences") xalign 0.93 yalign 0.75 action ShowMenu('TL_pref') at ambient_left
 
+
+define persistent.romanized = False
+define persistent.romanization = None
+define persistent._map_audio = True
+define persistent._map_ocean_SFX = True
 define TL_pref_tab = "General"
 define _mature = False
 define persistant.edgeval = 200
@@ -112,6 +120,19 @@ screen TL_pref():
             style_prefix "radio"
             label __("Audio")
             textbutton "No Ocean SFX" action ToggleField(persistent, "_map_ocean_SFX")
+        bar value VariableValue('TL_edgescroll_speed', 700):
+            xalign 0.5 
+            yalign 0.8
+            xmaximum 300
+            ymaximum 50
+        if _preferences.language == None:
+            vbox xalign 0.7 yalign 0.45:
+                style_prefix "radio"
+                label __("Romanization")
+                textbutton "Romanization" action ToggleField(persistent, "romanized")
+                if persistent.romanized:
+                    textbutton "Modern Romanization" action SetField(persistent, "romanization", "Modern-Standard")
+                    textbutton "Pinyin Romanization" action SetField(persistent, "romanization", "Modern-Pinyin")
             
 
 
@@ -138,24 +159,24 @@ screen guo():
         draggable True
         mousewheel True
         pagekeys True
-        edgescroll (130, 130)
+        edgescroll (130, TL_edgescroll_speed)
         showif vbox_button_is_hovered:
-            vbox spacing 15:
+            vbox spacing 15: 
                 at fader
                 for n in TL_GUO:
                     if n.IsActive:
-                        textbutton n.name:
+                        textbutton n.Name:
                             keyboard_focus True
                             action SetVariable("nation", n)     
 
-    text [nation.name] xalign 0.5 ypos 40 style "GuoHeader" at slant_guo_name
-    text [nation.leader] xalign 0.25 yalign 0.2 style "GuoLeader"
-    text [nation.leadersub] xalign 0.28 yalign 0.25 style "GuoLeaderSub"
-    text [__("Government Type:")]+[nation.politicalID] xalign 0.9 yalign 0.45 style "GuoText"
+    text [nation.Name] xalign 0.5 ypos 40 style "GuoHeader" at slant_guo_name
+    text [nation.Leader] xalign 0.25 yalign 0.2 style "GuoLeader"
+    text [nation.LeaderSub] xalign 0.28 yalign 0.25 style "GuoLeaderSub"
+    text [__("Government Type:")]+[nation.PoliticalID] xalign 0.9 yalign 0.45 style "GuoText"
     text [__("Political Alignment:")]+[nation.AlignmentID] xalign 0.9 yalign 0.5 style "GuoText"
-    text [__("Ruling Party:")]+[nation.rulingparty] xalign 0.9 yalign 0.55 style "GuoText"
-    text [__("Alliances:")]+[nation.factionID] xalign 0.9 yalign 0.6 style "GuoText"
-    add nation.flagimg xalign 0.9 yalign 0.1 at guo_flag_pulse
+    text [__("Ruling Party:")]+[nation.RulingParty] xalign 0.9 yalign 0.55 style "GuoText"
+    text [__("Alliances:")]+[nation.FactionID] xalign 0.9 yalign 0.6 style "GuoText"
+    add nation.Get_Flag() xalign 0.9 yalign 0.1 at guo_flag_pulse
 
     imagebutton:
         idle "gui/button_return_icon.png"
@@ -164,41 +185,31 @@ screen guo():
         action Return()
     vbox xalign 0.3 ypos 300 xsize 600 ysize 1000 box_wrap True:
         # if persistent.descbox == "info":
-            text nation.info size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
+            text nation.Get_Info() size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
                 if _preferences.language == "chinesesim":
                     font "fonts/chi_cities/MaShanZheng-Regular.ttf"
         # elif persistent.descbox == "leader":
         #     text nation.leaderinfo size 20 font "fonts/chi_genkai/Genkaimincho.ttf":
         #         if _preferences.language == "chinesesim":
         #             font "fonts/chi_cities/MaShanZheng-Regular.ttf"
-    text "National Log" size 25 font "fonts/eng_moria/MoriaCitadel.ttf" style "TL_menu" color "#FFFFFF" xalign 0.3 ypos 680
-    vbox xalign 0.3 ypos 700 spacing 5:
-            for i in nation.log:
-                text i size 35 style "TL_menu"
-
-
-define persistent._map_audio = True
-define persistent._map_ocean_SFX = True
+    # text "National Log" size 25 font "fonts/eng_moria/MoriaCitadel.ttf" style "TL_menu" color "#FFFFFF" xalign 0.3 ypos 680
+    # vbox xalign 0.3 ypos 700 spacing 5:
+    #         for i in nation.log:
+    #             text i size 35 style "TL_menu"
 screen guo_map():
     tag menu
     use TL_keyfocus
     viewport:
         xysize (config.screen_width, config.screen_height)
         child_size (4040, 2230)
-        if persistent._map_audio == True and persistent._map_ocean_SFX == True:
-            mousearea: # For dyanmic sounds
-                focus_mask "GUO_FOCUS_OP"
-                hovered [ Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
-                unhovered [Stop("sound",fadeout=2.5)]
-        if show_beijing:
-            xinitial 2300
-            yinitial 500
-        else:
-            xinitial 2300
-            yinitial 500
+        window:
+            style "gm_root"
+            add "maps/GUO_map.png"
+        xinitial 2300
+        yinitial 500
         draggable True
         edgescroll (350, 350)
-        add "maps/GUO_map.png"
+        add mtt
         for q in TL_GUO_loc:
             $ nx = q.x +5
             $ ny = q.y -12
@@ -209,23 +220,69 @@ screen guo_map():
                 button:
                     xpos nx
                     ypos ny
-                    sensitive n_map != False
+                    sensitive GuoPlace.CitySensitive == True
                     keyboard_focus True
-                    text q.name style "MapText" at ambient
-                    action [act, Stop("sound", fadeout=2.5), Show('guo')]
+                    if persistent.romanized:
+                        if persistent.romanization == "Modern-Standard":
+                            text RomanizedMap.get(q.name) style "MapText" at ambient
+                        elif persistent.romanization == "Modern-Pinyin":
+                            text RomanizedPinyinMap.get(q.name) style "MapTextRomanized" at ambient
+                        else:
+                            text RomanizedMap.get(q.name) style "MapText" at ambient
+                    else:
+                        text q.name style "MapText" at ambient
+                    action [act, Stop("sound", fadeout=4.5), Show('guo')]
                 if not q.Port and not q.Capital:
-                    add "gui/map_bullet.png" xpos q.x ypos q.y
+                    #add "gui/map_bullet.png" xpos q.x ypos q.y
+                    imagebutton:
+                        idle "gui/map_bullet.png"
+                        hover "gui/map_bullet.png"
+                        xpos q.x 
+                        ypos q.y
+                        hovered [mtt.Action(Text("City"))]
+                        action NullAction()
                 if q.Port and not q.Capital:
-                    add "gui/map_port.png" xpos q.x ypos q.y
+                    #add "gui/map_port.png" xpos q.x ypos q.y
+                    imagebutton:
+                        idle "gui/map_port.png"
+                        hover "gui/map_port.png"
+                        xpos q.x 
+                        ypos q.y
+                        hovered [mtt.Action(Text("Port City", color="#FFFFFF"))]
+                        action NullAction()
                 if q.Capital and not q.Port:
-                    add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+                    #add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+                    imagebutton:
+                        idle  "gui/map_bullet_capital.png"
+                        hover  "gui/map_bullet_capital.png"
+                        xpos q.x 
+                        ypos q.y
+                        hovered [mtt.Action(Text("Capital City"))]
+                        action NullAction()
                 if q.Capital and q.Port:
-                    add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+                    #add "gui/map_bullet_capital.png" xpos q.x ypos q.y
+                    imagebutton:
+                        idle  "gui/map_bullet_capital.png"
+                        hover  "gui/map_bullet_capital.png"
+                        xpos q.x 
+                        ypos q.y
+                        hovered [mtt.Action(Text("Capital Port City", size=40))]
+                        action NullAction()
     on "show":
         action Play("notify", "sounds/menu/select_flip.ogg", loop=False)
     on "hide":
         action Stop("music", fadeout=2.5)
-                    
+
+screen guo_map_sound_areas():
+    tag soundmap
+    if persistent._map_audio == True and persistent._map_ocean_SFX == True:
+            mousearea: # For dyanmic sounds
+                focus_mask "GUO_FOCUS_OP"
+                hovered [ Play("sound", "sounds/map/ambient_seaside.ogg", loop=True)]
+                unhovered [Stop("sound",fadeout=2.5)] 
+
+
+
 screen glossary():
     default show_return = False
     default return_button_img = renpy.random.randint(1,3)
@@ -317,3 +374,8 @@ screen historical_event_log():
         vbox ypos 100 xsize 650 ysize 500 box_wrap True:
             text historical_event_log.get(event_display_desc, ""):
                 style "TL_menu"
+
+screen understanding_term():
+    tag menu
+    add "MENU_note"
+    

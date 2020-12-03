@@ -54,3 +54,6 @@
                           **properties)
 
         Shake = renpy.curry(_Shake)
+
+init python:
+    sshake = Shake((0, 0, 0, 0), 0.5, dist=5) #anger shake effect

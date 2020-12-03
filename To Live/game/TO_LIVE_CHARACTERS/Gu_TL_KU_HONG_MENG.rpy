@@ -26,5 +26,5 @@ define KuHongMengSkills = dict(
     )
 define KuHongMengConvo = [
     ]
-define KuHongMengLog = [
-    ]
+define KuHongMengLog = set(
+    )

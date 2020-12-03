@@ -1,29 +1,24 @@
 ﻿init 1:
-
+    #Beijing
+    image BEIJING_Kuhouse = "00_bg_environment/Ku_house.png"
+    image BEIJING_village = "00_bg_environment/art_cuandixia_village_route.png"
+    #Location Sprites
+    image LOCATION_Beijing = "00_bookmark_location/00_Beijing_city.jpg"
     #Map
     image GUO_FOCUS = "maps/GUO_MAP_FOCUS_MASK.png"
     image GUO_FOCUS_OP = "maps/GUO_MAP_FOCUS_MASK_OP.png"
-
     #Splashscreen 
-    image note = "00_menu_images/_NOTE.png"
-    image splash ="00_menu_images/slash.jpg"
-    image renpy_cred = "00_menu_images/_menu_renpy.png" 
+    image MENU_note = "00_menu_images/_NOTE.png"
+    image MENU_YYDSJ_logo ="00_menu_images/slash.jpg"
+    image MENU_RENPY = "00_menu_images/_menu_renpy.png" 
     image placeholder = "00_bg_environment/00_placeholder.png"
     define audio.act = "sounds/menu/select_flip.ogg"
-
-    #Beijing
-    image Ku_house = "00_bg_environment/Ku_house.png"
-    image CDX_village = "00_bg_environment/art_cuandixia_village_route.png"
-
-    #Location Sprites
-    image Beijing_location = "00_bookmark_location/00_Beijing_city.jpg"
-
     #Sounds
 
     define audio.checkfail = "sounds/menu/00checkfail.wav"
     define audio.checksuccess = "sounds/menu/00checksuccess.wav"
 
-    define audio.sound_menu_logo = "sounds/menu/logo_sound.ogg"
+    define audio.menu_sound_logo = "sounds/menu/logo_sound.ogg"
 
     define audio.interact = "sounds/menu/select_flip.ogg"
 
@@ -34,6 +29,8 @@
     define audio.chapter_1937 = "sounds/chapter_bookmarks_sounds/1937_sino_japanese_book_mark_sound.ogg"
 
     define audio.stat_increase = "sounds/stat_increase/00_stat_increase.ogg"
+
+    #Horror
 
     #Music
     define audio.forgetting_beijing = "music/01_forgetting_beijing.ogg"

@@ -989,3 +989,155 @@ translate french strings:
     old "Copies the errors.txt file to the clipboard as Markdown for Discord."
     new ""
 
+# TODO: Translation updated at 2020-08-12 10:35
+
+translate french strings:
+
+    # renpy/common/00accessibility.rpy:28
+    old "Self-voicing disabled."
+    new ""
+
+    # renpy/common/00accessibility.rpy:29
+    old "Clipboard voicing enabled. "
+    new ""
+
+    # renpy/common/00accessibility.rpy:30
+    old "Self-voicing enabled. "
+    new ""
+
+    # renpy/common/00accessibility.rpy:32
+    old "bar"
+    new ""
+
+    # renpy/common/00accessibility.rpy:33
+    old "selected"
+    new ""
+
+    # renpy/common/00accessibility.rpy:34
+    old "viewport"
+    new ""
+
+    # renpy/common/00accessibility.rpy:35
+    old "horizontal scroll"
+    new ""
+
+    # renpy/common/00accessibility.rpy:36
+    old "vertical scroll"
+    new ""
+
+    # renpy/common/00accessibility.rpy:37
+    old "activate"
+    new ""
+
+    # renpy/common/00accessibility.rpy:38
+    old "deactivate"
+    new ""
+
+    # renpy/common/00accessibility.rpy:39
+    old "increase"
+    new ""
+
+    # renpy/common/00accessibility.rpy:40
+    old "decrease"
+    new ""
+
+    # renpy/common/00accessibility.rpy:128
+    old "Font Override"
+    new ""
+
+    # renpy/common/00accessibility.rpy:132
+    old "Default"
+    new ""
+
+    # renpy/common/00accessibility.rpy:136
+    old "DejaVu Sans"
+    new ""
+
+    # renpy/common/00accessibility.rpy:140
+    old "Opendyslexic"
+    new ""
+
+    # renpy/common/00accessibility.rpy:146
+    old "Text Size Scaling"
+    new ""
+
+    # renpy/common/00accessibility.rpy:152
+    old "Reset"
+    new ""
+
+    # renpy/common/00accessibility.rpy:157
+    old "Line Spacing Scaling"
+    new ""
+
+    # renpy/common/00accessibility.rpy:169
+    old "Self-Voicing"
+    new ""
+
+    # renpy/common/00accessibility.rpy:173
+    old "Off"
+    new ""
+
+    # renpy/common/00accessibility.rpy:177
+    old "Text-to-speech"
+    new ""
+
+    # renpy/common/00accessibility.rpy:181
+    old "Clipboard"
+    new ""
+
+    # renpy/common/00accessibility.rpy:185
+    old "Debug"
+    new ""
+
+    # renpy/common/00accessibility.rpy:191
+    old "The options on this menu are intended to improve accessibility. They may not work with all games, and some combinations of options may render the game unplayable. This is not an issue with the game or engine. For the best results when changing fonts, try to keep the text size the same as it originally was."
+    new ""
+
+    # renpy/common/00accessibility.rpy:196
+    old "Return"
+    new ""
+
+    # renpy/common/00action_file.rpy:631
+    old "Page {}"
+    new ""
+
+    # renpy/common/00action_file.rpy:631
+    old "Automatic saves"
+    new ""
+
+    # renpy/common/00action_file.rpy:631
+    old "Quick saves"
+    new ""
+
+    # renpy/common/00preferences.rpy:430
+    old "font transform"
+    new ""
+
+    # renpy/common/00preferences.rpy:433
+    old "font size"
+    new ""
+
+    # renpy/common/00preferences.rpy:441
+    old "font line spacing"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:63
+    old "Image Attributes"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:90
+    old "[name] [attributes] (hidden)"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:94
+    old "[name] [attributes]"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:154
+    old "Hide deleted"
+    new ""
+
+    # renpy/common/_developer/developer.rpym:154
+    old "Show deleted"
+    new ""
+

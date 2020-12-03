@@ -37,4 +37,5 @@ init -1 python:
      __('Chang San'): __('N/A'),
      __('Ma-Kok'):__('N/A'),
      __('Báijiǔ'):__('N/A'),
-     __('I-Kuan-Tao'):__('N/A')}
+     __('I-Kuan-Tao'):__('N/A'),
+     __("Pai-Gow"):__('N/A')}

@@ -14,7 +14,7 @@
                 msg.msg(event+" is a logged Historical Event")
         def addhome(self, home):
             self.container.append(home)
-define persistent.unlocked_history = [] #Empty hitorical log
+define persistent.unlocked_history = ['home'] #Empty hitorical log
 default TL_history_log = historydict(
     container = persistent.unlocked_history
     )

@@ -899,3 +899,95 @@ translate chinesesim strings:
     old "The Molotov-Ribbentrop Pact guaranteed security. It seems that Hitler's ambitions in Europe will keep on growing and Soviet requirement to increase defence capability is important. Two Anti-Comintern pact members are now sizing up the borders of the USSR. A ultra-nationalist Germany in the west which will flatten land up to Moscow and a beligerant Japan in the East expecting a second Russo-Japanese war and a hefy territory to conquer. The Soviet Union now paranoid and in chaos has purged hope literally and figuretively as Stalin's paranoia grows. The USSR will arm themselves under their flag and fight for their motherland. They will sing glories of the defence of the motherland. Our men will follow order 255: Not One Step Back!"
     new ""
 
+# TODO: Translation updated at 2020-08-12 10:50
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:211
+    old "Chihfeng"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:223
+    old "Bayingol"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:224
+    old "Kumul"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:225
+    old "Nagqu"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:226
+    old "Kalgan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:227
+    old "Chaochow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:228
+    old "Chengtu"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:229
+    old "Kwuangyun"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:230
+    old "Hsilin Gol"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:231
+    old "Aba"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:232
+    old "Leshan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:233
+    old "Garze"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:234
+    old "Tongren"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:235
+    old "Kingchow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:236
+    old "Ankang"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:237
+    old "Shiyan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:238
+    old "Qamdo"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:239
+    old "Shiukwan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:240
+    old "Kanchow"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:241
+    old "Wu-Hsi"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:365
+    old "Sung Che-Yuan"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_mapping.rpy:425
+    old "Han Fuchu"
+    new ""
+

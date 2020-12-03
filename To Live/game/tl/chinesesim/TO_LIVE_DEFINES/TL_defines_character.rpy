@@ -170,3 +170,31 @@ translate chinesesim strings:
     old "Yumi"
     new ""
 
+# TODO: Translation updated at 2020-08-12 10:50
+
+translate chinesesim strings:
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:13
+    old "Authority"
+    new "权威"
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:24
+    old "Quick Wit"
+    new "机智"
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:39
+    old "Kuomintang Officer"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:40
+    old "Distant Soldier"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:44
+    old "Corporal Hu"
+    new ""
+
+    # game/TO_LIVE_DEFINES/TL_defines_character.rpy:56
+    old "Liutenant Tsai"
+    new ""
+

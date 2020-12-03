@@ -80,4 +80,23 @@ init python:
         renpy.show_screen(_screen_name='scr_achievement_update', title=ach['title'], a_text=ach['text'],
                           icon=ach['icon'], cur_prog=ach['cur_prog'], max_prog=ach['max_prog'], trans=trans)
 
+    persistent.achievements_dict = {"test1": {"type": 0, # One time achievement
+                                                             "title": "Yay!", # Also name for steam
+                                                             "text": "Wow you've achieved!", # description
+                                                             "icon": "images/ach.png" # 96x96 image
+                                                             },
+                                          "test2": {"type": 1, # Progress achievement
+                                                             "title": "Progress!",
+                                                             "text": "Making progress...",
+                                                             "icon": "images/ach2.png",
+                                                             "cur_prog": 0, # current progress 
+                                                             "max_prog": 3# maximal progress
+                                                             }
+                                        }
+                                        
 
+    for i, a in persistent.achievements_dict.items():
+        if a['type'] == 0:
+            achievement.register(i, steam=a['title'])
+        if a['type'] == 1:
+            achievement.register(i, steam=a['title'], stat_max=a['max_prog'])
