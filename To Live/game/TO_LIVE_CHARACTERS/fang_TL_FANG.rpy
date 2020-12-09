@@ -54,7 +54,7 @@ define FangJieSkills = dict(
         determination=5,
         dexterity=3,
         empathy=4,
-        encyclopedia=6,
+        schema=6,
         endurance=2,
         faith=4,
         focus=2,
@@ -76,21 +76,6 @@ define FangJieConvo = [
 define FangJieLog = set(
     )
 
-#health
-default currenthp = 50
-default maxhp = 50
-default money_loc = _("Fabi")
-
-#Religion
-define Taoist = False
-define Buddhist = False
-define Christian = False
-define Yiguandao = False
 define religions = [ __("Taoism"), __("Buddhism"), __("Christian"), __("Yiguandao"), __("Islam"), __("Shintoism"), __("Communism")]
 #character
-define is_student = False
-define is_apprentice = False
-define is_worker = False
-define is_free = False
-define angst = renpy.random.randint(1,100)
-define saucy_thoughts = renpy.random.randint(1,100)
+default mc_name = "Fang Jie"

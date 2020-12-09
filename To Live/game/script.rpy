@@ -107,19 +107,13 @@ label Sino_Japanese_bookmark_chapter_one_splash:
     $currenthp = 50
     $maxhp = 50
 
-    play sound ambience_steps
-    show LOCATION_Beijing with dissolve
-    with Pause (2)
+    
     $ _skipping = True
     scene black with dissolve
     with Pause(3)
     $ quick_menu = True
 
     $ Sino_Japanese_war_bookmark = True
-    show screen date
-    show screen month
-    show screen year
-    show screen daytime
 
     $ mouse_visible = True
     $ _dismiss_pause = True

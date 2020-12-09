@@ -48,7 +48,7 @@ define SkillsetDictionary = {
     'determination':__('Will-Power'),
     'dexterity':__('Dexterity'),
     'empathy':__('Empathy'),
-    'encyclopedia':__('Schema'),
+    'schema':__('Schema'),
     'endurance':__('Endurance'),
     'faith':__('Faith'),
     'focus':__('Focus'),

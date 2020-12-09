@@ -1,4 +1,4 @@
-Thu Dec 03 22:33:22 2020
+Wed Dec 09 23:58:31 2020
 Windows-8-6.2.9200
 Ren'Py 7.3.5.606
 To Live 0.0.83
@@ -8,10 +8,10 @@ renpy/common/00gltest.rpy 445
 Total Miss <'Image' u'GUI/00_cursor.png'>
 ----
 renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
 ----
 game/script.rpy 17
 Total Miss <'Image' u'00_menu_images/_NOTE.png'>
-Total Miss <'Image' u'_transparent_tile.png'>
 Kept <'Image' u'_transparent_tile.png'>
 Predict screen main_menu
 Predict screen quick_menu
@@ -66,6 +66,7 @@ Predict screen quick_menu
 Predict screen notif
 ----
 game/script.rpy 34
+Kept <'Image' u'_transparent_tile.png'>
 ----
 game/script.rpy 35
 Kept <'Image' u'_transparent_tile.png'>
@@ -79,75 +80,37 @@ Predict screen quick_menu
 Predict screen notif
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bg_environment/00_placeholder.png'>
-Predict screen guo_map
-Added <'Image' u'gui/map_port.png'> (15.93%)
-Added <'Image' u'gui/map_bullet_capital.png'> (15.93%)
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Predict screen TL_pref
-Predict screen invdisplay
-Added <'Image' u'maps/GUO_map.png'> (27.38%)
-Predict screen load
-Added <'Image' u'gui/map_bullet.png'> (27.38%)
-Added <'Image' u'history_log_bgs/default_history_bg.png'> (30.02%)
-Added <'Image' u'gui/button/check_foreground.png'> (30.02%)
-Added <'Image' u'gui/button/check_selected_foreground.png'> (30.02%)
-Added <'Image' u'gui/slider/horizontal_idle_thumb.png'> (30.02%)
-Added <'Image' u'gui/slider/horizontal_hover_thumb.png'> (30.02%)
-Predict screen preferences
-Added <'Image' u'gui/game_menu.png'> (32.66%)
-Added <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486> (32.76%)
-Predict screen quit
-Added <'Image' u'gui/main_menu.png'> (35.40%)
 ----
 renpy/common/_layout/screen_main_menu.rpym 28
-Added <'Image' u'gui/overlay/game_menu.png'> (38.04%)
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bg_environment/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-----
-renpy/common/_layout/screen_main_menu.rpym 28
 ----
 game/script.rpy 98
 Kept <'Image' u'_transparent_tile.png'>
 ----
 game/script.rpy 99
 Kept <'Image' u'_transparent_tile.png'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
+Predict screen say
+Predict screen say
 Predict screen quick_menu
 Predict screen notif
 Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Added <'Image' u'00_bookmark_location/00_Beijing_city.jpg'> (40.67%)
+Added <'Image' u'gui/textbox.png'> (16.60%)
+Added <'Image' u'gui/main_menu.png'> (19.21%)
+Added <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486> (19.31%)
+Added <'Image' u'gui/game_menu.png'> (21.95%)
+Added <'Image' u'gui/overlay/game_menu.png'> (24.59%)
 ----
 game/script.rpy 101
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
 ----
 game/script.rpy 102
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
 ----
 game/script.rpy 103
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bookmark_location/00_Beijing_city.jpg'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
+Predict screen say
+Kept <'Image' u'gui/textbox.png'>
+Predict screen say
+Predict screen say
 Predict screen say
 Predict screen quick_menu
 Predict screen notif
@@ -156,42 +119,15 @@ Kept <'Image' u'gui/main_menu.png'>
 Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
 Kept <'Image' u'gui/game_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
-Added <'Image' u'gui/textbox.png'> (41.35%)
-----
-game/script.rpy 111
-Kept <'Image' u'_transparent_tile.png'>
 ----
 game/script.rpy 112
 Kept <'Image' u'_transparent_tile.png'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
+----
+game/script.rpy 113
+Kept <'Image' u'_transparent_tile.png'>
 Predict screen say
 Kept <'Image' u'gui/textbox.png'>
 Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/script.rpy 114
-Kept <'Image' u'_transparent_tile.png'>
-----
-game/script.rpy 115
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen date
-Predict screen month
-Predict screen year
-Predict screen daytime
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
 Predict screen say
 Predict screen say
 Predict screen say
@@ -205,693 +141,1011 @@ Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot
 Kept <'Image' u'gui/game_menu.png'>
 Kept <'Image' u'gui/overlay/game_menu.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 13
-Total Miss <'Image' u'gui/namebox.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 8
 Total Miss <'Image' 'GUI/ctc.png'>
-Total Miss <'Image' u'gui/button/quick_idle_background.png'>
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 14
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 15
+Total Miss <'Image' u'gui/namebox.png'>
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 15
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 15
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 16
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 17
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 18
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 20
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 21
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 22
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 23
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Total Miss <'Image' u'gui/button/quick_hover_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 24
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 25
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 26
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 27
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 28
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 29
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Added <'Image' u'gui/choice_bg.png'> (43.95%)
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 30
+renpy/common/00console.rpy 807
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 31
+renpy/common/00console.rpy 807
+Total Miss <'Image' u'gui/skip.png'>
+----
+renpy/common/00console.rpy 807
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
 Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 32
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 33
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 34
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 35
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 36
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen choice
-Kept <'Image' u'gui/choice_bg.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 2
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 2
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 2
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 2
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 2
-Total Miss <'Image' u'gui/button/choice_idle_background.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 2
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen choice
-Kept <'Image' u'gui/textbox.png'>
-Kept <'Image' u'gui/choice_bg.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Total Miss <'Image' u'gui/button/choice_hover_background.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 4
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 5
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 6
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/button/hover_background.png'>
+Total Miss <'Image' u'images/choice_icons/kwangchow_flag.png'>
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 6
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 6
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
+renpy/common/00keymap.rpy 421
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 7
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
+renpy/common/00keymap.rpy 421
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 38
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 39
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+renpy/common/00gltest.rpy 445
+Added <'Image' u'_transparent_tile.png'> (0.02%)
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 40
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+renpy/common/00keymap.rpy 456
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 41
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 42
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 43
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 44
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/button/hover_background.png'>
+Total Miss <'Image' u'images/choice_icons/kwangchow_flag.png'>
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 44
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 44
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 45
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 46
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 46
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 46
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 47
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 48
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 49
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 49
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 49
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 50
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 51
-Kept <'Image' u'_transparent_tile.png'>
-Predict screen say
-Kept <'Image' u'gui/textbox.png'>
-Predict screen say
-Predict screen quick_menu
-Predict screen notif
-Predict screen save
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 ----
-game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_sino_japanese_war_bookmark.rpy 52
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
 ----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bg_environment/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen invdisplay
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
-Added <'Image' u'00_menu_images/00_end.png'> (46.75%)
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 ----
-renpy/common/_layout/screen_main_menu.rpym 28
-Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bg_environment/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
-Predict screen glossary
-Predict screen poems
-Predict screen historical_event_log
-Kept <'Image' u'history_log_bgs/default_history_bg.png'>
-Predict screen TL_pref
-Kept <'Image' u'gui/button/check_foreground.png'>
-Kept <'Image' u'gui/button/check_selected_foreground.png'>
-Kept <'Image' u'gui/slider/horizontal_idle_thumb.png'>
-Kept <'Image' u'gui/slider/horizontal_hover_thumb.png'>
-Predict screen invdisplay
-Predict screen load
-Kept <'Image' u'gui/game_menu.png'>
-Kept <'ZipFileImage' u'E:\\renpy\\To Live/game\\saves\\1-1-LT1.save' 'screenshot.png' 1594204782.1290486>
-Kept <'Image' u'gui/main_menu.png'>
-Kept <'Image' u'gui/overlay/game_menu.png'>
-Predict screen preferences
-Predict screen quit
-Kept <'Image' u'00_menu_images/00_end.png'>
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 ----
-renpy/common/_layout/screen_main_menu.rpym 28
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
 Kept <'Image' u'_transparent_tile.png'>
-Kept <'Image' u'00_bg_environment/00_placeholder.png'>
-Predict screen guo_map
-Kept <'Image' u'gui/map_port.png'>
-Kept <'Image' u'gui/map_bullet_capital.png'>
-Kept <'Image' u'maps/GUO_map.png'>
-Kept <'Image' u'gui/map_bullet.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Kept <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/button/hover_background.png'>
+Total Miss <'Image' u'images/choice_icons/kwangchow_flag.png'>
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Kept <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Kept <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Kept <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00keymap.rpy 421
+----
+renpy/common/00gltest.rpy 445
+Total Miss <'Image' u'GUI/00_cursor.png'>
+----
+renpy/common/00gltest.rpy 445
+----
+renpy/common/00keymap.rpy 456
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'gui/textbox.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 255 True> 1.0 1.0 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+Total Miss <'Image' u'gui/button/idle_background.png'>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 76 True> 0.30000000000000004 0.30000000000000004 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 51 True> 0.20000000000000007 0.20000000000000007 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 229 True> 0.9000000000000001 0.9000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 102 True> 0.40000000000000013 0.40000000000000013 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 127 True> 0.5000000000000001 0.5000000000000001 True>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 255 True> 1.0 1.0 True>
+Kept <'Image' u'_transparent_tile.png'>
+Total Miss <'Image' u'00_globals/ember.png'>
+Removed <'Image' u'00_globals/ember.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Removed <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/ember.png'> 255 255 255 204 True> 0.8 0.8 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 178 True> 0.7000000000000001 0.7000000000000001 True>
+Total Miss <'Image' u'00_globals/abyss.png'>
+Removed <'Image' u'00_globals/abyss.png'>
+Total Miss <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Removed <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True>
+Total Miss <'FactorScale' <'Recolor' <'Image' u'00_globals/abyss.png'> 255 255 255 153 True> 0.6000000000000001 0.6000000000000001 True>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/button/hover_background.png'>
+Total Miss <'Image' u'images/choice_icons/kwangchow_flag.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/overlay/confirm.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Total Miss <'Image' u'gui/frame.png'>
+----
+game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy 76
+Kept <'Image' u'_transparent_tile.png'>

@@ -2,7 +2,7 @@
 # Add a Random Check Modifier Ability.
 define npercentage = 0
 define nskill = 0
-
+ 
  ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######
 ##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ##
 ##       ##     ##  ##   ##  ##     ##  ##   ##  ##          ##    ##       ##     ## ##
@@ -127,14 +127,24 @@ init python:
             else:
                 raise Exception("Invalid Skill Key for function \'skillval()\'.")
         def convo(self, topic, event=False):
+            devlog.info("New conversation: "+str(topic))
             self.convolog.append(topic)
             if event == True:
                 self.eventlog.add(topic)
 
         def said(self, phrase):
+            devlog.info("Checked for "+str(phrase)+" in conversation.")
             return phrase in self.convolog
 
+        def forget(self, phrase):
+            try:
+                self.convolog.remove(phrase)
+                devlog.info(phrase+" has been forotten.")
+            except:
+                devlog.info("forgetting "+phrase+" has been excepted.")
+
         def clearconvo(self):
+            devlog.info("Conversation has been cleared.")
             self.convolog.clear()
         
         def log(self, event):
@@ -159,6 +169,7 @@ init python:
                         renpy.play("sounds/menu/00_checksuccess.ogg", channel="skills")
                     if msge == True:
                         msg.msg(SkillsetDictionary[skill]+" challenge success.")
+                    devlog.info(str(skill)+" success in the difficulty of "+str(x)+"-"+str(y))
                     return True
 
                 elif test == "Failure":
@@ -167,6 +178,7 @@ init python:
                         renpy.play("sounds/menu/00_checkfail.ogg", channel="skills")
                     if msge == True:
                         msg.msg(SkillsetDictionary[skill]+" challenge failed.")
+                    devlog.info(SkillsetDictionary[skill]+" failure in the difficulty of "+str(x)+"-"+str(y))
                     return False
             else:
                 raise Exception("Invalid Skill Key for function RandomCheck.")

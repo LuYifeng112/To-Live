@@ -201,6 +201,12 @@ style TL_menu is text:
     kerning -1
 # style TL_pref is button:
 #     activate_sound "sounds/menu/select_flip.ogg"
+style TL_CHOICE is text:
+    antialias True
+    color "#FFFFFF" 
+    hover_color "#FF0000" 
+    size 30
+    kerning -2
 ######## ########     ###    ##    ##  ######  ########  #######  ########  ##     ##  ######  
    ##    ##     ##   ## ##   ###   ## ##    ## ##       ##     ## ##     ## ###   ### ##    ## 
    ##    ##     ##  ##   ##  ####  ## ##       ##       ##     ## ##     ## #### #### ##       
@@ -358,10 +364,7 @@ transform choice_transform:
                 linear 0.5 zoom 0
 
 transform my_tr(t):
-    alpha 0.0 xoffset -20
+    alpha 0.0
     t/5.0 # do not forget decimal part
     parallel:
         ease 0.5 alpha 1.0
-    parallel:
-        ease 0.3 xoffset 20
-        ease 0.2 xoffset 0

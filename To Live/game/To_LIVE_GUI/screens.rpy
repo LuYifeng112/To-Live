@@ -212,20 +212,14 @@ style say_dialogue:
 ## various input parameters.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#input
-
-screen input(prompt):
-    style_prefix "input"
+screen input:
 
     window:
 
-        vbox:
-            xalign gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
-
-            text prompt style "input_prompt"
-            input id "input"
+        style "game_menu"
+        
+        text prompt xalign 0.5 yalign 0.4
+        input id "input" xalign 0.5 yalign 0.5 kerning -2
 
 style input_prompt is default
 
@@ -283,28 +277,29 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
-
-    use TL_keyfocus
-    ## Ensure this appears on top of other screens.
     zorder 100
+    if not choiceon == False:
+        use TL_keyfocus
+        ## Ensure this appears on top of other screens.
+        
 
-    if quick_menu:
+        if quick_menu:
 
-        hbox:
-            style_prefix "quick"
+            hbox:
+                style_prefix "quick"
 
-            xalign 0.5
-            yalign 1.0
+                xalign 0.5
+                yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
-            textbutton _("National Map") action ShowMenu('guo_map')
+                textbutton _("Back") action Rollback()
+                textbutton _("History") action ShowMenu('history')
+                textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+                textbutton _("Auto") action Preference("auto-forward", "toggle")
+                textbutton _("Save") action ShowMenu('save')
+                textbutton _("Q.Save") action QuickSave()
+                textbutton _("Q.Load") action QuickLoad()
+                textbutton _("Prefs") action ShowMenu('preferences')
+                textbutton _("National Map") action ShowMenu('guo_map')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -1654,32 +1649,55 @@ screen quit():
 
     textbutton __("Yes") text_size 70 xalign 0.51 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Quit(confirm=False)
     textbutton __("No") text_size 70 xalign 0.85 yalign 0.85 text_color "#3b5bc2" text_hover_color "#ff7b02" action Return() keysym "K_ESCAPE"
-
+default choiceon = False
 screen choice(items):
+    default choice_context=None
     window:
         at choice_transform
         style "menu_window"
-    style_prefix "choice"
-    add "gui/choice_bg.png" at choice_bg
+    add "ashes"
+    add "ashes_ember"
+    $ tooltip = GetTooltip()
     vbox:
-            spacing 2
+            spacing 10
+            yalign 0.5
 
             for t, (caption, action, chosen) in enumerate(items): # t would have value for each choice (start from 0, step 1)
 
                 if action:
+                    $ tt = caption[caption.find("(")+1:caption.find(")")]
+                    $ caption = caption.replace(" ("+tt+")", "")
+                    if '|' in caption:
+                        textbutton caption.split('|')[0] action action hovered [SetScreenVariable("choice_context", caption.split('|')[1]), Play("sound", "sounds/menu/00_checkfail.ogg")] unhovered SetScreenVariable("choice_context",None) tooltip tt at my_tr(t)
+                    else:
+                        button:
+                            at my_tr(t) # apply transform with t as argument
+                            action action
+                            hovered Play("sound","sounds/menu/00_checkfail.ogg")
+                            
 
-                    button:
-                        at my_tr(t) # apply transform with t as argument
-                        action action
-                        style "choice_button"
-
-                        text caption style "ChoiceText"
+                            text caption style "TL_CHOICE"
                 else:
                     text caption style "ChoiceText"at my_tr(t) # apply transform with t as argument
-
+    if tooltip:
+        add "[tooltip]" xalign 0.5 yalign 0.5 at slow_fader
+    if choice_context is not None:
+        vbox xalign 1.0 yalign 0.6 xsize 650 ysize 500 box_wrap True:
+            text choice_context at slow_fader:
+                font "fonts/chi_pinyin/Alegreya-Regular.ttf"
+    on "show":
+        action SetVariable("choiceon", value=True)
+    on "hide":
+        action SetVariable("choiceon", value=False)
 transform fader:
     on show:
         alpha 0.0
         easein 0.25 alpha 1.0
     on hide:
         easeout 0.25 alpha 0.0
+transform slow_fader:
+    on show:
+        alpha 0.0
+        easein 1 alpha 1.0
+    on hide:
+        easeout 0.5 alpha 0.0
