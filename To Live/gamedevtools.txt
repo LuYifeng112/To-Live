@@ -1715,3 +1715,852 @@ Choice: Macao|A Portuguese landing in the coastal China area.   A place of
 wonder and awe and enigmatic delights where one can indulge wholeheartedly.
 Simply put, a land of embraced vices and risky rewards.( )
 
+﻿--- Thu Dec 10 20:47:44 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.( )
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:09:05 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.( )
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+No choice chosen.
+
+--- Thu Dec 10 23:10:32 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.( )
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:11:37 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:13:22 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:14:44 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:15:03 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:16:09 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:16:46 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:17:54 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:18:16 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:22:07 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.( )
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.( )
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. ( )
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.( )
+
+﻿--- Thu Dec 10 23:24:31 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_default.png)
+
+﻿--- Thu Dec 10 23:26:34 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_default.png)
+
+﻿--- Thu Dec 10 23:26:55 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_placeholder.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_placeholder.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_placeholder.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_placeholder.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_placeholder.png)
+
+﻿--- Thu Dec 10 23:27:42 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_placeholder.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_placeholder.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_placeholder.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_placeholder.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_placeholder.png)
+
+﻿--- Thu Dec 10 23:28:28 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_placeholder.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_placeholder.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_placeholder.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_placeholder.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_placeholder.png)
+
+﻿--- Thu Dec 10 23:30:37 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_placeholder.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_placeholder.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_placeholder.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_placeholder.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_placeholder.png)
+
+﻿--- Thu Dec 10 23:31:15 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope.(images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China.(images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and
+thinking.(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom.(images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky
+rewards.(images/choice_icons/00_default.png)
+
+﻿--- Thu Dec 10 23:31:50 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope. (images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous life that could one day be for the
+rest of China. (images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.
+(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. (images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.
+(images/choice_icons/00_default.png)
+
+No choice chosen.
+
+Professor Po Yeutarng
+"Oh I see, you're one of them from the capital."
+
+Professor Po Yeutarng
+"It's a nice bustling city that been growing quite fast recently."
+
+Professor Po Yeutarng
+"It's quite near to Shanghai as well."
+
+Professor Po Yeutarng
+"Plus any foreigner in Nanking is less of a tourist and more of a diplomat."
+
+Professor Po Yeutarng
+"Its a shame I never went there despite calls for a visit there."
+
+--- Thu Dec 10 23:35:02 2020
+
+﻿--- Fri Dec 11 16:54:21 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope. (images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous and social life that could one day be
+for the rest of China. (images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.
+(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. (images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.
+(images/choice_icons/00_default.png)
+
+No choice chosen.
+
+﻿--- Fri Dec 11 16:55:57 2020
+
+﻿--- Fri Dec 11 16:56:25 2020
+
+Nanking
+
+﻿--- Fri Dec 11 16:57:22 2020
+
+﻿--- Fri Dec 11 16:57:53 2020
+
+﻿--- Fri Dec 11 16:58:45 2020
+
+﻿--- Fri Dec 11 17:00:55 2020
+
+NK
+
+--- Fri Dec 11 17:01:00 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope. (images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous and social life that could one day be
+for the rest of China. (images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.
+(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. (images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.
+(images/choice_icons/00_default.png)
+
+No choice chosen.
+
+﻿--- Fri Dec 11 17:02:37 2020
+
+﻿--- Fri Dec 11 17:03:43 2020
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope. (images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous and social life that could one day be
+for the rest of China. (images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.
+(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. (images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.
+(images/choice_icons/00_default.png)
+
+No choice chosen.
+
+﻿--- Fri Dec 11 17:04:34 2020
+
+﻿--- Fri Dec 11 17:04:39 2020
+
+﻿--- Fri Dec 11 17:05:21 2020
+
+﻿--- Fri Dec 11 17:06:07 2020
+
+﻿--- Fri Dec 11 17:06:26 2020
+
+﻿--- Fri Dec 11 17:07:13 2020
+
+﻿--- Fri Dec 11 17:07:59 2020
+
+﻿--- Fri Dec 11 17:09:36 2020
+
+Anti-Homunculus
+Fang
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope. (images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous and social life that could one day be
+for the rest of China. (images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.
+(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. (images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.
+(images/choice_icons/00_default.png)
+
+No choice chosen.
+
+﻿--- Fri Dec 11 17:11:52 2020
+
+﻿--- Fri Dec 11 17:12:08 2020
+
+﻿--- Fri Dec 11 17:13:21 2020
+
+﻿--- Fri Dec 11 17:15:07 2020
+
+﻿--- Fri Dec 11 17:16:23 2020
+
+﻿--- Fri Dec 11 17:20:08 2020
+
+﻿--- Fri Dec 11 17:25:46 2020
+
+﻿--- Fri Dec 11 17:26:08 2020
+
+﻿--- Fri Dec 11 17:26:15 2020
+
+﻿--- Fri Dec 11 17:27:22 2020
+
+﻿--- Fri Dec 11 17:28:12 2020
+
+﻿--- Fri Dec 11 17:28:44 2020
+
+﻿--- Fri Dec 11 17:29:05 2020
+
+﻿--- Fri Dec 11 17:30:37 2020
+
+﻿--- Fri Dec 11 17:31:19 2020
+
+﻿--- Fri Dec 11 17:48:07 2020
+
+﻿--- Fri Dec 11 17:51:11 2020
+
+﻿--- Fri Dec 11 17:54:01 2020
+
+Nanking
+
+NK
+
+--- Fri Dec 11 17:54:05 2020
+
+﻿--- Fri Dec 11 22:16:20 2020
+
+Choice: Where did you get the name Poppy?|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is consuming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Never-mind. Just let it be.|Inside jokes lose their value when spread around
+to others.  Humor forms through relationships and bonds and it feels off to
+dig them up.  Knowing about it won't claw my sleep away or dissatisfy my
+curiosity. (images/choice_icons/00_default.png)
+
+﻿--- Fri Dec 11 22:17:28 2020
+
+Choice: Where did you get the name Poppy?|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is consuming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+off to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. (images/choice_icons/00_default.png)
+
+﻿--- Fri Dec 11 22:18:06 2020
+
+Choice: Where did you get the name Poppy?|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is overwhelming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+off to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. (images/choice_icons/00_default.png)
+
+﻿--- Fri Dec 11 22:18:46 2020
+
+Choice: Where did you get the name Poppy?|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is overwhelming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+"off" to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. Its better to just leave it.
+(images/choice_icons/00_default.png)
+
+﻿--- Fri Dec 11 22:19:39 2020
+
+Choice: "Where did you get the name Poppy?"|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is overwhelming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+"off" to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. Its better to just leave it.
+(images/choice_icons/00_default.png)
+
+﻿--- Fri Dec 11 22:21:21 2020
+
+Choice: "Where did you get the name Poppy?"|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is overwhelming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+"off" to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. Its better to just leave it.
+(images/choice_icons/00_default.png)
+
+Uncle Ku gave a smug smile and smirked at Professor Po who likewise grinned at
+this remark.
+
+Choice: "Where did you get the name Poppy?"|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is overwhelming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+"off" to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. Its better to just leave it.
+(images/choice_icons/00_default.png)
+
+Uncle Ku gave a smug smile and smirked at Professor Po who likewise grinned at
+this remark.
+
+Rhetorics
+Must be an inside joke.
+
+Rhetorics
+Perhaps we can find out more about this if we pry a bit into the buried past.
+
+Choice: "Where did you get the name Poppy?"|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+aftermath of war.  The curiosity is overwhelming to find out the inception of
+this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+"off" to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. Its better to just leave it.
+(images/choice_icons/00_default.png)
+
+﻿--- Fri Dec 11 22:22:55 2020
+
+Choice: "Where did you get the name Poppy?"|Poppies are the direct result of
+ravaged landscapes which scatter their seeds.  Ultimately a symbol of the
+cruel aftermath of war.  The curiosity is overwhelming to find out the
+inception of this peculiar nickname. (images/choice_icons/00_default.png)
+Choice: Never-mind. Just let it be.|Inside jokes lose their value when spread
+around to others.  Humor forms through relationships and bonds and it feels
+"off" to dig them up.  Knowing about it won't claw my sleep away or dissatisfy
+my curiosity. Its better to just leave it.
+(images/choice_icons/00_default.png)
+
+Choice: Nanking|Home of the Kuomintang, the nationalist military
+administration committed to preserving Dr Sun's Legacy.  An urban, peaceful
+budding metropolis.  A land for hope. (images/choice_icons/00_default.png)
+Choice: Shanghai|The West's foothold in Asia.  An urban center akin to
+Nanking, consisting of heavy trade and port dealings with Britain and the
+United States.  A blend of a prosperous and social life that could one day be
+for the rest of China. (images/choice_icons/00_default.png)
+Choice: Tsingtao|The legacy of German colonialism in Asia.  A coastal city
+that is becoming a vital node in the heartland of China's growing economic
+prowess.  A land of industrious work ethic and thinking.
+(images/choice_icons/00_default.png)
+Choice: Kwangchow|The vanguard of Southern Tradition.  A urban and budding
+metropolis investing in education and academia to further progress China.
+Birth of the Kuomintang military administration.  The land to cultivate a
+character of erudite. (images/choice_icons/kwangchow_flag.png)
+Choice: Hong-Kong|A British fortress in the South East Asia.  A heavily
+anglicized way of life has been introduced here and culminated an amalgamation
+of cultures.   A land of skilled documentation and rhetorics presiding over
+wisdom. (images/choice_icons/00_default.png)
+Choice: Macao|A Portuguese landing in the coastal China area.   A place of
+wonder and awe and enigmatic delights where one can indulge wholeheartedly.
+Simply put, a land of embraced vices and risky rewards.
+(images/choice_icons/00_default.png)
+
+No choice chosen.
+
+Nanking
+
+--- Fri Dec 11 22:26:31 2020
+

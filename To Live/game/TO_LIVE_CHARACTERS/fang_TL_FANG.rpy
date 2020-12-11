@@ -41,8 +41,7 @@ define FangJie_traits = [
    __("Well-Informed"),
    __("Protester"),
    __("Righteous"),
-   __("Impulsive"), 
-   __("Sensitive"),
+   __("Impulsive"),
    __("Stressed"),
    __("Tolerant"),
    __("Well-Educated")

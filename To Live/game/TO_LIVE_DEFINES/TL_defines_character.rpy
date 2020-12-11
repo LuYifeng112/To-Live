@@ -2,6 +2,7 @@
 # Add a Random Check Modifier Ability.
 define npercentage = 0
 define nskill = 0
+default void = __("Anti-Humonculus")
  
  ######  ##     ##    ###    ########     ###     ######  ######## ######## ########   ######
 ##    ## ##     ##   ## ##   ##     ##   ## ##   ##    ##    ##    ##       ##     ## ##    ##
@@ -26,19 +27,14 @@ define character.schema = Character(__("Schema"), image="schema", what_italic=Tr
 define character.reaction = Character(__("Quick Wit"), image="reaction", what_italic=True, who_color="#3154b5", ctc="ctc_blink", ctc_position="nestled")
 define character.vice = Character(__("Vice"), image="vice", who_font="fonts/eng_chars/vice/dispose/DISPOSE1.ttf", what_font="fonts/eng_chars/vice/Eutemia.ttf", what_size=50, what_color="#000000", what_italic=True, who_color="#000000", ctc="ctc_blink", ctc_position="nestled", show_always_effect = always_shake(x = 1, y = 1))
 define character.visualcomprehension = Character(__("Visual Comprehension"), image="visualcomprehension", what_italic=True, who_font="fonts/eng_chars/visualcomprehension/Cinzel-Regular.ttf", what_font="fonts/eng_chars/visualcomprehension/Caladea-Italic.ttf", what_color="#000000",  who_color="#000000", ctc="ctc_blink", ctc_position="nestled")
-define character.void = Character(__("Anti-Homunculus"), ctc="ctc_blink", ctc_position="nestled")
+define character.void = Character("[void]", ctc="ctc_blink", ctc_position="nestled")
 
 define character.narrator = Character(ctc="ctc_blink", ctc_position="nestled")
 init 9999:
     define na = Character(None, show_slow_effect = slow_nonsense, show_slow_effect_delay = 1.0, kind=centered)
     define no = Character(None, show_always_effect = always_shake(x = 1, y = 1), kind=centered, show_layer='master')
-define character.f = Character(__("Pater Abyssum Irent"), who_color="#fc0335", what_pefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #MISC
 define character.un = Character("???",what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define character.thought = Character(None, what_italic=True, what_alt="I think, [text]")
-define character.prostitute = Character(__("Chang San Brothel worker"),what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define character.ko = Character(__("Kuomintang Officer"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
-define character.ds = Character(__("Distant Soldier"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled")
 #1937
 define character.Ab = Character(__("Ah Bai"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ab")
 define character.Am = Character(__("Ah Mei"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Am")
@@ -46,7 +42,7 @@ define character.Ch = Character(__("Corporal Hu"), what_prefix='"', what_suffix=
 define character.Dy = Character(__("Da-Yu"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Dy")
 define character.Ghe = Character(__("Guo He"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ghe")
 define character.Gh = Character(__("Guo Heng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="gh")
-define character.Gu = Character(__("Ku Hong-Meng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
+define character.Ku = Character(__("Ku Hong-Meng"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Gu")
 define character.Lc = Character(__("Lao Chang"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Lc")
 define character.Li = Character(__("Li-Li"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Li")
 define character.Ls = Character(__("Li Tso-Shih"), what_prefix='"', what_suffix='"', ctc="ctc_blink", ctc_position="nestled", voice_tag="Ls")
@@ -81,14 +77,15 @@ init python:
             else:
                 randval -= weight
 
-    class Char(store.object):      
+    class Char(store.object):  
+        hometown=None    
         def __init__(self, mood, bond, pol, rel, traits, skillset, convolog, eventlog, bag=None):
             self.mood = mood
             self.bond = bond
             self.pol = pol
             self.rel = rel
             self.traits = traits
-            self.skillset = skillset
+            self.skillset = skillset 
             self.convolog = convolog
             self.eventlog = eventlog
             self.bag = bag
@@ -115,9 +112,15 @@ init python:
         def addSkill(self, skill, val):
             self.skillset.update(skill=val)
 
-        def updateSkill(self, skill, val):
+        def updateSkill(self, skill, val, msge=True):
             if skill in self.skillset:
                 self.skillset[skill] += val
+                devlog.info(str(skill)+" increased by:"+str(val)+" to: "+str(self.skillset[skill]))
+                if msge==True:
+                    if val == 1:
+                        msg.msg(SkillsetDictionary[str(skill)]+" increased by 1 point to level "+str(self.skillset[skill]))
+                    else:
+                        msg.msg(SkillsetDictionary[str(skill)]+" increased by "+str(val)+" points to level "+str(self.skillset[skill]))
             else:
                 raise Exception("Invalid Skill Key or Invalid Skill in Character Skillset for function \'updateSkill()\'.")
     

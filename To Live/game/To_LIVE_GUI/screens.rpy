@@ -1668,11 +1668,11 @@ screen choice(items):
                     $ tt = caption[caption.find("(")+1:caption.find(")")]
                     $ caption = caption.replace(" ("+tt+")", "")
                     if '|' in caption:
-                        textbutton caption.split('|')[0] action action hovered [SetScreenVariable("choice_context", caption.split('|')[1]), Play("sound", "sounds/menu/00_checkfail.ogg")] unhovered SetScreenVariable("choice_context",None) tooltip tt at my_tr(t)
+                        textbutton caption.split('|')[0] action [action, SetVariable("choiceon", value=False)] hovered [SetScreenVariable("choice_context", caption.split('|')[1]), Play("sound", "sounds/menu/00_checkfail.ogg")] unhovered SetScreenVariable("choice_context",None) tooltip tt at my_tr(t)
                     else:
                         button:
                             at my_tr(t) # apply transform with t as argument
-                            action action
+                            action [action, SetVariable("choiceon", value=False)]
                             hovered Play("sound","sounds/menu/00_checkfail.ogg")
                             
 

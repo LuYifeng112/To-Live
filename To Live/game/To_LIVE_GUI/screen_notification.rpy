@@ -36,8 +36,8 @@ init python:
 transform notif_t(t):
     alpha 0
     ease .2 alpha 1
-    # pause t-1
-    # ease .2 alpha 0 yzoom 0
+    pause t-1
+    ease .2 alpha 0 yzoom 0
 
 screen notif():
     zorder 2000

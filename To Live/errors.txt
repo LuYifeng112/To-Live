@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/To_LIVE_GUI/screens.rpy", line 283: u'zorder' is not a keyword argument or valid child for the showif statement.
-    zorder 100
-          ^
+File "game/TO_LIVE_SCRIPT/ERA ONE/1937 DAY ONE[7-9-37]/_1937_day_one_calls.rpy", line 117: choice menuitem expects a non-empty block.
+    "Never-mind. Just let it be.|Inside jokes lose their value when spread around to others.\n\nHumor forms through relationships and bonds and it feels off to dig them up.\n\nKnowing about it won't claw my sleep away or dissatisfy my curiosity. (images/choice_icons/00_default.png)":
+                                                                                                                                                                                                                                                                                            ^
 
 Ren'Py Version: Ren'Py 7.3.5.606
-Wed Dec 09 17:37:34 2020
+Fri Dec 11 22:17:17 2020
